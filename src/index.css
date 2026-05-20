@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ATHOS Collagen Design System - Clinical Premium Aesthetic */
+
+/* Custom button hover effects */
+.athos-button-hover {
+  border: 2px solid rgba(112, 112, 112, 1) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.athos-button-hover:hover {
+  border-color: white !important;
+}
+
+/* Contact teaser hover effects */
+.contact-card:hover .contact-icon,
+.contact-card:hover .contact-text,
+.contact-card:hover .contact-arrow {
+  color: rgba(106, 191, 0, 1) !important;
+}
+
+.contact-card:hover .contact-arrow {
+  transform: translateX(8px);
+}
+
+@layer base {
+  :root {
+    /* Core Brand Colors - HSL values for ATHOS specification */
+    --background: 0 0% 100%;  /* Pure white */
+    --foreground: 0 0% 44%;  /* rgba(112, 112, 112, 1) - main text color */
+    
+    /* ATHOS Brand Colors */
+    --primary: 87 100% 37%;  /* rgba(106, 191, 0, 1) - New ATHOS Green */
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 87 100% 32%;  /* Darker green for hover states */
+    
+    /* Neutral Clinical Colors */
+    --secondary: 0 0% 97%;  /* Very light gray for subtle backgrounds */
+    --secondary-foreground: 0 0% 44%;
+    
+    --muted: 0 0% 96%;  /* Subtle borders and dividers */
+    --muted-foreground: 0 0% 60%;  /* Lighter text for secondary content */
+    
+    --accent: 0 0% 95%;  /* Card backgrounds and subtle highlights */
+    --accent-foreground: 0 0% 44%;
+    
+    /* UI Elements */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 44%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 44%;
+    
+    --border: 0 0% 90%;  /* Clean, minimal borders */
+    --input: 0 0% 96%;  /* Input field backgrounds */
+    --ring: 87 100% 37%;  /* Focus rings match primary green */
+    
+    /* Clinical shadows for depth */
+    --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --shadow-elegant: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-premium: 0 8px 32px rgba(0, 0, 0, 0.12);
+    
+    /* Typography scale for ATHOS specs */
+    --text-heading: 40px;  /* H1/H2 main headings */
+    --text-body: 24px;     /* Paragraph text */
+    --text-caption: 16px;  /* Small text, captions */
+    
+    /* Spacing scale for generous white space */
+    --spacing-xs: 0.5rem;   /* 8px */
+    --spacing-sm: 1rem;     /* 16px */
+    --spacing-md: 2rem;     /* 32px */
+    --spacing-lg: 4rem;     /* 64px */
+    --spacing-xl: 6rem;     /* 96px */
+    
+    /* Border radius for premium feel */
+    --radius: 0.5rem;  /* 8px - consistent with button spec */
+    
+    /* Transitions for smooth interactions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-quick: all 0.15s ease-out;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-size: var(--text-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Typography scale following ATHOS specifications */
+  h1, h2 {
+    font-size: var(--text-heading);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: rgba(29, 129, 165, 1);
+  }
+
+  h3, h4 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: rgba(29, 129, 165, 1);
+  }
+
+  h5, h6 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgba(29, 129, 165, 1);
+  }
+
+  p {
+    font-size: var(--text-body);
+    line-height: 1.6;
+    color: hsl(var(--foreground));
+  }
+
+  .home-page-layout p {
+    text-align: justify;
+  }
+
+  /* Focus states for accessibility */
+  *:focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+
+  /* Prevent scroll glitching and improve performance */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+
+  /* Prevent flickering during transitions */
+  .transition-stable {
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+}
+
+/* Clinical component animations */
+@layer components {
+  .fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  .slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  .scale-hover {
+    transition: var(--transition-smooth);
+  }
+
+  .scale-hover:hover {
+    transform: scale(1.03);
+  }
+
+  /* Premium button variants */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground;
+    @apply px-6 py-3 rounded-lg font-medium;
+    @apply shadow-lg hover:shadow-xl;
+    @apply transition-all duration-300;
+    @apply hover:scale-105 hover:bg-primary/90;
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-primary border-2 border-primary;
+    @apply px-6 py-3 rounded-lg font-medium;
+    @apply hover:bg-primary hover:text-primary-foreground;
+    @apply transition-all duration-300;
+  }
+
+  /* Premium card styling */
+  .card-premium {
+    @apply bg-card rounded-xl p-8;
+    @apply border border-border;
+    box-shadow: var(--shadow-subtle);
+    transition: var(--transition-smooth);
+  }
+
+  .card-premium:hover {
+    box-shadow: var(--shadow-elegant);
+    transform: translateY(-2px);
+  }
+
+  /* Navigation styles */
+  .nav-link {
+    @apply text-black hover:text-primary;
+    @apply transition-colors duration-200;
+    @apply font-medium;
+  }
+
+}
+
+/* Mobile navbar fixes */
+@media (max-width: 768px) {
+  .mobile-nav-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100%;
+    padding: 0 1rem;
+  }
+  
+  .mobile-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+  }
+  
+  /* Ensure navbar header stays fixed and doesn't move */
+  header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 9999 !important;
+    width: 100% !important;
+  }
+  
+  /* Prevent body scroll issues on mobile */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Ensure navbar buttons don't move */
+  .mobile-nav-right button,
+  .mobile-nav-right a {
+    position: relative;
+    z-index: 10001;
+    flex-shrink: 0;
+  }
+  
+  /* Fix any potential layout shifts */
+  .mobile-nav-container > * {
+    flex-shrink: 0;
+  }
+  
+  /* Prevent any page-specific styles from affecting navbar */
+  header nav {
+    position: relative !important;
+    z-index: 10000 !important;
+  }
+  
+  /* Ensure mobile menu doesn't interfere with navbar positioning */
+  .mobile-nav-right {
+    white-space: nowrap;
+  }
+  
+  /* Logo positioning */
+  .mobile-nav-container > div:first-child {
+    flex-shrink: 0;
+    max-width: 60%;
+  }
+  
+  /* Mobile button sizing */
+  .mobile-nav-right .btn-primary {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    height: 1.75rem;
+  }
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Certification carousel animation */
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-66.666%);
+  }
+}
+
+/* Scroll Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation Utility Classes */
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in-left {
+  animation: fadeInLeft 0.8s ease-out forwards;
+}
+
+.animate-fade-in-right {
+  animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.8s ease-out forwards;
+}
+
+/* Staggered animation delays */
+.animate-delay-100 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-300 {
+  animation-delay: 0.3s;
+}
+
+.animate-delay-400 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-500 {
+  animation-delay: 0.5s;
+}
+
+.marquee-container {
+  overflow: hidden;
+  padding: 30px 0px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee-container:before, .marquee-container:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.marquee-container:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+
+.marquee-container:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: 45s slides infinite linear;
+  white-space: nowrap;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+
+.certification-item {
+  display: inline-block;
+  width: 12rem; /* 192px - increased for larger logos */
+  height: 9rem; /* 144px - increased height */
+  vertical-align: middle;
+  margin: 0 0.25rem; /* 4px equal spacing on left and right - further reduced gap */
+  text-align: center;
+}
+
+.certification-logo {
+  height: 100px; /* Fixed height as per your specification */
+  width: auto; /* Auto width to maintain aspect ratio */
+  object-fit: contain;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+}
+
+.certification-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.certification-logo-large {
+  width: 12rem !important; /* 192px - larger than default 10rem */
+  height: 8.5rem !important; /* 136px - larger than default 7rem */
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  :root {
+    --text-heading: 32px;
+    --text-body: 18px;
+    --spacing-lg: 3rem;
+    --spacing-xl: 4rem;
+  }
+
+  .certification-item {
+    width: 11rem; /* 176px on mobile - increased from 144px */
+    height: 7.5rem; /* 120px on mobile - increased from 96px */
+    margin: 0 0.25rem; /* 4px equal spacing on mobile - further reduced gap */
+  }
+
+  .certification-logo {
+    height: 100px; /* Increased height for mobile from 80px */
+    width: auto; /* Auto width to maintain aspect ratio */
+    opacity: 1; /* Remove white filter for mobile - full opacity */
+  }
+
+  .certification-logo-large {
+    width: 11rem !important; /* 176px on mobile - increased from 144px */
+    height: 7.5rem !important; /* 120px on mobile - increased from 96px */
+  }
+
+}
+
+@media (max-width: 480px) {
+  .certification-item {
+    width: 8rem; /* 128px on small mobile - increased from 112px */
+    height: 5.5rem; /* 88px on small mobile - increased from 72px */
+    margin: 0 0.125rem; /* 2px equal spacing on small mobile - further reduced gap */
+  }
+
+  .certification-logo {
+    height: 75px; /* Increased height for small mobile from 60px */
+    width: auto; /* Auto width to maintain aspect ratio */
+    opacity: 1; /* Remove white filter for small mobile - full opacity */
+  }
+
+  .certification-logo-large {
+    width: 8rem !important; /* 128px on small mobile - increased from 112px */
+    height: 5.5rem !important; /* 88px on small mobile - increased from 72px */
+  }
+
+}
+
+/* Smooth dropdown animations */
+.dropdown-enter {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+.dropdown-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 200ms ease-out, transform 200ms ease-out;
+}
+
+.dropdown-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-exit-active {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 150ms ease-in, transform 150ms ease-in;
+}

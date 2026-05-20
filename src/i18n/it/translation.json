@@ -1,0 +1,473 @@
+{
+  "nav": {
+    "about": "Su ATHOS",
+    "fishCollagen": "Collagene di Pesce",
+    "fishGelatin": "Gelatina di Pesce",
+    "blog": "Blog",
+    "contactUs": "Contattaci"
+  },
+  "footer": {
+    "emailUs": "Inviaci una Email",
+    "joinMailList": "Iscriviti alla nostra mailing list",
+    "usefulLinks": "Link Utili",
+    "applications": "Applicazioni",
+    "fishCollagen": "Collagene di Pesce",
+    "fishGelatin": "Gelatina di Pesce",
+    "downloadBrochure": "Scarica Brochure PDF",
+    "blogs": "Blog",
+    "contact": "Contattaci",
+    "copyright": "Copyright ©️ 2025 Athos Collagen Pvt. Ltd. Tutti i diritti riservati.",
+    "applicationsList": {
+      "nutraceutical": "Integratori Nutraceutici",
+      "pharmaceutical": "Industria Farmaceutica",
+      "cosmeceutical": "Integratori Cosmeceutici",
+      "petFoods": "Alimenti per Animali Domestici",
+      "viewAll": "Visualizza Tutte le Applicazioni"
+    }
+  },
+  "home": {
+    "title": "Il miglior collagene peptidico di pesce di qualità premium al mondo",
+    "subtitle": "Soluzioni leader per il collagene marino",
+    "aboutPreview": {
+      "title": "Athos Collagen PVT LTD",
+      "description1": "Siamo il principale produttore ed esportatore indiano di peptidi di collagene di pesce di qualità premium, FiColla (approvato clinicamente), granuli di collagene di pesce e gelatina di pesce. Con strutture all'avanguardia e un impegno verso l'eccellenza, forniamo prodotti che soddisfano i più elevati standard internazionali. La nostra dedizione alla qualità, all'innovazione e alla soddisfazione del cliente ci ha reso un partner di fiducia per le aziende di tutto il mondo.",
+        "ourStrength": "La Nostra Forza",
+      "ourCommitment": "Il Nostro Impegno",
+      "authenticity": "Autenticità",
+      "integrity": "Integrità",
+      "honesty": "Onestà",
+      "bestQuality": "Migliore Qualità",
+      "betterService": "Servizio Migliore",
+      "competitivePrice": "Prezzo Competitivo"
+    },
+    "uniqueness": {
+      "title": "Unicità del Peptide di Collagene di Pesce Athos",
+      "features": [
+        "Alto Contenuto Proteico: Più del 97% di proteine, offrendo elevata purezza e valore nutrizionale.",
+        "Profilo Aminoacidico Completo: Contiene tutti gli aminoacidi, con un contenuto molto elevato di Glicina, Prolina e Idrossiprolina (GPH) ≥ 40%, rendendolo un Tri-Peptide di Collagene (CTP).",
+        "Inodore e Insapore: Completamente inodore, insapore e solubile al 100% in acqua.",
+        "Peso Molecolare Ultra Basso: Migliora significativamente la biodisponibilità e l'assorbimento.",
+        "Approvato clinicamente con il marchio Ficolla",
+        "Struttura Esclusivamente per Fonti di Pesce: Prodotto esclusivamente in una struttura per sole fonti di pesce, garantendo zero contaminazioni crociate da altre fonti.",
+        "Qualità Accettata a Livello Globale: Accreditato da organismi di certificazione riconosciuti a livello mondiale."
+      ],
+      "cta": "Fai una conversione significativa con noi"
+    },
+    "products": {
+      "title": "I Nostri Prodotti Premium",
+      "fishCollagen": "Collagene di Pesce",
+      "fishGelatin": "Gelatina di Pesce"
+    },
+    "globalPresence": {
+      "title": "Esportazione in tutto il mondo",
+      "description": "Il peptide di collagene di pesce di qualità premium, FiColla (approvato clinicamente), i granuli di collagene di pesce e la gelatina di pesce vengono esportati da Athos Collagen Pvt. Ltd. a clienti negli Stati Uniti, Canada, Sud America, Regno Unito, Europa, Giappone, Corea del Sud, Israele, paesi del Golfo, paesi della CSI, Vietnam e altre nazioni. Guidati dalla sostenibilità e dalla qualità, produciamo peptidi di collagene di pesce premium progettati per promuovere la salute e il benessere a livello globale. Il nostro approvvigionamento responsabile e la produzione avanzata garantiscono purezza, coerenza e affidabilità per i mercati internazionali."
+    },
+    "cobranding": {
+      "title": "Opportunità di Cobranding",
+      "description": "Collabora con Athos collagen pvt ltd.—per fornire prodotti di marca premium. Il nostro programma di cobranding include l'accesso a un nome di marca rispettato, materiali di marketing e ricerca scientifica consolidata",
+      "cta": "Contattaci"
+    },
+    "benefits": {
+      "title": "Mercati che serviamo",
+      "categories": {
+        "nutraceuticals": "Integratori Nutraceutici",
+        "foodBeverages": "Cibo e Bevande",
+        "cosmeticsSkincare": "Cosmetici e Cura della Pelle",
+        "petFood": "Cibo per Animali Domestici",
+        "pharmaceuticals": "Farmaceutica",
+        "biotechnology": "Biotecnologia"
+      }
+    },
+    "newBenefits": {
+      "title": "Benefici del Peptide di Collagene di Pesce Athos",
+      "categories": {
+        "skinHealth": "Salute della pelle",
+        "antiAgeing": "Anti invecchiamento",
+        "hairNails": "Capelli e unghie",
+        "boneJoin": "Ossa e articolazioni",
+        "gutHealth": "Salute dell'intestino",
+        "woundHealing": "Guarigione delle ferite"
+      }
+    },
+    "certifications": {
+      "title": "Le Nostre Certificazioni Globalmente Riconosciute"
+    },
+    "contact": {
+      "title": "Contattaci",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    }
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "heroTitle": "Il miglior peptide di collagene di pesce di qualità premium al mondo",
+    "aboutContent": [
+      "Athos Collagen Pvt. Ltd è una delle principali aziende in India per la produzione e la fornitura di peptide di collagene di pesce, FiColla (clinicamente approvato), granuli di collagene di pesce e gelatina di pesce di qualità premium.",
+      "Il peptide di collagene di pesce e la gelatina di pesce sono prodotti in conformità con gli standard del settore da personale esperto. Utilizzando attrezzature all'avanguardia e materie prime di alta qualità provenienti da fornitori riconosciuti sul mercato globale, vengono prodotti il peptide di collagene di pesce e la gelatina di pesce. Per garantire il rispetto dei requisiti di qualità, un gruppo di esperti monitora le diverse fasi di produzione.",
+      "La nostra struttura di produzione di livello mondiale, dotata di un impianto automatizzato avanzato, opera in condizioni totalmente igieniche come definito dai protocolli GHP, SSOP e 5S, garantendo qualità premium, sicurezza e purezza in ogni lotto.",
+      "Con una presenza globale in oltre 50 paesi, forniamo peptide di collagene di pesce, FiColla (clinicamente approvato), granuli di collagene di pesce e gelatina di pesce premium affidabili per la loro qualità.",
+      "Prodotto esclusivamente in una struttura dedicata esclusivamente a fonti di pesce, garantendo zero contaminazioni crociate da altre fonti."
+    ],
+    "applications": "Applicazioni",
+    "mission": {
+      "title": "Missione",
+      "description": "La nostra missione è offrire prodotti e servizi di collagene marino di livello mondiale che elevino il benessere e la vita quotidiana delle persone a livello globale"
+    },
+    "vision": {
+      "title": "Visione",
+      "description": "Essere il leader più affidabile e innovativo nel settore del collagene marino"
+    },
+    "athosSection": {
+      "title": "athos",
+      "description": "Fornire una qualità senza interruzioni attraverso processi avanzati e ambienti controllati per aprire la strada a soluzioni innovative di collagene marino che migliorano il benessere umano in diversi settori come la salute, la farmaceutica, la bellezza, ecc...",
+      "values": {
+        "authenticity": {
+          "title": "Autenticità",
+          "description": "Definiamo le nostre fondamenta dove l'approvvigionamento di precisione incontra standard globali senza compromessi. Ogni lotto è completamente tracciabile, offrendo coerenza, purezza e fiducia a livello mondiale."
+        },
+        "trust": {
+          "title": "Fiducia",
+          "description": "La fiducia non si rivendica, si guadagna attraverso una precisione incrollabile, un'assoluta trasparenza e un'eredità di eccellenza"
+        },
+        "health": {
+          "title": "Salute",
+          "description": "Salute, progettata con precisione ed elevata attraverso la scienza."
+        },
+        "oblige": {
+          "title": "Dovere",
+          "description": "Operiamo con un profondo senso di dovere verso l'eccellenza e l'integrità. Fornendo non solo ingredienti, ma affidabilità e responsabilità a lungo termine."
+        },
+        "system": {
+          "title": "Sistema",
+          "description": "Basati su una precisione strutturata, i nostri sistemi garantiscono la coerenza in ogni fase. Fornire una qualità senza interruzioni attraverso processi avanzati e ambienti controllati."
+        }
+      }
+    },
+    "facilities": {
+      "title": "Le Nostre Strutture",
+      "descriptions": [
+        "Il nostro impianto automatizzato è gestito in condizioni totalmente igieniche come definito da GHP, GLP, SSOP e 5S.",
+        "Athos Collagen Pvt. Ltd. è certificata da OU KOSHER, HALAL, USFDA, SGS, FSSC 22000, SGS GMP, SGS ISO-9001, SGS ISO-22000, SGS HACCP, FSSAI, approvata dall'UE da EIC, MPEDA e FIEO.",
+        "L'unità di lavorazione di livello mondiale di Athos Collagen Pvt Ltd è dotata di macchinari avanzati e tecnologia moderna.",
+        "Ciò ci consente di produrre peptidi di collagene marino di alta qualità con purezza e prestazioni costanti. In linea con i nostri standard di prodotto, l'infrastruttura e la struttura sono le nostre priorità."
+      ]
+    }
+  },
+  "blog": {
+    "title": "Il Nostro Blog",
+    "subtitle": "Approfondimenti, Ricerca e Novità sul Collagene Marino",
+    "readMore": "Leggi di più"
+  },
+  "fishGelatin": {
+    "heroTitle": "Gelatina di Pesce",
+    "benefitsTitle": "Mercati che serviamo",
+    "introTitle": "Athos Collagen Pvt. Ltd. è un produttore ed esportatore leader di gelatina di pesce dall'India",
+    "introDesc1": "Progettata dalla natura, la gelatina di pesce offre una funzionalità pulita con un'elevata biocompatibilità, rendendola adatta per i settori alimentare, nutraceutico, farmaceutico, cosmetico e biomedico.",
+    "introDesc2": "La gelatina di pesce si posiziona sempre più come un'alternativa di nuova generazione, offrendo un accesso più ampio al mercato, una maggiore accettazione da parte dei consumatori e l'allineamento con le tendenze globali del clean-label e della sostenibilità.",
+    "productShowcase": {
+      "usageTitle": "Categorie di Utilizzo",
+      "discoverMore": "Scopri di Più",
+      "categories": {
+        "foodIndustry": {
+          "name": "Industria Alimentare",
+          "description": "La gelatina di pesce migliora gli alimenti funzionali, i dolciumi, i dessert e gli snack, fornendo proprietà gelificanti, addensanti e stabilizzanti nelle formulazioni.",
+          "applications": [
+            "Stabilizzante",
+            "Agente Chiarificante",
+            "Emulsionante",
+            "Gommosi e caramelle",
+            "Addensante",
+            "Gelificante Testurizzante e Prodotti Caseari",
+            "Dolciumi",
+            "Caseari",
+            "Dessert"
+          ]
+        },
+        "cosmeticsSkincare": {
+          "name": "Cosmetici e Cura della Pelle",
+          "description": "La gelatina di pesce migliora creme, maschere e sieri fornendo proprietà naturali di addensamento, gelificazione e formazione di film per formulazioni lisce, stabili e lussuose.",
+          "applications": [
+            "Idratante",
+            "Siero",
+            "Prodotti Anti-invecchiamento",
+            "Cura di Capelli e Unghie",
+            "Trucco e Bellezza"
+          ]
+        },
+        "biomedicalApplications": {
+          "name": "Applicazioni Biomediche",
+          "description": "Il collagene di pesce supporta l'ingegneria tissutale, la guarigione delle ferite e la medicina rigenerativa fornendo un'impalcatura proteica biocompatibile e bioattiva.",
+          "applications": [
+            "Bende per Ferite e Film Medici",
+            "Sistemi di Rilascio Controllato di Farmaci",
+            "Embolizzazione e Liofilizzazione e guarigione",
+            "Bioprinting 3D / ingegneria tissutale",
+            "Microportatori",
+            "Consegna di Farmaci e Cellule",
+            "Medicina rigenerativa",
+            "Plasma",
+            "Crioprotezione",
+            "Liofilizzazione / vaccini"
+          ]
+        },
+        "pharmaIndustry": {
+          "name": "Industria Farmaceutica",
+          "description": "La gelatina di pesce è un ingrediente chiave nelle capsule farmaceutiche, compresse e gel molli, fornendo un rivestimento naturale, biocompatibile e stabile.",
+          "applications": [
+            "Produzione di Capsule (gel molli e duri)",
+            "Rivestimento di Compresse",
+            "Incapsulamento di Vitamine e Nutraceutici",
+            "Agente Legante nelle Compresse",
+            "Sistemi di Rilascio Controllato di Farmaci",
+            "Espansori di Plasma (uso medico storico/limitato)"
+          ]
+        }
+      }
+    },
+    "insights": {
+      "title": "Approfondimenti",
+      "whatIsTitle": "Cos'è la Gelatina di Pesce?",
+      "items": [
+        "Una proteina pulita, sicura e naturale — fiducia nel settore alimentare, farmaceutico e della bellezza.",
+        "Gelatina di Pesce: l'alternativa sostenibile e globalmente accettata al bovino e al suino.",
+        "Funzionalità pura — eccezionale gelificazione, stabilizzazione e addensamento in ogni applicazione.",
+        "Senza colesterolo, senza grassi e sicura per gli allergeni: la scelta più intelligente per le formulazioni moderne."
+      ]
+    },
+    "discover": {
+      "title": "Scopri",
+      "selectApplication": "Seleziona la tua applicazione",
+      "description": "Che tu stia progettando integratori alimentari, alimenti funzionali o lavorando nel campo biomedico, le nostre gelatine possono aiutarti a superare le sfide tecniche per ottenere prodotti superiori.",
+      "cta": "Scopri come viene applicata la Gelatina di Pesce"
+    }
+  },
+  "fishCollagen": {
+    "heroTitle": "Collagene di Pesce",
+    "introTitle": "Athos Collagen Pvt. Ltd. è il principale produttore ed esportatore di peptidi di collagene di pesce in India.",
+    "introSubtitle": "Il peptide di collagene di pesce è noto anche come collagene marino o peptide di collagene idrolizzato.",
+    "productShowcase": {
+      "usageTitle": "Utilizzo del Collagene di Pesce",
+      "discoverMore": "Scopri di Più",
+      "products": {
+        "peptide": {
+          "title": "Peptide di Collagene di Pesce",
+          "description": "Il nostro peptide di collagene idrolizzato distintivo, riconosciuto per la sua alta biodisponibilità e solubilità fluida. Serve come materia prima premium per l'uso in formulazioni cosmetiche, integratori nutrizionali e prodotti alimentari funzionali."
+        },
+        "granules": {
+          "title": "Granuli di Collagene di Pesce",
+          "description": "Formulati per una facile manipolazione e lavorazione, questi granuli servono come materia prima di alta qualità per la produzione di compresse, bustine e bevande funzionali pronte per la miscelazione. Offrono gli stessi benefici dei peptidi di collagene in una forma più conveniente."
+        },
+        "highBulkDensity": {
+          "title": "Peptide di Collagene di Pesce (Alta Densità di Volume)",
+          "description": "Sviluppato per soddisfare le esigenze di confezionamento efficiente e formulazione su scala industriale, questa variante ad alta densità di volume è una materia prima ideale per l'uso in nutraceutici, alimenti funzionali e cosmeceutici, offrendo migliorata scorrevolezza e spazio di stoccaggio ridotto."
+        }
+      },
+      "categories": {
+        "foodBeverages": {
+          "name": "Alimenti e Bevande",
+          "description": "Alimenti e bevande formulati scientificamente con peptide di collagene marino. Progettati per supportare la nutrizione funzionale con standard di qualità comprovati.",
+          "applications": [
+            "Migliorare la stabilità emulsionante, durezza e capacità di legame dell'acqua degli alimenti.",
+            "Aiutare con digestione, assorbimento e distribuzione in tutto il corpo.",
+            "Alimenti funzionali (fortificati con collagene).",
+            "Cereali e bevande energetiche.",
+            "Frullati e smoothie proteici.",
+            "Acqua e bevande arricchite di collagene.",
+            "Integratori alimentari.",
+            "Snack."
+          ]
+        },
+        "nutraceuticals": {
+          "name": "Integratori Nutraceutici",
+          "description": "Nutraceutici formulati con precisione utilizzando peptidi di collagene marino altamente biodisponibili di alta qualità. Progettati per supportare la funzione corporea ottimale e il benessere.",
+          "applications": [
+            "Barrette proteiche",
+            "Bevande",
+            "Integratori per la salute articolare",
+            "Polveri"
+          ]
+        },
+        "cosmetics": {
+          "name": "Integratori Cosmeceutici",
+          "description": "Il peptide di collagene marino idrata, rassoda e ringiovanisce pelle, capelli e unghie migliorando la consistenza e le prestazioni del prodotto.",
+          "applications": [
+            "Creme e sieri anti-invecchiamento.",
+            "Idratanti.",
+            "Prodotti per la cura dei capelli.",
+            "Trattamenti per la cura delle unghie.",
+            "Maschere per il viso."
+          ]
+        },
+        "pharmaceuticals": {
+          "name": "Industria Farmaceutica",
+          "description": "Peptide di collagene marino di grado farmaceutico sviluppato secondo rigorosi standard di qualità. Progettato per supportare formulazioni basate sulla ricerca e nutrizione terapeutica.",
+          "applications": [
+            "Aiutare con dolore articolare e infiammazione.",
+            "Trattare disturbi muscoloscheletrici come osteoporosi e sarcopenia.",
+            "Stabilizzare i livelli di zucchero nel sangue.",
+            "Supportare la crescita di capelli e unghie.",
+            "Prodotti per la guarigione delle ferite.",
+            "Ingegneria tissutale.",
+            "Sistemi di rilascio di farmaci."
+          ]
+        },
+        "petFood": {
+          "name": "Cibo per Animali",
+          "description": "Nutri il tuo animale domestico dall'interno con peptidi di collagene di pesce. Supporta movimenti sani, pelo lucido e vitalità generale.",
+          "applications": [
+            "Funzione articolare,",
+            "Salute della pelle,",
+            "Salute intestinale e mobilità."
+          ]
+        },
+        "biotechnology": {
+          "name": "Applicazioni Biomediche",
+          "description": "Dal laboratorio alla vita, il peptide di collagene marino lo rende possibile. La proteina essenziale per l'ingegneria tissutale e la medicina rigenerativa.",
+          "applications": [
+            "Materiali di supporto per la coltura cellulare.",
+            "Materiali biocompatibili per impianti medici."
+          ]
+        }
+      }
+    },
+    "insights": {
+      "title": "Approfondimenti",
+      "whatIsTitle": "Cos'è il Peptide di Collagene di Pesce?",
+      "items": [
+        "Generazioni di fiducia in ogni uso.",
+        "Proteina pulita. Energia chiara.",
+        "Gelificazione, addensamento e stabilizzazione unici in un singolo ingrediente.",
+        "Nutrizione di cui puoi fidarti—sicura per la maggior parte delle diete, priva di colesterolo, purine e grassi, con preoccupazioni allergeniche minime (eccetto pesce)."
+      ]
+    },
+    "discover": {
+      "title": "Scopri",
+      "selectApplication": "Seleziona la tua applicazione",
+      "description": "Che tu stia progettando integratori alimentari, alimenti funzionali o lavorando nel campo biomedico, le nostre gelatine possono aiutarti a superare le sfide tecniche per ottenere prodotti superiori.",
+      "cta": "Scopri come viene applicato il Collagene di Pesce"
+    },
+    "pie": {
+      "title": "Athos Fish Collagen Peptide Amino Acid Composition",
+      "labels": {
+        "hydroxyproline": "IDROSSIPROLINA",
+        "proline": "PROLINA",
+        "glycine": "GLICINA",
+        "otherAminoAcids": "Altri amminoacidi",
+        "leucine": "Leucina",
+        "valine": "Valina",
+        "alanine": "Alanina",
+        "arginine": "Arginina",
+        "histidine": "Istidina",
+        "glutamicAcid": "Acido Glutammico",
+        "serine": "Serina",
+        "asparticAcid": "Acido Aspartico"
+      }
+    }
+  },
+  "categoryDetails": {
+    "notFound": "Categoria Non Trovata",
+    "goBack": "Torna Indietro",
+    "categories": {
+      "foodBeverages": {
+        "title": "Alimenti e Bevande",
+        "description": "Il peptide di collagene marino è ampiamente utilizzato negli alimenti e nelle bevande funzionali per i suoi benefici stabilizzanti e nutrizionali. Migliora la stabilità emulsionante, la consistenza e la capacità di legame dell'acqua nelle formulazioni supportando al contempo la digestione e l'assorbimento",
+        "subcategories": {
+          "drinks": "Bevande",
+          "proteinBars": "Barrette Proteiche",
+          "powder": "Polvere",
+          "jointHealthSupplements": "Integratori per la Salute Articolare"
+        }
+      },
+      "nutraceuticals": {
+        "title": "Nutraceutici e Integratori Alimentari",
+        "description": "Dai integratori di collagene in bevande, barrette proteiche, polveri e altro ancora, forniscono un nutrimento essenziale. Questi prodotti sono studiati per la pelle, i capelli, il recupero muscolare e la vitalità generale.",
+        "subcategories": {
+          "functionalFoods": "Alimenti Funzionali",
+          "proteinShakes": "Frullati Proteici",
+          "drinkBeverages": "Bevande",
+          "snacks": "Snack",
+          "dietarySupplements": "Integratori Alimentari"
+        }
+      },
+      "cosmetics": {
+        "title": "Cosmetici e Cura della Pelle",
+        "description": "Il collagene marino è un ingrediente chiave nella bellezza e nella cura personale, noto per migliorare l'elasticità della pelle, l'idratazione e l'aspetto generale. È ampiamente utilizzato in creme anti-invecchiamento, sieri e idratanti, nonché nella cura dei capelli, nei trattamenti per le unghie e nelle maschere per il viso, contribuendo a promuovere una pelle giovane e sana e capelli e unghie più forti.",
+        "subcategories": {
+          "antiAgingFormulations": "Formulazioni Anti-Età",
+          "moisturizationHydration": "Idratazione e Idratazione",
+          "skinRepairRegeneration": "Riparazione e Rigenerazione della Pelle",
+          "brighteningEvenSkinTone": "Illuminazione e Tono Uniforme",
+          "hairNailStrengthening": "Rafforzamento Capelli e Unghie",
+          "nutricosmetics": "Nutricosmetici (Bellezza dall'Interno)"
+        }
+      },
+      "pharmaceuticals": {
+        "title": "Farmaceutici",
+        "description": "Il peptide di collagene marino svolge un ruolo fondamentale nelle applicazioni mediche e terapeutiche, offrendo benefici per il sollievo dal dolore articolare e la riduzione dell'infiammazione. Supporta la guarigione delle ferite, la rigenerazione dei tessuti e la crescita di capelli e unghie, oltre ad essere utilizzato in sistemi avanzati di rilascio di farmaci e soluzioni di ingegneria tissutale."
+      },
+      "petFood": {
+        "title": "Cibo per Animali",
+        "description": "Il peptide di collagene marino è sempre più utilizzato negli integratori per alimenti per animali domestici per supportare la salute delle articolazioni, la mobilità e la vitalità generale degli animali. Promuove ossa più forti, una pelle più sana e un pelo più lucido, aiutando anche la digestione e la flessibilità, rendendolo un ingrediente essenziale per mantenere la salute a lungo termine e lo stile di vita attivo degli animali."
+      },
+      "biotechnology": {
+        "title": "Biotecnologia",
+        "description": "Il peptide di collagene marino ridefinisce la biotecnologia con la sua impareggiabile biocompatibilità e proprietà rigenerative. Dall'ingegneria tissutale e dai sistemi di rilascio di farmaci alla biostampa 3D e alla cura avanzata delle ferite, i peptidi di collagene marino fungono da fondamento per la ricerca e l'innovazione biomedica di nuova generazione. Sicuro, sostenibile e versatile, è la scelta naturale per le scoperte biotecnologiche di domani."
+      },
+      "foodIndustry": {
+        "title": "Industria Alimentare",
+        "description": "La gelatina di pesce agisce come un efficace agente gelificante, adatto per preparare gelatine, caramelle gommose e dessert. Migliora la consistenza degli alimenti ed è utile per fortificare molti prodotti alimentari."
+      },
+      "cosmeticsSkincare": {
+        "title": "Cosmetici e Cura della Pelle",
+        "description": "Il Segreto della Bellezza Interna è un potente ingrediente cosmetico che ripristina l'elasticità della pelle, reduce le rughe sottili e idrata profondamente per un bagliore giovanile. Supportato dalla scienza e apprezzato nella cura della pelle premium, è la scelta naturale per la prossima generazione"
+      },
+      "biomedicalApplications": {
+        "title": "Applicazioni Biomediche",
+        "description": "La gelatina di pesce svolge funzioni critiche nelle applicazioni biomediche inclusi medicazioni per ferite, sistemi di rilascio controllato di farmaci e ingegneria tissutale."
+      },
+      "pharmaIndustry": {
+        "title": "Industria Farmaceutica",
+        "description": "Questo viene utilizzato per le moderne innovazioni farmaceutiche, dai sistemi avanzati di guarigione delle ferite e rilascio di farmaci ai materiali biocompatibili per l'ingegneria tissutale. Con una biodisponibilità e una sicurezza superiori, garantisce un assorbimento potenziato, una compatibilità naturale e un approvvigionamento sostenibile, rendendolo un ingrediente di fiducia"
+      }
+    }
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "readMore": "Leggi di più",
+    "back": "Indietro",
+    "discoverMoreInfo": "Scopri Maggiori Informazioni"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "hero": {
+      "heading": "METTITI IN CONTATTO PER UNA MIGLIORE CONNESSIONE.",
+      "whatsappCall": "WHATSAPP / CHIAMATA",
+      "email": "EMAIL"
+    },
+    "form": {
+      "companyName": "Inserisci il Nome dell'Azienda *",
+      "name": "Inserisci il tuo Nome *",
+      "email": "Inserisci la tua Email *",
+      "subject": "Oggetto *",
+      "product": "Seleziona Prodotto *",
+      "products": {
+        "fishCollagen": "Collagene di Pesce",
+        "fishGelatin": "Gelatina di Pesce",
+        "other": "Altro"
+      },
+      "message": "Messaggio per Noi *",
+      "sendMessage": "Invia messaggio"
+    },
+    "factory": {
+      "title": "FABBRICA",
+      "companyName": "ATHOS COLLAGEN PVT. LTD.",
+      "address": {
+        "line1": "Plot No. B-19, Gujarat Agro Infrastructure",
+        "line2": "Mega Food Park, Village Shah & Vasravi, Tal.",
+        "line3": "Mangrol, Dist. Surat-394410, Gujarat, India"
+      }
+    }
+  }
+}

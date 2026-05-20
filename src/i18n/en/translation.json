@@ -1,0 +1,711 @@
+{
+  "nav": {
+    "about": "About ATHOS",
+    "fishCollagen": "Fish Collagen Peptide",
+    "fishGelatin": "Fish Gelatin",
+    "blog": "Blog",
+    "contactUs": "Contact Us",
+    "inquiry": "Inquiry"
+  },
+  "footer": {
+    "usefulLinks": "Useful Links",
+    "qualityProducts": "Quality Products",
+    "applications": "Applications",
+    "downloadBrochure": "Download Brochure PDF",
+    "blogs": "Blogs",
+    "contact": "Contact us",
+    "joinMailList": "Join our Mail list",
+    "emailPlaceholder": "Enter Your Email",
+    "copyright": "Copyright ©️ 2025 Athos Collagen Pvt. Ltd. All rights reserved.",
+    "productsList": {
+      "peptide": "Fish Collagen Peptide",
+      "granules": "Fish Collagen Granules",
+      "highBulkDensity": "Fish Collagen Peptide \n(High Bulk Density)",
+      "gelatin": "Fish Gelatin"
+    },
+    "applicationsList": {
+      "nutraceutical": "Nutraceuticals Supplements",
+      "foodBeverages": "Food and Beverages",
+      "pharmaceutical": "Pharmaceutical Industry",
+      "cosmeceutical": "Cosmeceutical Supplements",
+      "petFoods": "Pet Food Supplements",
+      "biomedical": "Biomedical Applications"
+    }
+  },
+  "home": {
+    "title": "World's best premium Quality Fish Collagen Peptide",
+    "subtitle": "Leading Marine Collagen Solutions",
+    "aboutPreview": {
+      "title": "Athos Collagen PVT LTD",
+      "description1": "We are India's leading manufacturer and exporter of premium quality Fish Collagen Peptide, FiColla (Clinically approved), Fish Collagen Granules and Fish Gelatin. With state-of-the-art facilities and a commitment to excellence, we deliver products that meet the highest international standards. Our dedication to quality, innovation, and customer satisfaction has made us a trusted partner for businesses worldwide.",
+      "ourStrength": "Our Strength",
+      "ourCommitment": "Our Commitment",
+      "authenticity": "Authenticity",
+      "integrity": "Integrity",
+      "honesty": "Honesty",
+      "bestQuality": "Best Quality",
+      "betterService": "Better Service",
+      "competitivePrice": "Competitive Price"
+    },
+    "uniqueness": {
+      "title": "Uniqueness Of Athos Fish Collagen Peptide",
+      "features": [
+        "High Protein Content: More than 97% protein, delivering high purity and nutritional value.",
+        "Complete Amino Acid Profile: Contains all amino acids, with very high content of Glycine, Proline and Hydroxyproline (GPH) ≥ 40%, makes it Collagen Tri-Peptide (CTP).",
+        "Odourless and Tasteless: Completely odourless, tasteless and 100% soluble in water.",
+        "Ultra Low Molecular Weight: Enhances bioavailability and absorption significantly.",
+        "Clinically Approved with brand name Ficolla",
+        "Fish Source Only Facility: Manufactured exclusively in a Fish Source Only Facility, ensuring zero cross-contamination from other sources.",
+        "Globally Accepted Quality: Accredited by globally recognized certification bodies."
+      ],
+      "cta": "Make a meaningful Conversion with Us"
+    },
+    "products": {
+      "title": "Our Premium Products",
+      "fishCollagen": "Fish Collagen Peptide",
+      "fishGelatin": "Fish Gelatin"
+    },
+    "globalPresence": {
+      "title": "Exporting Worldwide",
+      "description": "Premium quality Fish Collagen Peptide, FiColla (Clinically approved), Fish Collagen Granules and Fish Gelatin. are exported by Athos Collagen Pvt. Ltd. to clients in the United States, Canada, South America, the United Kingdom, Europe, Japan, South Korea, Israel, Gulf Countries, CIS Countries, Vietnam, and other nations. Driven by sustainability and quality, we produce premium Fish Collagen Peptides designed to promote health and wellbeing globally. Our responsible sourcing and advanced manufacturing ensure purity, consistency, and reliability for international markets."
+    },
+    "cobranding": {
+      "title": "Cobranding Opportunities",
+      "description": "Partner with Athos collagen pvt ltd.—to deliver premium branded products. Our co-branding program includes access to a respected brand name, marketing collateral, and established scientific research",
+      "cta": "Contact us"
+    },
+    "benefits": {
+      "title": "Markets we Serve",
+      "categories": {
+        "nutraceuticals": "Nutraceuticals Supplements",
+        "foodBeverages": "Food and Beverages",
+        "cosmeticsSkincare": "Cosmeceutical Supplements",
+        "petFood": "Pet Food Supplements",
+        "pharmaceuticals": "Pharmaceutical Industry",
+        "biotechnology": "Biomedical Applications"
+      }
+    },
+    "newBenefits": {
+      "title": "Benefits of Athos Fish Collagen Peptide",
+      "categories": {
+        "skinCare": "Skin Care",
+        "skinHealth": "Skin Health",
+        "antiAgeing": "Anti Ageing",
+        "hairNails": "Hair & Nails",
+        "sportsDrink": "Sports Drink",
+        "proteinBars": "Protein bars",
+        "bonesJoints": "Bones & Joints",
+        "boneJoin": "Bone & Join",
+        "improveSleepQuality": "Improve Sleep Quality",
+        "gutHealth": "Gut Health",
+        "woundHealing": "Wound Healing"
+      }
+    },
+    "certifications": {
+      "title": "Our Globally Recognized Certifications"
+    },
+    "contact": {
+      "title": "Contact with us",
+      "email": "Email",
+      "whatsapp": "Whatsapp",
+      "youtube": "YouTube",
+      "instagram": "Instagram"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "heroTitle": "World's best premium Quality Fish Collagen Peptide",
+    "aboutContent": [
+      "Athos Collagen Pvt. Ltd is One of the top companies in India for producing and supplying premium quality Fish Collagen Peptide, FiColla (Clinically approved), Fish Collagen Granules and Fish Gelatin.",
+      "Fish Collagen Peptide & Fish Gelatin are made in accordance with industry standards by knowledgeable staff members. Using cutting-edge equipment and high-quality raw materials that are sourced from recognized vendors on the global market, Fish Collagen Peptide and Fish Gelatin are produced. To ensure quality requirements are met, a group of seasoned experts monitor different production phases.",
+      "Our world-class manufacturing facility, equipped with advanced automated plant is operated under fully hygienic conditions as defined by GHP, SSOP and 5S. protocols, ensures premium quality, safety, and purity in every batch.",
+      "With a global presence in over 50 countries, we deliver premium Fish Collagen Peptide, FiColla (clinically approved), Fish Collagen Granules and Fish Gelatin. trusted for its quality.",
+      "Manufactured exclusively in a Fish Source Only facility, ensuring zero cross-contamination from other sources."
+    ],
+    "applications": "Applications",
+    "mission": {
+      "title": "Mission",
+      "description": "Our mission is to offer world-class marine collagen products and services that elevate the well-being and daily lives of people globally"
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To be the most trusted and innovative leader in the marine collagen industry"
+    },
+    "athosSection": {
+      "title": "athos",
+      "description": "Delivering seamless quality through advanced processes and controlled environments to pioneer innovative marine collagen solutions that enhance human wellness across different industry like health, pharma, beauty etc...",
+      "values": {
+        "authenticity": {
+          "title": "Authenticity",
+          "description": "We defines our foundation where precision sourcing meets uncompromising global standards. Every batch is fully traceable, delivering consistency, purity, and trust at a world-class level."
+        },
+        "trust": {
+          "title": "Trust",
+          "description": "Trust is not claimed it is earned through unwavering precision, absolute transparency, and a legacy of excellence"
+        },
+        "health": {
+          "title": "Health",
+          "description": "Health, engineered with precision and elevated through science."
+        },
+        "oblige": {
+          "title": "Oblige",
+          "description": "We operate with a deep sense of obligation to excellence and integrity. Delivering not just ingredients, but long-term reliability and accountability."
+        },
+        "system": {
+          "title": "System",
+          "description": "Built on structured precision, our systems ensure consistency at every stage. Delivering seamless quality through advanced processes and controlled environments."
+        }
+      }
+    },
+    "facilities": {
+      "title": "Our Facilities",
+      "descriptions": [
+        "Our automated plant is operated under fully hygienic conditions as defined by GHP, GLP, SSOP, and 5S.",
+        "Athos Collagen Pvt. Ltd. is certified by OU KOSHER, HALAL, USFDA, SGS, FSSC 22000, SGS GMP, SGS ISO-9001, SGS ISO-22000, SGS HACCP, FSSAI, EU approved by EIC, MPEDA and FIEO.",
+        "Athos Collagen Pvt Ltd world-class processing unit is equipped with advanced machinery and modern technology.",
+        "This enables us to produce high-quality Marine Collagen Peptides with consistent purity and performance. As per our product standard, the infrastructure and facility are our priorities."
+      ]
+    },
+    "certifications": {
+      "title": "Globally Recognized Certifications"
+    }
+  },
+  "blog": {
+    "title": "Our Blog",
+    "subtitle": "Insights, Research & News on Marine Collagen",
+    "readMore": "Read More"
+  },
+  "fishGelatin": {
+    "heroTitle": "Fish Gelatin",
+    "benefitsTitle": "Markets we Serve",
+    "introTitle": "Athos Collagen Pvt. Ltd. is leading Manufacturer and Exporter of Fish gelatin from India",
+    "introDesc1": "Designed by nature, Fish gelatin delivers clean functionality with high biocompatibility, making it suitable across food, nutraceutical, pharmaceutical, cosmetic, and biomedical industries.",
+    "introDesc2": "Fish gelatin is increasingly positioned as a next-generation alternative, offering broader market access, higher consumer acceptance, and alignment with global clean-label and sustainability trends.",
+    "productShowcase": {
+      "usageTitle": "Usage Categories",
+      "discoverMore": "Discover More",
+      "categories": {
+        "foodIndustry": {
+          "name": "Food and Beverages",
+          "description": "Fish gelatin enhances functional foods, confectionery, desserts, and snacks, while providing gelling, thickening, and stabilizing properties in formulations.",
+          "applications": [
+            "Stabilizer",
+            "Clarifying Agent",
+            "Emulsifier",
+            "Gummy & candy",
+            "Thickener",
+            "Gelling Texturizer and Dairy Products",
+            "Confectionery",
+            "Dairy",
+            "Desserts"
+          ]
+        },
+        "cosmeticsSkincare": {
+          "name": "Cosmeceutical Industry",
+          "description": "Fish gelatin enhances creams, masks, and serums by providing natural thickening, gelling, and film-forming properties for smooth, stable, and luxurious formulations.",
+          "applications": [
+            "Moisturizer",
+            "Serum",
+            "Anti ageing Products",
+            "Hair & Nail Care",
+            "Makeup & Beauty"
+          ]
+        },
+        "biomedicalApplications": {
+          "name": "Biomedical Industry",
+          "description": "Fish collagen supports tissue engineering, wound healing, and regenerative medicine by providing a biocompatible, bioactive protein scaffold.",
+          "applications": [
+            "Wound Dressings & Medical Films",
+            "Controlled Drug Release Systems",
+            "Embolization & Lyoprotection & healing",
+            "3D bioprinting / tissue engineering",
+            "Microcarriers",
+            "Drug & Cell delivery",
+            "Regenerative medicine",
+            "Plasma",
+            "Cryoprotection",
+            "Lyoprotection / vaccines"
+          ]
+        },
+        "pharmaIndustry": {
+          "name": "Pharmaceutical Industry",
+          "description": "Fish gelatin is a key ingredient in pharmaceutical capsules, tablets, and soft gels, providing a natural, biocompatible, and stable coating.",
+          "applications": [
+            "Capsule Production (soft gels & hard gels)",
+            "Tablet Coating",
+            "Encapsulation of Vitamins & Nutraceuticals",
+            "Binding Agent in Tablets",
+            "Controlled Drug Release Systems",
+            "Plasma Expanders (historical/limited medical use)"
+          ]
+        }
+      }
+    },
+    "insights": {
+      "title": "Insights",
+      "whatIsTitle": "What is Fish Gelatin?",
+      "items": [
+        "A clean, safe, and natural protein — trusted across food, pharma, and beauty.",
+        "Fish Gelatine: the sustainable, globally accepted alternative to bovine and porcine.",
+        "Pure functionality — exceptional gelling, stabilizing, and thickening in every application.",
+        "Cholesterol-free, fat-free, and allergen-safe: the smarter choice for modern formulations."
+      ]
+    },
+    "discover": {
+      "title": "Discover",
+      "selectApplication": "Select your application",
+      "description": "Whether designing dietary supplements, functional foods, or working in the biomedical field, our gelatins can help you overcome technical challenges to achieve superior products.",
+      "cta": "Find out how Fish Gelatin is applied"
+    }
+  },
+  "fishCollagen": {
+    "heroTitle": "Fish Collagen Peptide",
+    "introTitle": "Athos Collagen Pvt. Ltd. is leading Manufacturer and Exporter of Fish Collagen Peptide from India.",
+    "introSubtitle": "Fish collagen Peptide is also known as Marine Collagen or Hydrolyzed Collagen Peptide",
+    "productShowcase": {
+      "usageTitle": "Usage of Fish Collagen Peptide",
+      "discoverMore": "Discover More",
+      "products": {
+        "peptide": {
+          "title": "Fish Collagen Peptide",
+          "description": "Our signature hydrolyzed collagen peptide, recognized for its high bioavailability and smooth solubility. It serves as a premium raw material for use in beauty formulations, nutritional supplements, and functional food products."
+        },
+        "granules": {
+          "title": "Fish Collagen Granules",
+          "description": "Formulated for easy handling and processing, these granules serve as a high-quality raw material for the production of tablets, sachets, and ready-to-mix functional beverages. They offer the same benefits as collagen peptides in a more convenient form."
+        },
+        "highBulkDensity": {
+          "title": "Fish Collagen Peptide (High Bulk Density)",
+          "description": "Developed to meet the needs of efficient packaging and industrial-scale formulation, this high bulk density variant is an ideal raw material for use in nutraceuticals, functional foods, and cosmeceuticals, offering improved flowability and reduced storage space."
+        }
+      },
+      "categories": {
+        "foodBeverages": {
+          "name": "Food and Beverages",
+          "description": "Scientifically formulated food and beverages with marine collagen peptide. Designed to support functional nutrition with proven quality standards.",
+          "applications": [
+            "Improve the emulsifying stability, hardness, and water-binding capacity of foods.",
+            "Help with digestion, absorption, and distribution throughout the body.",
+            "Functional foods (fortified with collagen).",
+            "Cereals and Energy drinks.",
+            "Protein shakes and smoothies.",
+            "Collagen-infused water and beverages.",
+            "Dietary Supplements.",
+            "Snacks."
+          ]
+        },
+        "nutraceuticals": {
+          "name": "Nutraceuticals Supplements",
+          "description": "Precision-formulated nutraceuticals using high-quality, bioavailable marine collagen peptide. Designed to support optimal body function and well-being.",
+          "applications": [
+            "Protein bars",
+            "drinks",
+            "Joint health supplements",
+            "powders"
+          ]
+        },
+        "cosmetics": {
+          "name": "Cosmeceutical Supplements",
+          "description": "Marine Collagen Peptide Hydrates, firms, and rejuvenates skin, hair, and nails while enhancing product texture and performance.",
+          "applications": [
+            "Anti-aging creams and serums.",
+            "Moisturizers.",
+            "Hair care products.",
+            "Nail care treatments.",
+            "Face masks."
+          ]
+        },
+        "pharmaceuticals": {
+          "name": "Pharmaceutical Industry",
+          "description": "Pharmaceutical-grade Marine collagen peptide developed under strict quality standards. Designed to support research-driven formulations and therapeutic nutrition.",
+          "applications": [
+            "Help with joint pain and inflammation.",
+            "Treat musculoskeletal disorders like osteoporosis and sarcopenia.",
+            "Stabilize blood sugar levels.",
+            "Supporting hair and nail growth.",
+            "Wound healing products.",
+            "Tissue engineering.",
+            "Drug delivery systems."
+          ]
+        },
+        "petFood": {
+          "name": "Pet Food Supplements",
+          "description": "Nourish your pet from the inside out with fish collagen peptides. Supports healthy movement, shiny coats, and overall vitality.",
+          "applications": [
+            "joint function, ",
+            "skin health, ",
+            "Gut health and mobility."
+          ]
+        },
+        "biotechnology": {
+          "name": "Biomedical Applications",
+          "description": "From lab to life, marine ccollagen peptide makes it possible. The essential protein for tissue engineering and regenerative medicine.",
+          "applications": [
+            "Scaffold materials for cell culture.",
+            "Biocompatible materials for medical implants."
+          ]
+        }
+      }
+    },
+    "insights": {
+      "title": "Insights",
+      "whatIsTitle": "What is Fish Collagen Peptide?",
+      "items": [
+        "Generations of trust in every use.",
+        "Clean protein. Clear energy.",
+        "Unique gelling, thickening, and stabilizing in one ingredient.",
+        "Nutrition you can trust—safe for most diets, free from cholesterol, purines, and fat, with minimal allergen concerns (except fish)."
+      ]
+    },
+    "discover": {
+      "title": "Discover",
+      "selectApplication": "Select your application",
+      "description": "Whether designing dietary supplements, functional foods, or working in the biomedical field, our gelatins can help you overcome technical challenges to achieve superior products.",
+      "cta": "Find out how Fish Collagen Peptide is applied"
+    },
+    "pie": {
+      "title": "Athos Fish Collagen Peptide Amino Acid Composition",
+      "loading": "Loading chart...",
+      "labels": {
+        "hydroxyproline": "HYDROXYPROLINE",
+        "proline": "PROLINE",
+        "glycine": "GLYCINE",
+        "otherAminoAcids": "Other amino acids",
+        "leucine": "Leucine",
+        "valine": "Valine",
+        "alanine": "Alanine",
+        "arginine": "Arginine",
+        "histidine": "Histidine",
+        "glutamicAcid": "Glutamic Acid",
+        "serine": "Serine",
+        "asparticAcid": "Aspartic Acid"
+      }
+    }
+  },
+  "categoryDetails": {
+    "notFound": "Category Not Found",
+    "goBack": "Go Back",
+    "categories": {
+      "foodBeverages": {
+        "title": "Food and Beverages",
+        "description": "Marine Collagen peptide is widely used in functional foods and beverages for its stabilizing and nutritional benefits. It improves emulsifying stability, texture, and water-binding capacity in formulations while supporting digestion and absorption",
+        "subcategories": {
+          "drinks": "Drinks",
+          "proteinBars": "Protein Bars",
+          "powder": "Powder",
+          "jointHealthSupplements": "Joint Health Supplements"
+        },
+        "products": {
+          "functionalFoods": {
+            "name": "Functional Foods",
+            "description": "Fortified foods with marine collagen peptides for enhanced nutrition and bioavailability"
+          },
+          "proteinShakes": {
+            "name": "Protein Shakes and Smoothies",
+            "description": "High-protein beverages with easily digestible collagen peptides"
+          },
+          "collagenWater": {
+            "name": "Collagen-Infused Water",
+            "description": "Hydrating beverages with added collagen benefits for daily wellness"
+          }
+        }
+      },
+      "nutraceuticals": {
+        "title": "Nutraceuticals and Dietary Supplements",
+        "description": "From collagen supplements in drinks, protein bars, powders and more they provide essential nourishment. These products are designed for skin, hair, muscle recovery, and overall vitality.",
+        "subcategories": {
+          "functionalFoods": "Functional Foods",
+          "proteinShakes": "Protein Shakes",
+          "drinkBeverages": "Drink Beverages",
+          "snacks": "Snacks",
+          "dietarySupplements": "Dietary Supplements"
+        },
+        "products": {
+          "functionalFoods": {
+            "name": "Functional foods",
+            "description": "Nutritious functional foods enhanced with marine collagen peptides for optimal health benefits"
+          },
+          "proteinShakes": {
+            "name": "Protein shakes",
+            "description": "High-protein shakes fortified with marine collagen peptides for muscle recovery and wellness"
+          },
+          "drinkBeverages": {
+            "name": "Drink beverages",
+            "description": "Refreshing beverages infused with collagen peptides for daily nutrition and hydration"
+          },
+          "snacks": {
+            "name": "Snacks",
+            "description": "Healthy snack options enriched with marine collagen peptides for on-the-go nutrition"
+          },
+          "dietarySupplements": {
+            "name": "Dietary Supplements",
+            "description": "Comprehensive dietary supplements with marine collagen peptides for overall wellness"
+          }
+        }
+      },
+      "cosmetics": {
+        "title": "Cosmeceutical Supplements",
+        "description": "Marine Collagen is a key ingredient in beauty and personal care, known for enhancing skin elasticity, hydration, and overall appearance. It is widely used in anti-aging creams, serums, and moisturizers, as well as in hair care, nail treatments, and face masks, helping promote youthful, healthy-looking skin and stronger hair and nails.",
+        "subcategories": {
+          "antiAgingFormulations": "Anti-Aging Formulations",
+          "moisturizationHydration": "Moisturization & Hydration",
+          "skinRepairRegeneration": "Skin Repair & Regeneration",
+          "brighteningEvenSkinTone": "Brightening & Even Skin Tone",
+          "hairNailStrengthening": "Hair & Nail Strengthening",
+          "nutricosmetics": "Nutricosmetics (Beauty-from-Within)"
+        },
+        "products": {
+          "antiAgingCreams": {
+            "name": "Anti-Aging Creams and Serums",
+            "description": "Premium skincare products with marine collagen peptides for youthful, radiant skin"
+          },
+          "moisturizers": {
+            "name": "Moisturizers",
+            "description": "Hydrating creams and lotions with collagen peptides for deep skin nourishment"
+          },
+          "hairNailCare": {
+            "name": "Hair and Nail Care",
+            "description": "Shampoos, treatments, and nail care products with collagen benefits"
+          }
+        }
+      },
+      "pharmaceuticals": {
+        "title": "Pharmaceutical Industry",
+        "description": "Marine Collagen peptide plays a vital role in medical and therapeutic applications, offering benefits for joint pain relief, inflammation reduction, It supports wound healing, tissue regeneration, and hair and nail growth, while also being utilized in advanced drug delivery systems and tissue engineering solutions.",
+        "subcategories": {
+          "drugDeliverySystems": "Drug Delivery Systems",
+          "woundHealingRegenerativeMedicine": "Wound Healing & Regenerative Medicine",
+          "tissueEngineeringBiomaterials": "Tissue Engineering & Biomaterials",
+          "drugFormulationStabilizer": "Drug Formulation Stabilizer",
+          "oralSupplementsNutraPharma": "Oral Supplements / Nutra-Pharma",
+          "surgicalApplications": "Surgical Applications"
+        },
+        "products": {
+          "jointPainRelief": {
+            "name": "Joint Pain and Inflammation Relief",
+            "description": "Pharmaceutical-grade supplements for joint pain, inflammation, and musculoskeletal disorders"
+          },
+          "woundHealingProducts": {
+            "name": "Wound Healing Products",
+            "description": "Medical-grade collagen for advanced wound healing and tissue repair applications"
+          },
+          "drugDeliverySystems": {
+            "name": "Drug Delivery Systems",
+            "description": "Advanced pharmaceutical applications for controlled drug release and tissue engineering"
+          }
+        }
+      },
+      "petFood": {
+        "title": "Pet Food Supplements",
+        "description": "Marine Collagen peptide is increasingly used in pet food supplements to support joint health, mobility, and overall vitality in animals. It promotes stronger bones, healthier skin, and shinier coats, while also aiding digestion and flexibility making it an essential ingredient for maintaining pets long-term health and active lifestyles.",
+        "subcategories": {
+          "jointBoneHealth": "Joint & Bone Health",
+          "skinCoatHealth": "Skin & Coat Health",
+          "digestiveHealth": "Digestive Health",
+          "woundHealingRecovery": "Wound Healing and Recovery",
+          "dentalHealth": "Dental Health",
+          "overallVitalityLongevity": "Overall Vitality & Longevity"
+        },
+        "products": {
+          "jointBoneHealth": {
+            "name": "Joint & Bone Health",
+            "description": "Specialized pet nutrition for joint mobility, bone strength, and overall musculoskeletal health"
+          },
+          "skinCoatHealth": {
+            "name": "Skin & Coat Health",
+            "description": "Collagen-rich formulations for healthy skin, shiny coat, and optimal pet appearance"
+          },
+          "digestiveHealth": {
+            "name": "Digestive Health",
+            "description": "Gentle nutrition solutions to support healthy digestion and gastrointestinal wellness in pets"
+          },
+          "woundHealingRecovery": {
+            "name": "Wound Healing & Recovery",
+            "description": "Advanced nutrition for faster healing, tissue repair, and post-surgery recovery in pets"
+          },
+          "dentalHealth": {
+            "name": "Dental Health",
+            "description": "Specialized formulations to promote strong teeth, healthy gums, and overall dental wellness"
+          },
+          "overallVitalityLongevity": {
+            "name": "Overall Vitality & Longevity",
+            "description": "Comprehensive nutrition for enhanced energy, vitality, and long-term health in pets"
+          }
+        }
+      },
+      "biotechnology": {
+        "title": "Biomedical Applications",
+        "description": "Marine collagen peptide redefining biotechnology with its unmatched biocompatibility and regenerative properties. From tissue engineering and drug delivery systems to 3D bioprinting and advanced wound care, marine collagen peptides serve as the foundation for next-generation biomedical research and innovation. Safe, sustainable, and versatile  it is the natural choice for tomorrow’s biotech breakthroughs.",
+        "subcategories": {
+          "tissueEngineeringRegenerativeMedicine": "Tissue Engineering & Regenerative Medicine",
+          "biocompatibleMedicalImplants": "Biocompatible Medical Implants",
+          "cellCultureResearchApplications": "Cell Culture & Research Applications",
+          "biomaterialsDrugDelivery": "Biomaterials for Drug Delivery",
+          "3dBioprinting": "3D Bioprinting",
+          "woundHealingBiomedicalDevices": "Wound Healing & Biomedical Devices"
+        },
+        "products": {
+          "cellCultureScaffolds": {
+            "name": "Cell Culture Scaffolds",
+            "description": "Advanced scaffold materials for cell growth, research, and tissue culture applications"
+          },
+          "medicalImplants": {
+            "name": "Medical Implants",
+            "description": "Biocompatible materials for medical devices and implantable technologies"
+          },
+          "tissueEngineering": {
+            "name": "Tissue Engineering",
+            "description": "Innovative solutions for regenerative medicine and advanced tissue engineering"
+          }
+        }
+      },
+      "foodIndustry": {
+        "title": "Food Industry",
+        "description": "Fish Gelatin acts as an effective gelling agent, suitable for making jellies, gummy candies, and dessert it improve the texture of foods and it’s  beneficial in fortifying many food products.",
+        "subcategories": {
+          "stabilizer": "Stabilizer",
+          "clarifyingAgent": "Clarifying Agent",
+          "emulsifier": "Emulsifier",
+          "gummyCandy": "Gummy & Candy",
+          "gellingTexturizer": "Gellin Texturizer",
+          "thickener": "Thickner",
+          "confectionery": "Confectionery",
+          "dairyProducts": "Dairy Products",
+          "desserts": "Desserts"
+        },
+        "products": {
+          "gummyCandy": {
+            "name": "Gummy & Candy",
+            "description": "Perfect texture and chewiness for gummy bears, worms, and various confectionery products"
+          },
+          "dairyProducts": {
+            "name": "Dairy Products",
+            "description": "Enhanced texture and stability for yogurt, ice cream, and other dairy applications"
+          },
+          "desserts": {
+            "name": "Desserts",
+            "description": "Smooth and consistent dessert preparations including jellies, puddings, and mousses"
+          }
+        }
+      },
+      "cosmeticsSkincare": {
+        "title": "Cosmetics and Skincare",
+        "description": "The Beauty Secret Within it is a powerful cosmetic ingredient that restores skin elasticity, reduces fine lines, and deeply hydrates for a youthful glow. Backed by science and trusted in premium skincare, it’s the natural choice for next-generation",
+        "subcategories": {
+          "antiAgingProducts": "Anti-Aging Products",
+          "moisturizer": "Moisturizer",
+          "serum": "Serum",
+          "hairNailCare": "Hair & Nail Care",
+          "makeupBeauty": "Makeup & Beauty"
+        },
+        "products": {
+          "moisturizersSerums": {
+            "name": "Moisturizers & Serums",
+            "description": "Hydrating creams and serums with natural fish gelatin for skin nourishment"
+          },
+          "antiAgingProducts": {
+            "name": "Anti-Aging Products",
+            "description": "Advanced anti-aging formulations with fish gelatin for youthful skin"
+          },
+          "hairNailCare": {
+            "name": "Hair & Nail Care",
+            "description": "Shampoos, treatments, and nail care products with strengthening properties"
+          }
+        }
+      },
+      "biomedicalApplications": {
+        "title": "Biomedical Applications",
+        "description": "Fish Gelatin serves critical functions in biomedical applications including wound dressings, controlled drug release systems, and tissue engineering. It provides biocompatible solutions for medical challenges including wound dressings & medical films, controlled drug release systems, embolization, 3D bioprinting, microcarriers, cell delivery, drug delivery, regenerative medicine, plasma, cryoprotection, and lyoprotection for vaccines.",
+        "subcategories": {
+          "woundDressings": "Wound Dressings",
+          "drugReleaseSystems": "Drug Release Systems",
+          "3dBioprinting": "3D Bioprinting",
+          "microcarriers": "Microcarriers",
+          "cellDelivery": "Cell Delivery",
+          "drugDelivery": "Drug Delivery",
+          "regenerativeMedicine": "Regenerative Medicine",
+          "embolizationHealing": "Embolization Healing",
+          "plasma": "Plasma",
+          "lyoprotectionVaccines": "Lyoprotection for Vaccines"
+        },
+        "products": {
+          "woundDressingsMedicalFilms": {
+            "name": "Wound Dressings & Medical Films",
+            "description": "Advanced medical films and dressings for wound healing and tissue repair"
+          },
+          "drugDeliverySystems": {
+            "name": "Drug Delivery Systems",
+            "description": "Controlled drug release systems and pharmaceutical delivery applications"
+          },
+          "3dBioprintingTissueEngineering": {
+            "name": "3D Bioprinting & Tissue Engineering",
+            "description": "Advanced tissue engineering and 3D bioprinting solutions for regenerative medicine"
+          }
+        }
+      },
+      "pharmaIndustry": {
+        "title": "Pharma Industry",
+        "description": "This used for modern pharmaceutical innovations from advanced wound healing and drug delivery systems to biocompatible materials for tissue engineering. With superior bioavailability and safety, it ensures enhanced absorption, natural compatibility, and sustainable sourcing making it a trusted ingredient",
+        "subcategories": {
+          "capsuleProduction": "Capsule Production",
+          "tabletCoating": "Tablet Coating",
+          "encapsulationVitamins": "Encapsulation of Vitamins",
+          "bindingAgentTablets": "Binding Agent in Tablets",
+          "controlledDrugRelease": "Controlled Drug Release",
+          "plasmaExpanders": "Plasma Expanders"
+        },
+        "products": {
+          "capsuleProduction": {
+            "name": "Capsule Production",
+            "description": "Soft gel and hard gel capsule manufacturing with fish gelatin"
+          },
+          "tabletCoating": {
+            "name": "Tablet Coating",
+            "description": "Protective coatings and binding agents for pharmaceutical tablets"
+          },
+          "vitaminEncapsulation": {
+            "name": "Vitamin Encapsulation",
+            "description": "Encapsulation of vitamins, nutraceuticals, and dietary supplements"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "readMore": "Read More",
+    "back": "Back",
+    "discoverMoreInfo": "Discover More Information"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "hero": {
+      "heading": "GET IN TOUCH FOR A BETTER CONNECTION.",
+      "whatsappCall": "WHATSAPP / CALL",
+      "email": "EMAIL"
+    },
+    "form": {
+      "companyName": "Please Enter Company Name *",
+      "name": "Please enter your name *",
+      "email": "Please enter your email *",
+      "subject": "Subject *",
+      "product": "Select Product *",
+      "products": {
+        "fishCollagen": "Fish Collagen Peptide",
+        "fishGelatin": "Fish Gelatin",
+        "other": "Other"
+      },
+      "message": "Message for Us *",
+      "sendMessage": "Send message"
+    },
+    "factory": {
+      "title": "FACTORY",
+      "companyName": "ATHOS COLLAGEN PVT. LTD.",
+      "address": {
+        "line1": "Plot No. B-19, Gujarat Agro Infrastructure",
+        "line2": "Mega Food Park, Village Shah & Vasravi, Tal.",
+        "line3": "Mangrol, Dist. Surat-394410, Gujarat, India"
+      }
+    }
+  }
+}

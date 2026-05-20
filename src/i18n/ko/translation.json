@@ -1,0 +1,696 @@
+{
+  "nav": {
+    "about": "ATHOS 소개",
+    "fishCollagen": "어류 콜라겐",
+    "fishGelatin": "어류 젤라틴",
+    "blog": "블로그",
+    "contactUs": "문의하기"
+  },
+  "footer": {
+    "emailUs": "이메일 보내기",
+    "joinMailList": "메일링 리스트 가입",
+    "usefulLinks": "유용한 링크",
+    "applications": "응용 프로그램",
+    "fishCollagen": "어류 콜라겐",
+    "fishGelatin": "어류 젤라틴",
+    "downloadBrochure": "브로슈어 PDF 다운로드",
+    "blogs": "블로그",
+    "contact": "문의하기",
+    "copyright": "Copyright ©️ 2025 Athos Collagen Pvt. Ltd. 모든 권리 보유.",
+    "applicationsList": {
+      "nutraceutical": "건강기능식품",
+      "pharmaceutical": "제약 산업",
+      "cosmeceutical": "화장품 제품",
+      "petFoods": "반려동물 사료",
+      "viewAll": "모든 응용 프로그램 보기"
+    }
+  },
+  "home": {
+    "title": "세계 최고급 어류 콜라겐 펩타이드",
+    "subtitle": "선도적인 해양 콜라겐 솔루션",
+    "aboutPreview": {
+      "title": "아토스 콜라겐 주식회사",
+      "description1": "저희는 프리미엄 품질의 피쉬 콜라겐 펩타이드, FiColla(임상 승인), 피쉬 콜라겐 그래뉼 및 피쉬 젤라틴을 생산하는 인도의 선도적인 제조업체이자 수출업체입니다. 최첨단 시설과 우수성에 대한 약속을 바탕으로 최고의 국제 표준을 충족하는 제품을 제공합니다. 품질, 혁신 및 고객 만족에 대한 헌신으로 전 세계 기업들의 신뢰할 수 있는 파파트너가 되었습니다.",
+        "ourStrength": "우리의 강점",
+      "ourCommitment": "우리의 약속",
+      "authenticity": "진정성",
+      "integrity": "정직성",
+      "honesty": "솔직함",
+      "bestQuality": "최고 품질",
+      "betterService": "더 나은 서비스",
+      "competitivePrice": "경쟁력 있는 가격"
+    },
+    "uniqueness": {
+      "title": "아토스 어류 콜라겐 펩타이드의 독특함",
+      "features": [
+        "높은 단백질 함량: 97% 이상의 단백질 함유로 높은 순도와 영양 가치를 제공합니다.",
+        "완전한 아미노산 프로필: 모든 아미노산을 포함하며, 글리신, 프롤린 및 하이드록시프롤린(GPH) 함량이 40% 이상으로 매우 높아 콜라겐 트리펩타이드(CTP)를 형성합니다.",
+        "무취 및 무미: 완전히 냄새와 맛이 없으며 물에 100% 용해됩니다.",
+        "초저분자량: 생체 이용률과 흡수력을 크게 향상시킵니다.",
+        "브랜드명 Ficolla로 임상 승인 완료",
+        "어류 전용 시설: 어류 전용 시설에서만 제조되어 다른 원료로부터의 교차 오염이 전혀 없음을 보장합니다.",
+        "세계적으로 인정받는 품질: 세계적으로 인정받는 인증 기관의 인증을 받았습니다."
+      ],
+      "cta": "의미 있는 전환을 위해 우리와 함께하세요"
+    },
+    "products": {
+      "title": "프리미엄 제품",
+      "fishCollagen": "어류 콜라겐",
+      "fishGelatin": "어류 젤라틴"
+    },
+    "globalPresence": {
+      "title": "전 세계 수출",
+      "description": "프리미엄 품질의 피쉬 콜라겐 펩타이드, FiColla(임상 승인), 피쉬 콜라겐 그래뉼 및 피쉬 젤라틴은 Athos Collagen Pvt. Ltd.에 의해 미국, 캐나다, 남미, 영국, 유럽, 일본, 한국, 이스라엘, 걸프 국가, CIS 국가, 베트남 및 기타 국가의 고객에게 수출됩니다. 지속 가능성과 품질을 바탕으로 전 세계의 건강과 웰빙을 증진하기 위해 설계된 프리미엄 피쉬 콜라겐 펩타이드를 생산합니다. 책임 있는 소싱과 첨단 제조를 통해 국제 시장을 위한 순도, 일관성 및 신뢰성을 보장합니다."
+    },
+    "cobranding": {
+      "title": "코브랜딩 기회",
+      "description": "프리미엄 브랜드 제품을 제공하기 위해 아토스 콜라겐 주식회사와 파트너십을 맺으세요. 저희 코브랜딩 프로그램에는 존경받는 브랜드명, 마케팅 자료 및 확립된 과학 연구에 대한 접근이 포함됩니다.",
+      "cta": "문의하기"
+    },
+    "benefits": {
+      "title": "우리가 서비스하는 시장",
+      "categories": {
+        "nutraceuticals": "건강기능식품",
+        "foodBeverages": "식품 및 음료",
+        "cosmeticsSkincare": "화장품 및 스킨케어",
+        "petFood": "반려동물 사료",
+        "pharmaceuticals": "제약",
+        "biotechnology": "생명공학"
+      }
+    },
+    "newBenefits": {
+      "title": "아토스 어류 콜라겐 펩타이드의 이점",
+      "categories": {
+        "skinHealth": "피부 건강",
+        "antiAgeing": "안티에이징",
+        "hairNails": "머리카락 및 손톱",
+        "boneJoin": "뼈 및 관절",
+        "gutHealth": "장 건강",
+        "woundHealing": "상처 치유"
+      }
+    },
+    "certifications": {
+      "title": "전 세계적으로 인정받는 인증"
+    },
+    "contact": {
+      "title": "문의하기",
+      "email": "이메일",
+      "whatsapp": "왓츠앱",
+      "youtube": "유튜브",
+      "instagram": "인스타그램"
+    }
+  },
+  "about": {
+    "title": "회사 소개",
+    "heroTitle": "세계 최고급 어류 콜라겐 펩타이드",
+    "aboutContent": [
+      "Athos Collagen Pvt. Ltd는 프리미엄 품질의 어류 콜라겐 펩타이드, FiColla(임상 승인), 피쉬 콜라겐 그래뉼 및 피쉬 젤라틴을 생산 및 공급하는 인도의 선도적인 기업 중 하나입니다.",
+      "어류 콜라겐 펩타이드 및 어류 젤라틴은 숙련된 직원에 의해 업계 표준에 따라 제조됩니다. 글로벌 시장에서 인정받은 공급업체로부터 조달한 고품질 원자재와 최첨단 장비를 사용하여 어류 콜라겐 펩타이드와 어류 젤라틴이 생산됩니다. 품질 요구 사항을 충족시키기 위해 숙련된 전문가 그룹이 다양한 생산 단계를 모니터링합니다.",
+      "첨단 자동화 설비를 갖춘 당사의 세계 수준의 제조 시설은 GHP, SSOP 및 5S 프로토콜에 정의된 완전한 위생 조건 하에 운영되어 매 배치마다 프리미엄 품질, 안전성 및 순도를 보장합니다.",
+      "전 세계 50개국 이상에 글로벌 입지를 확보하고 있으며, 품질로 신뢰받는 프리미엄 어류 콜라겐 펩타이드, FiColla(임상 승인), 피쉬 콜라겐 그래뉼 및 피쉬 젤라틴을 제공합니다.",
+      "어류 원료 전용 시설에서만 독점적으로 제조되어 다른 원료로부터의 교차 오염이 전혀 없음을 보장합니다."
+    ],
+    "applications": "응용 분야",
+    "mission": {
+      "title": "사명",
+      "description": "우리의 사명은 전 세계 사람들의 웰빙과 일상생활을 향상시키는 세계 최고 수준의 해양 콜라겐 제품과 서비스를 제공하는 것입니다"
+    },
+    "vision": {
+      "title": "비전",
+      "description": "해양 콜라겐 산업에서 가장 신뢰받고 혁신적인 리더가 되는 것"
+    },
+    "athosSection": {
+      "title": "athos",
+      "description": "건강, 제약, 뷰티 등 다양한 산업 분야에서 인류의 웰빙을 향상시키는 혁신적인 해양 콜라겐 솔루션을 개척하기 위해 고급 공정과 제어된 환경을 통해 원활한 품질을 제공합니다...",
+      "values": {
+        "authenticity": {
+          "title": "진정성",
+          "description": "정밀한 소싱과 타협하지 않는 글로벌 표준이 만나는 기반을 정의합니다. 모든 배치는 완벽한 추적이 가능하여 세계적인 수준의 일관성, 순도 및 신뢰를 제공합니다."
+        },
+        "trust": {
+          "title": "신뢰",
+          "description": "신뢰는 주장하는 것이 아니라 확고한 정밀성, 절대적인 투명성, 우수성의 유산을 통해 얻어지는 것입니다"
+        },
+        "health": {
+          "title": "건강",
+          "description": "정밀하게 설계되고 과학을 통해 향상된 건강."
+        },
+        "oblige": {
+          "title": "의무",
+          "description": "우리는 우수성과 정직성에 대한 깊은 의무감을 가지고 운영합니다. 단순한 원료가 아닌 장기적인 신뢰성과 책임감을 제공합니다."
+        },
+        "system": {
+          "title": "시스템",
+          "description": "구조화된 정밀성을 기반으로 구축된 당사의 시스템은 모든 단계에서 일관성을 보장합니다. 고급 공정과 제어된 환경을 통해 원활한 품질을 제공합니다."
+        }
+      }
+    },
+    "facilities": {
+      "title": "저희 시설",
+      "descriptions": [
+        "당사의 자동화 공장은 GHP, GLP, SSOP 및 5S에 정의된 완전한 위생 조건 하에 운영됩니다.",
+        "Athos Collagen Pvt. Ltd.는 OU KOSHER, HALAL, USFDA, SGS, FSSC 22000, SGS GMP, SGS ISO-9001, SGS ISO-22000, SGS HACCP, FSSAI 인증을 받았으며, EIC, MPEDA 및 FIEO를 통해 EU 승인을 받았습니다.",
+        "Athos Collagen Pvt Ltd의 세계적 수준의 가공 부서는 첨단 기계와 현대적인 기술을 갖추고 있습니다.",
+        "이를 통해 일관된 순도와 성능을 갖춘 고품질 해양 콜라겐 펩타이드를 생산할 수 있습니다. 당사의 제품 표준에 따라 인프라와 시설은 당사의 최우선 과제입니다."
+      ]
+    }
+  },
+  "blog": {
+    "title": "블로그",
+    "subtitle": "해양 콜라겐에 대한 통찰력, 연구 및 뉴스",
+    "readMore": "더 읽기"
+  },
+  "fishGelatin": {
+    "heroTitle": "어류 젤라틴",
+    "benefitsTitle": "우리가 서비스하는 시장",
+    "introTitle": "Athos Collagen Pvt. Ltd.는 인도의 주요 어류 젤라틴 제조 및 수출 기업입니다",
+    "introDesc1": "자연이 디자인한 어류 젤라틴은 높은 생체 적합성과 깨끗한 기능성을 제공하여 식품, 건강기능식품, 의약품, 화장품 및 바이오메디컬 산업 전반에 적합합니다.",
+    "introDesc2": "어류 젤라틴은 더 넓은 시장 접근성, 높은 소비자 수용도, 그리고 글로벌 클린 라벨 및 지속 가능성 트렌드와의 부합을 제공하며 차세대 대체재로 점차 자리 잡고 있습니다.",
+    "productShowcase": {
+      "usageTitle": "사용 카테고리",
+      "discoverMore": "더 알아보기",
+      "categories": {
+        "foodIndustry": {
+          "name": "식품 산업",
+          "description": "어류 젤라틴은 기능성 식품, 제과, 디저트, 스낵을 향상시키며 제형에서 겔화, 증점 및 안정화 특성을 제공합니다.",
+          "applications": [
+            "안정제",
+            "정제제",
+            "유화제",
+            "구미 & 캔디",
+            "증점제",
+            "겔화 텍스처라이저 및 유제품",
+            "제과",
+            "유제품",
+            "디저트"
+          ]
+        },
+        "cosmeticsSkincare": {
+          "name": "화장품 및 스킨케어",
+          "description": "어류 젤라틴은 자연스러운 증점, 겔화 및 필름 형성 특성을 제공하여 크림, 마스크, 세럼을 향상시키고 부드럽고 안정적이며 고급스러운 제형을 만듭니다.",
+          "applications": [
+            "모이스처라이저",
+            "세럼",
+            "안티에이징 제품",
+            "헤어 & 네일 케어",
+            "메이크업 & 뷰티"
+          ]
+        },
+        "biomedicalApplications": {
+          "name": "생체의학 응용",
+          "description": "어류 콜라겐은 생체 호환성, 생체 활성 단백질 스캐폴드를 제공하여 조직 공학, 상처 치유 및 재생 의학을 지원합니다.",
+          "applications": [
+            "상처 드레싱 및 의료 필름",
+            "제어된 약물 방출 시스템",
+            "색전술 및 동결보호 및 치유",
+            "3D 바이오프린팅 / 조직 공학",
+            "마이크로캐리어",
+            "약물 및 세포 전달",
+            "재생 의학",
+            "혈장",
+            "동결보호",
+            "동결보호 / 백신"
+          ]
+        },
+        "pharmaIndustry": {
+          "name": "제약 산업",
+          "description": "어류 젤라틴은 제약 캡슐, 정제 및 소프트 젤의 핵심 성분으로 자연스럽고 생체 호환성이며 안정적인 코팅을 제공합니다.",
+          "applications": [
+            "캡슐 생산 (소프트 젤 및 하드 젤)",
+            "정제 코팅",
+            "비타민 및 뉴트라슈티컬 캡슐화",
+            "정제의 결합제",
+            "제어된 약물 방출 시스템",
+            "혈장 확장제 (역사적/제한적 의료 사용)"
+          ]
+        }
+      }
+    },
+    "insights": {
+      "title": "인사이트",
+      "whatIsTitle": "어류 젤라틴이란 무엇인가요?",
+      "items": [
+        "깨끗하고 안전하며 자연스러운 단백질 — 식품, 제약, 뷰티 분야에서 신뢰받는 제품.",
+        "어류 젤라틴: 소 및 돼지 유래 제품의 지속 가능하고 전 세계적으로 인정받는 대안.",
+        "순수한 기능성 — 모든 응용 분야에서 탁월한 겔화, 안정화 및 증점.",
+        "콜레스테롤 없음, 지방 없음, 알레르기 안전: 현대 제형을 위한 더 스마트한 선택."
+      ]
+    },
+    "discover": {
+      "title": "발견하기",
+      "selectApplication": "애플리케이션 선택",
+      "description": "식이 보충제, 기능성 식품을 설계하거나 생명의학 분야에서 일하든, 우리의 젤라틴은 우수한 제품을 달성하기 위한 기술적 도전을 극복하는 데 도움을 줄 수 있습니다.",
+      "cta": "어류 젤라틴이 어떻게 적용되는지 알아보기"
+    }
+  },
+  "fishCollagen": {
+    "heroTitle": "어류 콜라겐",
+    "introTitle": "Athos Collagen Pvt. Ltd.는 인도의 주요 피쉬 콜라겐 펩타이드 제조업체 및 수출업체입니다.",
+    "introSubtitle": "피쉬 콜라겐 펩타이드는 마린 콜라겐 또는 가수분해 콜라겐 펩타이드로도 알려져 있습니다.",
+    "productShowcase": {
+      "usageTitle": "어류 콜라겐의 사용법",
+      "discoverMore": "더 알아보기",
+      "products": {
+        "peptide": {
+          "title": "어류 콜라겐 펩타이드",
+          "description": "높은 생체이용률과 부드러운 용해성으로 인정받는 우리의 시그니처 가수분해 콜라겐 펩타이드입니다. 미용 제형, 영양 보충제, 기능성 식품 제품에 사용되는 프리미엄 원료로 사용됩니다."
+        },
+        "granules": {
+          "title": "어류 콜라겐 과립",
+          "description": "쉬운 취급과 가공을 위해 제형화된 이 과립은 정제, 사셰, 즉석 혼합 기능성 음료의 생산을 위한 고품질 원료로 사용됩니다. 더 편리한 형태로 콜라겐 펩타이드와 동일한 이점을 제공합니다."
+        },
+        "highBulkDensity": {
+          "title": "어류 콜라겐 펩타이드 (고체적밀도)",
+          "description": "효율적인 포장 및 산업 규모 제형의 요구를 충족하기 위해 개발된 이 고체적밀도 변형은 뉴트라슈티컬, 기능성 식품, 코스메슈티컬에 사용하기에 이상적인 원료로, 향상된 유동성과 감소된 저장 공간을 제공합니다."
+        }
+      },
+      "categories": {
+        "foodBeverages": {
+          "name": "식품 및 음료",
+          "description": "해양 콜라겐 펩타이드를 사용하여 과학적으로 제형화된 식품 및 음료. 입증된 품질 기준으로 기능성 영양을 지원하도록 설계되었습니다.",
+          "applications": [
+            "식품의 유화 안정성, 경도 및 수분 결합 능력 향상.",
+            "소화, 흡수 및 신체 전반에 걸친 분포에 도움.",
+            "기능성 식품 (콜라겐으로 강화).",
+            "시리얼 및 에너지 음료.",
+            "단백질 쉐이크 및 스무디.",
+            "콜라겐 함유 물 및 음료.",
+            "식이 보충제.",
+            "스낵."
+          ]
+        },
+        "nutraceuticals": {
+          "name": "건강기능식품",
+          "description": "고품질의 생체이용 가능한 해양 콜라겐 펩타이드를 사용하여 정밀하게 제형화된 건강기능식품. 최적의 신체 기능과 웰빙을 지원하도록 설계되었습니다.",
+          "applications": [
+            "단백질 바",
+            "음료",
+            "관절 건강 보충제",
+            "파우더"
+          ]
+        },
+        "cosmetics": {
+          "name": "화장품 제품",
+          "description": "해양 콜라겐 펩타이드가 피부, 머리카락, 손톱을 수분 공급하고 탄력 있게 하며 젊어지게 하면서 제품 질감과 성능을 향상시킵니다.",
+          "applications": [
+            "안티에이징 크림 및 세럼.",
+            "모이스처라이저.",
+            "헤어케어 제품.",
+            "네일케어 트리트먼트.",
+            "페이스 마스크."
+          ]
+        },
+        "pharmaceuticals": {
+          "name": "제약 산업",
+          "description": "엄격한 품질 기준 하에 개발된 의약품 등급 해양 콜라겐 펩타이드. 연구 기반 제형 및 치료 영양을 지원하도록 설계되었습니다.",
+          "applications": [
+            "관절 통증 및 염증 완화.",
+            "골다공증 및 근감소증과 같은 근골격계 장애 치료.",
+            "혈당 수치 안정화.",
+            "머리카락 및 손톱 성장 지원.",
+            "상처 치유 제품.",
+            "조직 공학.",
+            "약물 전달 시스템."
+          ]
+        },
+        "petFood": {
+          "name": "펫푸드",
+          "description": "어류 콜라겐 펩타이드로 반려동물을 내부에서부터 영양 공급하세요. 건강한 움직임, 윤기 나는 털, 전반적인 활력을 지원합니다.",
+          "applications": [
+            "관절 기능,",
+            "피부 건강,",
+            "장 건강 및 이동성."
+          ]
+        },
+        "biotechnology": {
+          "name": "생명의학 응용",
+          "description": "실험실에서 삶까지, 해양 콜라겐 펩타이드가 가능하게 합니다. 조직 공학 및 재생 의학을 위한 필수 단백질입니다.",
+          "applications": [
+            "세포 배양용 스캐폴드 재료.",
+            "의료 임플란트용 생체 호환성 재료."
+          ]
+        }
+      }
+    },
+    "insights": {
+      "title": "인사이트",
+      "whatIsTitle": "어류 콜라겐 펩타이드란 무엇인가요?",
+      "items": [
+        "모든 사용에서 세대를 거쳐 전해지는 신뢰",
+        "깨끗한 단백질. 명확한 에너지.",
+        "하나의 성분으로 독특한 겔화, 증점 및 안정화",
+        "신뢰할 수 있는 영양 – 콜레스테롤, 퓨린, 지방이 없고 알레르기 우려가 최소화된 대부분의 식단에 안전합니다 (어류 제외)."
+      ]
+    },
+    "discover": {
+      "title": "발견하기",
+      "selectApplication": "애플리케이션 선택",
+      "description": "식이 보충제, 기능성 식품을 설계하거나 생명의학 분야에서 일하든, 우리의 젤라틴은 우수한 제품을 달성하기 위한 기술적 도전을 극복하는 데 도움을 줄 수 있습니다.",
+      "cta": "어류 콜라겐이 어떻게 적용되는지 알아보기"
+    },
+    "pie": {
+      "title": "Athos Fish Collagen Peptide Amino Acid Composition",
+      "loading": "차트를 불러오는 중...",
+      "labels": {
+        "hydroxyproline": "하이드록시프롤린",
+        "proline": "프롤린",
+        "glycine": "글라이신",
+        "otherAminoAcids": "기타 아미노산",
+        "leucine": "류신",
+        "valine": "발린",
+        "alanine": "알라닌",
+        "arginine": "아르기닌",
+        "histidine": "히스티딘",
+        "glutamicAcid": "글루탐산",
+        "serine": "세린",
+        "asparticAcid": "아스파르트산"
+      }
+    }
+  },
+  "categoryDetails": {
+    "notFound": "카테고리를 찾을 수 없습니다",
+    "goBack": "돌아가기",
+    "categories": {
+      "foodBeverages": {
+        "title": "식품 및 음료",
+        "description": "해양 콜라겐 펩타이드는 안정화 및 영양적 이점으로 인해 기능성 식품 및 음료에 널리 사용됩니다. 소화와 흡수를 지원하는 동시에 제형의 유화 안정성, 질감 및 수분 결합 능력을 향상시킵니다.",
+        "subcategories": {
+          "drinks": "음료",
+          "proteinBars": "프로틴 바",
+          "powder": "파우더",
+          "jointHealthSupplements": "관절 건강 보충제"
+        },
+        "products": {
+          "functionalFoods": {
+            "name": "기능성 식품",
+            "description": "향상된 영양 및 생체 이용률을 위한 해양 콜라겐 펩타이드로 강화된 식품"
+          },
+          "proteinShakes": {
+            "name": "프로틴 쉐이크 및 스무디",
+            "description": "쉽게 소화되는 콜라겐 펩타이드가 함유된 고단백 음료"
+          },
+          "collagenWater": {
+            "name": "콜라겐 함유 물",
+            "description": "일상 건강을 위한 콜라겐 이점이 추가된 수분 공급 음료"
+          }
+        }
+      },
+      "nutraceuticals": {
+        "title": "뉴트라슈티컬 및 식이 보충제",
+        "description": "음료, 단백질 바, 파우더 등 다양한 형태의 콜라겐 보충제를 통해 필수적인 영양을 공급합니다. 이 제품들은 피부, 모발, 근육 회복 및 전반적인 활력을 위해 설계되었습니다.",
+        "subcategories": {
+          "functionalFoods": "기능성 식품",
+          "proteinShakes": "프로틴 쉐이크",
+          "drinkBeverages": "음료",
+          "snacks": "스낵",
+          "dietarySupplements": "식이 보충제"
+        },
+        "products": {
+          "functionalFoods": {
+            "name": "기능성 식품",
+            "description": "최적의 건강 이점을 위한 해양 콜라겐 펩타이드로 강화된 영양가 있는 기능성 식품"
+          },
+          "proteinShakes": {
+            "name": "프로틴 쉐이크",
+            "description": "근육 회복 및 건강을 위한 해양 콜라겐 펩타이드로 강화된 고단백 쉐이크"
+          },
+          "drinkBeverages": {
+            "name": "음료",
+            "description": "일상 영양 및 수분 공급을 위한 콜라겐 펩타이드가 함유된 상쾌한 음료"
+          },
+          "snacks": {
+            "name": "스낵",
+            "description": "이동 중 영양을 위한 해양 콜라겐 펩타이드로 풍부해진 건강한 스낵 옵션"
+          },
+          "dietarySupplements": {
+            "name": "식이 보충제",
+            "description": "전반적인 건강을 위한 해양 콜라겐 펩타이드가 함유된 포괄적인 식이 보충제"
+          }
+        }
+      },
+      "cosmetics": {
+        "title": "화장품 및 스킨케어",
+        "description": "해양 콜라겐은 피부 탄력, 수분 공급 및 전반적인 외관을 개선하는 것으로 알려진 뷰티 및 퍼스널 케어의 핵심 성분입니다. 안티에이징 크림, 세럼, 모이스처라이저뿐만 아니라 헤어 케어, 네일 트리트먼트, 페이스 마스크에도 널리 사용되어 젊고 건강해 보이는 피부와 더 튼튼한 모발 및 손톱을 가꾸는 데 도움을 줍니다.",
+        "subcategories": {
+          "antiAgingFormulations": "안티에이징 제형",
+          "moisturizationHydration": "수분 공급 및 보습",
+          "skinRepairRegeneration": "피부 수리 및 재생",
+          "brighteningEvenSkinTone": "브라이트닝 및 균일한 피부톤",
+          "hairNailStrengthening": "모발 및 네일 강화",
+          "nutricosmetics": "뉴트리코스메틱스 (내부에서 아름다움)"
+        },
+        "products": {
+          "antiAgingCreams": {
+            "name": "안티에이징 크림 및 세럼",
+            "description": "젊고 빛나는 피부를 위한 해양 콜라겐 펩타이드가 함유된 프리미엄 스킨케어 제품"
+          },
+          "moisturizers": {
+            "name": "모이스처라이저",
+            "description": "깊은 피부 영양을 위한 콜라겐 펩타이드가 함유된 보습 크림 및 로션"
+          },
+          "hairNailCare": {
+            "name": "모발 및 네일 케어",
+            "description": "콜라겐 이점이 있는 샴푸, 트리트먼트 및 네일 케어 제품"
+          }
+        }
+      },
+      "pharmaceuticals": {
+        "title": "제약",
+        "description": "해양 콜라겐 펩타이드는 관절 통증 완화, 염증 감소 등의 이점을 제공하여 의료 및 치료 응용 분야에서 중요한 역할을 합니다. 상처 치유, 조직 재생, 모발 및 손톱 성장을 지원할 뿐만 아니라 고급 약물 전달 시스템 및 조직 공학 솔루션에도 활용됩니다.",
+        "subcategories": {
+          "drugDeliverySystems": "약물 전달 시스템",
+          "woundHealingRegenerativeMedicine": "상처 치유 및 재생 의학",
+          "tissueEngineeringBiomaterials": "조직 공학 및 생체 재료",
+          "drugFormulationStabilizer": "약물 제형 안정제",
+          "oralSupplementsNutraPharma": "경구 보충제 / 뉴트라-파마",
+          "surgicalApplications": "수술 응용"
+        },
+        "products": {
+          "jointPainRelief": {
+            "name": "관절 통증 및 염증 완화",
+            "description": "관절 통증, 염증 및 근골격계 장애를 위한 제약급 보충제"
+          },
+          "woundHealingProducts": {
+            "name": "상처 치유 제품",
+            "description": "고급 상처 치유 및 조직 수리 응용을 위한 의료급 콜라겐"
+          },
+          "drugDeliverySystems": {
+            "name": "약물 전달 시스템",
+            "description": "제어된 약물 방출 및 조직 공학을 위한 고급 제약 응용"
+          }
+        }
+      },
+      "petFood": {
+        "title": "펫 푸드",
+        "description": "해양 콜라겐 펩타이드는 동물의 관절 건강, 운동성 및 전반적인 활력을 지원하기 위해 펫푸드 보충제에 점점 더 많이 사용되고 있습니다. 튼튼한 뼈, 건강한 피부, 윤기 나는 털을 촉진하는 동시에 소화와 유연성을 도와 반려동물의 장기적인 건강과 활기찬 라이프스타일을 유지하기 위한 필수 성분입니다.",
+        "subcategories": {
+          "jointBoneHealth": "관절 및 뼈 건강",
+          "skinCoatHealth": "피부 및 털 건강",
+          "digestiveHealth": "소화 건강",
+          "woundHealingRecovery": "상처 치유 및 회복",
+          "dentalHealth": "치아 건강",
+          "overallVitalityLongevity": "전반적인 활력 및 장수"
+        },
+        "products": {
+          "jointBoneHealth": {
+            "name": "관절 및 뼈 건강",
+            "description": "관절 이동성, 뼈 강도 및 전반적인 근골격계 건강을 위한 전문 펫 영양"
+          },
+          "skinCoatHealth": {
+            "name": "피부 및 털 건강",
+            "description": "건강한 피부, 윤기 있는 털 및 최적의 펫 외모를 위한 콜라겐 풍부 제형"
+          },
+          "digestiveHealth": {
+            "name": "소화 건강",
+            "description": "펫의 건강한 소화 및 위장 건강을 지원하는 부드러운 영양 솔루션"
+          },
+          "woundHealingRecovery": {
+            "name": "상처 치유 및 회복",
+            "description": "펫의 빠른 치유, 조직 수리 및 수술 후 회복을 위한 고급 영양"
+          },
+          "dentalHealth": {
+            "name": "치아 건강",
+            "description": "강한 치아, 건강한 잇몸 및 전반적인 치아 건강을 촉진하는 전문 제형"
+          },
+          "overallVitalityLongevity": {
+            "name": "전반적인 활력 및 장수",
+            "description": "펫의 향상된 에너지, 활력 및 장기 건강을 위한 포괄적인 영양"
+          }
+        }
+      },
+      "biotechnology": {
+        "title": "생명공학",
+        "description": "해양 콜라겐 펩타이드는 타의 추종을 불허하는 생체 적합성과 재생 특성으로 생명공학을 재정의하고 있습니다. 조직 공학 및 약물 전달 시스템부터 3D 바이오프린팅 및 고급 상처 치료에 이르기까지 해양 콜라겐 펩타이드는 차세대 의생명 연구 및 혁신의 기초 역할을 합니다. 안전하고 지속 가능하며 다재다능하여 미래의 생명공학 혁신을 위한 당연한 선택입니다.",
+        "subcategories": {
+          "tissueEngineeringRegenerativeMedicine": "조직 공학 및 재생 의학",
+          "biocompatibleMedicalImplants": "생체 호환 의료 임플란트",
+          "cellCultureResearchApplications": "세포 배양 및 연구 응용",
+          "biomaterialsDrugDelivery": "약물 전달을 위한 생체 재료",
+          "3dBioprinting": "3D 바이오프린팅",
+          "woundHealingBiomedicalDevices": "상처 치유 및 생체의학 장치"
+        },
+        "products": {
+          "cellCultureScaffolds": {
+            "name": "세포 배양 스캐폴드",
+            "description": "세포 성장, 연구 및 조직 배양 응용을 위한 고급 스캐폴드 재료"
+          },
+          "medicalImplants": {
+            "name": "의료 임플란트",
+            "description": "의료 장치 및 임플란트 가능한 기술을 위한 생체 호환 재료"
+          },
+          "tissueEngineering": {
+            "name": "조직 공학",
+            "description": "재생 의학 및 고급 조직 공학을 위한 혁신적인 솔루션"
+          }
+        }
+      },
+      "foodIndustry": {
+        "title": "식품 산업",
+        "description": "생선 젤라틴은 효과적인 겔화제로 작용하여 젤리, 구미 캔디, 디저트 제조에 적합하며 식품의 질감을 개선하고 많은 식품 제품을 강화하는 데 유익합니다.",
+        "subcategories": {
+          "stabilizer": "안정제",
+          "clarifyingAgent": "정제제",
+          "emulsifier": "유화제",
+          "gummyCandy": "구미 & 캔디",
+          "gellingTexturizer": "겔링 텍스처라이저",
+          "thickener": "증점제",
+          "confectionery": "제과",
+          "dairyProducts": "유제품",
+          "desserts": "디저트"
+        },
+        "products": {
+          "gummyCandy": {
+            "name": "구미 & 캔디",
+            "description": "구미 베어, 웜 및 다양한 제과 제품을 위한 완벽한 질감과 씹는 느낌"
+          },
+          "dairyProducts": {
+            "name": "유제품",
+            "description": "요구르트, 아이스크림 및 기타 유제품 응용을 위한 향상된 질감 및 안정성"
+          },
+          "desserts": {
+            "name": "디저트",
+            "description": "젤리, 푸딩, 무스 등 부드럽고 일관된 디저트 준비"
+          }
+        }
+      },
+      "cosmeticsSkincare": {
+        "title": "화장품 및 스킨케어",
+        "description": "이너 뷰티의 비밀인 이것은 피부 탄력을 복원하고 잔주름을 줄이며 깊은 수분을 공급하여 젊고 빛나는 피부로 가꾸어 주는 강력한 화장품 성분입니다. 과학적 연구와 프리미엄 스킨케어 브랜드를 통해 검증된 차세대 내추럴 스킨케어를 위한 당연한 선택입니다.",
+        "subcategories": {
+          "antiAgingProducts": "안티에이징 제품",
+          "moisturizer": "모이스처라이저",
+          "serum": "세럼",
+          "hairNailCare": "헤어 & 네일 케어",
+          "makeupBeauty": "메이크업 & 뷰티"
+        },
+        "products": {
+          "moisturizersSerums": {
+            "name": "모이스처라이저 & 세럼",
+            "description": "피부 영양을 위한 자연스러운 어류 젤라틴이 함유된 보습 크림 및 세럼"
+          },
+          "antiAgingProducts": {
+            "name": "안티에이징 제품",
+            "description": "젊은 피부를 위한 어류 젤라틴이 함유된 고급 안티에이징 제형"
+          },
+          "hairNailCare": {
+            "name": "헤어 & 네일 케어",
+            "description": "강화 특성이 있는 샴푸, 트리트먼트 및 네일 케어 제품"
+          }
+        }
+      },
+      "biomedicalApplications": {
+        "title": "생체의학 응용",
+        "description": "어류 젤라틴은 상처 드레싱, 제어된 약물 방출 시스템, 조직 공학을 포함한 생체의학 응용에서 중요한 기능을 수행합니다. 상처 드레싱 및 의료 필름, 제어된 약물 방출 시스템, 색전술, 3D 바이오프린팅, 마이크로캐리어, 세포 전달, 약물 전달, 재생 의학, 혈장, 동결보호 및 백신용 동결보호를 포함한 의료적 도전에 대한 생체 호환 솔루션을 제공합니다.",
+        "subcategories": {
+          "woundDressings": "상처 드레싱",
+          "drugReleaseSystems": "약물 방출 시스템",
+          "3dBioprinting": "3D 바이오프린팅",
+          "microcarriers": "마이크로캐리어",
+          "cellDelivery": "세포 전달",
+          "drugDelivery": "약물 전달",
+          "regenerativeMedicine": "재생 의학",
+          "embolizationHealing": "색전술 치유",
+          "plasma": "혈장",
+          "lyoprotectionVaccines": "백신용 동결보호"
+        },
+        "products": {
+          "woundDressingsMedicalFilms": {
+            "name": "상처 드레싱 및 의료 필름",
+            "description": "상처 치유 및 조직 수리를 위한 고급 의료 필름 및 드레싱"
+          },
+          "drugDeliverySystems": {
+            "name": "약물 전달 시스템",
+            "description": "제어된 약물 방출 시스템 및 제약 전달 응용"
+          },
+          "3dBioprintingTissueEngineering": {
+            "name": "3D 바이오프린팅 및 조직 공학",
+            "description": "재생 의학을 위한 고급 조직 공학 및 3D 바이오프린팅 솔루션"
+          }
+        }
+      },
+      "pharmaIndustry": {
+        "title": "제약 산업",
+        "description": "이것은 고급 상처 치유 및 약물 전달 시스템부터 조직 공학용 생체 적합성 재료에 이르기까지 현대적인 제약 혁신에 사용됩니다. 우수한 생체 이용률과 안전성으로 흡수율을 높이고 자연스러운 호환성과 지속 가능한 공급을 보장하여 신뢰할 수 있는 성분입니다.",
+        "subcategories": {
+          "capsuleProduction": "캡슐 생산",
+          "tabletCoating": "정제 코팅",
+          "encapsulationVitamins": "비타민 캡슐화",
+          "bindingAgentTablets": "정제의 결합제",
+          "controlledDrugRelease": "제어된 약물 방출",
+          "plasmaExpanders": "혈장 확장제"
+        },
+        "products": {
+          "capsuleProduction": {
+            "name": "캡슐 생산",
+            "description": "어류 젤라틴을 사용한 소프트 젤 및 하드 젤 캡슐 제조"
+          },
+          "tabletCoating": {
+            "name": "정제 코팅",
+            "description": "제약 정제를 위한 보호 코팅 및 결합제"
+          },
+          "vitaminEncapsulation": {
+            "name": "비타민 캡슐화",
+            "description": "비타민, 뉴트라슈티컬 및 식이 보충제의 캡슐화"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "readMore": "더 읽기",
+    "back": "뒤로",
+    "discoverMoreInfo": "더 많은 정보 알아보기"
+  },
+  "contact": {
+    "title": "문의하기",
+    "hero": {
+      "heading": "더 나은 연결을 위해 연락하세요.",
+      "whatsappCall": "왓츠앱 / 전화",
+      "email": "이메일"
+    },
+    "form": {
+      "companyName": "회사명을 입력해주세요 *",
+      "name": "이름을 입력해주세요 *",
+      "email": "이메일을 입력해주세요 *",
+      "subject": "제목 *",
+      "product": "제품 선택 *",
+      "products": {
+        "fishCollagen": "어류 콜라겐",
+        "fishGelatin": "어류 젤라틴",
+        "other": "기타"
+      },
+      "message": "메시지 *",
+      "sendMessage": "메시지 보내기"
+    },
+    "factory": {
+      "title": "공장",
+      "companyName": "아토스 콜라겐 주식회사",
+      "address": {
+        "line1": "플롯 번호 B-19, 구자라트 농업 인프라",
+        "line2": "메가 푸드 파크, 샤 & 바스라비 마을, 탈.",
+        "line3": "망롤, 수랏-394410, 구자라트, 인도"
+      }
+    }
+  }
+}
