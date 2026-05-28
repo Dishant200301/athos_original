@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Send, Linkedin, Instagram, Youtube, Facebook } from 'lucide-react';
+import { Send, Linkedin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useToast } from '@/hooks/use-toast';
 
@@ -556,15 +556,6 @@ startxref
                 <div className="flex items-center space-x-6">
                   <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[rgba(106,191,0,1)] transition-colors">
                     <Linkedin className="h-8 w-8 stroke-[1.5]" />
-                  </a>
-                  <a href="https://instagram.com/athoscollagen" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[rgba(106,191,0,1)] transition-colors">
-                    <Instagram className="h-8 w-8 stroke-[1.5]" />
-                  </a>
-                  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[rgba(106,191,0,1)] transition-colors">
-                    <Youtube className="h-8 w-8 stroke-[1.5]" />
-                  </a>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[rgba(106,191,0,1)] transition-colors">
-                    <Facebook className="h-8 w-8 stroke-[1.5]" />
                   </a>
                 </div>
               </div>

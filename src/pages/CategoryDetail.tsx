@@ -74,85 +74,57 @@ const CategoryDetail = () => {
   const getSubcategories = (id: string, categoryKey: string) => {
     const subcategoryMap = {
       'food-beverages': [
-        { key: 'collagenWaterBeverages', image: '/images/Nutraceuticals_and_Dietary_Supplements/Drink_beverages.png' },
-        { key: 'proteinShakesSmoothies', image: '/images/Nutraceuticals_and_Dietary_Supplements/Protein_shakes.png' },
-        { key: 'functionalFoodsFortified', image: '/images/Nutraceuticals_and_Dietary_Supplements/Functional_foods.png' },
-        { key: 'dietarySupplements', image: '/images/Nutraceuticals_and_Dietary_Supplements/Dietary_Supplements.png' },
-        { key: 'cerealsEnergyDrinks', image: '/images/Nutraceuticals_and_Dietary_Supplements/Drink_beverages.png' },
-        { key: 'snacks', image: '/images/Nutraceuticals_and_Dietary_Supplements/Snacks.png' },
-        { key: 'improveStability', image: '/images/Food_and_Beverages/Powder.png' },
-        { key: 'helpDigestion', image: '/images/Food_and_Beverages/Joint_health_supplements.png' }
+        { key: 'functionalFoods', image: '/images/Nutraceuticals_and_Dietary_Supplements/Functional_foods.png' },
+        { key: 'proteinShakes', image: '/images/Nutraceuticals_and_Dietary_Supplements/Protein_shakes.png' },
+        { key: 'snacks', image: '/images/Nutraceuticals_and_Dietary_Supplements/Snacks.png' }
       ],
       'nutraceuticals': [
-        { key: 'proteinBars', image: '/images/Food_and_Beverages/Protein_Bars.png' },
         { key: 'drinks', image: '/images/Food_and_Beverages/Drinks.png' },
-        { key: 'jointHealthSupplements', image: '/images/Food_and_Beverages/Joint_health_supplements.png' },
-        { key: 'powders', image: '/images/Food_and_Beverages/Powder.png' }
+        { key: 'proteinBars', image: '/images/Food_and_Beverages/Protein_Bars.png' },
+        { key: 'powder', image: '/images/Food_and_Beverages/Powder.png' }
       ],
       'cosmetics': [
-        { key: 'antiAgingCreamsSerums', image: '/images/Cosmetics_and_Skincare/Anti_Aging_Formulations.png' },
-        { key: 'moisturizers', image: '/images/Cosmetics_and_Skincare/Moisturization_&_Hydration.png' },
-        { key: 'hairCareProducts', image: '/images/Cosmetics_and_Skincare/Hair_&_Nail_Strengthening.png' },
-        { key: 'nailCareTreatments', image: '/images/Cosmetics_and_Skincare/Brightening_and_Even_Skin.png' },
-        { key: 'faceMasks', image: '/images/Cosmetics_and_Skincare/Skin_Repair_&_Regeneration.png' }
+        { key: 'antiAgingFormulations', image: '/images/Cosmetics_and_Skincare/Anti_Aging_Formulations.png' },
+        { key: 'moisturizationHydration', image: '/images/Cosmetics_and_Skincare/Moisturization_&_Hydration.png' },
+        { key: 'hairNailStrengthening', image: '/images/Cosmetics_and_Skincare/Hair_&_Nail_Strengthening.png' }
       ],
       'pharmaceuticals': [
-        { key: 'drugDeliverySystems', image: '/images/Pharmaceuticals/Drug_Delivery_Systems.png' },
-        { key: 'helpJointPain', image: '/images/Pharmaceuticals/Oral_Supplements.png' },
-        { key: 'injectionOrganItems', image: '/images/Pharmaceuticals/Surgical.png' },
-        { key: 'treatMusculoskeletal', image: '/images/Pharmaceuticals/Tissue_Engineering_&_Biomaterials.png' },
-        { key: 'stabilizeBloodSugar', image: '/images/Pharmaceuticals/Drug_Formulation_Stabilizer.png' },
-        { key: 'supportHairNail', image: '/images/Cosmetics_and_Skincare/Hair_&_Nail_Strengthening.png' },
-        { key: 'woundHealingProducts', image: '/images/Pharmaceuticals/Wound_Healing.png' },
-        { key: 'tissueEngineering', image: '/images/Pharmaceuticals/Tissue_Engineering_&_Biomaterials.png' }
+        { key: 'oralSupplements', image: '/images/Pharmaceuticals/Oral_Supplements.png' },
+        { key: 'woundHealing', image: '/images/Pharmaceuticals/Wound_Healing.png' },
+        { key: 'tissueEngineeringBiomaterials', image: '/images/Pharmaceuticals/Tissue_Engineering_&_Biomaterials.png' }
       ],
       'pet-food': [
-        { key: 'jointFunction', image: '/images/Pet_Food/Joint_&_Bone_Health.png' },
-        { key: 'skinHealth', image: '/images/Pet_Food/Skin_&_Coat_Health.png' },
-        { key: 'gutHealthMobility', image: '/images/Pet_Food/Digestive_Health.png' }
+        { key: 'jointBoneHealth', image: '/images/Pet_Food/Joint_&_Bone_Health.png' },
+        { key: 'skinCoatHealth', image: '/images/Pet_Food/Skin_&_Coat_Health.png' },
+        { key: 'overallVitalityLongevity', image: '/images/Pet_Food/Overall_Vitality_&_Longevity.png' }
       ],
       'biotechnology': [
-        { key: 'scaffoldMaterials', image: '/images/Biomedical/Cell_Culture_&_Research.png' },
-        { key: 'biocompatibleMaterials', image: '/images/Biomedical/Biocompatible_Medical_Implants.png' }
+        { key: 'biomaterialsDrugDelivery', image: '/images/Biomedical/Biomaterials_for_Drug_Delivery.png' },
+        { key: 'threeDBioprinting', image: '/images/Biomedical/3D_Bioprinting.png' },
+        { key: 'regenerationTissueEngineering', image: '/images/Biomedical/regeneration_and_tissue_engineering.png' }
       ],
       'food-industry': [
-        { key: 'stabilizer', image: '/images/Food_Industry/Stabilizer.png' },
-        { key: 'clarifyingAgent', image: '/images/Food_Industry/Clarifying_Agent.png' },
-        { key: 'emulsifier', image: '/images/Food_Industry/Emulsifier.png' },
         { key: 'gummyCandy', image: '/images/Food_Industry/Gummy_&_Candy.png' },
-        { key: 'thickener', image: '/images/Food_Industry/Thickner.png' },
-        { key: 'gellingTexturizerDairy', image: '/images/Food_Industry/Gellin_Texturizer.png' },
-        { key: 'confectionery', image: '/images/Food_Industry/Confectionery.png' },
-        { key: 'dairy', image: '/images/Food_Industry/Dairy_Products.png' },
-        { key: 'desserts', image: '/images/Food_Industry/Desserts.png' }
+        { key: 'clarifyingAgent', image: '/images/Food_Industry/Clarifying_Agent.png' },
+        { key: 'desserts', image: '/images/Food_Industry/Desserts.png' },
+        { key: 'stabilizer', image: '/images/Food_Industry/Stabilizer.png' },
+        { key: 'thickner', image: '/images/Food_Industry/Thickner.png' },
+        { key: 'dairyProducts', image: '/images/Food_Industry/Dairy_Products.png' }
       ],
       'cosmetics-skincare': [
         { key: 'moisturizer', image: '/images/Cosmetics/Moisturizer.png' },
         { key: 'serum', image: '/images/Cosmetics/Serum.png' },
-        { key: 'antiAgingProducts', image: '/images/Cosmetics/Anti_ageing_Products.png' },
-        { key: 'hairNailCare', image: '/images/Cosmetics/Hair_&_Nail_Care.png' },
-        { key: 'makeupBeauty', image: '/images/Cosmetics/Makeup_&_Beauty.png' }
+        { key: 'skinRepair', image: '/images/Cosmetics/Skin_Repair.png' }
       ],
       'biomedical-applications': [
-        { key: 'woundDressingsMedicalFilms', image: '/images/Biomedical_applications/Wound_Dressings.png' },
-        { key: 'controlledDrugRelease', image: '/images/Biomedical_applications/Drug_Release_Systems.png' },
-        { key: 'embolizationLyoprotection', image: '/images/Biomedical_applications/Embolization_healing.png' },
-        { key: 'bioprintingTissue', image: '/images/Biomedical_applications/3D_bioprinting.png' },
-        { key: 'microcarriers', image: '/images/Biomedical_applications/Microcarriers.png' },
-        { key: 'cellDelivery', image: '/images/Biomedical_applications/Cell_delivery.png' },
-        { key: 'drugDelivery', image: '/images/Biomedical_applications/Drug_delivery.png' },
-        { key: 'regenerativeMedicine', image: '/images/Biomedical_applications/Regenerative_medicine.png' },
-        { key: 'plasma', image: '/images/Biomedical_applications/Plasma.png' },
-        { key: 'cryoprotection', image: '/images/Biomedical_applications/Lyoprotection_vaccines.png' },
-        { key: 'lyoprotectionVaccines', image: '/images/Biomedical_applications/Lyoprotection_vaccines.png' }
+        { key: 'woundDressings', image: '/images/Biomedical_applications/Wound_Dressings.png' },
+        { key: 'lyoprotectionVaccines', image: '/images/Biomedical_applications/Lyoprotection_vaccines.png' },
+        { key: 'threeDBioprinting', image: '/images/Biomedical_applications/3D_bioprinting.png' }
       ],
       'pharma-industry': [
         { key: 'capsuleProduction', image: '/images/Pharma_Industry/Capsule_Production.png' },
         { key: 'tabletCoating', image: '/images/Pharma_Industry/Tablet_Coating.png' },
-        { key: 'encapsulationVitamins', image: '/images/Pharma_Industry/Encapsulation_of_Vitamins.png' },
-        { key: 'bindingAgentTablets', image: '/images/Pharma_Industry/Binding_Agent_in_Tablets.png' },
-        { key: 'controlledDrugRelease', image: '/images/Pharma_Industry/Controlled_Drug_Release.png' },
-        { key: 'plasmaExpanders', image: '/images/Pharma_Industry/Plasma_Expanders.png' }
+        { key: 'encapsulationVitamins', image: '/images/Pharma_Industry/Encapsulation_of_Vitamins.png' }
       ]
     };
 

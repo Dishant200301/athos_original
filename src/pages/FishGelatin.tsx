@@ -239,7 +239,7 @@ const FishGelatin = () => {
           <section className="relative h-screen flex items-center justify-start overflow-hidden pt-16 md:pt-20">
             <div className="absolute inset-0">
               <img
-                src="/images/background2.png"
+                src="/images/background21.png"
                 alt="Fish Gelatin"
                 className="w-full h-full object-cover"
               />
@@ -378,7 +378,7 @@ const FishGelatin = () => {
 
                 <Button
                   variant="outline"
-                  className="border-white text-white bg-transparent text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-2 sm:py-3 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden"
+                  className="border-none text-white bg-transparent text-sm sm:text-base md:text-lg pr-4 sm:pr-6 md:pr-8 pl-0 py-2 sm:py-3 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden justify-start"
                 >
                   <span className="relative z-10 group-hover:text-black transition-colors duration-300 flex items-center">
                     {t('fishGelatin.discover.cta')}

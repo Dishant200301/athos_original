@@ -207,11 +207,11 @@ const FishCollagenPeptide = () => {
             }`}
         >
           <section className="relative h-screen flex items-end overflow-hidden pb-16 sm:pb-20 md:pb-24 lg:pb-32">
-            <div className="absolute inset-0">
+            <div className="absolute inset-0 overflow-hidden">
               <img
                 src="/images/background1.png"
                 alt="Fish Collagen Peptide"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover scale-150 md:scale-[1.6]"
               />
             </div>
 
@@ -330,7 +330,7 @@ const FishCollagenPeptide = () => {
 
                 <Button
                   variant="outline"
-                  className="border-white text-white bg-transparent text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-2 sm:py-3 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden"
+                  className="border-none text-white bg-transparent text-sm sm:text-base md:text-lg pr-4 sm:pr-6 md:pr-8 pl-0 py-2 sm:py-3 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden justify-start"
                   onClick={() => navigate('/fish-collagen-applications')}
                 >
                   <span className="relative z-10 group-hover:text-black transition-colors duration-300 flex items-center">

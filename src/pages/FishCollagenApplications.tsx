@@ -25,13 +25,7 @@ const FishCollagenApplications = () => {
   }, [t]);
 
   const handleDiscoverMore = (categoryId: string) => {
-    let targetId = categoryId;
-    if (categoryId === 'nutraceuticals') {
-      targetId = 'food-beverages';
-    } else if (categoryId === 'food-beverages') {
-      targetId = 'nutraceuticals';
-    }
-    navigate(`/category/${targetId}`);
+    navigate(`/category/${categoryId}`);
   };
 
   const categoryImageNameById: Record<string, string> = {

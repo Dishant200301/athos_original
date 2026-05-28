@@ -2,8 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
-import { Button } from '@/components/ui/button';
-import { ArrowRight, Target, Eye, Download, Mail, Youtube, Instagram } from 'lucide-react';
+
 import facilityImg from '@/assets/athos-facility.jpg';
 import rdLabImg from '@/assets/rd-lab.jpg';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
@@ -87,7 +86,7 @@ const About = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <section className="relative h-[calc(100vh-5rem)] flex items-end justify-center overflow-hidden mt-20" style={{minHeight: 'calc(100vh - 5rem)'}}>
+          <section className="relative h-[calc(100vh-5rem)] flex items-center overflow-hidden mt-20" style={{minHeight: 'calc(100vh - 5rem)'}}>
             <div className="absolute inset-0">
               <img
                 src="/images/athos_about.jpg"
@@ -96,10 +95,12 @@ const About = () => {
               />
             </div>
             
-            <div className="relative z-10 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 text-left pb-20">
-              <h1 className="text-white font-medium leading-tight text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-5xl">
-                {t('about.heroTitle')}
-              </h1>
+            <div className="relative z-10 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex justify-center">
+              <div className="w-full md:w-max max-w-[90%] md:max-w-full flex flex-col items-center justify-center text-center md:translate-x-[10%] lg:translate-x-[12%] xl:translate-x-[15%]">
+                <h1 className="text-white font-semibold tracking-wide drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center whitespace-pre-line">
+                  {t('about.heroTitle')}
+                </h1>
+              </div>
             </div>
           </section>
         </div>
@@ -248,6 +249,9 @@ const About = () => {
           <section className="py-12 md:py-20 bg-background">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
               <div className="max-w-6xl mx-auto">
+                <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl text-left" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
+                  R & D
+                </h2>
                 <div className="relative bg-black rounded-xl overflow-hidden aspect-video">
                   <img
                     src={rdLabImg}

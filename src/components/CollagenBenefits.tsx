@@ -41,21 +41,21 @@ const CollagenBenefits = () => {
   return (
     <>
       <style>{`
-        @keyframes marquee {
+        @keyframes marquee-collagen {
           0% {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translateX(-25%);
           }
         }
-        .animate-marquee-container {
+        .animate-marquee-container-collagen {
           display: flex;
           width: max-content;
           gap: 1.5rem;
-          animation: marquee 30s linear infinite;
+          animation: marquee-collagen 30s linear infinite;
         }
-        .animate-marquee-container:hover {
+        .animate-marquee-container-collagen:hover {
           animation-play-state: paused;
         }
       `}</style>
@@ -66,9 +66,9 @@ const CollagenBenefits = () => {
           </div>
 
           <div className="relative w-full overflow-hidden py-4 px-4">
-            <div className="animate-marquee-container">
-              {/* Duplicate the array to create a seamless infinite loop */}
-              {[...benefits, ...benefits].map((benefit, index) => (
+            <div className="animate-marquee-container-collagen">
+              {/* Duplicate the array 4 times to create a seamless infinite loop even on ultra-wide screens */}
+              {[...benefits, ...benefits, ...benefits, ...benefits].map((benefit, index) => (
                 <Link 
                   key={index} 
                   to={`/category/${benefit.categoryId}`} 

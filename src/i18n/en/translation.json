@@ -29,7 +29,7 @@
       "foodBeverages": "Food and Beverages",
       "pharmaceutical": "Pharmaceutical Industry",
       "cosmeceutical": "Cosmeceutical Supplements",
-      "petFoods": "Pet Food Supplements",
+      "petFoods": "Pet Food",
       "biomedical": "Biomedical Applications"
     }
   },
@@ -81,7 +81,7 @@
         "nutraceuticals": "Nutraceuticals Supplements",
         "foodBeverages": "Food and Beverages",
         "cosmeticsSkincare": "Cosmeceutical Supplements",
-        "petFood": "Pet Food Supplements",
+        "petFood": "Pet Food",
         "pharmaceuticals": "Pharmaceutical Industry",
         "biotechnology": "Biomedical Applications"
       }
@@ -115,18 +115,18 @@
   },
   "about": {
     "title": "About Us",
-    "heroTitle": "World's best premium Quality Fish Collagen Peptide",
+    "heroTitle": "World’s Best premium Quality\nFish Collagen Peptide\nAnd Fish Gelatin",
     "aboutContent": [
       "Athos Collagen Pvt. Ltd is One of the top companies in India for producing and supplying premium quality Fish Collagen Peptide, FiColla (Clinically approved), Fish Collagen Granules and Fish Gelatin.",
       "Fish Collagen Peptide and Fish Gelatin are made in accordance with industry standards by knowledgeable staff members. Using cutting-edge equipment and high-quality raw materials that are sourced from recognized vendors on the global market, Fish Collagen Peptide and Fish Gelatin are produced. To ensure quality requirements are met, a group of seasoned experts monitor different production phases.",
       "Our world-class manufacturing facility, equipped with advanced automated plant is operated under fully hygienic conditions as defined by GHP, SSOP and 5S. protocols, ensures premium quality, safety, and purity in every batch.",
-      "With a global presence in over 50 countries, we deliver premium Fish Collagen Peptide, FiColla (clinically approved), Fish Collagen Granules and Fish Gelatin. trusted for its quality.",
+      "With a global presence in over 50 countries, we deliver premium Fish Collagen Peptide, (Clinically approved Fish Collagen Peptide), Fish Collagen Granules and Fish Gelatin. trusted for its quality.",
       "Manufactured exclusively in a Fish Source Only facility, ensuring zero cross-contamination from other sources."
     ],
     "applications": "Applications",
     "mission": {
       "title": "Mission",
-      "description": "Our mission is to offer world-class marine collagen products and services that elevate the well-being and daily lives of people globally"
+      "description": "Our mission is to offer world-class marine collagen that elevate the well-being and daily lives of people globally"
     },
     "vision": {
       "title": "Vision",
@@ -361,7 +361,7 @@
           ]
         },
         "petFood": {
-          "name": "Pet Food Supplements",
+          "name": "Pet Food",
           "description": "Nourish your pet from the inside out with Marine Collagen Peptide. Supports healthy movement, shiny coats, and overall vitality.",
           "applications": [
             "joint function, ",
@@ -433,121 +433,93 @@
         "title": "Food and Beverages",
         "description": "Scientifically formulated food and beverages with marine collagen peptide. Designed to support functional nutrition with proven quality standards.",
         "subcategories": {
-          "collagenWaterBeverages": "Collagen-infused water and beverages.",
-          "proteinShakesSmoothies": "Protein shakes and smoothies.",
-          "functionalFoodsFortified": "Functional foods (fortified with collagen).",
-          "dietarySupplements": "Dietary Supplements.",
-          "cerealsEnergyDrinks": "Cereals and Energy drinks.",
-          "snacks": "Snacks.",
-          "improveStability": "Improve the emulsifying stability, hardness, and water-binding capacity of foods.",
-          "helpDigestion": "Help with digestion, absorption, and distribution throughout the body."
+          "functionalFoods": "Functional foods",
+          "proteinShakes": "Protein shakes",
+          "snacks": "Snacks"
         }
       },
       "nutraceuticals": {
         "title": "Nutraceutical",
         "description": "Precision-formulated nutraceuticals using high-quality, bioavailable marine collagen peptide. Designed to support optimal body function and well-being.",
         "subcategories": {
-          "proteinBars": "Protein bars",
-          "drinks": "drinks",
-          "jointHealthSupplements": "Joint health supplements",
-          "powders": "powders"
+          "drinks": "Drinks",
+          "proteinBars": "Protein Bars",
+          "powder": "Powder"
         }
       },
       "cosmetics": {
         "title": "Cosmeceutical",
         "description": "Marine Collagen Peptide Hydrates, firms, and rejuvenates skin, hair, and nails while enhancing product texture and performance.",
         "subcategories": {
-          "antiAgingCreamsSerums": "Anti-aging creams and serums.",
-          "moisturizers": "Moisturizers.",
-          "hairCareProducts": "Hair care products.",
-          "nailCareTreatments": "Nail care treatments.",
-          "faceMasks": "Face masks."
+          "antiAgingFormulations": "Anti-Aging Formulations",
+          "moisturizationHydration": "Moisturization & Hydration",
+          "hairNailStrengthening": "Hair & Nail Strengthening"
         }
       },
       "pharmaceuticals": {
         "title": "Pharmaceutical",
         "description": "Pharmaceutical-grade Marine collagen peptide developed under strict quality standards. Designed to support research-driven formulations and therapeutic nutrition.",
         "subcategories": {
-          "drugDeliverySystems": "Drug delivery systems.",
-          "helpJointPain": "Help with joint pain and inflammation.",
-          "injectionOrganItems": "Injection-based organ items",
-          "treatMusculoskeletal": "Treat musculoskeletal disorders like osteoporosis and sarcopenia.",
-          "stabilizeBloodSugar": "Stabilize blood sugar levels.",
-          "supportHairNail": "Supporting hair and nail growth.",
-          "woundHealingProducts": "Wound healing products.",
-          "tissueEngineering": "Tissue engineering."
+          "oralSupplements": "Oral Supplements",
+          "woundHealing": "Wound Healing",
+          "tissueEngineeringBiomaterials": "Tissue Engineering & Biomaterials"
         }
       },
       "petFood": {
-        "title": "Pet Food Supplements",
+        "title": "Pet Food",
         "description": "Nourish your pet from the inside out with Marine Collagen Peptide. Supports healthy movement, shiny coats, and overall vitality.",
         "subcategories": {
-          "jointFunction": "joint function,",
-          "skinHealth": "skin health,",
-          "gutHealthMobility": "Gut health and mobility."
+          "jointBoneHealth": "Joint & Bone Health",
+          "skinCoatHealth": "Skin & Coat Health",
+          "overallVitalityLongevity": "Overall Vitality & Longevity"
         }
       },
       "biotechnology": {
         "title": "Biomedical",
         "description": "From lab to life, Marine collagen peptide makes it possible. The essential protein for tissue engineering and regenerative medicine.",
         "subcategories": {
-          "scaffoldMaterials": "Scaffold materials for cell culture.",
-          "biocompatibleMaterials": "Biocompatible materials for medical implants."
+          "biomaterialsDrugDelivery": "Biomaterials for Drug Delivery",
+          "threeDBioprinting": "3D Bioprinting",
+          "regenerationTissueEngineering": "regeneration and tissue engineering"
         }
       },
       "foodIndustry": {
         "title": "Foods",
         "description": "Fish gelatin enhances functional foods, confectionery, desserts, and snacks, while providing gelling, thickening, and stabilizing properties in formulations.",
         "subcategories": {
-          "stabilizer": "Stabilizer",
+          "gummyCandy": "Gummy & Candy",
           "clarifyingAgent": "Clarifying Agent",
-          "emulsifier": "Emulsifier",
-          "gummyCandy": "gummy & candy",
-          "thickener": "thickener",
-          "gellingTexturizerDairy": "gelling Texturizer and Dairy Products Agent",
-          "confectionery": "Confectionery",
-          "dairy": "Dairy",
-          "desserts": "Desserts"
+          "desserts": "Desserts",
+          "stabilizer": "Stabilizer",
+          "thickner": "Thickner",
+          "dairyProducts": "Dairy Products"
         }
       },
       "cosmeticsSkincare": {
         "title": "Cosmeceutical",
         "description": "Fish gelatin enhances creams, masks, and serums by providing natural thickening, gelling, and film-forming properties for smooth, stable, and luxurious formulations.",
         "subcategories": {
-          "moisturizer": "moisturizer",
-          "serum": "serum",
-          "antiAgingProducts": "Anti ageing Products",
-          "hairNailCare": "Hair & Nail Care",
-          "makeupBeauty": "Makeup & Beauty"
+          "moisturizer": "Moisturizer",
+          "serum": "Serum",
+          "skinRepair": "Skin Repair"
         }
       },
       "biomedicalApplications": {
         "title": "Biomedical",
         "description": "Fish collagen supports tissue engineering, wound healing, and regenerative medicine by providing a biocompatible, bioactive protein scaffold.",
         "subcategories": {
-          "woundDressingsMedicalFilms": "Wound Dressings & Medical Films",
-          "controlledDrugRelease": "Controlled Drug Release Systems",
-          "embolizationLyoprotection": "Embolization  Lyoprotectiond healing",
-          "bioprintingTissue": "3D bioprinting / tissue engineering",
-          "microcarriers": "Microcarriers",
-          "cellDelivery": "Cell delivery",
-          "drugDelivery": "Drug delivery",
-          "regenerativeMedicine": "Regenerative medicine",
-          "plasma": "Plasma",
-          "cryoprotection": "Cryoprotection",
-          "lyoprotectionVaccines": "Lyoprotection / vaccines"
+          "woundDressings": "Wound Dressings",
+          "lyoprotectionVaccines": "Lyoprotection / vaccines",
+          "threeDBioprinting": "3D bioprinting"
         }
       },
       "pharmaIndustry": {
         "title": "Pharmaceutical",
         "description": "Fish gelatin is a key ingredient in pharmaceutical capsules, tablets, and soft gels, providing a natural, biocompatible, and stable coating.",
         "subcategories": {
-          "capsuleProduction": "Capsule Production (soft gels & hard gels)",
+          "capsuleProduction": "Capsule Production",
           "tabletCoating": "Tablet Coating",
-          "encapsulationVitamins": "Encapsulation of Vitamins & Nutraceuticals",
-          "bindingAgentTablets": "Binding Agent in Tablets",
-          "controlledDrugRelease": "Controlled Drug Release Systems",
-          "plasmaExpanders": "Plasma Expanders (historical/limited medical use)"
+          "encapsulationVitamins": "Encapsulation of Vitamins"
         }
       }
     }

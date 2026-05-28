@@ -7,13 +7,15 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Mail, Factory } from 'lucide-react';
+import { Mail, Factory, Building2 } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
+import { useToast } from '@/hooks/use-toast';
 import axios from 'axios'; // Import axios
 import { API_BASE_URL } from '../lib/apiConfig'; // Import API_BASE_URL
 
 const Contact = () => {
   const { t, i18n } = useTranslation();
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     companyName: '',
     name: '',
@@ -22,6 +24,7 @@ const Contact = () => {
     product: '',
     message: ''
   });
+  const [emailError, setEmailError] = useState('');
   
   const [heroRef, heroVisible] = useScrollAnimation(0.1);
   const [contactInfoRef, contactInfoVisible] = useScrollAnimation(0.1);
@@ -41,8 +44,100 @@ const Contact = () => {
     }));
   };
 
+  const handleEmailChange = (val: string) => {
+    handleInputChange('email', val);
+    
+    const personalDomains = [
+      'gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com',
+      'aol.com', 'icloud.com', 'mail.com', 'zoho.com',
+      'protonmail.com', 'proton.me', 'live.com', 'gmx.com',
+      'yandex.com', 'mail.ru'
+    ];
+    
+    const trimmed = val.trim().toLowerCase();
+    const parts = trimmed.split('@');
+    if (parts.length === 2) {
+      const domain = parts[1];
+      if (personalDomains.includes(domain)) {
+        setEmailError('Personal email domains (e.g. Gmail, Yahoo) are not allowed. Please use a business email.');
+      } else {
+        setEmailError('');
+      }
+    } else {
+      setEmailError('');
+    }
+  };
+
+  const handleEmailBlur = () => {
+    const val = formData.email.trim().toLowerCase();
+    if (!val) {
+      setEmailError('');
+      return;
+    }
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(val)) {
+      setEmailError('Please enter a valid email address.');
+      return;
+    }
+    
+    const personalDomains = [
+      'gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com',
+      'aol.com', 'icloud.com', 'mail.com', 'zoho.com',
+      'protonmail.com', 'proton.me', 'live.com', 'gmx.com',
+      'yandex.com', 'mail.ru'
+    ];
+    
+    const parts = val.split('@');
+    if (parts.length === 2) {
+      const domain = parts[1];
+      if (personalDomains.includes(domain)) {
+        setEmailError('Personal email domains (e.g. Gmail, Yahoo) are not allowed. Please use a business email.');
+        toast({
+          title: "Business Email Required",
+          description: "Please do not use personal domains like Gmail, Yahoo, etc.",
+          variant: "destructive",
+        });
+      } else {
+        setEmailError('');
+      }
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Final check for business email
+    const val = formData.email.trim().toLowerCase();
+    const personalDomains = [
+      'gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com',
+      'aol.com', 'icloud.com', 'mail.com', 'zoho.com',
+      'protonmail.com', 'proton.me', 'live.com', 'gmx.com',
+      'yandex.com', 'mail.ru'
+    ];
+    const parts = val.split('@');
+    if (parts.length === 2) {
+      const domain = parts[1];
+      if (personalDomains.includes(domain)) {
+        setEmailError('Personal email domains (e.g. Gmail, Yahoo) are not allowed. Please use a business email.');
+        toast({
+          title: "Business Email Required",
+          description: "Please do not use personal domains like Gmail, Yahoo, etc.",
+          variant: "destructive",
+        });
+        return;
+      }
+    }
+    
+    if (emailError) {
+      toast({
+        title: "Invalid Input",
+        description: "Please correct the email domain error before submitting.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     try {
       const response = await axios.post(`${API_BASE_URL}/contact`, formData);
       console.log('Form submission successful:', response.data);
@@ -56,6 +151,7 @@ const Contact = () => {
         product: '',
         message: ''
       });
+      setEmailError('');
     } catch (error) {
       console.error('Form submission error:', error);
       alert('Failed to send your inquiry. Please try again later.');
@@ -65,7 +161,7 @@ const Contact = () => {
   return (
     <div className="bg-background overflow-x-hidden w-full">
       <Navbar />
-      <main className="py-12 md:py-20 bg-background">
+      <main className="py-12 md:py-20 bg-background mt-20">
         <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
           
           {/* Top Section - Contact Information & Address */}
@@ -134,7 +230,7 @@ const Contact = () => {
               {/* Head Office Address */}
               <div className="flex flex-col items-center text-center space-y-4 px-4">
                 <div className="flex justify-center">
-                  <Factory className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
+                  <Building2 className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
                 </div>
                 <div>
                   <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
@@ -206,10 +302,18 @@ const Contact = () => {
                       type="email"
                       placeholder={t('contact.form.email')}
                       value={formData.email}
-                      onChange={(e) => handleInputChange('email', e.target.value)}
-                      className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
+                      onChange={(e) => handleEmailChange(e.target.value)}
+                      onBlur={handleEmailBlur}
+                      className={`w-full h-12 px-4 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 text-sm ${
+                        emailError ? 'border-red-500 focus:ring-red-500' : 'border-gray-300'
+                      }`}
                       style={{ fontFamily: 'Inter', color: 'rgba(153, 153, 153, 1)' }}
                     />
+                    {emailError && (
+                      <p className="text-red-500 text-xs mt-1 text-left" style={{ fontFamily: 'Inter' }}>
+                        {emailError}
+                      </p>
+                    )}
                   </div>
                 </div>
 
@@ -288,17 +392,18 @@ const Contact = () => {
 
           </div>
 
-          {/* Contact Teaser Section */}
-          <div 
-            ref={contactTeaserRef}
-            className={`transition-all duration-500 ease-out delay-200 ${
-              contactTeaserVisible 
-                ? 'opacity-100 translate-y-0' 
-                : 'opacity-0 translate-y-8'
-            }`}
-          >
-            <ContactTeaser />
-          </div>
+        </div>
+
+        {/* Contact Teaser Section */}
+        <div 
+          ref={contactTeaserRef}
+          className={`transition-all duration-500 ease-out delay-200 ${
+            contactTeaserVisible 
+              ? 'opacity-100 translate-y-0' 
+              : 'opacity-0 translate-y-8'
+          }`}
+        >
+          <ContactTeaser />
         </div>
       </main>
       <Footer />
