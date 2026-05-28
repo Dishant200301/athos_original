@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const ContactTeaser = () => {
   const { t } = useTranslation();
   return (
-    <section className="pt-16 md:pt-20 pb-0 bg-white">
+    <section className="pt-16 md:pt-20 pb-12 md:pb-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12 lg:gap-8">

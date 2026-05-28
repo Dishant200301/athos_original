@@ -308,7 +308,7 @@ const FishCollagenPeptide = () => {
           </section>
 
           <div 
-            className="relative py-28 md:py-40 lg:py-52 flex items-center overflow-hidden"
+            className="relative py-16 md:py-24 lg:py-32 flex items-center overflow-hidden"
             style={{
               backgroundImage: 'url(/images/background1.png)',
               backgroundSize: '100% 100%',

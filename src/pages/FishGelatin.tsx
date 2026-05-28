@@ -356,7 +356,7 @@ const FishGelatin = () => {
             </div>
           </section>
 
-          <div className="relative h-[400px] md:h-[500px] flex items-center overflow-hidden">
+          <div className="relative h-[300px] md:h-[400px] flex items-center overflow-hidden">
             <div className="absolute inset-0">
               <img
                 src="/images/fish_gelatin_discover.png"
