@@ -91,8 +91,8 @@ const Navbar = () => {
           : 'h-20 bg-white/80 backdrop-blur-md border-b border-white/30 shadow-sm'
     }`}>
       <nav className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 h-full flex items-center justify-between relative mobile-nav-container">
-        {/* Logo */}
-        <div className="flex items-center flex-shrink-0">
+        {/* ATHOS Logo (Left aligned on all viewports) */}
+        <div className="flex items-center flex-shrink-0 z-10">
           <Link to="/" className="flex items-center">
             <img 
               src="/images/athos_logo.webp" 
@@ -102,79 +102,103 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-6">
-          {/* About ATHOS */}
-          <Link
-            to="/about"
-            className="nav-link text-sm"
-          >
-            {t('nav.about')}
-          </Link>
-          
-          {/* Fish Collagen */}
-          <Link
-            to="/fish-collagen-peptide"
-            className="nav-link text-sm"
-          >
-            {t('nav.fishCollagen')}
-          </Link>
-          
-          {/* Fish Gelatin */}
-          <Link
-            to="/fish-gelatin"
-            className="nav-link text-sm"
-          >
-            {t('nav.fishGelatin')}
-          </Link>
-
-          {/* Applications Dropdown */}
-          <div 
-            className="relative"
-            onMouseEnter={handleApplicationsMouseEnter}
-            onMouseLeave={handleApplicationsMouseLeave}
-          >
-            <button
-              className="flex items-center space-x-1 nav-link text-sm"
-              aria-label="Applications selector"
+        {/* Desktop Navigation (Centered) */}
+        <div className="hidden md:flex items-center justify-center flex-grow mx-4 lg:mx-8">
+          <div className="flex items-center space-x-4 lg:space-x-6 xl:space-x-8">
+            {/* Home */}
+            <Link
+              to="/"
+              className="nav-link text-xs lg:text-sm font-medium whitespace-nowrap"
             >
-              <span>{t('about.applications')}</span>
-              <ChevronDown className="h-3 w-3" />
-            </button>
+              {t('nav.home')}
+            </Link>
 
-            {isApplicationsOpen && (
-              <>
-                {/* Invisible bridge to cover the gap */}
-                <div className="absolute top-full left-0 right-0 h-1 bg-transparent" />
-                <div 
-                  className="absolute top-full left-0 w-56 bg-white rounded-lg shadow-lg border border-gray-200 z-50 dropdown-enter-active"
-                  onMouseEnter={handleApplicationsMouseEnter}
-                  onMouseLeave={handleApplicationsMouseLeave}
-                >
-                  <div className="py-2">
-                    <Link 
-                      to="/fish-collagen-applications"
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-accent transition-colors"
-                      onClick={() => setIsApplicationsOpen(false)}
-                    >
-                      {t('nav.fishCollagen')}
-                    </Link>
-                    <Link 
-                      to="/fish-gelatin-applications"
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-accent transition-colors"
-                      onClick={() => setIsApplicationsOpen(false)}
-                    >
-                      {t('nav.fishGelatin')}
-                    </Link>
+            {/* About Us */}
+            <Link
+              to="/about"
+              className="nav-link text-xs lg:text-sm font-medium whitespace-nowrap"
+            >
+              {t('nav.about')}
+            </Link>
+
+            {/* FiColla Logo in the middle */}
+            <a 
+              href="https://ficolla.com/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center flex-shrink-0"
+            >
+              <img 
+                src="/images/Fi-Colla-Logo.png" 
+                alt="FiColla Logo" 
+                className="h-[14px] lg:h-[16px] w-auto object-contain transition-all duration-300 hover:scale-105"
+              />
+            </a>
+
+            {/* Fish Collagen Peptide */}
+            <Link
+              to="/fish-collagen-peptide"
+              className="nav-link text-xs lg:text-sm font-medium whitespace-nowrap"
+            >
+              {t('nav.fishCollagen')}
+            </Link>
+
+            {/* Fish Gelatin */}
+            <Link
+              to="/fish-gelatin"
+              className="nav-link text-xs lg:text-sm font-medium whitespace-nowrap"
+            >
+              {t('nav.fishGelatin')}
+            </Link>
+
+            {/* Applications Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={handleApplicationsMouseEnter}
+              onMouseLeave={handleApplicationsMouseLeave}
+            >
+              <button
+                className="flex items-center space-x-1 nav-link text-xs lg:text-sm font-medium whitespace-nowrap"
+                aria-label="Applications selector"
+              >
+                <span>{t('about.applications')}</span>
+                <ChevronDown className="h-3 w-3" />
+              </button>
+
+              {isApplicationsOpen && (
+                <>
+                  {/* Invisible bridge to cover the gap */}
+                  <div className="absolute top-full left-0 right-0 h-1 bg-transparent" />
+                  <div 
+                    className="absolute top-full left-0 w-56 bg-white rounded-lg shadow-lg border border-gray-200 z-50 dropdown-enter-active"
+                    onMouseEnter={handleApplicationsMouseEnter}
+                    onMouseLeave={handleApplicationsMouseLeave}
+                  >
+                    <div className="py-2">
+                      <Link 
+                        to="/fish-collagen-applications"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-accent transition-colors"
+                        onClick={() => setIsApplicationsOpen(false)}
+                      >
+                        {t('nav.fishCollagen')}
+                      </Link>
+                      <Link 
+                        to="/fish-gelatin-applications"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-accent transition-colors"
+                        onClick={() => setIsApplicationsOpen(false)}
+                      >
+                        {t('nav.fishGelatin')}
+                      </Link>
+                    </div>
                   </div>
-                </div>
-              </>
-            )}
+                </>
+              )}
+            </div>
           </div>
         </div>
 
-        {/* Language Switcher & Contact Button */}
-        <div className="hidden md:flex items-center space-x-4">
+        {/* Right Actions: Language Switcher & Inquiry Button */}
+        <div className="hidden md:flex items-center space-x-3 lg:space-x-4 flex-shrink-0 z-10">
           {/* Language Switcher */}
           <div 
             className="relative"
@@ -183,11 +207,11 @@ const Navbar = () => {
           >
             <button
               onClick={() => setIsLanguageOpen(!isLanguageOpen)}
-              className="flex items-center space-x-2 px-3 py-2 nav-link text-sm"
+              className="flex items-center space-x-1 lg:space-x-2 px-2 py-1.5 nav-link text-xs lg:text-sm font-medium"
               aria-label="Language selector"
             >
               <span className="text-base">{currentLanguage.flag}</span>
-              <span className="text-sm font-medium">{currentLanguage.name}</span>
+              <span className="text-xs lg:text-sm font-medium uppercase">{currentLanguage.code}</span>
               <ChevronDown className="h-3 w-3" />
             </button>
 
@@ -200,7 +224,7 @@ const Navbar = () => {
                   onMouseEnter={handleLanguageMouseEnter}
                   onMouseLeave={handleLanguageMouseLeave}
                 >
-                  <div className="py-3">
+                  <div className="py-2.5">
                     {languages.map((lang) => (
                       <button
                         key={lang.code}
@@ -208,10 +232,10 @@ const Navbar = () => {
                           changeLanguage(lang.code);
                           setIsLanguageOpen(false);
                         }}
-                        className={`w-full flex items-center space-x-3 px-4 py-3 text-sm transition-colors ${
+                        className={`w-full flex items-center space-x-3 px-4 py-2.5 text-sm transition-colors ${
                           currentLanguage.code === lang.code 
                             ? 'bg-accent text-primary' 
-                            : 'hover:bg-accent_text-gray-700'
+                            : 'hover:bg-accent text-gray-700'
                         }`}
                       >
                         <span className="text-base">{lang.flag}</span>
@@ -224,19 +248,25 @@ const Navbar = () => {
             )}
           </div>
 
-          {/* Contact Button */}
+          {/* Inquiry Button */}
           <Link to="/contact">
-            <Button className="btn-primary">
-              Contact Us
+            <Button 
+              className="text-white text-xs lg:text-sm px-4 py-1.5 h-9 hover:opacity-90 transition-opacity font-medium rounded-lg shadow-sm"
+              style={{ backgroundColor: 'rgba(190, 230, 140, 1)' }}
+            >
+              INQUIRY
             </Button>
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Actions: Inquiry Button & Menu Toggle */}
         <div className="md:hidden flex items-center space-x-1 mobile-nav-right">
           <Link to="/contact">
-            <Button className="btn-primary text-xs px-2 py-1 h-7 flex-shrink-0">
-              Contact Us
+            <Button 
+              className="text-white text-xs px-3 py-1 h-7 flex-shrink-0 hover:opacity-90 transition-opacity font-medium rounded shadow-sm"
+              style={{ backgroundColor: 'rgba(190, 230, 140, 1)' }}
+            >
+              INQUIRY
             </Button>
           </Link>
           <button
@@ -254,7 +284,16 @@ const Navbar = () => {
         <div className="md:hidden bg-white/95 backdrop-blur-md border-b border-white/30 shadow-lg">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 py-4">
             <div className="space-y-3">
-              {/* About ATHOS */}
+              {/* Home */}
+              <Link
+                to="/"
+                className="block py-2 nav-link text-sm"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('nav.home')}
+              </Link>
+              
+              {/* About Us */}
               <Link
                 to="/about"
                 className="block py-2 nav-link text-sm"

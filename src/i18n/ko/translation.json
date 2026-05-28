@@ -1,6 +1,7 @@
 {
   "nav": {
-    "about": "ATHOS 소개",
+    "home": "홈",
+    "about": "회사 소개",
     "fishCollagen": "어류 콜라겐",
     "fishGelatin": "어류 젤라틴",
     "blog": "블로그",
