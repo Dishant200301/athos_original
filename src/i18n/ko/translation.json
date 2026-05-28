@@ -64,7 +64,7 @@
     },
     "cobranding": {
       "title": "코브랜딩 기회",
-      "description": "프리미엄 브랜드 제품을 제공하기 위해 아토스 콜라겐 주식회사와 파트너십을 맺으세요. 저희 코브랜딩 프로그램에는 존경받는 브랜드명, 마케팅 자료 및 확립된 과학 연구에 대한 접근이 포함됩니다.",
+      "description": "프리미엄 브랜드의 해양성 콜라겐 펩타이드를 제공하기 위해 아토스 콜라겐 주식회사와 파트너십을 맺으세요. 저희 코브랜딩 프로그램에는 존경받는 브랜드명, 마케팅 자료 및 확립된 과학 연구에 대한 접근이 포함됩니다.",
       "cta": "문의하기"
     },
     "benefits": {
@@ -166,6 +166,35 @@
     "introTitle": "Athos Collagen Pvt. Ltd.는 인도의 주요 어류 젤라틴 제조 및 수출 기업입니다",
     "introDesc1": "자연이 디자인한 어류 젤라틴은 높은 생체 적합성과 깨끗한 기능성을 제공하여 식품, 건강기능식품, 의약품, 화장품 및 바이오메디컬 산업 전반에 적합합니다.",
     "introDesc2": "어류 젤라틴은 더 넓은 시장 접근성, 높은 소비자 수용도, 그리고 글로벌 클린 라벨 및 지속 가능성 트렌드와의 부합을 제공하며 차세대 대체재로 점차 자리 잡고 있습니다.",
+    "scienceSection": {
+      "title": "어류 젤라틴의 과학",
+      "cards": {
+        "gellingPower": {
+          "title": "겔화력",
+          "description": "고급 열가역적 겔화를 통해 단단한 구조에서 부드럽고 입안에서 녹는 식감까지 질감을 정밀하게 제어할 수 있습니다."
+        },
+        "formingAbility": {
+          "title": "피막 형성 능력",
+          "description": "액체 시스템을 얇고 내구성 있는 필름으로 변환하여 코팅, 캡슐화 및 보호 장벽에 이상적입니다."
+        },
+        "emulsionStability": {
+          "title": "신뢰할 수 있는 유화 안정성",
+          "description": "오일상과 수상의 균일한 혼합을 보장하여 일관성, 안정성 및 유통기한을 향상시킵니다."
+        },
+        "bindingAdhesion": {
+          "title": "결합 및 접착",
+          "description": "고체 및 반고체 제형에서 성분을 효율적으로 결합하여 구조적 완전성을 향상시킵니다."
+        },
+        "clarityPurity": {
+          "title": "투명도 및 순도",
+          "description": "맛, 색상 또는 제형의 안전성에 영향을 주지 않으면서 투명하고 깨끗한 용액을 제공합니다."
+        },
+        "digestibilityCleanLabel": {
+          "title": "소화성 및 클린 라벨",
+          "description": "소화 흡수성이 우수한 천연 유래 단백질로, 현대의 클린 라벨 제품의 요구 사항을 지원합니다."
+        }
+      }
+    },
     "productShowcase": {
       "usageTitle": "사용 카테고리",
       "discoverMore": "더 알아보기",
@@ -244,7 +273,7 @@
     }
   },
   "fishCollagen": {
-    "heroTitle": "어류 콜라겐",
+    "heroTitle": "피쉬 콜라겐 펩타이드",
     "introTitle": "Athos Collagen Pvt. Ltd.는 인도의 주요 피쉬 콜라겐 펩타이드 제조업체 및 수출업체입니다.",
     "introSubtitle": "피쉬 콜라겐 펩타이드는 마린 콜라겐 또는 가수분해 콜라겐 펩타이드로도 알려져 있습니다.",
     "productShowcase": {
@@ -342,11 +371,22 @@
         "신뢰할 수 있는 영양 – 콜레스테롤, 퓨린, 지방이 없고 알레르기 우려가 최소화된 대부분의 식단에 안전합니다 (어류 제외)."
       ]
     },
+    "uniqueness": {
+      "features": [
+        "97% 이상의 단백질 함량으로 높은 순도와 영양가 제공.",
+        "모든 아미노산을 포함하며, 글리신, 프롤린, 하이드록시프롤린(GPH) 함량이 40% 이상으로 매우 높아 콜라겐 트리펩타이드(CTP)를 형성합니다.",
+        "완벽한 무취, 무맛이며 물에 100% 용해됩니다.",
+        "생체 이용률과 흡수율을 크게 향상시킵니다.",
+        "ficolla 브랜드명으로 임상 승인을 받았습니다",
+        "어류 전용 시설에서만 제조되어 다른 원료로부터의 교차 오염이 전혀 없습니다.",
+        "세계적으로 공인된 인증 기관의 승인을 받았습니다."
+      ]
+    },
     "discover": {
       "title": "발견하기",
-      "selectApplication": "애플리케이션 선택",
-      "description": "식이 보충제, 기능성 식품을 설계하거나 생명의학 분야에서 일하든, 우리의 젤라틴은 우수한 제품을 달성하기 위한 기술적 도전을 극복하는 데 도움을 줄 수 있습니다.",
-      "cta": "어류 콜라겐이 어떻게 적용되는지 알아보기"
+      "selectApplication": "해양성 콜라겐 펩타이드의 응용 분야",
+      "description": "건강 기능 식품, 기능성 식품, 뉴트라슈티컬, 의약품, 코스메슈티컬, 반려동물 식품의 설계 및 바이오메디컬 분야에 이르기까지, 당사의 해양성 콜라겐 펩타이드는 기술적 과제를 극복하여 뛰어난 제품을 구현할 수 있도록 돕습니다.",
+      "cta": "피쉬 콜라겐 펩타이드가 어떻게 적용되는지 알아보기"
     },
     "pie": {
       "title": "Athos Fish Collagen Peptide Amino Acid Composition",
@@ -373,285 +413,123 @@
     "categories": {
       "foodBeverages": {
         "title": "식품 및 음료",
-        "description": "해양 콜라겐 펩타이드는 안정화 및 영양적 이점으로 인해 기능성 식품 및 음료에 널리 사용됩니다. 소화와 흡수를 지원하는 동시에 제형의 유화 안정성, 질감 및 수분 결합 능력을 향상시킵니다.",
+        "description": "해양 콜라겐 펩타이드를 함유하여 과학적으로 제조된 식품 및 음료. 입증된 품질 표준으로 기능성 영양을 지원하도록 설계되었습니다.",
         "subcategories": {
-          "drinks": "음료",
-          "proteinBars": "프로틴 바",
-          "powder": "파우더",
-          "jointHealthSupplements": "관절 건강 보충제"
-        },
-        "products": {
-          "functionalFoods": {
-            "name": "기능성 식품",
-            "description": "향상된 영양 및 생체 이용률을 위한 해양 콜라겐 펩타이드로 강화된 식품"
-          },
-          "proteinShakes": {
-            "name": "프로틴 쉐이크 및 스무디",
-            "description": "쉽게 소화되는 콜라겐 펩타이드가 함유된 고단백 음료"
-          },
-          "collagenWater": {
-            "name": "콜라겐 함유 물",
-            "description": "일상 건강을 위한 콜라겐 이점이 추가된 수분 공급 음료"
-          }
+          "collagenWaterBeverages": "콜라겐 함유 물 및 음료.",
+          "proteinShakesSmoothies": "단백질 쉐이크 및 스무디.",
+          "functionalFoodsFortified": "기능성 식품 (콜라겐 강화).",
+          "dietarySupplements": "식이 보충제.",
+          "cerealsEnergyDrinks": "시리얼 및 에너지 음료.",
+          "snacks": "스낵.",
+          "improveStability": "식품의 유화 안정성, 경도 및 수분 결합 능력 향상.",
+          "helpDigestion": "전신 소화, 흡수 및 분배 지원."
         }
       },
       "nutraceuticals": {
-        "title": "뉴트라슈티컬 및 식이 보충제",
-        "description": "음료, 단백질 바, 파우더 등 다양한 형태의 콜라겐 보충제를 통해 필수적인 영양을 공급합니다. 이 제품들은 피부, 모발, 근육 회복 및 전반적인 활력을 위해 설계되었습니다.",
+        "title": "뉴트라슈티컬",
+        "description": "고품질의 생체 이용률이 높은 해양 콜라겐 펩타이드를 사용하여 정밀하게 제조된 뉴트라슈티컬. 최적의 신체 기능과 웰빙을 지원하도록 설계되었습니다.",
         "subcategories": {
-          "functionalFoods": "기능성 식품",
-          "proteinShakes": "프로틴 쉐이크",
-          "drinkBeverages": "음료",
-          "snacks": "스낵",
-          "dietarySupplements": "식이 보충제"
-        },
-        "products": {
-          "functionalFoods": {
-            "name": "기능성 식품",
-            "description": "최적의 건강 이점을 위한 해양 콜라겐 펩타이드로 강화된 영양가 있는 기능성 식품"
-          },
-          "proteinShakes": {
-            "name": "프로틴 쉐이크",
-            "description": "근육 회복 및 건강을 위한 해양 콜라겐 펩타이드로 강화된 고단백 쉐이크"
-          },
-          "drinkBeverages": {
-            "name": "음료",
-            "description": "일상 영양 및 수분 공급을 위한 콜라겐 펩타이드가 함유된 상쾌한 음료"
-          },
-          "snacks": {
-            "name": "스낵",
-            "description": "이동 중 영양을 위한 해양 콜라겐 펩타이드로 풍부해진 건강한 스낵 옵션"
-          },
-          "dietarySupplements": {
-            "name": "식이 보충제",
-            "description": "전반적인 건강을 위한 해양 콜라겐 펩타이드가 함유된 포괄적인 식이 보충제"
-          }
+          "proteinBars": "단백질 바",
+          "drinks": "음료",
+          "jointHealthSupplements": "관절 건강 보충제",
+          "powders": "파우더"
         }
       },
       "cosmetics": {
-        "title": "화장품 및 스킨케어",
-        "description": "해양 콜라겐은 피부 탄력, 수분 공급 및 전반적인 외관을 개선하는 것으로 알려진 뷰티 및 퍼스널 케어의 핵심 성분입니다. 안티에이징 크림, 세럼, 모이스처라이저뿐만 아니라 헤어 케어, 네일 트리트먼트, 페이스 마스크에도 널리 사용되어 젊고 건강해 보이는 피부와 더 튼튼한 모발 및 손톱을 가꾸는 데 도움을 줍니다.",
+        "title": "코스메슈티컬",
+        "description": "해양 콜라겐 펩타이드가 피부, 모발, 손톱에 수분을 공급하고 탄력을 주며 젊어지게 하는 동시에 제품의 질감과 성능을 향상시킵니다.",
         "subcategories": {
-          "antiAgingFormulations": "안티에이징 제형",
-          "moisturizationHydration": "수분 공급 및 보습",
-          "skinRepairRegeneration": "피부 수리 및 재생",
-          "brighteningEvenSkinTone": "브라이트닝 및 균일한 피부톤",
-          "hairNailStrengthening": "모발 및 네일 강화",
-          "nutricosmetics": "뉴트리코스메틱스 (내부에서 아름다움)"
-        },
-        "products": {
-          "antiAgingCreams": {
-            "name": "안티에이징 크림 및 세럼",
-            "description": "젊고 빛나는 피부를 위한 해양 콜라겐 펩타이드가 함유된 프리미엄 스킨케어 제품"
-          },
-          "moisturizers": {
-            "name": "모이스처라이저",
-            "description": "깊은 피부 영양을 위한 콜라겐 펩타이드가 함유된 보습 크림 및 로션"
-          },
-          "hairNailCare": {
-            "name": "모발 및 네일 케어",
-            "description": "콜라겐 이점이 있는 샴푸, 트리트먼트 및 네일 케어 제품"
-          }
+          "antiAgingCreamsSerums": "안티에이징 크림 및 세럼.",
+          "moisturizers": "모이스처라이저.",
+          "hairCareProducts": "헤어 케어 제품.",
+          "nailCareTreatments": "손톱 케어 트리트먼트.",
+          "faceMasks": "페이스 마스크."
         }
       },
       "pharmaceuticals": {
         "title": "제약",
-        "description": "해양 콜라겐 펩타이드는 관절 통증 완화, 염증 감소 등의 이점을 제공하여 의료 및 치료 응용 분야에서 중요한 역할을 합니다. 상처 치유, 조직 재생, 모발 및 손톱 성장을 지원할 뿐만 아니라 고급 약물 전달 시스템 및 조직 공학 솔루션에도 활용됩니다.",
+        "description": "엄격한 품질 표준에 따라 개발된 제약 등급의 해양 콜라겐 펩타이드. 연구 중심의 제형과 치료 영양을 지원하도록 설계되었습니다.",
         "subcategories": {
-          "drugDeliverySystems": "약물 전달 시스템",
-          "woundHealingRegenerativeMedicine": "상처 치유 및 재생 의학",
-          "tissueEngineeringBiomaterials": "조직 공학 및 생체 재료",
-          "drugFormulationStabilizer": "약물 제형 안정제",
-          "oralSupplementsNutraPharma": "경구 보충제 / 뉴트라-파마",
-          "surgicalApplications": "수술 응용"
-        },
-        "products": {
-          "jointPainRelief": {
-            "name": "관절 통증 및 염증 완화",
-            "description": "관절 통증, 염증 및 근골격계 장애를 위한 제약급 보충제"
-          },
-          "woundHealingProducts": {
-            "name": "상처 치유 제품",
-            "description": "고급 상처 치유 및 조직 수리 응용을 위한 의료급 콜라겐"
-          },
-          "drugDeliverySystems": {
-            "name": "약물 전달 시스템",
-            "description": "제어된 약물 방출 및 조직 공학을 위한 고급 제약 응용"
-          }
+          "drugDeliverySystems": "약물 전달 시스템.",
+          "helpJointPain": "관절 통증 및 염증 완화 지원.",
+          "injectionOrganItems": "주사 가능한 장기 제제.",
+          "treatMusculoskeletal": "골다공증 및 근감소증과 같은 근골격계 질환 치료 지원.",
+          "stabilizeBloodSugar": "혈당 수치 안정화 지원.",
+          "supportHairNail": "모발 및 손톱 성장 지원.",
+          "woundHealingProducts": "상처 치유 제품.",
+          "tissueEngineering": "조직 공학."
         }
       },
       "petFood": {
-        "title": "펫 푸드",
-        "description": "해양 콜라겐 펩타이드는 동물의 관절 건강, 운동성 및 전반적인 활력을 지원하기 위해 펫푸드 보충제에 점점 더 많이 사용되고 있습니다. 튼튼한 뼈, 건강한 피부, 윤기 나는 털을 촉진하는 동시에 소화와 유연성을 도와 반려동물의 장기적인 건강과 활기찬 라이프스타일을 유지하기 위한 필수 성분입니다.",
+        "title": "반려동물 식품 보충제",
+        "description": "해양 콜라겐 펩타이드로 반려동물의 내면부터 영양을 공급합니다. 건강한 움직임, 윤기 나는 털, 전반적인 활력을 지원합니다.",
         "subcategories": {
-          "jointBoneHealth": "관절 및 뼈 건강",
-          "skinCoatHealth": "피부 및 털 건강",
-          "digestiveHealth": "소화 건강",
-          "woundHealingRecovery": "상처 치유 및 회복",
-          "dentalHealth": "치아 건강",
-          "overallVitalityLongevity": "전반적인 활력 및 장수"
-        },
-        "products": {
-          "jointBoneHealth": {
-            "name": "관절 및 뼈 건강",
-            "description": "관절 이동성, 뼈 강도 및 전반적인 근골격계 건강을 위한 전문 펫 영양"
-          },
-          "skinCoatHealth": {
-            "name": "피부 및 털 건강",
-            "description": "건강한 피부, 윤기 있는 털 및 최적의 펫 외모를 위한 콜라겐 풍부 제형"
-          },
-          "digestiveHealth": {
-            "name": "소화 건강",
-            "description": "펫의 건강한 소화 및 위장 건강을 지원하는 부드러운 영양 솔루션"
-          },
-          "woundHealingRecovery": {
-            "name": "상처 치유 및 회복",
-            "description": "펫의 빠른 치유, 조직 수리 및 수술 후 회복을 위한 고급 영양"
-          },
-          "dentalHealth": {
-            "name": "치아 건강",
-            "description": "강한 치아, 건강한 잇몸 및 전반적인 치아 건강을 촉진하는 전문 제형"
-          },
-          "overallVitalityLongevity": {
-            "name": "전반적인 활력 및 장수",
-            "description": "펫의 향상된 에너지, 활력 및 장기 건강을 위한 포괄적인 영양"
-          }
+          "jointFunction": "관절 기능,",
+          "skinHealth": "피부 건강,",
+          "gutHealthMobility": "장 건강 및 운동성."
         }
       },
       "biotechnology": {
-        "title": "생명공학",
-        "description": "해양 콜라겐 펩타이드는 타의 추종을 불허하는 생체 적합성과 재생 특성으로 생명공학을 재정의하고 있습니다. 조직 공학 및 약물 전달 시스템부터 3D 바이오프린팅 및 고급 상처 치료에 이르기까지 해양 콜라겐 펩타이드는 차세대 의생명 연구 및 혁신의 기초 역할을 합니다. 안전하고 지속 가능하며 다재다능하여 미래의 생명공학 혁신을 위한 당연한 선택입니다.",
+        "title": "의생명",
+        "description": "연구실에서 일상으로, 해양 콜라겐 펩타이드가 이를 가능하게 합니다. 조직 공학 및 재생 의학을 위한 필수 단백질.",
         "subcategories": {
-          "tissueEngineeringRegenerativeMedicine": "조직 공학 및 재생 의학",
-          "biocompatibleMedicalImplants": "생체 호환 의료 임플란트",
-          "cellCultureResearchApplications": "세포 배양 및 연구 응용",
-          "biomaterialsDrugDelivery": "약물 전달을 위한 생체 재료",
-          "3dBioprinting": "3D 바이오프린팅",
-          "woundHealingBiomedicalDevices": "상처 치유 및 생체의학 장치"
-        },
-        "products": {
-          "cellCultureScaffolds": {
-            "name": "세포 배양 스캐폴드",
-            "description": "세포 성장, 연구 및 조직 배양 응용을 위한 고급 스캐폴드 재료"
-          },
-          "medicalImplants": {
-            "name": "의료 임플란트",
-            "description": "의료 장치 및 임플란트 가능한 기술을 위한 생체 호환 재료"
-          },
-          "tissueEngineering": {
-            "name": "조직 공학",
-            "description": "재생 의학 및 고급 조직 공학을 위한 혁신적인 솔루션"
-          }
+          "scaffoldMaterials": "세포 배양용 지지체 재료.",
+          "biocompatibleMaterials": "의료용 임플란트용 생체 적합성 재료."
         }
       },
       "foodIndustry": {
-        "title": "식품 산업",
-        "description": "생선 젤라틴은 효과적인 겔화제로 작용하여 젤리, 구미 캔디, 디저트 제조에 적합하며 식품의 질감을 개선하고 많은 식품 제품을 강화하는 데 유익합니다.",
+        "title": "식품",
+        "description": "생선 젤라틴은 제형 내에서 겔화, 증점 및 안정화 특성을 제공하는 동시에 기능성 식품, 제과, 디저트 및 스낵을 강화합니다.",
         "subcategories": {
           "stabilizer": "안정제",
-          "clarifyingAgent": "정제제",
+          "clarifyingAgent": "청징제",
           "emulsifier": "유화제",
           "gummyCandy": "구미 & 캔디",
-          "gellingTexturizer": "겔링 텍스처라이저",
           "thickener": "증점제",
+          "gellingTexturizerDairy": "겔화 텍스처라이저 및 유제품 제제",
           "confectionery": "제과",
-          "dairyProducts": "유제품",
+          "dairy": "유제품",
           "desserts": "디저트"
-        },
-        "products": {
-          "gummyCandy": {
-            "name": "구미 & 캔디",
-            "description": "구미 베어, 웜 및 다양한 제과 제품을 위한 완벽한 질감과 씹는 느낌"
-          },
-          "dairyProducts": {
-            "name": "유제품",
-            "description": "요구르트, 아이스크림 및 기타 유제품 응용을 위한 향상된 질감 및 안정성"
-          },
-          "desserts": {
-            "name": "디저트",
-            "description": "젤리, 푸딩, 무스 등 부드럽고 일관된 디저트 준비"
-          }
         }
       },
       "cosmeticsSkincare": {
-        "title": "화장품 및 스킨케어",
-        "description": "이너 뷰티의 비밀인 이것은 피부 탄력을 복원하고 잔주름을 줄이며 깊은 수분을 공급하여 젊고 빛나는 피부로 가꾸어 주는 강력한 화장품 성분입니다. 과학적 연구와 프리미엄 스킨케어 브랜드를 통해 검증된 차세대 내추럴 스킨케어를 위한 당연한 선택입니다.",
+        "title": "코스메슈티컬",
+        "description": "생선 젤라틴은 부드럽고 안정적이며 고급스러운 제형을 위해 천연 증점, 겔화 및 필름 형성 특성을 제공하여 크림, 마스크, 세럼을 향상시킵니다.",
         "subcategories": {
           "antiAgingProducts": "안티에이징 제품",
           "moisturizer": "모이스처라이저",
           "serum": "세럼",
           "hairNailCare": "헤어 & 네일 케어",
           "makeupBeauty": "메이크업 & 뷰티"
-        },
-        "products": {
-          "moisturizersSerums": {
-            "name": "모이스처라이저 & 세럼",
-            "description": "피부 영양을 위한 자연스러운 어류 젤라틴이 함유된 보습 크림 및 세럼"
-          },
-          "antiAgingProducts": {
-            "name": "안티에이징 제품",
-            "description": "젊은 피부를 위한 어류 젤라틴이 함유된 고급 안티에이징 제형"
-          },
-          "hairNailCare": {
-            "name": "헤어 & 네일 케어",
-            "description": "강화 특성이 있는 샴푸, 트리트먼트 및 네일 케어 제품"
-          }
         }
       },
       "biomedicalApplications": {
-        "title": "생체의학 응용",
-        "description": "어류 젤라틴은 상처 드레싱, 제어된 약물 방출 시스템, 조직 공학을 포함한 생체의학 응용에서 중요한 기능을 수행합니다. 상처 드레싱 및 의료 필름, 제어된 약물 방출 시스템, 색전술, 3D 바이오프린팅, 마이크로캐리어, 세포 전달, 약물 전달, 재생 의학, 혈장, 동결보호 및 백신용 동결보호를 포함한 의료적 도전에 대한 생체 호환 솔루션을 제공합니다.",
+        "title": "의생명",
+        "description": "생선 콜라겐은 생체 적합하고 생리 활성이 있는 단백질 지지체를 제공하여 조직 공학, 상처 치유 및 재생 의학을 지원합니다.",
         "subcategories": {
-          "woundDressings": "상처 드레싱",
-          "drugReleaseSystems": "약물 방출 시스템",
-          "3dBioprinting": "3D 바이오프린팅",
+          "woundDressingsMedicalFilms": "상처 피복재 및 의료용 필름",
+          "controlledDrugRelease": "제어된 약물 방출 시스템",
+          "embolizationLyoprotection": "색전술 및 동결건조 치유",
+          "bioprintingTissue": "3D 바이오프린팅 / 조직 공학",
           "microcarriers": "마이크로캐리어",
           "cellDelivery": "세포 전달",
           "drugDelivery": "약물 전달",
           "regenerativeMedicine": "재생 의학",
-          "embolizationHealing": "색전술 치유",
           "plasma": "혈장",
-          "lyoprotectionVaccines": "백신용 동결보호"
-        },
-        "products": {
-          "woundDressingsMedicalFilms": {
-            "name": "상처 드레싱 및 의료 필름",
-            "description": "상처 치유 및 조직 수리를 위한 고급 의료 필름 및 드레싱"
-          },
-          "drugDeliverySystems": {
-            "name": "약물 전달 시스템",
-            "description": "제어된 약물 방출 시스템 및 제약 전달 응용"
-          },
-          "3dBioprintingTissueEngineering": {
-            "name": "3D 바이오프린팅 및 조직 공학",
-            "description": "재생 의학을 위한 고급 조직 공학 및 3D 바이오프린팅 솔루션"
-          }
+          "cryoprotection": "동결보존",
+          "lyoprotectionVaccines": "동결건조 보호 / 백신"
         }
       },
       "pharmaIndustry": {
-        "title": "제약 산업",
-        "description": "이것은 고급 상처 치유 및 약물 전달 시스템부터 조직 공학용 생체 적합성 재료에 이르기까지 현대적인 제약 혁신에 사용됩니다. 우수한 생체 이용률과 안전성으로 흡수율을 높이고 자연스러운 호환성과 지속 가능한 공급을 보장하여 신뢰할 수 있는 성분입니다.",
+        "title": "제약",
+        "description": "생선 젤라틴은 제약 캡슐, 정제 및 연질 캡슐의 핵심 성분으로, 천연의 생체 적합하고 안정적인 코팅을 제공합니다.",
         "subcategories": {
-          "capsuleProduction": "캡슐 생산",
+          "capsuleProduction": "캡슐 생산 (연질 및 경질 캡슐)",
           "tabletCoating": "정제 코팅",
-          "encapsulationVitamins": "비타민 캡슐화",
-          "bindingAgentTablets": "정제의 결합제",
-          "controlledDrugRelease": "제어된 약물 방출",
-          "plasmaExpanders": "혈장 확장제"
-        },
-        "products": {
-          "capsuleProduction": {
-            "name": "캡슐 생산",
-            "description": "어류 젤라틴을 사용한 소프트 젤 및 하드 젤 캡슐 제조"
-          },
-          "tabletCoating": {
-            "name": "정제 코팅",
-            "description": "제약 정제를 위한 보호 코팅 및 결합제"
-          },
-          "vitaminEncapsulation": {
-            "name": "비타민 캡슐화",
-            "description": "비타민, 뉴트라슈티컬 및 식이 보충제의 캡슐화"
-          }
+          "encapsulationVitamins": "비타민 및 뉴트라슈티컬 캡슐화",
+          "bindingAgentTablets": "정제 결합제",
+          "controlledDrugRelease": "제어된 약물 방출 시스템",
+          "plasmaExpanders": "혈장 확장제 (역사적/제한적 의료 용도)"
         }
       }
     }

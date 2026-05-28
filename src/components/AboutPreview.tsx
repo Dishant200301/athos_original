@@ -40,22 +40,22 @@ const AboutPreview = () => {
   };
 
   return (
-    <section className="py-16 md:py-20 bg-background">
+    <section className="pt-16 md:pt-20 pb-0 bg-background">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
           {/* Image - Coming from left */}
           <div
             ref={imageRef}
-            className={`order-1 transition-all duration-700 ease-out ${imageVisible
+            className={`order-1 flex w-full transition-all duration-700 ease-out ${imageVisible
                 ? 'opacity-100 translate-x-0'
                 : 'opacity-0 -translate-x-12'
               }`}
           >
-            <div className="relative overflow-hidden rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none w-full">
+            <div className="relative flex-1 overflow-hidden rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none w-full min-h-[300px] sm:min-h-[400px] lg:min-h-0">
               <img
                 src="/images/Athos_factory.png"
                 alt="ATHOS Collagen Facility"
-                className="w-full h-auto object-contain rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none"
+                className="w-full h-full object-cover rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none absolute inset-0"
               />
             </div>
           </div>
@@ -76,7 +76,7 @@ const AboutPreview = () => {
             </p>
 
             {/* Our Strength and Our Commitment - Side by Side */}
-            <div className="grid grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-6 md:mb-8">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-6 md:mb-8 lg:mb-0">
               {/* Our Strength Section */}
               <div>
                 <h3 className="text-lg md:text-xl mb-3 md:mb-4" style={{ color: 'rgba(29, 129, 165, 1)', fontFamily: 'Inter, sans-serif', fontWeight: '500' }}>{t('home.aboutPreview.ourStrength')}</h3>

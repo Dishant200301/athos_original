@@ -166,6 +166,35 @@
     "introTitle": "Athos Collagen Pvt. Ltd. es un fabricante y exportador líder de gelatina de pescado de la India",
     "introDesc1": "Diseñada por la naturaleza, la gelatina de pescado ofrece una funcionalidad limpia con una alta biocompatibilidad, lo que la hace adecuada para las industrias alimentaria, nutracéutica, farmacéutica, cosmética y biomédica.",
     "introDesc2": "La gelatina de pescado se posiciona cada vez más como una alternativa de próxima generación, que ofrece un acceso al mercado más amplio, una mayor aceptación por parte de los consumidores y una alineación con las tendencias globales de etiqueta limpia y sostenibilidad.",
+    "scienceSection": {
+      "title": "La Ciencia Detrás de la Gelatina de Pescado",
+      "cards": {
+        "gellingPower": {
+          "title": "Poder Gelificante",
+          "description": "La gelificación termorreversible avanzada permite un control preciso de la textura, desde estructuras firmes hasta experiencias suaves que se derriten en la boca."
+        },
+        "formingAbility": {
+          "title": "Capacidad de Formación de Película",
+          "description": "Transforma los sistemas líquidos en películas delgadas y duraderas, ideales para recubrimientos, encapsulación y barreras protectoras."
+        },
+        "emulsionStability": {
+          "title": "Estabilidad de Emulsión Confiable",
+          "description": "Asegura una mezcla uniforme de las fases de aceite y agua, mejorando la consistencia, estabilidad y vida útil."
+        },
+        "bindingAdhesion": {
+          "title": "Unión y Adhesión",
+          "description": "Mejora la integridad estructural al unir eficientemente los ingredientes en formulaciones sólidas y semisólidas."
+        },
+        "clarityPurity": {
+          "title": "Claridad y Pureza",
+          "description": "Ofrece soluciones transparentes y limpias sin impacto en el sabor, color o integridad de la formulación."
+        },
+        "digestibilityCleanLabel": {
+          "title": "Digestibility y Etiqueta Limpia",
+          "description": "Proteína de origen natural con excelente digestibilidad, que responde a las exigencias de los productos modernos de etiqueta limpia."
+        }
+      }
+    },
     "productShowcase": {
       "usageTitle": "Categorías de Uso",
       "discoverMore": "Descubrir Más",
@@ -373,121 +402,123 @@
     "categories": {
       "foodBeverages": {
         "title": "Alimentos y Bebidas",
-        "description": "El péptido de colágeno marino se utiliza ampliamente en alimentos y bebidas funcionales por sus beneficios estabilizadores y nutricionales. Mejora la estabilidad emulsionante, la textura y la capacidad de retención de agua en las formulaciones, al tiempo que apoya la digestión y la absorción",
+        "description": "Alimentos y bebidas formulados científicamente con péptido de colágeno marino. Diseñados para apoyar la nutrición funcional con estándares de calidad probados.",
         "subcategories": {
-          "drinks": "Bebidas",
-          "proteinBars": "Barritas de Proteínas",
-          "powder": "Polvo",
-          "jointHealthSupplements": "Suplementos para la Salud Articular"
+          "collagenWaterBeverages": "Agua y bebidas con infusión de colágeno.",
+          "proteinShakesSmoothies": "Batidos de proteínas y smoothies.",
+          "functionalFoodsFortified": "Alimentos funcionales (fortificados con colágeno).",
+          "dietarySupplements": "Suplementos dietéticos.",
+          "cerealsEnergyDrinks": "Cereales y bebidas energéticas.",
+          "snacks": "Snacks.",
+          "improveStability": "Mejorar la estabilidad emulsionante, la dureza y la capacidad de retención de agua de los alimentos.",
+          "helpDigestion": "Ayudar a la digestión, absorción y distribución por todo el cuerpo."
         }
       },
       "nutraceuticals": {
-        "title": "Nutracéuticos y Suplementos Dietéticos",
-        "description": "Desde suplementos de colágeno en bebidas, barritas de proteínas, polvos y más, proporcionan una nutrición esencial. Estos productos están diseñados para la piel, el cabello, la recuperación muscular y la vitalidad general.",
+        "title": "Nutracéutico",
+        "description": "Nutracéuticos formulados con precisión utilizando péptidos de colágeno marino altamente biodisponibles de alta calidad. Diseñados para apoyar el funcionamiento óptimo del organismo y el bienestar.",
         "subcategories": {
-          "functionalFoods": "Alimentos Funcionales",
-          "proteinShakes": "Batidos de Proteínas",
-          "drinkBeverages": "Bebidas",
-          "snacks": "Snacks",
-          "dietarySupplements": "Suplementos Dietéticos"
+          "proteinBars": "Barritas de proteínas",
+          "drinks": "bebidas",
+          "jointHealthSupplements": "Suplementos para la salud de las articulaciones",
+          "powders": "polvos"
         }
       },
       "cosmetics": {
-        "title": "Cosméticos y Cuidado de la Piel",
-        "description": "El colágeno marino es un ingrediente clave en la belleza y el cuidado personal, conocido por mejorar la elasticidad de la piel, la hidratación y la apariencia general. Se utiliza ampliamente en cremas antienvejecimiento, sueros y humectantes, así como en el cuidado del cabello, tratamientos de uñas y mascarillas faciales, ayudando a promover una piel de aspecto joven y saludable y unas uñas y cabellos más fuertes.",
+        "title": "Cosmecéutico",
+        "description": "El péptido de colágeno marino hidrata, reafirma y rejuvenece la piel, el cabello y las uñas a la vez que mejora la textura y el rendimiento del producto.",
         "subcategories": {
-          "antiAgingFormulations": "Formulaciones Antienvejecimiento",
-          "moisturizationHydration": "Humectación e Hidratación",
-          "skinRepairRegeneration": "Reparación y Regeneración de la Piel",
-          "brighteningEvenSkinTone": "Iluminación y Tono de Piel Uniforme",
-          "hairNailStrengthening": "Fortalecimiento de Cabello y Uñas",
-          "nutricosmetics": "Nutricosméticos (belleza desde el interior)"
+          "antiAgingCreamsSerums": "Cremas y sueros antienvejecimiento.",
+          "moisturizers": "Humectantes.",
+          "hairCareProducts": "Productos para el cuidado del cabello.",
+          "nailCareTreatments": "Tratamientos para el cuidado de las uñas.",
+          "faceMasks": "Mascarillas faciales."
         }
       },
       "pharmaceuticals": {
-        "title": "Farmacéutica",
-        "description": "El péptido de colágeno marino desempeña un papel vital en aplicaciones médicas y terapéuticas, ofreciendo beneficios para el alivio del dolor articular y la reducción de la inflamación. Apoya la cicatrización de heridas, la regeneración de tejidos y el crecimiento del cabello y las uñas, al tiempo que se utiliza en sistemas avanzados de administración de fármacos y soluciones de ingeniería de tejidos.",
+        "title": "Farmacéutico",
+        "description": "Péptido de colágeno marino de grado farmacéutico desarrollado bajo estrictos estándares de calidad. Diseñado para apoyar formulaciones basadas en investigación y nutrición terapéutica.",
         "subcategories": {
-          "drugDeliverySystems": "Sistemas de Administración de Fármacos",
-          "woundHealingRegenerativeMedicine": "Cicatrización de Heridas y Medicina Regenerativa",
-          "tissueEngineeringBiomaterials": "Ingeniería de Tejidos y Biomateriales",
-          "drugFormulationStabilizer": "Estabilizador de Formulaciones de Fármacos",
-          "oralSupplementsNutraPharma": "Suplementos Orales / Nutra-Pharma",
-          "surgicalApplications": "Aplicaciones Quirúrgicas"
+          "drugDeliverySystems": "Sistemas de administración de fármacos.",
+          "helpJointPain": "Ayuda con el dolor articular y la inflamación.",
+          "injectionOrganItems": "Artículos de órganos basados en inyección.",
+          "treatMusculoskeletal": "Trata trastornos musculoesqueléticos como la osteoporosis y la sarcopenia.",
+          "stabilizeBloodSugar": "Estabiliza los niveles de azúcar en sangre.",
+          "supportHairNail": "Apoya el crecimiento del cabello y las uñas.",
+          "woundHealingProducts": "Productos para la cicatrización de heridas.",
+          "tissueEngineering": "Ingeniería de tejidos."
         }
       },
       "petFood": {
-        "title": "Alimentos para Mascotas",
-        "description": "El péptido de colágeno marino se utiliza cada vez más en suplementos de alimentos para mascotas para apoyar la salud de las articulaciones, la movilidad y la vitalidad general en los animales. Promueve huesos más fuertes, una piel más sana y un pelaje más brillante, al tiempo que ayuda a la digestión y la flexibilidad, lo que lo convierte en un ingrediente esencial para mantener la salud a largo plazo y el estilo de vida activo de las mascotas.",
+        "title": "Suplementos de Alimentos para Mascotas",
+        "description": "Nutre a tu mascota desde el interior con péptido de colágeno marino. Apoya el movimiento saludable, un pelaje brillante y la vitalidad general.",
         "subcategories": {
-          "jointBoneHealth": "Salud Articular y Ósea",
-          "skinCoatHealth": "Salud de Piel y Pelaje",
-          "digestiveHealth": "Salud Digestiva",
-          "woundHealingRecovery": "Cicatrización de Heridas y Recuperación",
-          "dentalHealth": "Salud Dental",
-          "overallVitalityLongevity": "Vitalidad y Longevidad General"
+          "jointFunction": "función articular,",
+          "skinHealth": "salud de la piel,",
+          "gutHealthMobility": "salud intestinal y movilidad."
         }
       },
       "biotechnology": {
-        "title": "Biotecnología",
-        "description": "El péptido de colágeno marino está redefiniendo la biotecnología con su biocompatibilidad y propiedades regenerativas incomparables. Desde la ingeniería de tejidos y los sistemas de administración de fármacos hasta la bioimpresión 3D y el cuidado avanzado de heridas, los péptidos de colágeno marino sirven como base para la investigación y la innovación biomédicas de próxima generación. Seguro, sostenible y versátil, es la elección natural para los avances biotecnológicos del mañana.",
+        "title": "Biomédico",
+        "description": "Del laboratorio a la vida, el péptido de colágeno marino lo hace posible. La proteína esencial para la ingeniería de tejidos y la medicina regenerativa.",
         "subcategories": {
-          "cellCultureScaffolds": "Andamios para Cultivo Celular",
-          "medicalImplants": "Implantes Médicos"
+          "scaffoldMaterials": "Materiales de soporte para cultivo celular.",
+          "biocompatibleMaterials": "Materiales biocompatibles para implantes médicos."
         }
       },
       "foodIndustry": {
-        "title": "Industria Alimentaria",
-        "description": "La gelatina de pescado actúa como un agente gelificante eficaz, adecuado para hacer gelatinas, caramelos de goma y postres, mejora la textura de los alimentos y es beneficiosa para fortificar muchos productos alimenticios.",
+        "title": "Alimentos",
+        "description": "La gelatina de pescado mejora los alimentos funcionales, confitería, postres y snacks, proporcionando propiedades gelificantes, espesantes y estabilizantes en las formulaciones.",
         "subcategories": {
           "stabilizer": "Estabilizador",
-          "clarifyingAgent": "Agente Clarificante",
+          "clarifyingAgent": "Agente clarificante",
           "emulsifier": "Emulsionante",
-          "gummyCandy": "Gomitas y caramelos",
-          "gellingTexturizer": "Gelificante Texturizante",
-          "thickener": "Espesante",
+          "gummyCandy": "gominolas y caramelos",
+          "thickener": "espesante",
+          "gellingTexturizerDairy": "agente gelificante, texturizante y para productos lácteos",
           "confectionery": "Confitería",
-          "dairyProducts": "Lácteos",
+          "dairy": "Lácteos",
           "desserts": "Postres"
         }
       },
       "cosmeticsSkincare": {
-        "title": "Cosméticos y Cuidado de la Piel",
-        "description": "El Secreto de la Belleza Interior es un potente ingrediente cosmético que restaura la elasticidad de la piel, reduce las líneas finas e hidrata profundamente para un brillo juvenil. Respaldado por la ciencia y de confianza en el cuidado de la piel premium, es la elección natural para la próxima generación",
+        "title": "Cosmecéutico",
+        "description": "La gelatina de pescado mejora las cremas, mascarillas y sueros al proporcionar propiedades naturales de espesamiento, gelificación y formación de película para formulaciones suaves, estables y lujosas.",
         "subcategories": {
-          "antiAgingProducts": "Productos Anti-envejecimiento",
-          "moisturizer": "Hidratante",
-          "serum": "Sérum",
-          "hairNailCare": "Cuidado de Cabello y Uñas",
-          "makeupBeauty": "Maquillaje y Belleza"
+          "antiAgingProducts": "Productos antienvejecimiento",
+          "moisturizer": "hidratante",
+          "serum": "suero",
+          "hairNailCare": "Cuidado de cabello y uñas",
+          "makeupBeauty": "Maquillaje y belleza"
         }
       },
       "biomedicalApplications": {
-        "title": "Aplicaciones Biomédicas",
-        "description": "La gelatina de pescado cumple funciones críticas en aplicaciones biomédicas.",
+        "title": "Biomédico",
+        "description": "El colágeno de pescado apoya la ingeniería de tejidos, la cicatrización de heridas y la medicina regenerativa al proporcionar un andamio de proteína bioactivo y biocompatible.",
         "subcategories": {
-          "woundDressings": "Vendajes para Heridas",
-          "drugReleaseSystems": "Sistemas de Liberación de Fármacos",
-          "3dBioprinting": "Bioprinting 3D",
+          "woundDressingsMedicalFilms": "Apósitos para heridas y películas médicas",
+          "controlledDrugRelease": "Sistemas de liberación controlada de fármacos",
+          "embolizationLyoprotection": "Embolización y cicatrización por liofilización",
+          "bioprintingTissue": "Bioimpresión 3D / ingeniería de tejidos",
           "microcarriers": "Microportadores",
-          "cellDelivery": "Entrega de Células",
-          "drugDelivery": "Entrega de Fármacos",
-          "regenerativeMedicine": "Medicina Regenerativa",
-          "embolizationHealing": "Cicatrización por Embolización",
+          "cellDelivery": "Entrega de células",
+          "drugDelivery": "Entrega de fármacos",
+          "regenerativeMedicine": "Medicina regenerativa",
           "plasma": "Plasma",
-          "lyoprotectionVaccines": "Liofilización de Vacunas"
+          "cryoprotection": "Crioprotección",
+          "lyoprotectionVaccines": "Liofilización / vacunas"
         }
       },
       "pharmaIndustry": {
-        "title": "Industria Farmacéutica",
-        "description": "Esto se utiliza para las innovaciones farmacéuticas modernas, desde sistemas avanzados de cicatrización de heridas y administración de fármacos hasta materiales biocompatibles para la ingeniería de tejidos. Con una biodisponibilidad y seguridad superiores, garantiza una mayor absorción, compatibilidad natural y un abastecimiento sostenible, lo que lo convierte en un ingrediente de confianza",
+        "title": "Farmacéutico",
+        "description": "La gelatina de pescado es un ingrediente clave en cápsulas, tabletas y geles blandos farmacéuticos, proporcionando un recubrimiento natural, biocompatible y stabile.",
         "subcategories": {
-          "capsuleProduction": "Producción de Cápsulas",
-          "tabletCoating": "Recubrimiento de Tabletas",
-          "encapsulationVitamins": "Encapsulación de Vitaminas",
-          "bindingAgentTablets": "Agente Aglutinante en Tabletas",
-          "controlledDrugRelease": "Liberación Controlada de Fármacos",
-          "plasmaExpanders": "Expansores de Plasma"
+          "capsuleProduction": "Producción de cápsulas (geles blandos y duros)",
+          "tabletCoating": "Recubrimiento de tabletas",
+          "encapsulationVitamins": "Encapsulación de vitaminas y nutracéuticos",
+          "bindingAgentTablets": "Agente aglutinante en tabletas",
+          "controlledDrugRelease": "Sistemas de liberación controlada de fármacos",
+          "plasmaExpanders": "Expansores de plasma (uso médico histórico/limitato)"
         }
       }
     }

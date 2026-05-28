@@ -166,6 +166,35 @@
     "introTitle": "Athos Collagen Pvt. Ltd. est un leader de la fabrication et de l'exportation de gélatine de poisson depuis l'Inde",
     "introDesc1": "Conçue par la nature, la gélatine de poisson offre une fonctionnalité propre avec une biocompatibilité élevée, ce qui la rend adaptée aux secteurs de l'alimentation, des nutraceutiques, des produits pharmaceutiques, des cosmétiques et du biomédical.",
     "introDesc2": "La gélatine de poisson est de plus en plus positionnée comme une alternative de nouvelle génération, offrant un accès au marché plus large, une plus grande acceptation par les consommateurs et un alignement sur les tendances mondiales en matière de produits clean-label et de durabilité.",
+    "scienceSection": {
+      "title": "La Science Derrière la Gélatine de Poisson",
+      "cards": {
+        "gellingPower": {
+          "title": "Pouvoir Gélifiant",
+          "description": "La gélification thermo-réversible avancée permet un contrôle précis de la texture, des structures fermes aux expériences douces qui fondent en bouche."
+        },
+        "formingAbility": {
+          "title": "Capacité de Formation de Film",
+          "description": "Transforme les systèmes liquides en films fins et durables, idéaux pour les enrobages, l'encapsulation et les barrières protectrices."
+        },
+        "emulsionStability": {
+          "title": "Stabilité d'Émulsion Fiable",
+          "description": "Assure un mélange uniforme des phases huileuse et aqueuse, améliorant la consistance, la stabilité et la durée de conservation."
+        },
+        "bindingAdhesion": {
+          "title": "Liaison et Adhésion",
+          "description": "Améliore l'intégrité structurelle en liant efficacement les ingrédients dans les formulations solides et semi-solides."
+        },
+        "clarityPurity": {
+          "title": "Clarté et Pureté",
+          "description": "Fournit des solutions transparentes et propres sans impact sur le goût, la couleur ou l'intégrité de la formulation."
+        },
+        "digestibilityCleanLabel": {
+          "title": "Digestibilité & Clean Label",
+          "description": "Protéine d'origine naturelle avec une excellente digestibilité, répondant aux exigences des produits modernes clean-label."
+        }
+      }
+    },
     "productShowcase": {
       "usageTitle": "Catégories d'Utilisation",
       "discoverMore": "Découvrir Plus",
@@ -200,7 +229,7 @@
           "name": "Applications Biomédicales",
           "description": "Le collagène de poisson soutient l'ingénierie tissulaire, la cicatrisation des plaies et la médecine régénérative en fournissant un échafaudage protéique biocompatible et bioactif.",
           "applications": [
-            "Pansements pour Plaies et Films Médicaux",
+            "Pansements pour Plaies et Films Medici",
             "Systèmes de Libération Contrôlée de Médicaments",
             "Embolisation et Lyophilisation et cicatrisation",
             "Bioprinting 3D / ingénierie tissulaire",
@@ -252,7 +281,7 @@
       "discoverMore": "Découvrir Plus",
       "products": {
         "peptide": {
-          "title": "Peptide de Collagène de Poisson",
+          "title": "Peptide de Collagene de Poisson",
           "description": "Notre peptide de collagène hydrolysé distinctif, reconnu pour sa haute biodisponibilité et sa solubilité douce. Il sert de matière première premium pour l'utilisation dans les formulations de beauté, les suppléments nutritionnels et les produits alimentaires fonctionnels."
         },
         "granules": {
@@ -291,7 +320,7 @@
         },
         "cosmetics": {
           "name": "Compléments Cosmétiques",
-          "description": "Le peptide de collagène marin hydrate, raffermit et rajeunit la peau, les cheveux et les ongles tout en améliorant la texture et les performances du produit.",
+          "description": "Le peptide de collagène marin hydrate, raffermit et rajeune la peau, les cheveux et les ongles tout en améliorant la texture et les performances du produit.",
           "applications": [
             "Crèmes et sérums anti-âge.",
             "Hydratants.",
@@ -373,125 +402,123 @@
     "categories": {
       "foodBeverages": {
         "title": "Aliments et Boissons",
-        "description": "Le peptide de collagene marin est largement utilise dans les aliments et boissons fonctionnels pour ses avantages stabilisateurs et nutritionnels. Il ameliore la stabilite emulsifiante, la texture et la capacite de liaison de l'eau dans les formulations tout en soutenant la digestion et l'absorption",
+        "description": "Aliments et boissons formulés scientifiquement avec des peptides de collagène marin. Conçus pour soutenir la nutrition fonctionnelle avec des normes de qualité prouvées.",
         "subcategories": {
-          "drinks": "Boissons",
-          "proteinBars": "Barres de Protéines",
-          "powder": "Poudre",
-          "jointHealthSupplements": "Compléments pour la Santé Articulaire"
+          "collagenWaterBeverages": "Eau et boissons infusées au collagène.",
+          "proteinShakesSmoothies": "Shakes protéinés et smoothies.",
+          "functionalFoodsFortified": "Aliments fonctionnels (enrichis en collagène).",
+          "dietarySupplements": "Compléments alimentaires.",
+          "cerealsEnergyDrinks": "Céréales et boissons énergisantes.",
+          "snacks": "Snacks.",
+          "improveStability": "Améliorer la stabilité émulsifiante, la fermeté et la capacité de liaison de l'eau des aliments.",
+          "helpDigestion": "Aider à la digestion, à l'absorption et à la distribution dans tout le corps."
         }
       },
       "nutraceuticals": {
-        "title": "Nutraceutiques et Compléments Alimentaires",
-        "description": "Des suppléments de collagène dans les boissons, les barres protéinées, les poudres et plus encore, ils fournissent une nutrition essentielle. Ces produits sont conçus pour la peau, les cheveux, la récupération musculaire et la vitalité globale.",
+        "title": "Nutraceutique",
+        "description": "Nutraceutiques formulés avec précision utilisant des peptides de collagène marin hautement bioassimilables de haute qualité. Conçus pour soutenir le fonctionnement optimal de l'organisme et le bien-être.",
         "subcategories": {
-          "functionalFoods": "Aliments Fonctionnels",
-          "proteinShakes": "Shakes Protéinés",
-          "drinkBeverages": "Boissons",
-          "snacks": "Collations",
-          "dietarySupplements": "Compléments Alimentaires"
+          "proteinBars": "Barres protéinées",
+          "drinks": "boissons",
+          "jointHealthSupplements": "Compléments pour la santé articulaire",
+          "powders": "poudres"
         }
       },
       "cosmetics": {
-        "title": "Cosmétiques et Soins de la Peau",
-        "description": "Le collagène marin est un ingrédient clé de la beauté et des soins personnels, connu pour améliorer l'élasticité, l'hydratation et l'apparence générale de la peau. Il est largement utilisé dans les crèmes anti-âge, les sérums et les hydratants, ainsi que dans les soins capillaires, les traitements des ongles et les masques faciaux, contribuant à promouvoir une peau jeune et saine ainsi que des cheveux et des ongles plus forts.",
+        "title": "Cosméceutique",
+        "description": "Le peptide de collagène marin hydrate, raffermit et rajeune la peau, les cheveux et les ongles tout en améliorant la texture et les performances du produit.",
         "subcategories": {
-          "antiAgingFormulations": "Formulations Anti-Âge",
-          "moisturizationHydration": "Hydratation et Hydratation",
-          "skinRepairRegeneration": "Réparation et Régénération de la Peau",
-          "brighteningEvenSkinTone": "Éclaircissement et Teint Uniforme",
-          "hairNailStrengthening": "Renforcement des Cheveux et Ongles",
-          "nutricosmetics": "Nutricosmétiques (Beauté de l'Intérieur)"
+          "antiAgingCreamsSerums": "Crèmes et sérums anti-âge.",
+          "moisturizers": "Hydratants.",
+          "hairCareProducts": "Produits capillaires.",
+          "nailCareTreatments": "Traitements pour les ongles.",
+          "faceMasks": "Masques faciaux."
         }
       },
       "pharmaceuticals": {
-        "title": "Pharmaceutiques",
-        "description": "Le peptide de collagène marin joue un rôle vital dans les applications médicales et thérapeutiques, offrant des avantages pour le soulagement des douleurs articulaires et la réduction de l'inflammation. Il soutient la cicatrisation des plaies, la régénération des tissus et la croissance des cheveux et des ongles, tout en étant utilisé dans des systèmes avancés de libération de médicaments et des solutions d'ingénierie tissulaire.",
+        "title": "Pharmaceutique",
+        "description": "Peptide de collagène marin de qualité pharmaceutique développé selon des normes de qualité strictes. Conçu pour soutenir les formulations basées sur la recherche et la nutrition thérapeutique.",
         "subcategories": {
-          "drugDeliverySystems": "Systèmes de Libération de Médicaments",
-          "woundHealingRegenerativeMedicine": "Cicatrisation et Médecine Régénérative",
-          "tissueEngineeringBiomaterials": "Ingénierie Tissulaire et Biomatériaux",
-          "drugFormulationStabilizer": "Stabilisateur de Formulation de Médicaments",
-          "oralSupplementsNutraPharma": "Compléments Oraux / Nutra-Pharma",
-          "surgicalApplications": "Applications Chirurgicales"
+          "drugDeliverySystems": "Systèmes de libération de médicaments.",
+          "helpJointPain": "Aide contre les douleurs et inflammations articulaires.",
+          "injectionOrganItems": "Organes artificiels injectables.",
+          "treatMusculoskeletal": "Traiter les troubles musculosquelettiques comme l'ostéoporose et la sarcopénie.",
+          "stabilizeBloodSugar": "Stabiliser la glycémie.",
+          "supportHairNail": "Soutenir la croissance des cheveux et des ongles.",
+          "woundHealingProducts": "Produits de cicatrisation des plaies.",
+          "tissueEngineering": "Ingeniería de tejidos."
         }
       },
       "petFood": {
-        "title": "Nourriture pour Animaux",
-        "description": "Le peptide de collagène marin est de plus en plus utilisé dans les suppléments pour animaux de compagnie pour soutenir la santé des articulations, la mobilité et la vitalité globale des animaux. Il favorise des os plus solides, une peau mais saine et des pelages plus brillants, tout en facilitant la digestion et la flexibilité, ce qui en fait un ingrédient essentiel pour maintenir la santé à l'aide d'un mode de vie actif des animaux.",
+        "title": "Compléments Alimentaires pour Animaux",
+        "description": "Nourrissez votre animal de compagnie de l'intérieur avec des peptides de collagène marin. Soutient la santé des mouvements, un pelage brillant et la vitalité générale.",
         "subcategories": {
-          "jointBoneHealth": "Santé Articulaire et Osseuse",
-          "skinCoatHealth": "Santé de la Peau et du Pelage",
-          "digestiveHealth": "Santé Digestive",
-          "woundHealingRecovery": "Cicatrisation et Récupération",
-          "dentalHealth": "Santé Dentaire",
-          "overallVitalityLongevity": "Vitalité Générale et Longévité"
+          "jointFunction": "fonction articulaire,",
+          "skinHealth": "santé de la peau,",
+          "gutHealthMobility": "santé intestinale et mobilité."
         }
       },
       "biotechnology": {
-        "title": "Biotecnologie",
-        "description": "Le peptide de collagène marin redéfinit la biotechnologie grâce à sa biocompatibilité et ses propriétés régénératrices inégalées. De l'ingénierie tissulaire et des systèmes de libération de médicaments à la bio-impression 3D et aux soins avancés des plaies, les peptides de collagène marin constituent le fondement de la recherche et de l'innovation biomédicales de nouvelle génération. Sûr, durable et polyvalent, c'est le choix naturel pour les percées biotechnologiques de demain.",
+        "title": "Biomédical",
+        "description": "Du laboratoire à la vie, le peptide de collagène marin le rend possible. La protéine essentielle pour l'ingénierie tissulaire et la médecine régénérative.",
         "subcategories": {
-          "tissueEngineeringRegenerativeMedicine": "Ingénierie Tissulaire et Médecine Régénérative",
-          "biocompatibleMedicalImplants": "Implants Médicaux Biocompatibles",
-          "cellCultureResearchApplications": "Applications de Recherche et Culture Cellulaire",
-          "biomaterialsDrugDelivery": "Biomatériaux pour Libération de Médicaments",
-          "3dBioprinting": "Bioprinting 3D",
-          "woundHealingBiomedicalDevices": "Cicatrisation et Dispositifs Biomédicaux"
+          "scaffoldMaterials": "Matériaux de support pour la culture cellulaire.",
+          "biocompatibleMaterials": "Matériaux biocompatibles pour les implants médicaux."
         }
       },
       "foodIndustry": {
-        "title": "Industrie Alimentaire",
-        "description": "La gélatine de poisson agit comme un agent gélifiant efficace, adapté à la fabrication de gelées, de bonbons gélifiés et de desserts. Elle améliore la texture des aliments et est bénéfique pour enrichir de nombreux produits alimentaires.",
+        "title": "Aliments",
+        "description": "La gélatine de poisson améliore les aliments fonctionnels, la confiserie, les desserts et les collations, tout en offrant des propriétés gélifiantes, épaississantes et stabilisantes dans les formulations.",
         "subcategories": {
           "stabilizer": "Stabilisateur",
-          "clarifyingAgent": "Agent Clarifiant",
+          "clarifyingAgent": "Agent clarifiant",
           "emulsifier": "Émulsifiant",
-          "gummyCandy": "Bonbons Gélifiés",
-          "gellingTexturizer": "Gélifiant et Texturant",
-          "thickener": "Épaississant",
+          "gummyCandy": "bonbons gélifiés",
+          "thickener": "épaississant",
+          "gellingTexturizerDairy": "agent gélifiant, texturant et pour produits laitiers",
           "confectionery": "Confiserie",
-          "dairyProducts": "Produits Laitiers",
+          "dairy": "Produits laitiers",
           "desserts": "Desserts"
         }
       },
       "cosmeticsSkincare": {
-        "title": "Cosmétiques et Soins de la Peau",
-        "description": "Le secret de la beauté intérieure est un puissant ingrédient cosmétique qui restaure l'élasticité de la peau, réduit les ridules et hydrate en profondeur pour un éclat de jeunesse. Soutenu par la science et plébiscité par les soins de la peau haut de gamme, c'est le choix naturel pour la prochaine génération",
+        "title": "Cosméceutique",
+        "description": "La gélatine de poisson améliore les crèmes, masques et sérums en offrant des propriétés épaississantes, gélifiantes et filmogènes naturelles pour des formulations lisses, stables et somptueuses.",
         "subcategories": {
-          "antiAgingProducts": "Produits Anti-Âge",
-          "moisturizer": "Hydratant",
-          "serum": "Sérum",
-          "hairNailCare": "Soins des Cheveux et Ongles",
-          "makeupBeauty": "Maquillage et Beauté"
+          "antiAgingProducts": "Produits anti-âge",
+          "moisturizer": "hydratant",
+          "serum": "sérum",
+          "hairNailCare": "Soin des cheveux et des ongles",
+          "makeupBeauty": "Maquillage et beauté"
         }
       },
       "biomedicalApplications": {
-        "title": "Applications Biomédicales",
-        "description": "La gélatine de poisson sert des fonctions critiques dans les applications biomédicales.",
+        "title": "Biomédical",
+        "description": "Le collagène de poisson soutient l'ingénierie tissulaire, la cicatrisation des plaies et la médecine régénérative en fournissant un support protéique biocompatible et bioactif.",
         "subcategories": {
-          "woundDressings": "Pansements pour Blessures",
-          "drugReleaseSystems": "Systèmes de Libération de Médicaments",
-          "3dBioprinting": "Bioprinting 3D",
+          "woundDressingsMedicalFilms": "Pansements pour plaies et films médicaux",
+          "controlledDrugRelease": "Systèmes de libération contrôlée de médicaments",
+          "embolizationLyoprotection": "Embolisation et cicatrisation par lyophilisation",
+          "bioprintingTissue": "Bioimpression 3D / ingénierie tissulaire",
           "microcarriers": "Microporteurs",
-          "cellDelivery": "Livraison de Cellules",
-          "drugDelivery": "Livraison de Médicaments",
-          "regenerativeMedicine": "Médecine Régénérative",
-          "embolizationHealing": "Cicatrisation par Embolisation",
+          "cellDelivery": "Livraison de cellules",
+          "drugDelivery": "Livraison de médicaments",
+          "regenerativeMedicine": "Médecine régénérative",
           "plasma": "Plasma",
-          "lyoprotectionVaccines": "Lioprotection pour Vaccins"
+          "cryoprotection": "Cryoprotection",
+          "lyoprotectionVaccines": "Lyoprotection / vaccins"
         }
       },
       "pharmaIndustry": {
-        "title": "Industrie Pharmaceutique",
-        "description": "Ceci est utilisé pour les innovations pharmaceutiques modernes, de la cicatrisation avancée des plaies et des systèmes de libération de médicaments aux matériaux biocompatibles pour l'ingénierie tissulaire. Avec une biodisponibilité et une sécurité supérieures, il garantit une absorption améliorée, une compatibilité naturelle et un approvisionnement durable, ce qui en fait un ingrédient de confiance",
+        "title": "Pharmaceutique",
+        "description": "La gélatine de poisson est un ingrédient clé dans les capsules, comprimés et capsules molles pharmaceutiques, offrant un enrobage naturel, biocompatible et stable.",
         "subcategories": {
-          "capsuleProduction": "Production de Capsules",
-          "tabletCoating": "Enrobage de Comprimés",
-          "encapsulationVitamins": "Encapsulation de Vitamines",
-          "bindingAgentTablets": "Agent Liant dans les Comprimés",
-          "controlledDrugRelease": "Libération Contrôlée de Médicaments",
-          "plasmaExpanders": "Expandeurs de Plasma"
+          "capsuleProduction": "Production de capsules (capsules molles et dures)",
+          "tabletCoating": "Enrobage de comprimés",
+          "encapsulationVitamins": "Encapsulation de vitamines et nutraceutiques",
+          "bindingAgentTablets": "Agent liant dans les comprimés",
+          "controlledDrugRelease": "Systèmes de libération contrôlée de médicaments",
+          "plasmaExpanders": "Succédanés de plasma (usage médical historique/limité)"
         }
       }
     }

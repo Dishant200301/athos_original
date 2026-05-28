@@ -23,7 +23,7 @@ const GelatinBenefits = () => {
     },
     {
       title: t('fishGelatin.productShowcase.categories.biomedicalApplications.name'),
-      image: '/images/Biotechnology_fish_gelatin.jpg',
+      image: '/images/Biotechnology.jpg',
       categoryId: 'biomedical-applications'
     }
   ];
@@ -49,7 +49,7 @@ const GelatinBenefits = () => {
           animation-play-state: paused;
         }
       `}</style>
-      <section className="py-16 md:py-20 bg-background overflow-hidden">
+      <section className="pt-16 pb-0 md:pt-20 md:pb-0 bg-background overflow-hidden">
         <div className="w-full">
           <div className="text-center mb-8 md:mb-12 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
             <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>{t('fishGelatin.benefitsTitle')}</h2>

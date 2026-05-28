@@ -35,7 +35,7 @@ const GlobalPresence = () => {
   };
 
   return (
-    <section className="py-12 md:py-20 bg-background">
+    <section className="pt-16 md:pt-20 pb-0 bg-background">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>

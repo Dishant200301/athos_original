@@ -6,14 +6,14 @@ import { useTranslation } from 'react-i18next';
 const CobrandingSection = () => {
   const { t } = useTranslation();
   return (
-    <section className="py-16 md:py-20 bg-background">
+    <section className="pt-16 md:pt-20 pb-0 bg-background">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center w-full">
           <div className="flex justify-center order-2 lg:order-2 lg:pl-12">
             <img
               src="/images/athos_product.png"
               alt="ATHOS Co-branding Products"
-              className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto object-contain"
+              className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto object-contain transition-transform duration-500 ease-in-out hover:scale-105 cursor-pointer"
             />
           </div>
 

@@ -28,6 +28,7 @@ const FishGelatin = () => {
   const [discoverRef, discoverVisible] = useScrollAnimation(0.1);
   const [benefitsRef, benefitsVisible] = useScrollAnimation(0.1);
   const [contactRef, contactVisible] = useScrollAnimation(0.1);
+  const [scienceRef, scienceVisible] = useScrollAnimation(0.1);
 
   // Individual category image animations
   const [foodIndustryRef, foodIndustryVisible] = useScrollAnimation(0.05);
@@ -83,6 +84,45 @@ const FishGelatin = () => {
       name: t('fishGelatin.productShowcase.categories.biomedicalApplications.name'),
       description: t('fishGelatin.productShowcase.categories.biomedicalApplications.description'),
       applications: t('fishGelatin.productShowcase.categories.biomedicalApplications.applications', { returnObjects: true }) as string[]
+    }
+  ];
+
+  const scienceCards = [
+    {
+      key: 'gellingPower',
+      image: '/images/fish_gelatin_page/Gelling_Power.png',
+      gradient: 'from-[#f2faf7]/70 via-[#eef9f4]/50 to-[#dcf2e9]/60',
+      titleColorClass: 'text-[#1b7353]',
+    },
+    {
+      key: 'formingAbility',
+      image: '/images/fish_gelatin_page/Forming_Ability.png',
+      gradient: 'from-[#fffaf0]/80 via-[#fff5e1]/50 to-[#fdf0cd]/60',
+      titleColorClass: 'text-[#b25e00]',
+    },
+    {
+      key: 'emulsionStability',
+      image: '/images/fish_gelatin_page/Reliable_Emulsion_Stability.png',
+      gradient: 'from-[#f0f7ff]/80 via-[#e6f0fa]/50 to-[#d4e6f7]/60',
+      titleColorClass: 'text-[#1d4ed8]',
+    },
+    {
+      key: 'bindingAdhesion',
+      image: '/images/fish_gelatin_page/Binding_&_Adhesion.png',
+      gradient: 'from-[#fafafa]/80 via-[#f3f4f6]/60 to-[#e5e7eb]/70',
+      titleColorClass: 'text-[#374151]',
+    },
+    {
+      key: 'clarityPurity',
+      image: '/images/fish_gelatin_page/Clarity_&_Purity.png',
+      gradient: 'from-[#fffdf0]/80 via-[#fffbeb]/60 to-[#fef3c7]/60',
+      titleColorClass: 'text-[#b45309]',
+    },
+    {
+      key: 'digestibilityCleanLabel',
+      image: '/images/fish_gelatin_page/Digestibility_&_Clean_Label.png',
+      gradient: 'from-[#fff5f5]/80 via-[#ffe3e3]/60 to-[#ffd1d1]/60',
+      titleColorClass: 'text-[#b91c1c]',
     }
   ];
 
@@ -217,8 +257,8 @@ const FishGelatin = () => {
         </div>
 
         {/* Introductory Highlights Section */}
-        <section className="py-12 md:py-16 bg-background border-b border-gray-100">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center space-y-6 max-w-5xl">
+        <section className="pt-12 pb-0 md:pt-16 md:pb-0 bg-background">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center space-y-6">
             <h2 
               className="text-[26px] md:text-[33px] text-center leading-tight font-inter"
               style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 600 }}
@@ -240,16 +280,61 @@ const FishGelatin = () => {
           </div>
         </section>
 
-        {/* Image Grid Section */}
-        <section className="py-12 bg-background">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex justify-center">
-            <img 
-              src="/images/fish_gelatin_grid.png" 
-              alt="Fish Gelatin Applications Grid" 
-              className="w-full max-w-5xl h-auto object-contain rounded-lg shadow-md"
-            />
-          </div>
-        </section>
+        {/* Science Behind Fish Gelatin Section */}
+        <div
+          ref={scienceRef}
+          className={`transition-all duration-700 ease-out ${scienceVisible
+            ? 'opacity-100 translate-y-0'
+            : 'opacity-0 translate-y-12'
+            }`}
+        >
+          <section className="pt-16 pb-0 md:pt-24 md:pb-0 bg-background">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 max-w-6xl">
+              {/* Scientific Cards */}
+              <div className="space-y-6 md:space-y-10">
+                {scienceCards.map((card, index) => {
+                  const title = t(`fishGelatin.scienceSection.cards.${card.key}.title`);
+                  const description = t(`fishGelatin.scienceSection.cards.${card.key}.description`);
+                  const isTextOnLeft = index % 2 === 0;
+
+                  return (
+                    <div
+                      key={card.key}
+                      className="relative overflow-hidden rounded-[24px] md:rounded-[32px] w-full aspect-auto md:aspect-[2550/826] flex items-center p-6 sm:p-8 md:p-12 lg:p-16 border border-gray-100/80 shadow-[0_4px_25px_rgba(0,0,0,0.015)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.035)] hover:-translate-y-1 hover:scale-[1.002] transition-all duration-500 ease-out group"
+                    >
+                      {/* Background Image */}
+                      <img
+                        src={card.image}
+                        alt=""
+                        className="absolute inset-0 w-full h-full object-cover pointer-events-none transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
+                      />
+
+                      {/* Content Overlay */}
+                      <div 
+                        className={`w-full md:w-[48%] relative z-10 text-left ${
+                          isTextOnLeft ? 'mr-auto' : 'ml-auto'
+                        } space-y-2 sm:space-y-3 bg-white/75 md:bg-transparent backdrop-blur-[4px] md:backdrop-blur-none p-6 sm:p-8 md:p-0 rounded-2xl md:rounded-none border border-white/40 md:border-none shadow-[0_4px_30px_rgba(0,0,0,0.02)] md:shadow-none`}
+                      >
+                        <h3
+                          className={`text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight ${card.titleColorClass}`}
+                          style={{ fontFamily: 'Inter' }}
+                        >
+                          {title}
+                        </h3>
+                        <p
+                          className="text-sm sm:text-base lg:text-lg leading-relaxed font-normal"
+                          style={{ fontFamily: 'Inter', color: 'rgba(67, 67, 64, 0.95)' }}
+                        >
+                          {description}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        </div>
 
 
         {/* Applications of Fish Gelatin SECTION */}

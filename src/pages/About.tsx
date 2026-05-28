@@ -96,8 +96,8 @@ const About = () => {
               />
             </div>
             
-            <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 pb-20">
-              <h1 className="text-white font-medium leading-tight text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+            <div className="relative z-10 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 text-left pb-20">
+              <h1 className="text-white font-medium leading-tight text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-5xl">
                 {t('about.heroTitle')}
               </h1>
             </div>
@@ -113,13 +113,13 @@ const About = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <section className="py-12 md:py-20 bg-background">
+          <section className="pt-12 md:pt-20 pb-0 bg-background">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
               <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>{t('about.title')}</h2>
               
               <ul className="space-y-3 md:space-y-4 text-foreground leading-relaxed text-base md:text-lg font-inter" style={{ fontFamily: 'Inter, sans-serif' }}>
                 {(t('about.aboutContent', { returnObjects: true }) as string[]).map((content: string, index: number) => (
-                  <li key={index} className="block text-justify">
+                  <li key={index} className="block text-left">
                     <span>{renderTextWithFiCollaLogo(content)}</span>
                   </li>
                 ))}
@@ -140,11 +140,11 @@ const About = () => {
           {/* Mission Section */}
           <section className="py-12 md:py-20 bg-background">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <div className="max-w-4xl mx-auto text-center">
+              <div className="w-full text-left">
                 <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
                   {t('about.mission.title')}
                 </h2>
-                <p className="text-foreground leading-relaxed text-base md:text-lg text-center font-inter max-w-2xl mx-auto">
+                <p className="text-foreground leading-relaxed text-base md:text-lg font-inter w-full">
                   {renderTextWithFiCollaLogo(t('about.mission.description'))}
                 </p>
               </div>
@@ -166,7 +166,7 @@ const About = () => {
                       className="h-14 md:h-16 w-auto object-contain"
                     />
                   </div>
-                  <p className="text-foreground/90 leading-relaxed text-base md:text-lg text-justify font-inter">
+                  <p className="text-foreground/90 leading-relaxed text-base md:text-lg text-left font-inter">
                     {renderTextWithFiCollaLogo(t('about.athosSection.description'))}
                   </p>
                 </div>
@@ -183,7 +183,7 @@ const About = () => {
                         <h3 className="mb-2 text-xl md:text-2xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '600' }}>
                           {valObj.title}
                         </h3>
-                        <p className="text-foreground leading-relaxed text-base md:text-lg text-justify font-inter">
+                        <p className="text-foreground leading-relaxed text-base md:text-lg text-left font-inter">
                           {renderTextWithFiCollaLogo(valObj.description)}
                         </p>
                       </div>
@@ -195,13 +195,13 @@ const About = () => {
           </section>
 
           {/* Vision Section */}
-          <section className="py-12 md:py-20 bg-background">
+          <section className="pt-12 md:pt-20 pb-0 bg-background">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <div className="max-w-4xl mx-auto text-center">
+              <div className="max-w-4xl text-left">
                 <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
                   {t('about.vision.title')}
                 </h2>
-                <p className="text-foreground leading-relaxed text-base md:text-lg text-center font-inter max-w-2xl mx-auto">
+                <p className="text-foreground leading-relaxed text-base md:text-lg font-inter max-w-2xl">
                   {renderTextWithFiCollaLogo(t('about.vision.description'))}
                 </p>
               </div>
@@ -218,15 +218,15 @@ const About = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <section className="py-12 md:py-20 bg-background">
+          <section className="pt-12 md:pt-20 pb-0 bg-background">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl text-center" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>{t('about.facilities.title')}</h2>
+              <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl text-left" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>{t('about.facilities.title')}</h2>
               
               <div className="space-y-4 w-full" style={{ fontFamily: 'Inter, sans-serif' }}>
                 {(t('about.facilities.descriptions', { returnObjects: true }) as string[]).map((description: string, index: number) => (
                   <p 
                     key={index} 
-                    className="block text-foreground leading-relaxed text-base md:text-lg text-justify font-inter"
+                    className="block text-foreground leading-relaxed text-base md:text-lg text-left font-inter"
                   >
                     {renderTextWithFiCollaLogo(description)}
                   </p>

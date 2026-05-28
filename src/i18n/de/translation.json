@@ -64,7 +64,7 @@
     },
     "cobranding": {
       "title": "Cobranding-Möglichkeiten",
-      "description": "Partnerschaft mit Athos collagen pvt ltd.—um Premium-Markenprodukte zu liefern. Unser Cobranding-Programm umfasst Zugang zu einem respektierten Markennamen, Marketing-Materialien und etablierte wissenschaftliche Forschung",
+      "description": "Partnerschaft mit Athos collagen pvt ltd., um ein erstklassiges, markengeschütztes marines Kollagenpeptid zu liefern. Unser Co-Branding-Programm umfasst den Zugang zu einem angesehenen Markennamen, Marketingmaterialien und etablierter wissenschaftlicher Forschung",
       "cta": "Kontaktieren Sie uns"
     },
     "benefits": {
@@ -166,28 +166,57 @@
     "introTitle": "Athos Collagen Pvt. Ltd. ist ein führender Hersteller und Exporteur von Fischgelatine aus Indien",
     "introDesc1": "Von der Natur entworfen, bietet Fischgelatine reine Funktionalität mit hoher Biokompatibilität und eignet sich für die Lebensmittel-, Nutrazeutika-, Pharma-, Kosmetik- und biomedizinische Industrie.",
     "introDesc2": "Fischgelatine wird zunehmend als Alternative der nächsten Generation positioniert und bietet einen breiteren Marktzugang, eine höhere Verbraucherakzeptanz und eine Ausrichtung auf globale Clean-Label- und Nachhaltigkeitstrends.",
+    "scienceSection": {
+      "title": "Wissenschaft hinter Fischgelatine",
+      "cards": {
+        "gellingPower": {
+          "title": "Gelierkraft",
+          "description": "Fortgeschrittene thermoreversible Gelierung ermöglicht eine präzise Kontrolle der Textur, von festen Strukturen bis hin zu zartschmelzenden Erlebnissen."
+        },
+        "formingAbility": {
+          "title": "Filmbildungsvermögen",
+          "description": "Verwandelt flüssige Systeme in dünne, haltbare Filme, die sich ideal für Beschichtungen, Verkapselungen und Schutzbarrieren eignen."
+        },
+        "emulsionStability": {
+          "title": "Zuverlässige Emulsionsstabilität",
+          "description": "Gewährleistet eine gleichmäßige Vermischung von Öl- und Wasserphasen, was Konsistenz, Stabilität und Haltbarkeit verbessert."
+        },
+        "bindingAdhesion": {
+          "title": "Bindung & Haftung",
+          "description": "Erhöht die strukturelle Integrität durch effizientes Binden von Inhaltsstoffen in festen und halbfesten Formulierungen."
+        },
+        "clarityPurity": {
+          "title": "Klarheit & Reinheit",
+          "description": "Liefert transparente, klare Lösungen ohne Beeinträchtigung von Geschmack, Farbe oder Formulierungsintegrität."
+        },
+        "digestibilityCleanLabel": {
+          "title": "Verdaulichkeit & Clean Label",
+          "description": "Natürlich gewonnenes Protein mit hervorragender Verdaulichkeit, das die Anforderungen moderner Clean-Label-Produkte unterstützt."
+        }
+      }
+    },
     "productShowcase": {
       "usageTitle": "Anwendungskategorien",
       "discoverMore": "Mehr Entdecken",
       "categories": {
         "foodIndustry": {
-          "name": "Lebensmittelindustrie",
+          "name": "Lebensmittel",
           "description": "Fischgelatine verbessert funktionelle Lebensmittel, Süßwaren, Desserts und Snacks und bietet gelierende, verdickende und stabilisierende Eigenschaften in Formulierungen.",
           "applications": [
             "Stabilisator",
             "Klärungsmittel",
             "Emulgator",
-            "Gummibärchen & Süßigkeiten",
+            "Gummibärchen & Bonbons",
             "Verdickungsmittel",
-            "Gelierender Texturgeber und Milchprodukte",
+            "Geliermittel, Texturgeber und Milchprodukt-Zusatz",
             "Süßwaren",
             "Milchprodukte",
             "Desserts"
           ]
         },
         "cosmeticsSkincare": {
-          "name": "Kosmetik und Hautpflege",
-          "description": "Fischgelatine verbessert Cremes, Masken und Seren durch natürliche verdickende, gelierende und filmbildende Eigenschaften für glatte, stabile und luxuriöse Formulierungen.",
+          "name": "Kosmezeutisch",
+          "description": "Fischgelatine verbessert Cremes, Masken und Seren durch natürliche verdickende, gelierende und filmbildende Eigenschaften für geschmeidige, stabile und luxuriöse Formulierungen.",
           "applications": [
             "Feuchtigkeitscreme",
             "Serum",
@@ -197,31 +226,32 @@
           ]
         },
         "biomedicalApplications": {
-          "name": "Biomedizinische Anwendungen",
-          "description": "Fischkollagen unterstützt Gewebeengineering, Wundheilung und regenerative Medizin durch Bereitstellung eines biokompatiblen, bioaktiven Protein-Gerüsts.",
+          "name": "Biomedizinisch",
+          "description": "Fischkollagen unterstützt Gewebeengineering, Wundheilung und regenerative Medizin durch Bereitstellung eines biokompatiblen, bioaktiven Proteingerüsts.",
           "applications": [
-            "Wundverbände und Medizinische Filme",
-            "Kontrollierte Arzneimittelfreisetzungssysteme",
-            "Embolisation und Lyophilisation und Heilung",
-            "3D-Biodruck / Gewebeengineering",
+            "Wundauflagen & medizinische Filme",
+            "Systeme zur kontrollierten Wirkstofffreisetzung",
+            "Embolisation, Lyoprotektion und Heilung",
+            "3D-Bioprinting / Gewebeengineering",
             "Mikroträger",
-            "Arzneimittel- und Zellabgabe",
+            "Zellabgabe",
+            "Wirkstoffabgabe",
             "Regenerative Medizin",
             "Plasma",
             "Kryoprotektion",
-            "Lyophilisation / Impfstoffe"
+            "Lyoprotektion / Impfstoffe"
           ]
         },
         "pharmaIndustry": {
-          "name": "Pharmaindustrie",
-          "description": "Fischgelatine ist ein Schlüsselbestandteil in pharmazeutischen Kapseln, Tabletten und Weichgelen und bietet eine natürliche, biokompatible und stabile Beschichtung.",
+          "name": "Pharmazeutisch",
+          "description": "Fischgelatine ist ein Hauptbestandteil in pharmazeutischen Kapseln, Tabletten und Weichkapseln und bietet eine natürliche, biokompatible und stabile Hülle.",
           "applications": [
-            "Kapselproduktion (Weich- und Hartgele)",
-            "Tablettenbeschichtung",
-            "Einkapselung von Vitaminen und Nutrazeutika",
+            "Kapselherstellung (Weich- & Hartkapseln)",
+            "Tablettenüberzug",
+            "Verkapselung von Vitaminen & Nutrazeutika",
             "Bindemittel in Tabletten",
-            "Kontrollierte Arzneimittelfreisetzungssysteme",
-            "Plasmaexpander (historische/limitierte medizinische Verwendung)"
+            "Systeme zur kontrollierten Wirkstofffreisetzung",
+            "Plasmaexpander (historische/eingeschränkte medizinische Verwendung)"
           ]
         }
       }
@@ -244,7 +274,7 @@
     }
   },
   "fishCollagen": {
-    "heroTitle": "Fischkollagen",
+    "heroTitle": "Fischkollagenpeptid",
     "introTitle": "Athos Collagen Pvt. Ltd. ist der führende Hersteller und Exporteur von Fischkollagenpeptiden aus Indien.",
     "introSubtitle": "Fischkollagenpeptid ist auch als Meereskollagen oder hydrolysiertes Kollagenpeptid bekannt.",
     "productShowcase": {
@@ -267,31 +297,31 @@
       "categories": {
         "foodBeverages": {
           "name": "Lebensmittel und Getränke",
-          "description": "Wissenschaftlich formulierte Lebensmittel und Getränke mit marinen Kollagenpeptiden. Entwickelt zur Unterstützung der funktionellen Ernährung mit bewährten Qualitätsstandards.",
+          "description": "Wissenschaftlich formulierte Lebensmittel und Getränke mit marinem Kollagenpeptid. Entwickelt zur Unterstützung der funktionellen Ernährung mit bewährten Qualitätsstandards.",
           "applications": [
-            "Verbesserung der Emulgierstabilität, Härte und Wasserbindungskapazität von Lebensmitteln.",
-            "Hilfe bei Verdauung, Absorption und Verteilung im ganzen Körper.",
-            "Funktionelle Lebensmittel (mit Kollagen angereichert).",
-            "Cerealien und Energydrinks.",
+            "Mit Kollagen angereichertes Wasser und Getränke.",
             "Protein-Shakes und Smoothies.",
-            "Kollagen-infundiertes Wasser und Getränke.",
+            "Funktionelle Lebensmittel (mit Kollagen angereichert).",
             "Nahrungsergänzungsmittel.",
-            "Snacks."
+            "Cerealien und Energydrinks.",
+            "Snacks.",
+            "Verbesserung der Emulgierstabilität, Härte und Wasserbindungskapazität von Lebensmitteln.",
+            "Hilfe bei Verdauung, Absorption und Verteilung im ganzen Körper."
           ]
         },
         "nutraceuticals": {
-          "name": "Nutraceuticals Nahrungsergänzungsmittel",
-          "description": "Präzise formulierte Nutraceuticals mit hochwertigen, bioverfügbaren marinen Kollagenpeptiden. Entwickelt zur Unterstützung einer optimalen Körperfunktion und des Wohlbefindens.",
+          "name": "Nutrazeutisch",
+          "description": "Präzise formulierte Nutrazeutika mit hochwertigem, bioverfügbarem marinem Kollagenpeptid. Entwickelt zur Unterstützung einer optimalen Körperfunktion und des Wohlbefindens.",
           "applications": [
             "Proteinriegel",
             "Getränke",
-            "Ergänzungsmittel für die Gelenkgesundheit",
+            "Nahrungsergänzungsmittel für die Gelenkgesundheit",
             "Pulver"
           ]
         },
         "cosmetics": {
-          "name": "Kosmezeutische Nahrungsergänzungsmittel",
-          "description": "Marines Kollagenpeptid hydratisiert, strafft und verjüngt Haut, Haare und Nägel und verbessert gleichzeitig die Produkttextur und -leistung.",
+          "name": "Kosmezeutisch",
+          "description": "Marines Kollagenpeptid spendet Feuchtigkeit, strafft und verjüngt Haut, Haare und Nägel und verbessert gleichzeitig die Textur und Leistung des Produkts.",
           "applications": [
             "Anti-Aging-Cremes und Seren.",
             "Feuchtigkeitscremes.",
@@ -301,29 +331,30 @@
           ]
         },
         "pharmaceuticals": {
-          "name": "Pharmazeutische Industrie",
+          "name": "Pharmazeutisch",
           "description": "Pharmazeutisches marines Kollagenpeptid, entwickelt unter strengen Qualitätsstandards. Entwickelt zur Unterstützung forschungsbasierter Formulierungen und therapeutischer Ernährung.",
           "applications": [
+            "Wirkstofffreisetzungssysteme.",
             "Hilfe bei Gelenkschmerzen und Entzündungen.",
-            "Behandlung von muskuloskelettalen Störungen wie Osteoporose und Sarkopenie.",
+            "Injektionsbasierte Organpräparate",
+            "Behandlung von Erkrankungen des Bewegungsapparats wie Osteoporose und Sarkopenie.",
             "Stabilisierung des Blutzuckerspiegels.",
             "Unterstützung des Haar- und Nagelwachstums.",
             "Wundheilungsprodukte.",
-            "Gewebeengineering.",
-            "Arzneimittelfreisetzungssysteme."
+            "Gewebeengineering."
           ]
         },
         "petFood": {
           "name": "Tierfutter-Ergänzungsmittel",
-          "description": "Nähren Sie Ihr Haustier von innen heraus mit Fischkollagenpeptiden. Unterstützt gesunde Bewegung, glänzendes Fell und allgemeine Vitalität.",
+          "description": "Ernähren Sie Ihr Haustier von innen heraus mit marinem Kollagenpeptid. Unterstützt gesunde Bewegung, glänzendes Fell und allgemeine Vitalität.",
           "applications": [
-            "Gelenkfunktion,",
-            "Hautgesundheit,",
+            "Gelenkfunktion, ",
+            "Hautgesundheit, ",
             "Darmgesundheit und Mobilität."
           ]
         },
         "biotechnology": {
-          "name": "Biomedizinische Anwendungen",
+          "name": "Biomedizinisch",
           "description": "Vom Labor zum Leben macht marines Kollagenpeptid es möglich. Das essentielle Protein für Gewebeengineering und regenerative Medizin.",
           "applications": [
             "Gerüstmaterialien für Zellkultur.",
@@ -342,11 +373,22 @@
         "Vertrauenswürdige Ernährung—sicher für die meisten Diäten, frei von Cholesterin, Purinen und Fett, mit minimalen Allergenbedenken (außer Fisch)."
       ]
     },
+    "uniqueness": {
+      "features": [
+        "Mehr als 97 % Proteingehalt für hohe Reinheit und Nährwert.",
+        "Enthält alle Aminosäuren mit einem sehr hohen Anteil an Glycin, Prolin und Hydroxyprolin (GPH) ≥ 40 %, was es zu einem Kollagen-Tripeptid (CTP) macht.",
+        "Vollständig geruchlos, geschmacksneutral und zu 100 % wasserlöslich.",
+        "Verbessert die Bioverfügbarkeit und Aufnahme signifikant.",
+        "Klinisch zugelassen unter dem Markennamen ficolla",
+        "Ausschließlich in einer reinen Fischverarbeitungsanlage hergestellt, um jegliche Kreuzkontamination aus anderen Quellen auszuschließen.",
+        "Akkreditiert durch weltweit anerkannte Zertifizierungsstellen."
+      ]
+    },
     "discover": {
       "title": "Entdecken",
-      "selectApplication": "Wählen Sie Ihre Anwendung",
-      "description": "Ob Sie Nahrungsergänzungsmittel, funktionelle Lebensmittel entwerfen oder im biomedizinischen Bereich arbeiten, unsere Gelatine kann Ihnen helfen, technische Herausforderungen zu überwinden, um überlegene Produkte zu erreichen.",
-      "cta": "Erfahren Sie, wie Fischkollagen angewendet wird"
+      "selectApplication": "Anwendungen von marinem Kollagenpeptid",
+      "description": "Ob bei der Entwicklung von Nahrungsergänzungsmitteln, funktionellen Lebensmitteln, Nutrazeutika, Pharmazeutika, Kosmezeutika, Tiernahrung oder im biomedizinischen Bereich – unser marines Kollagenpeptid hilft Ihnen, technische Herausforderungen zu meistern und erstklassige Produkte zu entwickeln.",
+      "cta": "Erfahren Sie, wie Fischkollagenpeptid angewendet wird"
     },
     "pie": {
       "title": "Athos Fish Collagen Peptide Amino Acid Composition",
@@ -373,125 +415,123 @@
     "categories": {
       "foodBeverages": {
         "title": "Lebensmittel und Getränke",
-        "description": "Marines Kollagenpeptid wird aufgrund seiner stabilisierenden und ernährungsphysiologischen Vorteile häufig in funktionellen Lebensmitteln und Getränken verwendet. Es verbessert die Emulgierstabilität, Textur und Wasserbindungskapazität in Formulierungen und unterstützt gleichzeitig Verdauung und Absorption",
+        "description": "Wissenschaftlich formulierte Lebensmittel und Getränke mit marinem Kollagenpeptid. Entwickelt zur Unterstützung der funktionellen Ernährung mit bewährten Qualitätsstandards.",
         "subcategories": {
-          "drinks": "Getränke",
-          "proteinBars": "Proteinriegel",
-          "powder": "Pulver",
-          "jointHealthSupplements": "Gelenkgesundheits-Ergänzungen"
+          "collagenWaterBeverages": "Mit Kollagen angereichertes Wasser und Getränke.",
+          "proteinShakesSmoothies": "Protein-Shakes und Smoothies.",
+          "functionalFoodsFortified": "Funktionelle Lebensmittel (mit Kollagen angereichert).",
+          "dietarySupplements": "Nahrungsergänzungsmittel.",
+          "cerealsEnergyDrinks": "Cerealien und Energydrinks.",
+          "snacks": "Snacks.",
+          "improveStability": "Verbesserung der Emulgierstabilität, Härte und Wasserbindungskapazität von Lebensmitteln.",
+          "helpDigestion": "Hilfe bei Verdauung, Absorption und Verteilung im ganzen Körper."
         }
       },
       "nutraceuticals": {
-        "title": "Nutrazeutika und Nahrungsergänzungsmittel",
-        "description": "Von Kollagen-Ergänzungsmitteln in Getränken, Proteinriegeln, Pulvern und mehr bieten sie essentielle Nahrung. Diese Produkte sind für Haut, Haare, Muskelregeneration und allgemeine Vitalität konzipiert.",
+        "title": "Nutrazeutisch",
+        "description": "Präzise formulierte Nutrazeutika mit hochwertigem, bioverfügbarem marinem Kollagenpeptid. Entwickelt zur Unterstützung einer optimalen Körperfunktion und des Wohlbefindens.",
         "subcategories": {
-          "functionalFoods": "Funktionelle Lebensmittel",
-          "proteinShakes": "Protein-Shakes",
-          "drinkBeverages": "Getränke",
-          "snacks": "Snacks",
-          "dietarySupplements": "Nahrungsergänzungsmittel"
+          "proteinBars": "Proteinriegel",
+          "drinks": "Getränke",
+          "jointHealthSupplements": "Nahrungsergänzungsmittel für die Gelenkgesundheit",
+          "powders": "Pulver"
         }
       },
       "cosmetics": {
-        "title": "Kosmetik und Hautpflege",
-        "description": "Marines Kollagen ist ein Hauptbestandteil in der Schönheits- und Körperpflege und bekannt für die Verbesserung der Hautelastizität, Feuchtigkeitsversorgung und des allgemeinen Erscheinungsbildes. Es wird häufig in Anti-Aging-Cremes, Seren und Feuchtigkeitscremes sowie in der Haarpflege, Nagelbehandlung und in Gesichtsmasken verwendet, um ein jugendliches, gesund aussehendes Hautbild und stärkere Haare und Nägel zu fördern.",
+        "title": "Kosmezeutisch",
+        "description": "Marines Kollagenpeptid spendet Feuchtigkeit, strafft und verjüngt Haut, Haare und Nägel und verbessert gleichzeitig die Textur und Leistung des Produkts.",
         "subcategories": {
-          "antiAgingFormulations": "Anti-Aging-Formulierungen",
-          "moisturizationHydration": "Feuchtigkeitsversorgung und Hydratation",
-          "skinRepairRegeneration": "Hautreparatur und Regeneration",
-          "brighteningEvenSkinTone": "Aufhellung und gleichmäßiger Hautton",
-          "hairNailStrengthening": "Haar- und Nagelstärkung",
-          "nutricosmetics": "Nutricosmetics (Schönheit von innen)"
+          "antiAgingCreamsSerums": "Anti-Aging-Cremes und Seren.",
+          "moisturizers": "Feuchtigkeitscremes.",
+          "hairCareProducts": "Haarpflegeprodukte.",
+          "nailCareTreatments": "Nagelpflegebehandlungen.",
+          "faceMasks": "Gesichtsmasken."
         }
       },
       "pharmaceuticals": {
-        "title": "Pharmazeutika",
-        "description": "Marines Kollagenpeptid spielt eine entscheidende Rolle bei medizinischen und therapeutischen Anwendungen und bietet Vorteile bei der Linderung von Gelenkschmerzen und der Reduzierung von Entzündungen. Es unterstützt die Wundheilung, Geweberegeneration sowie das Haar- und Nagelwachstum, während es auch in fortschrittlichen Wirkstofffreisetzungssystemen und Tissue-Engineering-Lösungen eingesetzt wird.",
+        "title": "Pharmazeutisch",
+        "description": "Pharmazeutisches marines Kollagenpeptid, entwickelt unter strengen Qualitätsstandards. Entwickelt zur Unterstützung forschungsbasierter Formulierungen und therapeutischer Ernährung.",
         "subcategories": {
-          "drugDeliverySystems": "Arzneimittelabgabesysteme",
-          "woundHealingRegenerativeMedicine": "Wundheilung und regenerative Medizin",
-          "tissueEngineeringBiomaterials": "Gewebeengineering und Biomaterialien",
-          "drugFormulationStabilizer": "Arzneimittelformulierungsstabilisator",
-          "oralSupplementsNutraPharma": "Orale Ergänzungen / Nutra-Pharma",
-          "surgicalApplications": "Chirurgische Anwendungen"
+          "drugDeliverySystems": "Wirkstofffreisetzungssysteme.",
+          "helpJointPain": "Hilfe bei Gelenkschmerzen und Entzündungen.",
+          "injectionOrganItems": "Injektionsbasierte Organpräparate",
+          "treatMusculoskeletal": "Behandlung von Erkrankungen des Bewegungsapparats wie Osteoporose und Sarkopenie.",
+          "stabilizeBloodSugar": "Stabilisierung des Blutzuckerspiegels.",
+          "supportHairNail": "Unterstützung des Haar- und Nagelwachstums.",
+          "woundHealingProducts": "Wundheilungsprodukte.",
+          "tissueEngineering": "Gewebeengineering."
         }
       },
       "petFood": {
-        "title": "Tierfutter",
-        "description": "Marines Kollagenpeptid wird zunehmend in Tierfutterergänzungen verwendet, um die Gelenkgesundheit, Mobilität und allgemeine Vitalität von Tieren zu unterstützen. Es fördert stärkere Knochen, gesündere Haut und glänzenderes Fell, während es gleichzeitig die Verdauung und Flexibilität unterstützt, was es zu einem wesentlichen Bestandteil für die langfristige Gesundheit und den aktiven Lebensstil von Haustieren macht.",
+        "title": "Tierfutter-Ergänzungsmittel",
+        "description": "Ernähren Sie Ihr Haustier von innen heraus mit marinem Kollagenpeptid. Unterstützt gesunde Bewegung, glänzendes Fell und allgemeine Vitalität.",
         "subcategories": {
-          "jointBoneHealth": "Gelenk- und Knochengesundheit",
-          "skinCoatHealth": "Haut- und Fellgesundheit",
-          "digestiveHealth": "Verdauungsgesundheit",
-          "woundHealingRecovery": "Wundheilung und Erholung",
-          "dentalHealth": "Zahngesundheit",
-          "overallVitalityLongevity": "Gesamte Vitalität und Langlebigkeit"
+          "jointFunction": "Gelenkfunktion,",
+          "skinHealth": "Hautgesundheit,",
+          "gutHealthMobility": "Darmgesundheit und Mobilität."
         }
       },
       "biotechnology": {
-        "title": "Biotechnologie",
-        "description": "Marines Kollagenpeptid definiert die Biotechnologie mit seiner unübertroffenen Biokompatibilität und seinen regenerativen Eigenschaften neu. Von Tissue Engineering und Wirkstofffreisetzungssystemen bis hin zu 3D-Bioprinting und fortschrittlicher Wundpflege dienen marine Kollagenpeptide als Grundlage für die biomedizinische Forschung und Innovation der nächsten Generation. Sicher, nachhaltig und vielseitig ist es die natürliche Wahl für die biotechnologischen Durchbrüche von morgen.",
+        "title": "Biomedizinisch",
+        "description": "Vom Labor zum Leben macht marines Kollagenpeptid es möglich. Das essentielle Protein für Gewebeengineering und regenerative Medizin.",
         "subcategories": {
-          "tissueEngineeringRegenerativeMedicine": "Gewebeengineering und regenerative Medizin",
-          "biocompatibleMedicalImplants": "Biokompatible medizinische Implantate",
-          "cellCultureResearchApplications": "Zellkultur- und Forschungsanwendungen",
-          "biomaterialsDrugDelivery": "Biomaterialien für Arzneimittelabgabe",
-          "3dBioprinting": "3D-Bioprinting",
-          "woundHealingBiomedicalDevices": "Wundheilung und biomedizinische Geräte"
+          "scaffoldMaterials": "Gerüstmaterialien für Zellkultur.",
+          "biocompatibleMaterials": "Biokompatible Materialien für medizinische Implantate."
         }
       },
       "foodIndustry": {
-        "title": "Lebensmittelindustrie",
-        "description": "Fischgelatine wirkt als wirksames Geliermittel, das sich für die Herstellung von Gelees, Gummibonbons und Desserts eignet. Sie verbessert die Textur von Lebensmitteln und ist vorteilhaft bei der Anreicherung vieler Lebensmittelprodukte.",
+        "title": "Lebensmittel",
+        "description": "Fischgelatine verbessert funktionelle Lebensmittel, Süßwaren, Desserts und Snacks und bietet gelierende, verdickende und stabilisierende Eigenschaften in Formulierungen.",
         "subcategories": {
           "stabilizer": "Stabilisator",
           "clarifyingAgent": "Klärungsmittel",
           "emulsifier": "Emulgator",
-          "gummyCandy": "Gummibärchen und Süßigkeiten",
-          "gellingTexturizer": "Gelier- und Texturierungsmittel",
+          "gummyCandy": "Gummibärchen & Bonbons",
           "thickener": "Verdickungsmittel",
+          "gellingTexturizerDairy": "Geliermittel, Texturgeber und Milchprodukt-Zusatz",
           "confectionery": "Süßwaren",
-          "dairyProducts": "Milchprodukte",
+          "dairy": "Milchprodukte",
           "desserts": "Desserts"
         }
       },
       "cosmeticsSkincare": {
-        "title": "Kosmetik und Hautpflege",
-        "description": "Das Geheimnis der inneren Schönheit ist ein kraftvoller kosmetischer Inhaltsstoff, der die Hautelastizität wiederherstellt, feine Linien reduziert und für einen jugendlichen Glanz tiefenwirksam Feuchtigkeit spendet. Wissenschaftlich untermauert und im Bereich der Premium-Hautpflege geschätzt, ist es die natürliche Wahl für die nächste Generation",
+        "title": "Kosmezeutisch",
+        "description": "Fischgelatine verbessert Cremes, Masken und Seren durch natürliche verdickende, gelierende und filmbildende Eigenschaften für geschmeidige, stabile und luxuriöse Formulierungen.",
         "subcategories": {
-          "antiAgingProducts": "Anti-Aging-Produkte",
           "moisturizer": "Feuchtigkeitscreme",
           "serum": "Serum",
+          "antiAgingProducts": "Anti-Aging-Produkte",
           "hairNailCare": "Haar- und Nagelpflege",
-          "makeupBeauty": "Make-up und Schönheit"
+          "makeupBeauty": "Make-up & Schönheit"
         }
       },
       "biomedicalApplications": {
-        "title": "Biomedizinische Anwendungen",
-        "description": "Fischgelatine erfüllt kritische Funktionen in biomedizinischen Anwendungen.",
+        "title": "Biomedizinisch",
+        "description": "Fischkollagen unterstützt Gewebeengineering, Wundheilung und regenerative Medizin durch Bereitstellung eines biokompatiblen, bioaktiven Proteingerüsts.",
         "subcategories": {
-          "woundDressings": "Wundverbände",
-          "drugReleaseSystems": "Arzneimittelabgabesysteme",
-          "3dBioprinting": "3D-Bioprinting",
+          "woundDressingsMedicalFilms": "Wundauflagen & medizinische Filme",
+          "controlledDrugRelease": "Systeme zur kontrollierten Wirkstofffreisetzung",
+          "embolizationLyoprotection": "Embolisation, Lyoprotektion und Heilung",
+          "bioprintingTissue": "3D-Bioprinting / Gewebeengineering",
           "microcarriers": "Mikroträger",
           "cellDelivery": "Zellabgabe",
-          "drugDelivery": "Arzneimittelabgabe",
+          "drugDelivery": "Wirkstoffabgabe",
           "regenerativeMedicine": "Regenerative Medizin",
-          "embolizationHealing": "Embolisationsheilung",
           "plasma": "Plasma",
-          "lyoprotectionVaccines": "Lyoprotektion für Impfstoffe"
+          "cryoprotection": "Kryoprotektion",
+          "lyoprotectionVaccines": "Lyoprotektion / Impfstoffe"
         }
       },
       "pharmaIndustry": {
-        "title": "Pharmaindustrie",
-        "description": "Dies wird für moderne pharmazeutische Innovationen verwendet, von der fortschrittlichen Wundheilung und Wirkstofffreisetzungssystemen bis hin zu biokompatiblen Materialien für das Tissue Engineering. Mit überlegener Bioverfügbarkeit und Sicherheit gewährleistet es eine verbesserte Absorption, natürliche Verträglichkeit und nachhaltige Beschaffung, was es zu einem vertrauenswürdigen Inhaltsstoff macht",
+        "title": "Pharmazeutisch",
+        "description": "Fischgelatine ist ein Hauptbestandteil in pharmazeutischen Kapseln, Tabletten und Weichkapseln und bietet eine natürliche, biokompatible und stabile Hülle.",
         "subcategories": {
-          "capsuleProduction": "Kapselproduktion",
-          "tabletCoating": "Tablettenbeschichtung",
-          "encapsulationVitamins": "Vitaminverkapselung",
+          "capsuleProduction": "Kapselherstellung (Weich- & Hartkapseln)",
+          "tabletCoating": "Tablettenüberzug",
+          "encapsulationVitamins": "Verkapselung von Vitaminen & Nutrazeutika",
           "bindingAgentTablets": "Bindemittel in Tabletten",
-          "controlledDrugRelease": "Kontrollierte Arzneimittelabgabe",
-          "plasmaExpanders": "Plasmaexpander"
+          "controlledDrugRelease": "Systeme zur kontrollierten Wirkstofffreisetzung",
+          "plasmaExpanders": "Plasmaexpander (historische/eingeschränkte medizinische Verwendung)"
         }
       }
     }

@@ -5,13 +5,12 @@ import { useTranslation } from 'react-i18next';
 const ContactTeaser = () => {
   const { t } = useTranslation();
   return (
-    <section className="py-16 md:py-20 bg-white">
+    <section className="pt-16 md:pt-20 pb-0 bg-white">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12 lg:gap-8">
             <div className="text-left w-full sm:w-auto">
-              <h2 className="text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>Connect with</h2>
-              <p className="text-sm md:text-base mt-1" style={{fontFamily: 'Inter', color: 'rgba(112, 112, 112, 1)', fontWeight: '400'}}>Athos Collagen Pvt Ltd</p>
+              <h2 className="text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>Connect with us</h2>
             </div>
             
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-8 md:gap-16 lg:gap-24 w-full lg:w-auto">

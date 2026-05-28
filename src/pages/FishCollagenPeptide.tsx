@@ -15,6 +15,9 @@ import CollagenBenefits from '@/components/CollagenBenefits';
 
 const FishCollagenPeptide = () => {
   const { t } = useTranslation();
+  
+  const uniquenessFeatures = t('fishCollagen.uniqueness.features', { returnObjects: true }) as string[] || [];
+
   const [activeCategory, setActiveCategory] = useState(0);
   const [isScrolling, setIsScrolling] = useState(false);
   const [isManualClick, setIsManualClick] = useState(false);
@@ -222,15 +225,15 @@ const FishCollagenPeptide = () => {
 
         {/* Introductory Highlights Section */}
         <section className="py-12 md:py-16 bg-background border-b border-gray-100">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center space-y-6 max-w-5xl">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center space-y-6 w-full">
             <h2 
-              className="text-[26px] md:text-[33px] text-center leading-tight font-inter"
+              className="text-[26px] md:text-[33px] text-center leading-tight font-inter w-full"
               style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 600 }}
             >
               {t('fishCollagen.introTitle')}
             </h2>
             <p 
-              className="text-[18px] md:text-[24px] text-center leading-relaxed font-inter"
+              className="text-[18px] md:text-[24px] text-center leading-relaxed font-inter w-full"
               style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 600 }}
             >
               {t('fishCollagen.introSubtitle')}
@@ -246,7 +249,13 @@ const FishCollagenPeptide = () => {
             : 'opacity-0 translate-y-8'
             }`}
         >
-          <UniquenessSection noTopPadding={true} />
+          <UniquenessSection 
+            noTopPadding={true} 
+            features={uniquenessFeatures}
+            imageSrc="/images/clinically_tested.png"
+            imageAlt="Clinically Tested Collagen"
+            showBgImage={false}
+          />
         </div>
 
         {/* PIE CHART SECTION */}

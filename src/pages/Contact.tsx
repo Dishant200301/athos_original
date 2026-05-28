@@ -129,18 +129,36 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Row 2: Factory Address */}
-            <div className="flex flex-col items-center text-center space-y-4 max-w-3xl mx-auto px-4 mb-16 md:mb-24">
-              <div className="flex justify-center">
-                <Factory className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
+            {/* Row 2: Addresses */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16 md:mb-24">
+              {/* Head Office Address */}
+              <div className="flex flex-col items-center text-center space-y-4 px-4">
+                <div className="flex justify-center">
+                  <Factory className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
+                </div>
+                <div>
+                  <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
+                    {i18n.language.startsWith('en') ? 'Head Office' : 'Head Office'}
+                  </h3>
+                  <p className="text-sm md:text-base leading-relaxed max-w-sm mx-auto" style={{ fontFamily: 'Inter', color: 'rgba(119, 119, 119, 1)' }}>
+                    317, Blu Eminence, Opp. Sangini, Jahangirabad, Dahin Nagar, Surat, Gujarat 395005, India
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
-                  {i18n.language.startsWith('en') ? 'Factory Address' : t('contact.factory.title')}
-                </h3>
-                <p className="text-sm md:text-base leading-relaxed max-w-2xl mx-auto" style={{ fontFamily: 'Inter', color: 'rgba(119, 119, 119, 1)' }}>
-                  {t('contact.factory.address.line1')} {t('contact.factory.address.line2')} {t('contact.factory.address.line3')}
-                </p>
+
+              {/* Factory Address */}
+              <div className="flex flex-col items-center text-center space-y-4 px-4">
+                <div className="flex justify-center">
+                  <Factory className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
+                </div>
+                <div>
+                  <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
+                    {i18n.language.startsWith('en') ? 'Factory Address' : t('contact.factory.title')}
+                  </h3>
+                  <p className="text-sm md:text-base leading-relaxed max-w-sm mx-auto" style={{ fontFamily: 'Inter', color: 'rgba(119, 119, 119, 1)' }}>
+                    {t('contact.factory.address.line1')} {t('contact.factory.address.line2')} {t('contact.factory.address.line3')}
+                  </p>
+                </div>
               </div>
             </div>
 

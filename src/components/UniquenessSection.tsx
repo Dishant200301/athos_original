@@ -3,7 +3,21 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-const UniquenessSection = ({ noTopPadding = false }: { noTopPadding?: boolean }) => {
+interface UniquenessSectionProps {
+  noTopPadding?: boolean;
+  features?: string[];
+  imageSrc?: string;
+  imageAlt?: string;
+  showBgImage?: boolean;
+}
+
+const UniquenessSection = ({ 
+  noTopPadding = false,
+  features,
+  imageSrc,
+  imageAlt,
+  showBgImage = true
+}: UniquenessSectionProps) => {
   const { t } = useTranslation();
 
   const renderTextWithFiCollaLogo = (text: string) => {
@@ -37,18 +51,18 @@ const UniquenessSection = ({ noTopPadding = false }: { noTopPadding?: boolean })
   };
 
   return (
-    <section className={`${noTopPadding ? 'pb-16 md:pb-20' : 'py-16 md:py-20'} bg-background`}>
+    <section className={`${noTopPadding ? 'pb-0' : 'pt-16 md:pt-20 pb-0'} bg-background`}>
       <div
         className="bg-white rounded-none p-6 md:p-8 lg:p-12 relative overflow-hidden mx-0"
-        style={{
+        style={showBgImage ? {
           backgroundImage: 'url(/images/uniqueness_background.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
-        }}
+        } : {}}
       >
         {/* Optional overlay for better text readability */}
-        <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]"></div>
+        {showBgImage && <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]"></div>}
 
         {/* Content wrapper with relative positioning */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
@@ -60,8 +74,8 @@ const UniquenessSection = ({ noTopPadding = false }: { noTopPadding?: boolean })
             {/* Body parts graphic */}
             <div className="flex justify-center order-2 lg:order-2">
               <img
-                src="/images/body_part.png"
-                alt="Collagen Body Benefits"
+                src={imageSrc || "/images/body_part.png"}
+                alt={imageAlt || "Collagen Body Benefits"}
                 className="w-full max-w-sm md:max-w-xl h-auto object-contain"
               />
             </div>
@@ -69,7 +83,7 @@ const UniquenessSection = ({ noTopPadding = false }: { noTopPadding?: boolean })
             {/* Bullet points */}
             <div className="order-1 lg:order-1">
               <ul className="space-y-2 md:space-y-3 pl-0 md:pl-2 text-base md:text-lg font-inter" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
-                {(t('home.uniqueness.features', { returnObjects: true }) as string[]).map((feature: string, index: number) => {
+                {(features || (t('home.uniqueness.features', { returnObjects: true }) as string[])).map((feature: string, index: number) => {
                   const colonIndex = feature.indexOf(':');
                   if (colonIndex !== -1) {
                     const title = feature.substring(0, colonIndex);
@@ -86,7 +100,7 @@ const UniquenessSection = ({ noTopPadding = false }: { noTopPadding?: boolean })
                   return (
                     <li key={index} className="flex items-start gap-3">
                       <span className="mt-1.5 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-[10px] flex-shrink-0" style={{ borderBottomColor: 'rgba(106, 191, 0, 1)' }}></span>
-                      <strong className="font-semibold" style={{ color: 'rgba(67, 67, 64, 1)' }}>{renderTextWithFiCollaLogo(feature)}</strong>
+                      <span>{renderTextWithFiCollaLogo(feature)}</span>
                     </li>
                   );
                 })}

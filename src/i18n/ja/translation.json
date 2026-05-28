@@ -26,11 +26,11 @@
     }
   },
   "home": {
-    "title": "世界最高品質のプレミアム魚由来コラーゲンペプチド",
+    "title": "世界最高品質 of 魚コラーゲンペプチド",
     "subtitle": "海洋コラーゲンの先駆的ソリューション",
     "aboutPreview": {
       "title": "Athos Collagen PVT LTD",
-      "description1": "私たちは、プレミアム品質の魚由来コラーゲンペプチド、FiColla（臨床承認済み）、魚由来コラーゲングラニュール、および魚由来ゼラチンのインドを代表する製造・輸出業者です。最先端の設備と卓越性への取り組みにより、最高の国際基準を満たす製品をお届けしています。品質、革新、そして顧客満足への献身により、私たちは世界中の企業から信頼されるパートナーとなっています。",
+      "description1": "私たちは、プレミアム品質の魚由来コラーゲンペプチド、FiColla（臨床承認済み）、魚由来コラーゲングラニュール、および魚由来ゼラチンのインドを代表する製造・輸出業者です。最先端の設備と卓越性への取り組みにより、最高の国際基準を満たす製品をお届けしています。品質、革新、と顧客満足への献身により、私たちは世界中の企業から信頼されるパートナーとなっています。",
         "ourStrength": "私たちの強み",
       "ourCommitment": "私たちの約束",
       "authenticity": "真正性",
@@ -64,7 +64,7 @@
     },
     "cobranding": {
       "title": "コブランディング機会",
-      "description": "プレミアムブランド製品を提供するためにAthos collagen pvt ltd.とパートナーシップを結びましょう。私たちのコブランディングプログラムには、尊敬されるブランド名、マーケティング資料、確立された科学研究へのアクセスが含まれます",
+      "description": "プレミアムブランドの海洋性コラーゲンペプチドを提供するためにAthos collagen pvt ltd.とパートナーシップを結びましょう。私たちのコブランディングプログラムには、尊敬されるブランド名、マーケティング資料、確立された科学研究へのアクセスが含まれます",
       "cta": "お問い合わせ"
     },
     "benefits": {
@@ -166,6 +166,35 @@
     "introTitle": "Athos Collagen Pvt. Ltd.は、インドを代表する魚ゼラチンの製造・輸出企業です。",
     "introDesc1": "自然の設計による魚ゼラチンは、高い生体適合性とクリーンな機能性を提供し、食品、栄養補助食品、医薬品、化粧品、バイオメディカル分野に適しています。",
     "introDesc2": "魚ゼラチンは、より広い市場アクセス、高い消費者受容性、そして世界のクリーンラベルやサステナビリティのトレンドとの合致を提供する、次世代の代替品として位置づけられています。",
+    "scienceSection": {
+      "title": "魚ゼラチンの科学",
+      "cards": {
+        "gellingPower": {
+          "title": "ゲル化力",
+          "description": "高度な熱可逆的ゲル化により、しっかりした構造から滑らかなとろけるような食感まで、テクスチャを精密にコントロールできます。"
+        },
+        "formingAbility": {
+          "title": "皮膜形成能",
+          "description": "液体システムを薄く耐久性のある皮膜に変換し、コーティング、カプセル化、保護バリアに最適です。"
+        },
+        "emulsionStability": {
+          "title": "優れた乳化安定性",
+          "description": "油相と水相を均一に混合し、一貫性、安定性、および棚持ち期間（シェルフライフ）を向上させます。"
+        },
+        "bindingAdhesion": {
+          "title": "結合・接着性",
+          "description": "固体および半固体製剤において、成分を効率的に結合させることで構造的完全性を高めます。"
+        },
+        "clarityPurity": {
+          "title": "透明度と純度",
+          "description": "味、色、製剤の安定性に影響を与えることなく、透明でクリーンな溶液を提供します。"
+        },
+        "digestibilityCleanLabel": {
+          "title": "消化吸収性とクリーンラベル",
+          "description": "消化吸収性に優れた天然由来のタンパク質で、現代のクリーンラベル製品の要求をサポートします。"
+        }
+      }
+    },
     "productShowcase": {
       "usageTitle": "用途カテゴリー",
       "discoverMore": "もっと見る",
@@ -244,7 +273,7 @@
     }
   },
   "fishCollagen": {
-    "heroTitle": "魚コラーゲン",
+    "heroTitle": "魚由来コラーゲンペプチド",
     "introTitle": "Athos Collagen Pvt. Ltd.は、インドにおける魚由来コラーゲンペプチドの主要な製造・輸出企業です。",
     "introSubtitle": "魚由来コラーゲンペプチドは、海洋性コラーゲンまたは加水分解コラーゲンペプチドとしても知られています。",
     "productShowcase": {
@@ -302,12 +331,12 @@
         },
         "pharmaceuticals": {
           "name": "製薬業界",
-          "description": "厳格な品質基準の下で開発された医薬品グレードの海洋コラーゲンペプチド。研究に基づいた製剤と治療栄養をサポートするように設計されています。",
+          "description": "厳格な品質基準の下で開発された医薬品グレード of 海洋コラーゲンペプチド。研究に基づいた製剤と治療栄養をサポートするように設計されています。",
           "applications": [
             "関節痛と炎症のサポート。",
             "骨粗鬆症やサルコペニアなどの筋骨格系疾患の治療。",
             "血糖値の安定化。",
-            "髪と爪の成長サポート。",
+            "髪と爪 of 成長サポート。",
             "創傷治癒製品。",
             "組織工学。",
             "薬物送達システム。"
@@ -342,11 +371,22 @@
         "信頼できる栄養 – コレステロール、プリン、脂肪がなく、最小限のアレルゲン懸念（魚を除く）で、ほとんどの食事に安全です。"
       ]
     },
+    "uniqueness": {
+      "features": [
+        "97%以上の高タンパク質含有量で、高い純度と栄養価を提供します。",
+        "すべてのアミノ酸を含み、グリシン、プロリン、ヒドロキシプロリン（GPH）の含有量が40%以上と非常に高く、コラーゲントリペプチド（CTP）となっています。",
+        "完全な無臭・無味で、水に100%溶解します。",
+        "バイオアベイラビリティと吸収性を大幅に向上させます。",
+        "ブランド名 ficolla として臨床的に承認されています",
+        "魚由来専用施設で製造されているため、他の原料からの交差汚染が完全にありません。",
+        "世界的に認められた認証機関によって認定されています。"
+      ]
+    },
     "discover": {
       "title": "発見",
-      "selectApplication": "アプリケーションを選択",
-      "description": "サプリメント、機能性食品の設計や、生物医学分野での作業に関わらず、私たちのゼラチンは、優れた製品を実現するための技術的課題を克服するのに役立ちます。",
-      "cta": "魚コラーゲンがどのように適用されるかを調べる"
+      "selectApplication": "海洋性コラーゲンペプチドの用途",
+      "description": "サプリメント、機能性食品、栄養補助食品、医薬品、コスメシューティカル、ペットフードの設計、あるいはバイオメディカル分野において、当社の海洋性コラーゲンペプチドは技術的な課題を克服し、優れた製品を実現するお手伝いをします。",
+      "cta": "魚由来コラーゲンペプチドがどのように応用されるかを見る"
     },
     "pie": {
       "title": "Athos Fish Collagen Peptide Amino Acid Composition",
@@ -373,125 +413,123 @@
     "categories": {
       "foodBeverages": {
         "title": "食品・飲料",
-        "description": "海洋コラーゲンペプチドは、その安定化および栄養上の利点から、機能性食品や飲料に広く使用されています。消化と吸収をサポートしながら、配合物中の乳化安定性、質感、水分結合能力を向上させます。",
+        "description": "海洋コラーゲンペプチドを配合し、科学的に開発された食品および飲料。実績のある品質基準で機能性栄養をサポートするように設計されています。",
         "subcategories": {
-          "drinks": "飲み物",
-          "proteinBars": "プロテインバー",
-          "powder": "パウダー",
-          "jointHealthSupplements": "関節健康サプリメント"
+          "collagenWaterBeverages": "コラーゲン配合水・飲料。",
+          "proteinShakesSmoothies": "プロテインシェイク・スムージー。",
+          "functionalFoodsFortified": "機能性食品（コラーゲン強化）。",
+          "dietarySupplements": "栄養補助食品。",
+          "cerealsEnergyDrinks": "シリアル・エナジードリンク。",
+          "snacks": "スナック。",
+          "improveStability": "食品の乳化安定性、硬さ、保水能力の向上。",
+          "helpDigestion": "体内での消化、吸収、分配のサポート。"
         }
       },
       "nutraceuticals": {
-        "title": "ニュートラシューティカル・サプリメント",
-        "description": "飲料、プロテインバー、パウダーなどのコラーゲンサプリメントから、不可欠な栄養を提供します。これらの製品は、皮膚、髪、筋肉の回復、そして全体的な活力をサポートするように設計されています。",
+        "title": "ニュートラシューティカル",
+        "description": "高品質で生体利用能の高い海洋コラーゲンペプチドを使用した、精密に配合されたニュートラシューティカル。最適な身体機能と健康をサポートするように設計されています。",
         "subcategories": {
-          "functionalFoods": "機能性食品",
-          "proteinShakes": "プロテインシェイク",
-          "drinkBeverages": "飲み物",
-          "snacks": "スナック",
-          "dietarySupplements": "サプリメント"
+          "proteinBars": "プロテインバー",
+          "drinks": "飲料",
+          "jointHealthSupplements": "関節健康サプリメント",
+          "powders": "パウダー"
         }
       },
       "cosmetics": {
-        "title": "化粧品・スキンケア",
-        "description": "海洋コラーゲンは、肌の弾力性、水分補給、全体的な外観を向上させることで知られる、美容とパーソナルケアの主要成分です。アンチエイジングクリーム、セラム、モイスチャライザーだけでなく、ヘアケア、ネイルケア、フェイスマスクにも広く使用されており、若々しく健康的な肌とより強い髪と爪の促進をサポートします。",
+        "title": "コスメシューティカル",
+        "description": "海洋コラーゲンペプチドが肌、髪、爪に水分を与え、ハリを与え、若返らせると同時に、製品の質感と性能を高めます。",
         "subcategories": {
-          "antiAgingFormulations": "アンチエイジング製剤",
-          "moisturizationHydration": "保湿・水分補給",
-          "skinRepairRegeneration": "肌修復・再生",
-          "brighteningEvenSkinTone": "美白・均一な肌色",
-          "hairNailStrengthening": "髪・爪強化",
-          "nutricosmetics": "ニュートリコスメティクス（内側からの美）"
+          "antiAgingCreamsSerums": "エイジングケアクリーム・美容液。",
+          "moisturizers": "保湿剤。",
+          "hairCareProducts": "ヘアケア製品。",
+          "nailCareTreatments": "ネイルケア治療。",
+          "faceMasks": "フェイスマスク。"
         }
       },
       "pharmaceuticals": {
         "title": "医薬品",
-        "description": "海洋コラーゲンペプチドは、関節痛の緩和や炎症の軽減などの利点を提供し、医療および治療用途で極めて重要な役割を果たしています。傷の治癒、組織の再生、髪と爪の成長をサポートするだけでなく、先進的な薬物送達システムや組織工学ソリューションにも利用されています。",
+        "description": "厳格な品質基準のもとで開発された医薬品グレードの海洋コラーゲンペプチド。研究主導の製剤や治療栄養をサポートするように設計されています。",
         "subcategories": {
-          "drugDeliverySystems": "薬物送達システム",
-          "woundHealingRegenerativeMedicine": "創傷治癒・再生医学",
-          "tissueEngineeringBiomaterials": "組織工学・生体材料",
-          "drugFormulationStabilizer": "薬物製剤安定剤",
-          "oralSupplementsNutraPharma": "経口サプリメント・ニュートラファーマ",
-          "surgicalApplications": "外科的応用"
+          "drugDeliverySystems": "薬物送達システム。",
+          "helpJointPain": "関節痛や炎症の緩和サポート。",
+          "injectionOrganItems": "注射用臓器製剤。",
+          "treatMusculoskeletal": "骨粗鬆症やサルコペニアなどの筋骨格系疾患の治療サポート。",
+          "stabilizeBloodSugar": "血糖値の安定化サポート。",
+          "supportHairNail": "髪と爪の成長サポート。",
+          "woundHealingProducts": "創傷治癒製品。",
+          "tissueEngineering": "組織工学。"
         }
       },
       "petFood": {
-        "title": "ペットフード",
-        "description": "海洋コラーゲンペプチドは、動物の関節の健康、可動性、全体的な活力をサポートするために、ペットフードサプリメントでの使用がますます増えています。強い骨、健康的な皮膚、輝く被毛を促進し、消化と柔軟性も助けるため、ペットの長期的な健康とアクティブなライフスタイルを維持するために欠かせない成分となっています。",
+        "title": "ペットフードサプリメント",
+        "description": "海洋コラーゲンペプチドでペットの内側から栄養を与えます。健康的な動き、輝く被毛、そして全体的な活力をサポートします。",
         "subcategories": {
-          "jointBoneHealth": "関節・骨の健康",
-          "skinCoatHealth": "皮膚・被毛の健康",
-          "digestiveHealth": "消化器の健康",
-          "woundHealingRecovery": "創傷治癒・回復",
-          "dentalHealth": "歯の健康",
-          "overallVitalityLongevity": "全体的な活力・長寿"
+          "jointFunction": "関節機能、",
+          "skinHealth": "皮膚の健康、",
+          "gutHealthMobility": "腸の健康と可動性。"
         }
       },
       "biotechnology": {
-        "title": "バイオテクノロジー",
-        "description": "海洋コラーゲンペプチドは、その比類のない生体適合性と再生特性でバイオテクノロジーを再定義しています。組織工学や薬物送達システムから3Dバイオプリンティング、先進的な創傷ケアに至るまで、海洋コラーゲンペプチドは次世代の生物医学研究とイノベーションの基礎となっています。安全で持続可能、かつ多用途であり、明日のバイオテクノロジーの飛躍的進歩のための自然な選択肢です。",
+        "title": "生物医学",
+        "description": "ラボから生活へ、海洋コラーゲンペプチドがそれを可能にします。組織工学や再生医療に欠かせないタンパク質。",
         "subcategories": {
-          "tissueEngineeringRegenerativeMedicine": "組織工学・再生医学",
-          "biocompatibleMedicalImplants": "生体適合医療インプラント",
-          "cellCultureResearchApplications": "細胞培養・研究応用",
-          "biomaterialsDrugDelivery": "薬物送達用生体材料",
-          "3dBioprinting": "3Dバイオプリンティング",
-          "woundHealingBiomedicalDevices": "創傷治癒・生体医療機器"
+          "scaffoldMaterials": "細胞培養用足場材料。",
+          "biocompatibleMaterials": "医療用インプラント用生体適合性材料。"
         }
       },
       "foodIndustry": {
-        "title": "食品産業",
-        "description": "魚ゼラチンは効果的なゲル化剤として機能し、ゼリー、グミ、デザートの製造に適しています。食品の食感を改善し、多くの食品の栄養強化に役立ちます。",
+        "title": "食品",
+        "description": "魚ゼラチンは、製剤中にゲル化、増粘、安定化特性を提供しながら、機能性食品、製菓、デザート、スナックを強化します。",
         "subcategories": {
           "stabilizer": "安定剤",
           "clarifyingAgent": "清澄剤",
           "emulsifier": "乳化剤",
           "gummyCandy": "グミ・キャンディ",
-          "gellingTexturizer": "ゲル化・テクスチャー剤",
           "thickener": "増粘剤",
+          "gellingTexturizerDairy": "ゲル化テクスチャーおよび乳製品剤",
           "confectionery": "製菓",
-          "dairyProducts": "乳製品",
+          "dairy": "乳製品",
           "desserts": "デザート"
         }
       },
       "cosmeticsSkincare": {
-        "title": "化粧品・スキンケア",
-        "description": "内側からの美の秘密であるこれは、肌の弾力性を回復させ、小じわを軽減し、深く潤いを与えて若々しい輝きをもたらす強力な化粧品成分です。科学に裏付けられ、プレミアムスキンケアで信頼されている、次世代の自然な選択肢です。",
+        "title": "コスメシューティカル",
+        "description": "魚ゼラチンは、滑らかで安定した贅沢な製剤のために、自然な増粘、ゲル化、皮膜形成特性を提供することにより、クリーム、マスク、美容液を強化します。",
         "subcategories": {
-          "antiAgingProducts": "アンチエイジング製品",
-          "moisturizer": "モイスチャライザー",
-          "serum": "セラム",
+          "antiAgingProducts": "エイジングケア製品",
+          "moisturizer": "保湿剤",
+          "serum": "美容液",
           "hairNailCare": "ヘア・ネイルケア",
           "makeupBeauty": "メイク・ビューティー"
         }
       },
       "biomedicalApplications": {
-        "title": "生体医学応用",
-        "description": "魚ゼラチンは生体医学応用で重要な機能を果たします。",
+        "title": "生物医学",
+        "description": "魚コラーゲンは、生体適合性があり生物活性のあるタンパク質足場を提供することにより、組織工学、創傷治癒、再生医療をサポートします。",
         "subcategories": {
-          "woundDressings": "創傷ドレッシング",
-          "drugReleaseSystems": "薬物放出システム",
-          "3dBioprinting": "3Dバイオプリンティング",
+          "woundDressingsMedicalFilms": "創傷被覆材および医療用フィルム",
+          "controlledDrugRelease": "制御された薬物放出システム",
+          "embolizationLyoprotection": "塞栓形成および凍結乾燥治癒",
+          "bioprintingTissue": "3Dバイオプリンティング / 組織工学",
           "microcarriers": "マイクロキャリア",
           "cellDelivery": "細胞送達",
           "drugDelivery": "薬物送達",
-          "regenerativeMedicine": "再生医学",
-          "embolizationHealing": "塞栓治癒",
+          "regenerativeMedicine": "再生医療",
           "plasma": "血漿",
-          "lyoprotectionVaccines": "ワクチン用リオ保護"
+          "cryoprotection": "凍結保存",
+          "lyoprotectionVaccines": "凍結乾燥保護 / ワクチン"
         }
       },
       "pharmaIndustry": {
-        "title": "製薬産業",
-        "description": "これは、高度な創傷治癒や薬物送達システムから組織工学用の生体適合性材料に至るまで、現代の製薬革新に使用されています。優れた生物学的利用能と安全性を備え、吸収の向上、自然な適合性、持続可能な調達を保証し、信頼できる成分となっています。",
+        "title": "医薬品",
+        "description": "魚ゼラチンは、医薬品のカプセル、錠剤、ソフトジェルの主要成分であり、自然で生体適合性のある安定したコーティングを提供します。",
         "subcategories": {
-          "capsuleProduction": "カプセル生産",
+          "capsuleProduction": "カプセル製造（ソフトカプセルおよびハードカプセル）",
           "tabletCoating": "錠剤コーティング",
-          "encapsulationVitamins": "ビタミンカプセル化",
-          "bindingAgentTablets": "錠剤用結合剤",
-          "controlledDrugRelease": "制御薬物放出",
-          "plasmaExpanders": "血漿拡張剤"
+          "encapsulationVitamins": "ビタミンおよびニュートラシューティカルのカプセル化",
+          "bindingAgentTablets": "錠剤の結合剤",
+          "controlledDrugRelease": "制御された薬物放出システム",
+          "plasmaExpanders": "血漿増量剤（歴史的・限定的な医療用途）"
         }
       }
     }
