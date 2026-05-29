@@ -308,10 +308,10 @@ const FishCollagenPeptide = () => {
           </section>
 
           <div 
-            className="relative py-16 md:py-24 lg:py-32 flex items-center overflow-hidden"
+            className="relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[70vh] lg:min-h-[500px] lg:max-h-[650px] flex items-center overflow-hidden"
             style={{
               backgroundImage: 'url(/images/background1.png)',
-              backgroundSize: '100% 100%',
+              backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat'
             }}
@@ -330,10 +330,10 @@ const FishCollagenPeptide = () => {
 
                 <Button
                   variant="outline"
-                  className="border-none text-white bg-transparent text-sm sm:text-base md:text-lg pr-4 sm:pr-6 md:pr-8 pl-0 py-2 sm:py-3 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden justify-start"
+                  className="border border-white text-white bg-transparent text-sm sm:text-base md:text-lg p-3 sm:p-4 md:p-5 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden justify-center"
                   onClick={() => navigate('/fish-collagen-applications')}
                 >
-                  <span className="relative z-10 group-hover:text-black transition-colors duration-300 flex items-center">
+                  <span className="relative z-10 group-hover:text-black transition-colors duration-300 flex items-center justify-center">
                     {t('fishCollagen.discover.cta')}
                     <span className="ml-1 sm:ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
                   </span>

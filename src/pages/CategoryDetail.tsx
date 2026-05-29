@@ -222,11 +222,11 @@ const CategoryDetail = () => {
                   {category.title}
                 </h2>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
+              <div className="flex flex-wrap justify-center gap-8 sm:gap-10 md:gap-16 lg:gap-24">
                 {category.subcategories?.map((subcategory, index) => (
                   <div 
                     key={index}
-                    className="bg-white overflow-hidden max-w-[220px] w-full mx-auto transform transition-all duration-300 hover:scale-105"
+                    className="bg-white overflow-hidden w-[calc(50%-16px)] sm:w-[calc(33.33%-27px)] md:w-[220px] transform transition-all duration-300 hover:scale-105"
                   >
                     {/* Image */}
                     <div className="w-full aspect-square mb-2 rounded-lg overflow-hidden">

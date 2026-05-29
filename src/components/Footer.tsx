@@ -262,77 +262,13 @@ const Footer = () => {
     return true;
   };
 
-  const downloadDummyPDF = () => {
-    const dummyPdfContent = `%PDF-1.4
-%
-1 0 obj
-<< /Title (Athos Collagen Product Brochure)
-   /Author (Athos Collagen Pvt. Ltd.)
-   /Type /Catalog
-   /Pages 2 0 R
->>
-endobj
-2 0 obj
-<< /Type /Pages
-   /Kids [3 0 R]
-   /Count 1
->>
-endobj
-3 0 obj
-<< /Type /Page
-   /Parent 2 0 R
-   /Resources << /Font << /F1 4 0 R >> >>
-   /Contents 5 0 R
-   /MediaBox [0 0 612 792]
->>
-endobj
-4 0 obj
-<< /Type /Font
-   /Subtype /Type1
-   /BaseFont /Helvetica
->>
-endobj
-5 0 obj
-<< /Length 150 >>
-stream
-BT
-/F1 24 Tf
-70 700 Td
-(Athos Collagen Pvt. Ltd.) Tj
-/F1 14 Tf
-0 -40 Td
-(Thank you for downloading our product brochure!) Tj
-0 -20 Td
-(Corporate Office: Surat, Gujarat, India) Tj
-0 -20 Td
-(Website: www.athoscollagen.com) Tj
-ET
-endstream
-endobj
-xref
-0 6
-0000000000 65535 f 
-0000000015 00000 n 
-0000000122 00000 n 
-0000000181 00000 n 
-0000000310 00000 n 
-0000000381 00000 n 
-trailer
-<< /Size 6
-   /Root 1 0 R
->>
-startxref
-580
-%%EOF`;
-    const blob = new Blob([dummyPdfContent], { type: 'application/pdf' });
-    const url = URL.createObjectURL(blob);
+  const downloadBrochurePDF = () => {
     const link = document.createElement('a');
-    link.href = url;
+    link.href = '/images/Athos_new.pdf';
     link.download = 'Athos_Collagen_Brochure.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    URL.revokeObjectURL(url);
   };
 
   const handleBrochureDownloadSubmit = (e: React.FormEvent) => {
@@ -365,7 +301,7 @@ startxref
     if (!isValid) return;
 
     // Successful submit
-    downloadDummyPDF();
+    downloadBrochurePDF();
 
     toast({
       title: "Brochure download started!",
@@ -419,8 +355,8 @@ startxref
 
   const qualityProducts = [
     { name: t('footer.productsList.peptide'), href: '/fish-collagen-peptide' },
-    { name: t('footer.productsList.granules'), href: '/fish-collagen-peptide' }, // Linking to main page for now
-    { name: t('footer.productsList.highBulkDensity'), href: '/fish-collagen-peptide' }, // Linking to main page for now
+    { name: t('footer.productsList.ficolla'), href: '/fish-collagen-peptide' },
+    { name: t('footer.productsList.granules'), href: '/fish-collagen-peptide' },
     { name: t('footer.productsList.gelatin'), href: '/fish-gelatin' }
   ];
 

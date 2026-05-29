@@ -316,8 +316,8 @@ const FishGelatin = () => {
                         } space-y-2 sm:space-y-3 bg-white/75 md:bg-transparent backdrop-blur-[4px] md:backdrop-blur-none p-6 sm:p-8 md:p-0 rounded-2xl md:rounded-none border border-white/40 md:border-none shadow-[0_4px_30px_rgba(0,0,0,0.02)] md:shadow-none`}
                       >
                         <h3
-                          className={`text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight ${card.titleColorClass}`}
-                          style={{ fontFamily: 'Inter' }}
+                          className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight"
+                          style={{ fontFamily: 'Inter', color: 'rgba(40, 123, 153, 1)' }}
                         >
                           {title}
                         </h3>
@@ -356,15 +356,16 @@ const FishGelatin = () => {
             </div>
           </section>
 
-          <div className="relative h-[300px] md:h-[400px] flex items-center overflow-hidden">
-            <div className="absolute inset-0">
-              <img
-                src="/images/fish_gelatin_discover.png"
-                alt="Fish Gelatin Discover Background"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black/30"></div>
-            </div>
+          <div 
+            className="relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[70vh] lg:min-h-[500px] lg:max-h-[650px] flex items-center overflow-hidden"
+            style={{
+              backgroundImage: 'url(/images/fish_gelatin_discover.png)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+            <div className="absolute inset-0 bg-black/30"></div>
 
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 h-full flex items-center justify-center lg:justify-end">
               <div className="bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 max-w-2xl text-center lg:text-left">
@@ -378,9 +379,10 @@ const FishGelatin = () => {
 
                 <Button
                   variant="outline"
-                  className="border-none text-white bg-transparent text-sm sm:text-base md:text-lg pr-4 sm:pr-6 md:pr-8 pl-0 py-2 sm:py-3 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden justify-start"
+                  className="border border-white text-white bg-transparent text-sm sm:text-base md:text-lg p-3 sm:p-4 md:p-5 transition-all duration-300 ease-in-out hover:scale-105 group relative overflow-hidden justify-center"
+                  onClick={() => navigate('/fish-gelatin-applications')}
                 >
-                  <span className="relative z-10 group-hover:text-black transition-colors duration-300 flex items-center">
+                  <span className="relative z-10 group-hover:text-black transition-colors duration-300 flex items-center justify-center">
                     {t('fishGelatin.discover.cta')}
                     <span className="ml-1 sm:ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
                   </span>
