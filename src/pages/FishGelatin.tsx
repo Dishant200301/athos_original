@@ -247,7 +247,7 @@ const FishGelatin = () => {
 
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-left">
               <h1 
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight max-w-4xl"
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight max-w-4xl"
                 style={{ color: 'rgba(40, 123, 153, 1)' }}
               >
                 {t('fishGelatin.heroTitle')}

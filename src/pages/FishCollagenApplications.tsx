@@ -168,7 +168,7 @@ const FishCollagenApplications = () => {
             : 'opacity-0 translate-y-8'
             }`}
         >
-          <section className="relative h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-20">
+          <section className="relative h-screen flex items-center justify-start overflow-hidden pt-16 md:pt-20">
             <div className="absolute inset-0">
               <img
                 src="/images/background1.png"
@@ -177,8 +177,11 @@ const FishCollagenApplications = () => {
               />
             </div>
 
-            <div className="relative z-10 text-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-              <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-left">
+              <h1 
+                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight max-w-4xl"
+                style={{ color: 'rgba(40, 123, 153, 1)' }}
+              >
                 {t('fishCollagen.heroTitle')}
               </h1>
             </div>
