@@ -55,7 +55,12 @@ const AboutPreview = () => {
               <img
                 src="/images/Athos_factory.png"
                 alt="ATHOS Collagen Facility"
-                className="w-full h-full object-cover rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none absolute inset-0"
+                className="hidden sm:block w-full h-full object-cover rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none absolute inset-0"
+              />
+              <img
+                src="/images/athos_factory_mobile.png"
+                alt="ATHOS Collagen Facility Mobile"
+                className="block sm:hidden w-full h-full object-cover rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none absolute inset-0"
               />
             </div>
           </div>

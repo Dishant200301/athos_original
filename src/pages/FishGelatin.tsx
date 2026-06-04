@@ -236,18 +236,23 @@ const FishGelatin = () => {
             : 'opacity-0 translate-y-8'
             }`}
         >
-          <section className="relative h-screen flex items-center justify-start overflow-hidden pt-16 md:pt-20">
+          <section className="relative h-screen flex items-center justify-center sm:justify-start overflow-hidden pt-16 md:pt-20">
             <div className="absolute inset-0">
               <img
                 src="/images/background21.png"
                 alt="Fish Gelatin"
-                className="w-full h-full object-cover"
+                className="hidden sm:block w-full h-full object-cover"
+              />
+              <img
+                src="/images/background21_mobile.png"
+                alt="Fish Gelatin Mobile"
+                className="block sm:hidden w-full h-full object-cover"
               />
             </div>
 
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-left">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-center sm:text-left">
               <h1 
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight max-w-4xl"
+                className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight max-w-4xl"
                 style={{ color: 'rgba(40, 123, 153, 1)' }}
               >
                 {t('fishGelatin.heroTitle')}
@@ -300,20 +305,26 @@ const FishGelatin = () => {
                   return (
                     <div
                       key={card.key}
-                      className="relative overflow-hidden rounded-[24px] md:rounded-[32px] w-full aspect-auto md:aspect-[2550/826] flex items-center p-6 sm:p-8 md:p-12 lg:p-16 border border-gray-100/80 shadow-[0_4px_25px_rgba(0,0,0,0.015)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.035)] hover:-translate-y-1 hover:scale-[1.002] transition-all duration-500 ease-out group"
+                      className="relative overflow-hidden rounded-[24px] md:rounded-[32px] w-full min-h-[450px] xs:min-h-[500px] sm:min-h-[550px] md:min-h-0 md:aspect-[2550/826] flex items-start justify-center md:items-center p-6 sm:p-8 md:p-12 lg:p-16 border border-gray-100/80 shadow-[0_4px_25px_rgba(0,0,0,0.015)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.035)] hover:-translate-y-1 hover:scale-[1.002] transition-all duration-500 ease-out group"
                     >
-                      {/* Background Image */}
+                      {/* Background Image - Desktop */}
                       <img
                         src={card.image}
                         alt=""
-                        className="absolute inset-0 w-full h-full object-cover pointer-events-none transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
+                        className="hidden md:block absolute inset-0 w-full h-full object-cover pointer-events-none transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
+                      />
+                      {/* Background Image - Mobile */}
+                      <img
+                        src={card.image.replace('.png', '_mobile.png')}
+                        alt=""
+                        className="block md:hidden absolute inset-0 w-full h-full object-cover pointer-events-none transform group-hover:scale-[1.01] transition-transform duration-700 ease-out"
                       />
 
                       {/* Content Overlay */}
                       <div 
-                        className={`w-full md:w-[48%] relative z-10 text-left ${
-                          isTextOnLeft ? 'mr-auto' : 'ml-auto'
-                        } space-y-2 sm:space-y-3 bg-white/75 md:bg-transparent backdrop-blur-[4px] md:backdrop-blur-none p-6 sm:p-8 md:p-0 rounded-2xl md:rounded-none border border-white/40 md:border-none shadow-[0_4px_30px_rgba(0,0,0,0.02)] md:shadow-none`}
+                        className={`w-full md:w-[48%] relative z-10 text-center md:text-left ${
+                          isTextOnLeft ? 'md:mr-auto' : 'md:ml-auto'
+                        } space-y-2 sm:space-y-3 bg-transparent p-0 rounded-none border-none shadow-none mt-2 sm:mt-4 md:mt-0`}
                       >
                         <h3
                           className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight"
@@ -357,17 +368,23 @@ const FishGelatin = () => {
           </section>
 
           <div 
-            className="relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[70vh] lg:min-h-[500px] lg:max-h-[650px] flex items-center overflow-hidden"
-            style={{
-              backgroundImage: 'url(/images/fish_gelatin_discover.png)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
-            }}
+            className="relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[70vh] lg:min-h-[500px] lg:max-h-[650px] flex items-end sm:items-center justify-center lg:justify-end overflow-hidden pb-8 sm:pb-0"
           >
+            <div className="absolute inset-0">
+              <img
+                src="/images/fish_gelatin_discover.png"
+                alt=""
+                className="hidden sm:block w-full h-full object-cover"
+              />
+              <img
+                src="/images/discover2_mobile.png"
+                alt=""
+                className="block sm:hidden w-full h-full object-cover"
+              />
+            </div>
             <div className="absolute inset-0 bg-black/30"></div>
 
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 h-full flex items-center justify-center lg:justify-end">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 h-full flex items-end sm:items-center justify-center lg:justify-end pb-8 sm:pb-0">
               <div className="bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 max-w-2xl text-center lg:text-left">
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4 md:mb-6" style={{ fontFamily: 'Inter' }}>
                   {t('fishGelatin.discover.selectApplication')}

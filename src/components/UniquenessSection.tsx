@@ -67,12 +67,14 @@ const UniquenessSection = ({
         {/* Content wrapper with relative positioning */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
           <h2 className="mb-6 md:mb-10 text-center text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
-            {t('home.uniqueness.title')}
+            <span className="sm:hidden block">Uniqueness Of Athos</span>
+            <span className="sm:hidden block">Fish Collagen Peptide</span>
+            <span className="hidden sm:block">{t('home.uniqueness.title')}</span>
           </h2>
 
           <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Body parts graphic */}
-            <div className="flex justify-center order-2 lg:order-2">
+            <div className="flex justify-center order-1 lg:order-2">
               <img
                 src={imageSrc || "/images/body_part.png"}
                 alt={imageAlt || "Collagen Body Benefits"}
@@ -81,7 +83,7 @@ const UniquenessSection = ({
             </div>
 
             {/* Bullet points */}
-            <div className="order-1 lg:order-1">
+            <div className="order-2 lg:order-1">
               <ul className="space-y-2 md:space-y-3 pl-0 md:pl-2 text-base md:text-lg font-inter" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
                 {(features || (t('home.uniqueness.features', { returnObjects: true }) as string[])).map((feature: string, index: number) => {
                   const colonIndex = feature.indexOf(':');

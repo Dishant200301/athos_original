@@ -8,47 +8,47 @@ const NewCollagenBenefits = () => {
     {
       title: t('home.newBenefits.categories.skinCare', 'Skin Care'),
       image: '/images/Benefits/skin_health.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.antiAgeing', 'Anti Ageing'),
       image: '/images/Benefits/anti_ageing.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.hairNails', 'Hair & Nails'),
       image: '/images/Benefits/Hair_Nails.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.sportsDrink', 'Sports Drink'),
       image: '/images/Benefits/Sports_Drink.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.proteinBars', 'Protein bars'),
       image: '/images/Benefits/Protein_bars.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.bonesJoints', 'Bones & Joints'),
       image: '/images/Benefits/Bone_Join.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.improveSleepQuality', 'Improve Sleep Quality'),
       image: '/images/Benefits/Improve_Sleep_Quality.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.gutHealth', 'Gut Health'),
       image: '/images/Benefits/Gut_Health.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     },
     {
       title: t('home.newBenefits.categories.woundHealing', 'Wound Healing'),
       image: '/images/Benefits/Wound_Healing.png',
-      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)'
+      gradientStyle: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'
     }
   ];
 
@@ -56,7 +56,11 @@ const NewCollagenBenefits = () => {
     <section className="pt-16 md:pt-20 pb-0 bg-background">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
         <div className="text-center mb-8 md:mb-16">
-          <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>{t('home.newBenefits.title')}</h2>
+          <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>
+            <span className="sm:hidden block">Benefits of Athos</span>
+            <span className="sm:hidden block">Fish Collagen Peptide</span>
+            <span className="hidden sm:block">{t('home.newBenefits.title')}</span>
+          </h2>
         </div>
 
         <div className="max-w-6xl mx-auto">

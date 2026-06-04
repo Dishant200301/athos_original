@@ -156,18 +156,23 @@ const FishGelatinApplications = () => {
             : 'opacity-0 translate-y-8'
             }`}
         >
-          <section className="relative h-screen flex items-center justify-start overflow-hidden pt-16 md:pt-20">
+          <section className="relative h-screen flex items-center justify-center sm:justify-start overflow-hidden pt-16 md:pt-20">
             <div className="absolute inset-0">
               <img
                 src="/images/background2.png"
                 alt="Fish Gelatin"
-                className="w-full h-full object-cover"
+                className="hidden sm:block w-full h-full object-cover"
+              />
+              <img
+                src="/images/background2_mobile.png"
+                alt="Fish Gelatin Applications Mobile"
+                className="block sm:hidden w-full h-full object-cover"
               />
             </div>
 
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-left">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-center sm:text-left">
               <h1 
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight max-w-4xl"
+                className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight max-w-4xl"
                 style={{ color: 'rgba(40, 123, 153, 1)' }}
               >
                 {t('fishGelatin.heroTitle')}

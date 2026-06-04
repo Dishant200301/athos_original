@@ -206,18 +206,23 @@ const FishCollagenPeptide = () => {
             : 'opacity-0 translate-y-8'
             }`}
         >
-          <section className="relative h-screen flex items-center justify-start overflow-hidden pt-16 md:pt-20">
+          <section className="relative h-screen flex items-center justify-center sm:justify-start overflow-hidden pt-16 md:pt-20">
             <div className="absolute inset-0 overflow-hidden">
               <img
                 src="/images/background1.png"
                 alt="Fish Collagen Peptide"
-                className="w-full h-full object-cover scale-150 md:scale-[1.6]"
+                className="hidden sm:block w-full h-full object-cover scale-150 md:scale-[1.6]"
+              />
+              <img
+                src="/images/background1_mobile.png"
+                alt="Fish Collagen Peptide Mobile"
+                className="block sm:hidden w-full h-full object-cover"
               />
             </div>
 
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-left">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-center sm:text-left">
               <h1 
-                className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight max-w-4xl"
+                className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight max-w-4xl"
                 style={{ color: 'rgba(40, 123, 153, 1)' }}
               >
                 {t('fishCollagen.heroTitle')}
@@ -311,17 +316,23 @@ const FishCollagenPeptide = () => {
           </section>
 
           <div 
-            className="relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[70vh] lg:min-h-[500px] lg:max-h-[650px] flex items-center overflow-hidden"
-            style={{
-              backgroundImage: 'url(/images/background1.png)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat'
-            }}
+            className="relative h-[400px] sm:h-[450px] md:h-[500px] lg:h-[70vh] lg:min-h-[500px] lg:max-h-[650px] flex items-end sm:items-center justify-center lg:justify-end overflow-hidden pb-8 sm:pb-0"
           >
+            <div className="absolute inset-0">
+              <img
+                src="/images/background1.png"
+                alt=""
+                className="hidden sm:block w-full h-full object-cover"
+              />
+              <img
+                src="/images/discover1_mobile.png"
+                alt=""
+                className="block sm:hidden w-full h-full object-cover"
+              />
+            </div>
             <div className="absolute inset-0 bg-black/30"></div>
 
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 h-full flex items-center justify-center lg:justify-end">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 h-full flex items-end sm:items-center justify-center lg:justify-end pb-8 sm:pb-0">
               <div className="bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 max-w-2xl text-center lg:text-left">
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4 md:mb-6" style={{ fontFamily: 'Inter' }}>
                   {t('fishCollagen.discover.selectApplication')}

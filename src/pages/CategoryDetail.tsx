@@ -226,7 +226,7 @@ const CategoryDetail = () => {
                 {category.subcategories?.map((subcategory, index) => (
                   <div 
                     key={index}
-                    className="bg-white overflow-hidden w-[calc(50%-16px)] sm:w-[calc(33.33%-27px)] md:w-[220px] transform transition-all duration-300 hover:scale-105"
+                    className="bg-white overflow-hidden w-full max-w-[280px] sm:max-w-none sm:w-[calc(33.33%-27px)] md:w-[220px] transform transition-all duration-300 hover:scale-105"
                   >
                     {/* Image */}
                     <div className="w-full aspect-square mb-2 rounded-lg overflow-hidden">

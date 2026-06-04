@@ -8,8 +8,13 @@ const CobrandingSection = () => {
   return (
     <section className="pt-16 md:pt-20 pb-0 bg-background">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+        {/* Mobile Title */}
+        <h2 className="block lg:hidden mb-6 text-center text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>
+          {t('home.cobranding.title')}
+        </h2>
+
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center w-full">
-          <div className="flex justify-center order-2 lg:order-2 lg:pl-12">
+          <div className="flex justify-center order-1 lg:order-2 lg:pl-12">
             <img
               src="/images/athos_product.png"
               alt="ATHOS Co-branding Products"
@@ -17,8 +22,9 @@ const CobrandingSection = () => {
             />
           </div>
 
-          <div className="order-1 lg:order-1">
-            <h2 className="mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>{t('home.cobranding.title')}</h2>
+          <div className="order-2 lg:order-1">
+            {/* Desktop Title */}
+            <h2 className="hidden lg:block mb-3 md:mb-4 text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>{t('home.cobranding.title')}</h2>
             <p className="mb-4 md:mb-6 leading-relaxed text-base md:text-lg font-inter" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
               {t('home.cobranding.description')}
             </p>

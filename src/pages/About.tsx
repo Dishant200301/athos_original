@@ -86,19 +86,27 @@ const About = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <section className="relative h-[calc(100vh-5rem)] flex items-center overflow-hidden mt-20" style={{minHeight: 'calc(100vh - 5rem)'}}>
+          <section className="relative h-[calc(100vh-5rem)] flex items-end sm:items-center justify-center overflow-hidden mt-20 pb-12 sm:pb-0" style={{minHeight: 'calc(100vh - 5rem)'}}>
             <div className="absolute inset-0">
               <img
                 src="/images/athos_about.jpg"
                 alt="ATHOS Collagen"
-                className="w-full h-full object-cover"
+                className="hidden sm:block w-full h-full object-cover"
+              />
+              <img
+                src="/images/athos_about_mobile.png"
+                alt="ATHOS Collagen Mobile"
+                className="block sm:hidden w-full h-full object-cover"
               />
             </div>
             
             <div className="relative z-10 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex justify-center">
               <div className="w-full md:w-max max-w-[90%] md:max-w-full flex flex-col items-center justify-center text-center md:translate-x-[10%] lg:translate-x-[12%] xl:translate-x-[15%]">
-                <h1 className="text-white font-semibold tracking-wide drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center whitespace-pre-line">
-                  {t('about.heroTitle')}
+                <h1 className="text-white font-semibold tracking-wide drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] leading-tight text-lg sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center flex flex-col items-center">
+                  <span className="whitespace-nowrap">{t('about.heroTitle').split('\n')[0]}</span>
+                  {t('about.heroTitle').split('\n').slice(1).map((line: string, index: number) => (
+                    <span key={index}>{line}</span>
+                  ))}
                 </h1>
               </div>
             </div>
