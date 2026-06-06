@@ -320,11 +320,12 @@ const FishCollagenApplications = () => {
         </div>
 
         {/* Insights Section */}
+        {/*
         <div className="overflow-x-hidden">
           <section className="py-12 md:py-20 bg-background">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-6 items-center">
-                {/* Left Side - Image - Coming from left */}
+                
                 <div
                   ref={insightsImageRef}
                   className={`transition-all duration-500 ease-out transition-stable ${insightsImageVisible
@@ -340,7 +341,7 @@ const FishCollagenApplications = () => {
                   />
                 </div>
 
-                {/* Right Side - Content - Coming from right */}
+                
                 <div
                   ref={insightsTextRef}
                   className={`flex flex-col justify-center h-full transition-all duration-500 ease-out transition-stable ${insightsTextVisible
@@ -384,6 +385,7 @@ const FishCollagenApplications = () => {
             </div>
           </section>
         </div>
+        */}
 
         <ContactTeaser />
       </main>

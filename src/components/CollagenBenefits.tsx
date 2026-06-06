@@ -82,7 +82,7 @@ const CollagenBenefits = () => {
                     />
                     <div 
                       className="absolute bottom-0 left-0 right-0 h-16 md:h-20 px-4 pt-2 pb-1 flex items-center justify-center transition-all duration-300 ease-in-out group-hover:h-20 md:group-hover:h-24" 
-                      style={{ background: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 28.33%, #C5C3C1 68.5%)' }}
+                      style={{ background: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)' }}
                     >
                       <h3 
                         className="text-[20px] md:text-[22px] text-center font-inter transition-colors duration-300" 

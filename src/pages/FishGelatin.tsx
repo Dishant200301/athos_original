@@ -265,10 +265,17 @@ const FishGelatin = () => {
         <section className="pt-12 pb-0 md:pt-16 md:pb-0 bg-background">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center space-y-6">
             <h2 
-              className="text-[26px] md:text-[33px] text-center leading-tight font-inter"
-              style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 600 }}
+              className="text-[18px] min-[375px]:text-[20px] min-[425px]:text-[22px] sm:text-[28px] md:text-[33px] text-center leading-tight font-inter"
+              style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 700 }}
             >
-              {t('fishGelatin.introTitle')}
+              <span className="sm:hidden block space-y-1">
+                <span className="block whitespace-nowrap">Athos Collagen Pvt. Ltd. is leading</span>
+                <span className="block whitespace-nowrap">Manufacturer and Exporter of Fish</span>
+                <span className="block whitespace-nowrap">Gelatin from India.</span>
+              </span>
+              <span className="hidden sm:block">
+                {t('fishGelatin.introTitle')}
+              </span>
             </h2>
             <p 
               className="text-[18px] md:text-[18px] text-center leading-relaxed font-inter"

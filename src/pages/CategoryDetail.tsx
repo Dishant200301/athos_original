@@ -174,7 +174,7 @@ const CategoryDetail = () => {
               {/* Left Side - Image */}
               <div 
                 ref={heroRef}
-                className={`flex justify-center lg:justify-start order-2 lg:order-1 transition-all duration-700 ease-out ${
+                className={`flex justify-center lg:justify-start transition-all duration-700 ease-out ${
                   heroVisible
                     ? 'opacity-100 translate-x-0'
                     : 'opacity-0 -translate-x-12'
@@ -189,7 +189,7 @@ const CategoryDetail = () => {
 
               {/* Right Side - Content */}
               <div 
-                className={`order-1 lg:order-2 text-center lg:text-left transition-all duration-700 ease-out delay-200 ${
+                className={`text-center lg:text-left transition-all duration-700 ease-out delay-200 ${
                   heroVisible
                     ? 'opacity-100 translate-x-0'
                     : 'opacity-0 translate-x-12'

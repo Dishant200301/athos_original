@@ -235,10 +235,17 @@ const FishCollagenPeptide = () => {
         <section className="py-12 md:py-16 bg-background border-b border-gray-100">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center space-y-6 w-full">
             <h2 
-              className="text-[26px] md:text-[33px] text-center leading-tight font-inter w-full"
-              style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 600 }}
+              className="text-[18px] min-[375px]:text-[20px] min-[425px]:text-[22px] sm:text-[28px] md:text-[33px] text-center leading-tight font-inter w-full"
+              style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 700 }}
             >
-              {t('fishCollagen.introTitle')}
+              <span className="sm:hidden block space-y-1">
+                <span className="block whitespace-nowrap">Athos Collagen Pvt. Ltd. is leading</span>
+                <span className="block whitespace-nowrap">Manufacturer and Exporter of Fish</span>
+                <span className="block whitespace-nowrap">Collagen Peptide from India.</span>
+              </span>
+              <span className="hidden sm:block">
+                {t('fishCollagen.introTitle')}
+              </span>
             </h2>
             <p 
               className="text-[18px] md:text-[24px] text-center leading-relaxed font-inter w-full"
