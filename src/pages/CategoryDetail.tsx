@@ -222,33 +222,31 @@ const CategoryDetail = () => {
                   {category.title}
                 </h2>
               </div>
-              <div className="flex flex-wrap justify-center gap-8 sm:gap-10 md:gap-16 lg:gap-24">
-                {category.subcategories?.map((subcategory, index) => (
-                  <div 
-                    key={index}
-                    className="bg-white overflow-hidden w-full max-w-[280px] sm:max-w-none sm:w-[calc(33.33%-27px)] md:w-[220px] transform transition-all duration-300 hover:scale-105"
-                  >
-                    {/* Image */}
-                    <div className="w-full aspect-square mb-2 rounded-lg overflow-hidden">
-                      <img
-                        src={subcategory.image}
-                        alt={subcategory.title}
-                        className="w-full h-full object-cover rounded-md"
-                      />
+              <div className="max-w-6xl mx-auto w-full">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 justify-items-center">
+                  {category.subcategories?.map((subcategory, index) => (
+                    <div key={index} className="text-center group w-full max-w-[320px]">
+                      <div className="relative overflow-hidden rounded-xl mb-3 md:mb-4 bg-white shadow-sm border border-gray-200 aspect-square transition-all duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-gray-300/50 cursor-pointer">
+                        <img
+                          src={subcategory.image}
+                          alt={subcategory.title}
+                          className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+                        />
+                        <div 
+                          className="absolute bottom-0 left-0 right-0 h-14 md:h-18 px-2 md:px-4 pt-1 md:pt-2 pb-1 flex items-center justify-center transition-all duration-300 ease-in-out group-hover:h-16 md:group-hover:h-22" 
+                          style={{background: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'}}
+                        >
+                          <h3 
+                            className="text-[22px] md:text-[24px] text-center transition-all duration-300 ease-in-out group-hover:text-[20px] md:group-hover:text-[22px]" 
+                            style={{color: 'rgba(67, 67, 64, 1)', fontWeight: '400', fontFamily: 'Inter'}}
+                          >
+                            {subcategory.title}
+                          </h3>
+                        </div>
+                      </div>
                     </div>
-                    
-                    {/* Content */}
-                    <div className="text-center">
-                       <h3 className="mb-1 text-sm sm:text-base md:text-lg" style={{fontFamily: 'Inter', color: 'rgba(112, 112, 112, 1)', fontWeight: '400'}}>
-                         {subcategory.title}
-                      </h3>
-                    
-                      <p className="text-xs sm:text-sm font-inter leading-relaxed" style={{fontFamily: 'Inter, sans-serif', color: 'rgba(112, 112, 112, 1)'}}>
-                        {subcategory.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </section>
