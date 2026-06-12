@@ -24,6 +24,19 @@ const Index = () => {
   const [cobrandingRef, cobrandingVisible] = useScrollAnimation(0.1);
   const [contactRef, contactVisible] = useScrollAnimation(0.1);
 
+  const [isMobile, setIsMobile] = React.useState(() => {
+    return typeof window !== 'undefined' ? window.innerWidth < 768 : false;
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   useEffect(() => {
     document.title = 'Athos Collagen Pvt. Ltd - Leading Marine Collagen Solutions';
   }, []);
@@ -38,13 +51,17 @@ const Index = () => {
         {/* 2. About Section */}
         <div 
           ref={aboutRef}
-          className={`transition-all duration-500 ease-out ${
-            aboutVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}
+          className={
+            isMobile 
+              ? "" 
+              : `transition-all duration-500 ease-out ${
+                  aboutVisible 
+                    ? 'opacity-100 translate-y-0' 
+                    : 'opacity-0 translate-y-8'
+                }`
+          }
         >
-          <AboutPreview />
+          <AboutPreview isMobile={isMobile} />
         </div>
         
         {/* 3. Uniqueness Section */}

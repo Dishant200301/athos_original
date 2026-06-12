@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-20">
+    <section className="relative w-full h-auto aspect-[9/16] md:aspect-auto md:h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-20">
       <div className="absolute inset-0">
         <video
           key={isMobile ? 'mobile' : 'desktop'}

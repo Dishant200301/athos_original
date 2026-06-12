@@ -723,7 +723,7 @@ const Footer = () => {
 
       {isBrochureModalOpen && createPortal(
         <div className="fixed inset-0 bg-black/60 backdrop-blur-md z-[999] flex items-center justify-center p-4 animate-in fade-in duration-300">
-          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md p-8 border border-gray-100 relative animate-in zoom-in-95 slide-in-from-bottom-4 duration-300 flex flex-col text-left">
+          <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md p-5 sm:p-8 border border-gray-100 relative animate-in zoom-in-95 slide-in-from-bottom-4 duration-300 flex flex-col text-left">
             {/* Close Button */}
             <button
               onClick={() => {
@@ -790,7 +790,7 @@ const Footer = () => {
                     <button
                       type="button"
                       onClick={() => setIsCountryDropdownOpen(!isCountryDropdownOpen)}
-                      className="border border-gray-200 rounded-xl px-3 py-3 focus:outline-none focus:ring-1 focus:ring-[#1b7db5] font-inter text-gray-800 text-sm bg-white cursor-pointer w-[110px] sm:w-[130px] flex-shrink-0 flex items-center justify-between select-none h-full"
+                      className="border border-gray-200 rounded-xl px-3 py-3 focus:outline-none focus:ring-1 focus:ring-[#1b7db5] font-inter text-gray-800 text-sm bg-white cursor-pointer w-[96px] sm:w-[130px] flex-shrink-0 flex items-center justify-between select-none h-full"
                     >
                       <span className="truncate">{selectedCountry.label.split(' ')[0]} {selectedCountry.code}</span>
                       <svg className={`w-4 h-4 text-gray-400 flex-shrink-0 ml-1 transition-transform duration-200 ${isCountryDropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -865,7 +865,7 @@ const Footer = () => {
                       setBrochureMobile(e.target.value.replace(/[^0-9\s\-()]/g, ''));
                       if (mobileError) setMobileError('');
                     }}
-                    className={`flex-1 border ${
+                    className={`flex-1 min-w-0 border ${
                       mobileError ? 'border-red-500 focus:ring-red-500' : 'border-gray-200 focus:border-[#1b7db5] focus:ring-[#1b7db5]'
                     } rounded-xl px-4 py-3 focus:outline-none focus:ring-1 font-inter text-gray-800 text-sm`}
                     required

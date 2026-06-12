@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 import { useTranslation } from 'react-i18next';
 
-const AboutPreview = () => {
+const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
   const { t } = useTranslation();
   const [imageRef, imageVisible] = useScrollAnimation(0.1);
   const [textRef, textVisible] = useScrollAnimation(0.1);
@@ -46,10 +46,13 @@ const AboutPreview = () => {
           {/* Image - Coming from left */}
           <div
             ref={imageRef}
-            className={`order-1 flex w-full transition-all duration-700 ease-out ${imageVisible
+            className={`order-1 flex w-full ${
+              isMobile
                 ? 'opacity-100 translate-x-0'
-                : 'opacity-0 -translate-x-12'
-              }`}
+                : `transition-all duration-700 ease-out ${
+                    imageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
+                  }`
+            }`}
           >
             <div className="relative flex-1 overflow-hidden rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none w-full min-h-[300px] sm:min-h-[400px] lg:min-h-0">
               <img
@@ -68,10 +71,13 @@ const AboutPreview = () => {
           {/* Content - Coming from right */}
           <div
             ref={textRef}
-            className={`order-2 transition-all duration-700 ease-out ${textVisible
+            className={`order-2 ${
+              isMobile
                 ? 'opacity-100 translate-x-0'
-                : 'opacity-0 translate-x-12'
-              }`}
+                : `transition-all duration-700 ease-out ${
+                    textVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
+                  }`
+            }`}
           >
             <h2 className="text-2xl sm:text-3xl lg:text-4xl mb-4 md:mb-6" style={{ color: 'rgba(29, 129, 165, 1)', fontFamily: 'Inter, sans-serif', fontWeight: '500' }}>
               {t('home.aboutPreview.title')}
