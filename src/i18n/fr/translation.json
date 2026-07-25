@@ -2,10 +2,22 @@
   "nav": {
     "home": "Accueil",
     "about": "À Propos de Nous",
+    "products": "Produits",
+    "contact": "Contactez-nous",
+    "contactUs": "Contactez-nous",
     "fishCollagen": "Collagène de Poisson",
     "fishGelatin": "Gélatine de Poisson",
     "blog": "Blog",
-    "contactUs": "Contactez-nous"
+    "viewCategoryPage": "Voir la Page de Catégorie",
+    "viewMore": "Voir plus",
+    "viewLess": "Voir moins"
+  },
+  "categories": {
+    "enzymes": { "title": "Enzymes" },
+    "peptones": { "title": "Peptones" },
+    "probiotic-fermentation-ingredients": { "title": "Ingrédients Probiotiques et de Fermentation" },
+    "nutraceutical-pharmaceutical-ingredients": { "title": "Ingrédients Nutraceutiques et Pharmaceutiques" },
+    "animal-nutrition": { "title": "Nutrition Animale" }
   },
   "footer": {
     "emailUs": "Envoyez-nous un Email",
@@ -105,11 +117,7 @@
     "title": "À Propos de Nous",
     "heroTitle": "Le meilleur peptide de collagène\net gélatine de poisson de qualité premium\nau monde",
     "aboutContent": [
-      "Athos Collagen Pvt. Ltd est l'une des principales entreprises en Inde pour la production et la fourniture de peptide de collagène de poisson, FiColla (approuvé cliniquement), de granulés de collagène de poisson et de gélatine de poisson de qualité premium.",
-      "Le peptide de collagène de poisson et la gélatine de poisson sont fabriqués conformément aux normes de l'industrie par un personnel qualifié. Le peptide de collagène de poisson et la gélatine de poisson sont produits en utilisant des équipements de pointe et des matières premières de haute qualité provenant de fournisseurs reconnus sur le marché mondial. Pour garantir que les exigences de qualité soient satisfaites, un groupe d'experts chevronnés surveille les différentes phases de production.",
-      "Notre usine de fabrication de classe mondiale, équipée d'une installation automatisée avancée, est exploitée dans des conditions d'hygiène totale définies par les protocoles GHP, SSOP et 5S, garantissant une qualité premium, la sécurité et la pureté de chaque lot.",
-      "Avec une présence mondiale dans plus de 50 pays, nous fournissons du peptide de collagène de poisson, (peptide de collagène de poisson approuvé cliniquement), des granulés de collagène de poisson et de la gélatine de poisson de qualité premium de confiance pour leur qualité.",
-      "Fabriqué exclusivement dans une installation utilisant uniquement des sources de poisson, garantissant une contamination croisée nulle provenant d'autres sources."
+      "Athos Collagen Pvt. Ltd. est un fabricant et fournisseur mondial d'ingrédients spécialisés au service des industries pharmaceutique, nutraceutique, de la nutrition animale, de la biotechnologie et de la fermentation. Notre portefeuille en expansion comprend des protéines haut de gamme, des enzymes, des peptones, des probiotiques, des ingrédients de fermentation et des ingrédients nutritionnels fonctionnels, soutenus par des systèmes de qualité stricts et des capacités d'exportation mondiales."
     ],
     "applications": "Applications",
     "mission": {

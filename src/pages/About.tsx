@@ -2,16 +2,41 @@ import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
-
-import facilityImg from '@/assets/athos-facility.jpg';
-import rdLabImg from '@/assets/rd-lab.jpg';
-import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 import { useTranslation } from 'react-i18next';
+
+const fallbackAthosValues = [
+  {
+    title: "Authenticity",
+    description:
+      "We defines our foundation where precision sourcing meets uncompromising global standards",
+  },
+  {
+    title: "Trust",
+    description:
+      "Trust is not claimed it is earned through unwavering precision, absolute transparency, and a legacy of excellence",
+  },
+  {
+    title: "Health",
+    description:
+      "Health, engineered with precision and elevated through science.",
+  },
+  {
+    title: "Oblige",
+    description:
+      "We operate with a deep sense of obligation to excellence and integrity. Delivering not just ingredients, but long-term reliability and accountability.",
+  },
+  {
+    title: "System",
+    description:
+      "Built on structured precision, our systems ensure consistency at every stage. Delivering seamless quality through advanced processes and controlled environments.",
+  },
+];
 
 const About = () => {
   const { t } = useTranslation();
 
   const renderTextWithFiCollaLogo = (text: string) => {
+    if (!text) return text;
     const regex = /FiColla/gi;
     const parts = text.split(regex);
     if (parts.length === 1) return text;
@@ -40,273 +65,172 @@ const About = () => {
       </>
     );
   };
-  const [heroRef, heroVisible] = useScrollAnimation(0.1);
-  const [aboutRef, aboutVisible] = useScrollAnimation(0.1);
-  const [missionRef, missionVisible] = useScrollAnimation(0.1);
-  const [rdRef, rdVisible] = useScrollAnimation(0.1);
-  const [facilitiesRef, facilitiesVisible] = useScrollAnimation(0.1);
-  // const [certificationsRef, certificationsVisible] = useScrollAnimation(0.1);
-  const [contactRef, contactVisible] = useScrollAnimation(0.1);
-
-  const facilities = [
-    {
-      name: 'ATHOS_Manufacturing_Hub',
-      location: 'Norway',
-      image: facilityImg,
-      description: 'Primary_production_facility_with_advanced_extraction_technology'
-    },
-    {
-      name: 'Research_&_Development_Center',
-      location: 'Japan',
-      image: rdLabImg,
-      description: 'Innovation_center_for_marine_collagen_research'
-    },
-    {
-      name: 'Quality_Control_Laboratory',
-      location: 'Germany',
-      image: facilityImg,
-      description: 'State-of-the-art_testing_and_certification_facility'
-    }
-  ];
 
   useEffect(() => {
-    document.title = 'About Us - Athos Collagen Pvt. Ltd';
-  }, []);
+    document.title = `${t('about.title', { defaultValue: 'About Us' })} - Athos Collagen Pvt. Ltd`;
+  }, [t]);
 
   return (
-    <div className="bg-background w-full" style={{ overflowX: 'clip' }}>
+    <div className="bg-background w-full min-h-screen flex flex-col overflow-x-clip">
       <Navbar />
-      <main className="relative">
-        {/* Hero Section */}
-        <div
-          ref={heroRef}
-          className={`transition-all duration-500 ease-out ${
-            heroVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          <section className="relative h-[calc(100vh-5rem)] flex items-end sm:items-center justify-center overflow-hidden mt-20 pb-12 sm:pb-0" style={{minHeight: 'calc(100vh - 5rem)'}}>
-            <div className="absolute inset-0">
-              <img
-                src="/images/athos_about.jpg"
-                alt="ATHOS Collagen"
-                className="hidden sm:block w-full h-full object-cover"
-              />
-              <img
-                src="/images/athos_about_mobile.png"
-                alt="ATHOS Collagen Mobile"
-                className="block sm:hidden w-full h-full object-cover"
-              />
-            </div>
-            
-            <div className="relative z-10 container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex justify-center">
-              <div className="w-full md:w-max max-w-[90%] md:max-w-full flex flex-col items-center justify-center text-center md:translate-x-[10%] lg:translate-x-[12%] xl:translate-x-[15%]">
-                <h1 className="text-white font-semibold tracking-wide drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] leading-tight text-lg sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center flex flex-col items-center">
-                  <span className="whitespace-nowrap">{t('about.heroTitle').split('\n')[0]}</span>
-                  {t('about.heroTitle').split('\n').slice(1).map((line: string, index: number) => (
-                    <span key={index}>{line}</span>
-                  ))}
-                </h1>
-              </div>
-            </div>
-          </section>
-        </div>
 
-        {/* About Content */}
-        <div 
-          ref={aboutRef}
-          className={`transition-all duration-500 ease-out ${
-            aboutVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          <section className="pt-12 md:pt-20 pb-0 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>{t('about.title')}</h2>
-              
-              <ul className="space-y-3 md:space-y-4 text-foreground leading-relaxed text-base md:text-lg font-inter" style={{ fontFamily: 'Inter, sans-serif' }}>
-                {(t('about.aboutContent', { returnObjects: true }) as string[]).map((content: string, index: number) => (
-                  <li key={index} className="block text-left">
-                    <span>{renderTextWithFiCollaLogo(content)}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </section>
-        </div>
+      <main className="flex-1">
+        {/* 1. About Hero Section (with mt-20 navbar spacing) */}
+        <section className="relative w-full h-[300px] md:h-[500px] lg:h-[85vh] xl:h-[90vh] overflow-hidden mt-20">
+          <img
+            src="/images/about-img.webp"
+            alt="About Athos Collagen"
+            className="w-full h-full object-cover"
+          />
+        </section>
 
-        {/* Mission, Vision & Core Values Section */}
-        <div 
-          ref={missionRef}
-          className={`transition-all duration-500 ease-out delay-100 ${
-            missionVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          {/* Mission Section */}
-          <section className="py-12 md:py-20 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <div className="w-full text-left">
-                <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
-                  {t('about.mission.title')}
-                </h2>
-                <p className="text-foreground leading-relaxed text-base md:text-lg font-inter w-full">
-                  {renderTextWithFiCollaLogo(t('about.mission.description'))}
+        {/* 2. About Us Content */}
+        <section className="py-12 md:py-16 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
+              {t('about.title', { defaultValue: 'About Us' })}
+            </h2>
+            <div className="space-y-6 text-[16px] leading-[27px] text-[#555555] font-inter">
+              {Array.isArray(t('about.aboutContent', { returnObjects: true })) ? (
+                (t('about.aboutContent', { returnObjects: true }) as string[]).map((paragraph: string, index: number) => (
+                  <p key={index} className="text-[16px] leading-[27px] text-[#555555] font-inter">
+                    {renderTextWithFiCollaLogo(paragraph)}
+                  </p>
+                ))
+              ) : (
+                <p className="text-[16px] leading-[27px] text-[#555555] font-inter">
+                  {renderTextWithFiCollaLogo(
+                    t('about.aboutContent', { 
+                      defaultValue: "Athos Collagen Pvt. Ltd. is a global manufacturer and supplier of specialty ingredients serving the pharmaceutical, nutraceutical, animal nutrition, biotechnology and fermentation industries. Our expanding portfolio includes premium proteins, enzymes, peptones, probiotics, fermentation ingredients and functional nutritional ingredients, supported by strict quality systems and worldwide export capabilities." 
+                    })
+                  )}
                 </p>
-              </div>
+              )}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* "athos" Section with Sticky Left and Scrolling Right */}
-          <section className="py-16 md:py-24" style={{ backgroundColor: 'rgba(225, 240, 245, 0.5)' }}>
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
-                {/* Left Side: Sticky on Desktop */}
-                <div 
-                  className="w-full lg:w-5/12 self-start flex flex-col items-start space-y-4 lg:sticky lg:top-[100px] lg:z-10"
-                >
-                  <div className="mb-2">
-                    <img 
-                      src="/images/athos_logo.webp" 
-                      alt="ATHOS Logo" 
-                      className="h-14 md:h-16 w-auto object-contain"
-                    />
-                  </div>
-                  <p className="text-foreground/90 leading-relaxed text-base md:text-lg text-left font-inter">
-                    {renderTextWithFiCollaLogo(t('about.athosSection.description'))}
+        {/* 3. Mission & Vision */}
+        <section className="py-12 md:py-16 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0">
+              {/* Mission Card */}
+              <div className="w-[280px] h-[280px] rounded-full bg-[#66b036] flex items-center justify-center shadow-lg flex-shrink-0">
+                <div className="text-center px-8">
+                  <h3 className="text-white font-bold text-[24px] mb-4">
+                    {t('about.mission.title', { defaultValue: 'Mission' })}
+                  </h3>
+                  <p className="text-white text-[14px] leading-[20px]">
+                    {t('about.mission.description', { defaultValue: 'Mission To be the most trusted and innovative leader in the ingredients industry' })}
                   </p>
                 </div>
-
-                {/* Right Side: Scrollable */}
-                <div className="w-full lg:w-7/12 space-y-8 md:space-y-12">
-                  {Object.keys(t('about.athosSection.values', { returnObjects: true }) || {}).map((key) => {
-                    const valObj = t(`about.athosSection.values.${key}`, { returnObjects: true }) as { title: string; description: string };
-                    return (
-                      <div 
-                        key={key} 
-                        className="py-4 border-b border-cyan-800/10 last:border-b-0 transition-all duration-300 hover:translate-x-1"
-                      >
-                        <h3 className="mb-2 text-xl md:text-2xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '600' }}>
-                          {valObj.title}
-                        </h3>
-                        <p className="text-foreground leading-relaxed text-base md:text-lg text-left font-inter">
-                          {renderTextWithFiCollaLogo(valObj.description)}
-                        </p>
-                      </div>
-                    );
-                  })}
-                </div>
               </div>
-            </div>
-          </section>
 
-          {/* Vision Section */}
-          <section className="pt-12 md:pt-20 pb-0 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <div className="max-w-4xl text-left">
-                <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
-                  {t('about.vision.title')}
-                </h2>
-                <p className="text-foreground leading-relaxed text-base md:text-lg font-inter max-w-2xl">
-                  {renderTextWithFiCollaLogo(t('about.vision.description'))}
-                </p>
+              {/* Divider - Desktop Only */}
+              <div className="hidden lg:block w-[100px] border-t-2 border-dashed border-gray-300"></div>
+
+              {/* Logo Card */}
+              <div className="w-[280px] h-[280px] rounded-full bg-[#F4F4F4] flex items-center justify-center flex-shrink-0">
+                <img src="/images/athos-logo-full-form.webp" alt="Athos Collagen" className="w-[280px] h-auto object-contain" />
               </div>
-            </div>
-          </section>
-        </div>
 
-        {/* Our Facilities */}
-        <div 
-          ref={facilitiesRef}
-          className={`transition-all duration-500 ease-out delay-150 ${
-            facilitiesVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          <section className="pt-12 md:pt-20 pb-0 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl text-left" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>{t('about.facilities.title')}</h2>
-              
-              <div className="space-y-4 w-full" style={{ fontFamily: 'Inter, sans-serif' }}>
-                {(t('about.facilities.descriptions', { returnObjects: true }) as string[]).map((description: string, index: number) => (
-                  <p 
-                    key={index} 
-                    className="block text-foreground leading-relaxed text-base md:text-lg text-left font-inter"
-                  >
-                    {renderTextWithFiCollaLogo(description)}
+              {/* Divider - Desktop Only */}
+              <div className="hidden lg:block w-[100px] border-t-2 border-dashed border-gray-300"></div>
+
+              {/* Vision Card */}
+              <div className="w-[280px] h-[280px] rounded-full bg-[#1D7AA3] flex items-center justify-center shadow-lg flex-shrink-0">
+                <div className="text-center px-8">
+                  <h3 className="text-white font-bold text-[24px] mb-4">
+                    {t('about.vision.title', { defaultValue: 'Vision' })}
+                  </h3>
+                  <p className="text-white text-[14px] leading-[20px]">
+                    {t('about.vision.description', { defaultValue: 'To be the most trusted and innovative leader in the marine collagen industry' })}
                   </p>
-                ))}
-              </div>
-            </div>
-          </section>
-        </div>
-
-        {/* R&D Video Section */}
-        <div 
-          ref={rdRef}
-          className={`transition-all duration-500 ease-out delay-200 ${
-            rdVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          <section className="py-12 md:py-20 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <div className="max-w-6xl mx-auto">
-                <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl text-left" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
-                  R & D
-                </h2>
-                <div className="relative bg-black rounded-xl overflow-hidden aspect-video">
-                  <img
-                    src={rdLabImg}
-                    alt="R&D Laboratory"
-                    className="w-full h-full object-cover"
-                  />
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
-        {/* Certifications Logos
-        <div 
-          ref={certificationsRef}
-          className={`transition-all duration-500 ease-out delay-250 ${
-            certificationsVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          <section className="py-12 md:py-20 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-              <h2 className="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl text-center" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>{t('about.certifications.title')}</h2>
-              <img 
-                src="/images/logo_grid.png" 
-                alt="Certifications and Quality Standards" 
-                className="w-full max-w-5xl mx-auto h-auto object-contain"
+        {/* 4. ATHOS Brand Values Section */}
+        <section className="py-12 md:py-16 lg:py-20 bg-background">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+              {/* Left Column - Centered Logo */}
+              <div className="lg:col-span-5 flex items-center justify-start self-center py-4">
+                <img
+                  src="/images/logo.webp"
+                  alt="Athos Collagen"
+                  className="h-[50px] md:h-[70px] lg:h-[80px] w-auto object-contain mx-auto"
+                />
+              </div>
+
+              {/* Right Column - Brand Values List */}
+              <div className="lg:col-span-7 space-y-6 md:space-y-8">
+                {(() => {
+                  const valuesObj = t('about.athosSection.values', { returnObjects: true });
+                  if (valuesObj && typeof valuesObj === 'object' && !Array.isArray(valuesObj)) {
+                    const keys = Object.keys(valuesObj);
+                    return keys.map((key, index) => {
+                      const valObj = valuesObj[key as keyof typeof valuesObj] as { title: string; description: string };
+                      return (
+                        <div
+                          key={key}
+                          className={`pb-6 md:pb-8 ${
+                            index !== keys.length - 1 ? "border-b border-[#d8ebf5]" : ""
+                          }`}
+                        >
+                          <h3 className="text-[20px] md:text-[24px] font-bold text-[#1D7AA3] mb-3">
+                            {valObj.title}
+                          </h3>
+                          <p className="text-[#555555] text-sm md:text-base leading-[26px]">
+                            {renderTextWithFiCollaLogo(valObj.description)}
+                          </p>
+                        </div>
+                      );
+                    });
+                  }
+                  return fallbackAthosValues.map((item, index) => (
+                    <div
+                      key={item.title}
+                      className={`pb-6 md:pb-8 ${
+                        index !== fallbackAthosValues.length - 1 ? "border-b border-[#d8ebf5]" : ""
+                      }`}
+                    >
+                      <h3 className="text-[20px] md:text-[24px] font-bold text-[#1D7AA3] mb-3">
+                        {item.title}
+                      </h3>
+                      <p className="text-[#555555] text-sm md:text-base leading-[26px]">
+                        {renderTextWithFiCollaLogo(item.description)}
+                      </p>
+                    </div>
+                  ));
+                })()}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 5. R&D Section */}
+        <section className="py-12 md:py-16 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
+              R&D
+            </h2>
+            <div className="w-full overflow-hidden rounded-xl shadow-sm">
+              <img
+                src="/images/R&D.png"
+                alt="Research and Development"
+                className="w-full h-[500px] md:h-[650px] object-cover block"
               />
             </div>
-          </section>
-        </div> */}
+          </div>
+        </section>
 
-        {/* Contact Us Section */}
-        <div 
-          ref={contactRef}
-          className={`transition-all duration-500 ease-out delay-300 ${
-            contactVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}
-        >
-          <ContactTeaser />
-        </div>
-
-
+        {/* 6. Contact Teaser */}
+        <ContactTeaser />
       </main>
+
       <Footer />
     </div>
   );

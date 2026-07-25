@@ -1,46 +1,40 @@
 import React from 'react';
-import { Mail, Youtube, Instagram } from 'lucide-react';
+import { Mail, MessageCircle, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const ContactTeaser = () => {
   const { t } = useTranslation();
   return (
-    <section className="pt-16 md:pt-20 pb-12 md:pb-16 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12 lg:gap-8">
-            <div className="text-left w-full sm:w-auto">
-              <h2 className="text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>Connect with us</h2>
-            </div>
-            
-            <div className="flex flex-row items-center gap-4 sm:gap-16 lg:gap-24 w-full lg:w-auto justify-between sm:justify-start">
-              {/* Email */}
-              <a 
-                href="mailto:inquiry@athoscollagen.com?subject=Inquiry from ATHOS Website&body=Hello ATHOS Team,%0D%0A%0D%0AI am interested in learning more about your collagen products.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!" 
-                className="contact-card flex items-center space-x-2 sm:space-x-4 md:space-x-6 cursor-pointer group"
-                onClick={(e) => {
-                  // Fallback for environments where mailto doesn't work
-                  if (!e.defaultPrevented) {
-                    window.location.href = 'mailto:inquiry@athoscollagen.com?subject=Inquiry from ATHOS Website&body=Hello ATHOS Team,%0D%0A%0D%0AI am interested in learning more about your collagen products.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!';
-                  }
-                }}
-              >
-                <Mail className="contact-icon h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 transition-colors duration-300 flex-shrink-0" style={{color: 'rgba(112, 112, 112, 1)', strokeWidth: 1}} />
-                <span className="contact-text text-sm sm:text-base md:text-xl lg:text-2xl font-medium transition-colors duration-300" style={{color: 'rgba(112, 112, 112, 1)'}}>Email</span>
-                <span className="contact-arrow text-xl sm:text-2xl md:text-3xl transition-all duration-300" style={{color: 'rgba(112, 112, 112, 1)'}}>→</span>
-              </a>
+    <section className="py-10 md:py-14 bg-white">
+      <div className="max-w-[1290px] mx-auto px-4 xl:px-0 flex flex-col items-center justify-center text-center gap-6 md:gap-8">
+        {/* Centered Heading */}
+        <h2 className="text-2xl md:text-3xl lg:text-[32px] font-medium text-[#1D7AA3] text-center">
+          {t('contact.title', { defaultValue: 'Connect us' })}
+        </h2>
 
-              {/* WhatsApp */}
-              <a href="https://wa.me/918780321239" target="_blank" rel="noopener noreferrer" className="contact-card flex items-center space-x-2 sm:space-x-4 md:space-x-6 cursor-pointer group">
-                <svg className="contact-icon h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 transition-colors duration-300 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" style={{color: 'rgba(112, 112, 112, 1)'}}>
-                  <path d="M17.5 14.5c-.3-.1-1.8-.9-2.1-1-.3-.1-.5-.1-.7.2-.2.3-.8 1-.9 1.2-.2.2-.4.2-.7.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4-.1-.5-.1-.1-.7-1.6-1-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3z" />
-                  <path d="M12 21.5c-1.7 0-3.3-.5-4.8-1.3l-4.4 1.2 1.2-4.3c-1-1.5-1.5-3.3-1.5-5.1 0-5.2 4.3-9.5 9.5-9.5s9.5 4.3 9.5 9.5-4.3 9.5-9.5 9.5z" />
-                </svg>
-                <span className="contact-text text-sm sm:text-base md:text-xl lg:text-2xl font-medium transition-colors duration-300" style={{color: 'rgba(112, 112, 112, 1)'}}>Whatsapp</span>
-                <span className="contact-arrow text-xl sm:text-2xl md:text-3xl transition-all duration-300" style={{color: 'rgba(112, 112, 112, 1)'}}>→</span>
-              </a>
-            </div>
-          </div>
+        {/* Right Clickable Links */}
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-48">
+          {/* Email Link */}
+          <a
+            href="mailto:inquiry@athoscollagen.com?subject=Inquiry from ATHOS Website&body=Hello ATHOS Team,%0D%0A%0D%0AI am interested in learning more about your collagen products.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
+            className="group flex items-center gap-3 lg:gap-4 text-[#444444] hover:text-[#1D7AA3] transition-colors cursor-pointer"
+          >
+            <Mail className="w-6 h-6 lg:w-9 lg:h-9 stroke-[1] text-[#555555] group-hover:text-[#1D7AA3] transition-colors flex-shrink-0" />
+            <span className="text-base md:text-lg lg:text-2xl font-medium">{t('contact.email', { defaultValue: 'Email' })}</span>
+            <ArrowRight className="w-4 h-4 lg:w-6 lg:h-6 text-[#666666] group-hover:text-[#1D7AA3] group-hover:translate-x-2 transition-all duration-200 flex-shrink-0" />
+          </a>
+
+          {/* Whatsapp Link */}
+          <a
+            href="https://wa.me/918780321239"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-3 lg:gap-4 text-[#444444] hover:text-[#1D7AA3] transition-colors cursor-pointer"
+          >
+            <MessageCircle className="w-6 h-6 lg:w-9 lg:h-9 stroke-[1] text-[#555555] group-hover:text-[#1D7AA3] transition-colors flex-shrink-0" />
+            <span className="text-base md:text-lg lg:text-2xl font-medium">{t('contact.whatsapp', { defaultValue: 'Whatsapp' })}</span>
+            <ArrowRight className="w-4 h-4 lg:w-6 lg:h-6 text-[#666666] group-hover:text-[#1D7AA3] group-hover:translate-x-2 transition-all duration-200 flex-shrink-0" />
+          </a>
         </div>
       </div>
     </section>

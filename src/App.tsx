@@ -14,6 +14,7 @@ import Contact from "./pages/Contact";
 import CategoryDetail from "./pages/CategoryDetail";
 import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
+import ProductCategory from "./pages/ProductCategory";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/fish-gelatin" element={<FishGelatin />} />
           <Route path="/fish-gelatin-applications" element={<FishGelatinApplications />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products/:categoryKey" element={<ProductCategory />} />
           <Route path="/category/:categoryId" element={<CategoryDetail />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogDetail />} />

@@ -73,7 +73,7 @@ const Index = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <UniquenessSection />
+          {/* <UniquenessSection /> */}
         </div>
         
         {/* 4. Our Premium Products
@@ -145,7 +145,7 @@ const Index = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <CobrandingSection />
+          {/* <CobrandingSection /> */}
         </div>
         
         {/* 9. Contact with us */}

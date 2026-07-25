@@ -2,10 +2,22 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre Nosotros",
+    "products": "Productos",
+    "contact": "Contáctanos",
+    "contactUs": "Contáctanos",
     "fishCollagen": "Colágeno de Pescado",
     "fishGelatin": "Gelatina de Pescado",
     "blog": "Blog",
-    "contactUs": "Contáctanos"
+    "viewCategoryPage": "Ver Página de Categoría",
+    "viewMore": "Ver más",
+    "viewLess": "Ver menos"
+  },
+  "categories": {
+    "enzymes": { "title": "Enzimas" },
+    "peptones": { "title": "Peptonas" },
+    "probiotic-fermentation-ingredients": { "title": "Ingredientes Probióticos y de Fermentación" },
+    "nutraceutical-pharmaceutical-ingredients": { "title": "Ingredientes Nutracéuticos y Farmacéuticos" },
+    "animal-nutrition": { "title": "Nutrición Animal" }
   },
   "footer": {
     "emailUs": "Envíanos un Email",
@@ -105,11 +117,7 @@
     "title": "Sobre Nosotros",
     "heroTitle": "El mejor péptido de colágeno de pescado\ny gelatina de pescado de calidad premium\ndel mundo",
     "aboutContent": [
-      "Athos Collagen Pvt. Ltd es una de las principales empresas de la India en la producción y el suministro de péptido de colágeno de pescado, FiColla (clínicamente aprobado), gránulos de colágeno de pescado y gelatina de pescado de primera calidad.",
-      "El péptido de colágeno de pescado y la gelatina de pescado se fabrican de acuerdo con los estándares de la industria por parte de personal calificado. Mediante el uso de equipos de última generación y materias primas de alta calidad que se obtienen de proveedores reconocidos en el mercado global, se producen el péptido de colágeno de pescado y la gelatina de pescado. Para garantizar que se cumplan los requisitos de calidad, un grupo de expertos experimentados supervisa las diferentes fases de producción.",
-      "Nuestra instalación de fabricación de clase mundial, equipada con una planta automatizada avanzada, se opera en condiciones totalmente higiénicas según lo definido por los protocolos GHP, SSOP y 5S, lo que garantiza una calidad, seguridad y pureza de primer nivel en cada lote.",
-      "Con presencia global en más de 50 países, ofrecemos péptido de colágeno de pescado de primera calidad, (péptido de colágeno de pescado clínicamente aprobado), gránulos de colágeno de pescado y gelatina de pescado de confianza por su calidad.",
-      "Fabricado exclusivamente en una instalación dedicada únicamente a fuentes de pescado, lo que garantiza cero contaminación cruzada de otras fuentes."
+      "Athos Collagen Pvt. Ltd. es un fabricante y proveedor global de ingredientes especializados al servicio de las industrias farmacéutica, nutracéutica, de nutrición animal, biotecnología y fermentación. Nuestra cartera en expansión incluye proteínas de calidad superior, enzimas, peptonas, probióticos, ingredientes de fermentación e ingredientes nutricionales funcionales, respaldados por estrictos sistemas de calidad y capacidades de exportación a nivel mundial."
     ],
     "applications": "Aplicaciones",
     "mission": {

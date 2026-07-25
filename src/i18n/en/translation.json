@@ -2,11 +2,23 @@
   "nav": {
     "home": "Home",
     "about": "About Us",
+    "products": "Products",
+    "contact": "Contact Us",
+    "contactUs": "Contact Us",
     "fishCollagen": "Fish Collagen Peptide",
     "fishGelatin": "Fish Gelatin",
     "blog": "Blog",
-    "contactUs": "Contact Us",
-    "inquiry": "Inquiry"
+    "inquiry": "Inquiry",
+    "viewCategoryPage": "View Category Page",
+    "viewMore": "View More",
+    "viewLess": "View Less"
+  },
+  "categories": {
+    "enzymes": { "title": "Enzymes" },
+    "peptones": { "title": "Peptones" },
+    "probiotic-fermentation-ingredients": { "title": "Probiotic and Fermentation Ingredients" },
+    "nutraceutical-pharmaceutical-ingredients": { "title": "Nutraceutical and Pharmaceutical Ingredients" },
+    "animal-nutrition": { "title": "Animal Nutrition" }
   },
   "footer": {
     "usefulLinks": "Useful Links",
@@ -38,7 +50,7 @@
     "subtitle": "Leading Marine Collagen Solutions",
     "aboutPreview": {
       "title": "Athos Collagen PVT LTD",
-      "description1": "We are India's leading manufacturer and exporter of premium quality Fish Collagen Peptide, FiColla (Clinically approved), Fish Collagen Granules and Fish Gelatin. With state-of-the-art facilities and a commitment to excellence, we deliver products that meet the highest international standards. Our dedication to quality, innovation, and customer satisfaction has made us a trusted partner for businesses worldwide.",
+      "description1": "Athos Collagen Pvt. Ltd. is an India-based manufacturer and global supplier of specialty ingredients developed for the nutraceutical, food & beverage, pharmaceutical, personal care, and animal nutrition industries. we serve customers across domestic and international markets with solutions that meet evolving industry requirements.Our focus extends beyond supplying ingredients we strive to build long-term business relationships through transparent communication, reliable deliveries, regulatory compliance, and dedicated customer support. As our product range continues to grow, Athos Collagen remains committed to delivering trusted ingredient solutions that help brands innovate and succeed in competitive global markets.",
       "ourStrength": "Our Strength",
       "ourCommitment": "Our Commitment",
       "authenticity": "Authenticity",
@@ -117,11 +129,7 @@
     "title": "About Us",
     "heroTitle": "World’s Best premium Quality\nFish Collagen Peptide\nAnd Fish Gelatin",
     "aboutContent": [
-      "Athos Collagen Pvt. Ltd is One of the top companies in India for producing and supplying premium quality Fish Collagen Peptide, FiColla (Clinically approved), Fish Collagen Granules and Fish Gelatin.",
-      "Fish Collagen Peptide and Fish Gelatin are made in accordance with industry standards by knowledgeable staff members. Using cutting-edge equipment and high-quality raw materials that are sourced from recognized vendors on the global market, Fish Collagen Peptide and Fish Gelatin are produced. To ensure quality requirements are met, a group of seasoned experts monitor different production phases.",
-      "Our world-class manufacturing facility, equipped with advanced automated plant is operated under fully hygienic conditions as defined by GHP, SSOP and 5S. protocols, ensures premium quality, safety, and purity in every batch.",
-      "With a global presence in over 50 countries, we deliver premium Fish Collagen Peptide, (Clinically approved Fish Collagen Peptide), Fish Collagen Granules and Fish Gelatin. trusted for its quality.",
-      "Manufactured exclusively in a Fish Source Only facility, ensuring zero cross-contamination from other sources."
+      "Athos Collagen Pvt. Ltd. is a global manufacturer and supplier of specialty ingredients serving the pharmaceutical, nutraceutical, animal nutrition, biotechnology and fermentation industries. Our expanding portfolio includes premium proteins, enzymes, peptones, probiotics, fermentation ingredients and functional nutritional ingredients, supported by strict quality systems and worldwide export capabilities."
     ],
     "applications": "Applications",
     "mission": {

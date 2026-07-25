@@ -2,10 +2,22 @@
   "nav": {
     "home": "Home",
     "about": "Chi Siamo",
+    "products": "Prodotti",
+    "contact": "Contattaci",
+    "contactUs": "Contattaci",
     "fishCollagen": "Collagene di Pesce",
     "fishGelatin": "Gelatina di Pesce",
     "blog": "Blog",
-    "contactUs": "Contattaci"
+    "viewCategoryPage": "Visualizza Pagina Categoria",
+    "viewMore": "Mostra di più",
+    "viewLess": "Mostra meno"
+  },
+  "categories": {
+    "enzymes": { "title": "Enzimi" },
+    "peptones": { "title": "Peptoni" },
+    "probiotic-fermentation-ingredients": { "title": "Ingredienti Probiotici e di Fermentazione" },
+    "nutraceutical-pharmaceutical-ingredients": { "title": "Ingredienti Nutraceutici e Farmaceutici" },
+    "animal-nutrition": { "title": "Nutrizione Animale" }
   },
   "footer": {
     "emailUs": "Inviaci una Email",
@@ -105,11 +117,7 @@
     "title": "Chi Siamo",
     "heroTitle": "Il miglior peptide di collagene di pesce\ne gelatina di pesce di qualità premium\nal mondo",
     "aboutContent": [
-      "Athos Collagen Pvt. Ltd è una delle principali aziende in India per la produzione e la fornitura di peptide di collagene di pesce, FiColla (clinicamente approvato), granuli di collagene di pesce e gelatina di pesce di qualità premium.",
-      "Il peptide di collagene di pesce e la gelatina di pesce sono prodotti in conformità con gli standard del settore da personale esperto. Utilizzando attrezzature all'avanguardia e materie prime di alta qualità provenienti da fornitori riconosciuti sul mercato globale, vengono prodotti il peptide di collagene di pesce e la gelatina di pesce. Per garantire il rispetto dei requisiti di qualità, un gruppo di esperti monitora le diverse fasi di produzione.",
-      "La nostra struttura di produzione di livello mondiale, dotata di un impianto automatizzato avanzato, opera in condizioni totalmente igieniche come definito dai protocolli GHP, SSOP e 5S, garantendo qualità premium, sicurezza e purezza in ogni lotto.",
-      "Con una presenza globale in oltre 50 paesi, forniamo peptide di collagene di pesce, (peptide di collagene di pesce clinicamente approvato), granuli di collagene di pesce e gelatina di pesce premium affidabili per la loro qualità.",
-      "Prodotto esclusivamente in una struttura dedicata esclusivamente a fonti di pesce, garantendo zero contaminazioni crociate da altre fonti."
+      "Athos Collagen Pvt. Ltd. è un produttore e fornitore globale di ingredienti di specialità al servizio delle industrie farmaceutica, nutraceutica, della nutrizione animale, delle biotecnologie e della fermentazione. Il nostro portafoglio in espansione include proteine di alta qualità, enzimi, peptoni, probiotici, ingredienti per la fermentazione e ingredienti nutrizionali funzionali, supportati da rigorosi sistemi di qualità e capacità di esportazione in tutto il mondo."
     ],
     "applications": "Applications",
     "mission": {

@@ -2,10 +2,22 @@
   "nav": {
     "home": "Startseite",
     "about": "Über Uns",
+    "products": "Produkte",
+    "contact": "Kontaktieren Sie uns",
+    "contactUs": "Kontaktieren Sie uns",
     "fishCollagen": "Fischkollagen",
     "fishGelatin": "Fischgelatine",
     "blog": "Blog",
-    "contactUs": "Kontaktieren Sie uns"
+    "viewCategoryPage": "Kategorieseite anzeigen",
+    "viewMore": "Mehr anzeigen",
+    "viewLess": "Weniger anzeigen"
+  },
+  "categories": {
+    "enzymes": { "title": "Enzyme" },
+    "peptones": { "title": "Peptone" },
+    "probiotic-fermentation-ingredients": { "title": "Probiotika und Fermentationszutaten" },
+    "nutraceutical-pharmaceutical-ingredients": { "title": "Nutrazeutische und Pharmazeutische Zutaten" },
+    "animal-nutrition": { "title": "Tierernährung" }
   },
   "footer": {
     "emailUs": "Senden Sie uns eine E-Mail",
@@ -105,11 +117,7 @@
     "title": "Über Uns",
     "heroTitle": "Weltweit bestes Premium-Qualitäts-\nFischkollagenpeptid und\nFischgelatine",
     "aboutContent": [
-      "Athos Collagen Pvt. Ltd ist eines der führenden Unternehmen in Indien für die Herstellung und Lieferung von Premium-Fischkollagenpeptid, FiColla (klinisch zugelassen), Fischkollagengranulat und Fischgelatine.",
-      "Fischkollagenpeptid und Fischgelatine werden von qualifiziertem Fachpersonal in Übereinstimmung mit Branchenstandards hergestellt. Unter Verwendung modernster Ausrüstung und hochwertiger Rohstoffe, die von anerkannten Lieferanten auf dem Weltmarkt bezogen werden, entstehen Fischkollagenpeptid und Fischgelatine. Um die Einhaltung der Qualitätsanforderungen zu gewährleisten, überwacht ein Team erfahrener Experten die verschiedenen Produktionsphasen.",
-      "Unsere erstklassige Produktionsstätte, die mit einer hochentwickelten automatisierten Anlage ausgestattet ist, wird unter absolut hygienischen Bedingungen gemäß den Protokollen GHP, SSOP und 5S betrieben und garantiert so erstklassige Qualität, Sicherheit und Reinheit in jeder Charge.",
-      "Mit einer globalen Präsenz in über 50 Ländern liefern wir Premium-Fischkollagenpeptid, (klinisch zugelassenes Fischkollagenpeptid), Fischkollagengranulat und Fischgelatine, die für ihre Qualität geschätzt werden.",
-      "Ausschließlich in einer reinen Fischquellen-Anlage hergestellt, wodurch eine Kreuzkontamination durch andere Quellen vollständig ausgeschlossen ist."
+      "Athos Collagen Pvt. Ltd. ist ein globaler Hersteller und Lieferant von Spezialzutaten für die Pharma-, Nahrungsergänzungsmittel-, Tierernährungs-, Biotechnologie- und Fermentationsindustrie. Unser wachsendes Portfolio umfasst erstklassige Proteine, Enzyme, Peptone, Probiotika, Fermentationszutaten und funktionelle Nährstoffzutaten, unterstützt durch strenge Qualitätssysteme und weltweite Exportkapazitäten."
     ],
     "applications": "Anwendungen",
     "mission": {
