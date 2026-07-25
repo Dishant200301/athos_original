@@ -82,8 +82,11 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
             <h2 className="text-2xl sm:text-3xl lg:text-4xl mb-4 md:mb-6" style={{ color: 'rgba(29, 129, 165, 1)', fontFamily: 'Inter, sans-serif', fontWeight: '500' }}>
               {t('home.aboutPreview.title')}
             </h2>
-            <p className="mb-6 md:mb-8 leading-relaxed text-sm sm:text-base font-inter" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
+            <p className="mb-4 leading-relaxed text-sm sm:text-base font-inter" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
               {renderTextWithFiCollaLogo(t('home.aboutPreview.description1'))}
+            </p>
+            <p className="mb-6 md:mb-8 leading-relaxed text-sm sm:text-base font-inter" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
+              {renderTextWithFiCollaLogo(t('home.aboutPreview.description2'))}
             </p>
 
             {/* Our Strength and Our Commitment - Side by Side */}

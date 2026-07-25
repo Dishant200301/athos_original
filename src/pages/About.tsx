@@ -144,7 +144,7 @@ const About = () => {
                     {t('about.vision.title', { defaultValue: 'Vision' })}
                   </h3>
                   <p className="text-white text-[14px] leading-[20px]">
-                    {t('about.vision.description', { defaultValue: 'To be the most trusted and innovative leader in the marine collagen industry' })}
+                    {t('about.vision.description', { defaultValue: 'To be the most trusted and innovative leader in the ingredient industry.' })}
                   </p>
                 </div>
               </div>
