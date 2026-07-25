@@ -70,6 +70,20 @@ const productCategories = [
       "Sodium Butyrate", "Calcium Butyrate", "Mannan Oligosaccharide", "Amino Chelated Minerals",
       "Sodium Propionate", "Calcium Propionate", "Protein Hydrolysate", "Active Dry Yeast"
     ]
+  },
+  {
+    title: "Extract and Essential Oils",
+    slug: "extract-and-essential-oils",
+    href: "/products/extract-and-essential-oils",
+    subProducts: [
+      "SCFE Black Pepper Oleoresin",
+      "Piperine",
+      "SCFE Ginger Oleoresin",
+      "Ginger Extract Granules",
+      "SCFE Vanilla Extract",
+      "SCFE Holy Basil Oleoresin",
+      "SCFE Seabuckthorn Oil"
+    ]
   }
 ];
 
@@ -160,7 +174,7 @@ const Navbar = () => {
           ? 'h-16 bg-white/90 backdrop-blur-md border-b border-white/40 shadow-lg' 
           : 'h-20 bg-white/80 backdrop-blur-md border-b border-white/30 shadow-sm'
     }`}>
-      <nav className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 h-full flex items-center justify-between relative mobile-nav-container">
+      <nav className="container mx-auto px-4 md:px-4 lg:px-10 h-full flex items-center justify-between relative mobile-nav-container">
         {/* ATHOS Logo */}
         <div className="flex items-center flex-shrink-0 z-10">
           <Link to="/" className="flex items-center">
@@ -491,7 +505,7 @@ const Navbar = () => {
                           <button
                             onClick={() => setExpandedMobileCategory(isCatExpanded ? null : cat.slug)}
                             className={`flex items-center justify-between w-full py-2.5 px-3 rounded-lg text-base font-medium transition-colors ${
-                              isCatExpanded ? 'text-[#6ABF00] bg-[#f4faec]' : 'text-[#555555] hover:text-[#6ABF00] hover:bg-gray-50'
+                              isCatExpanded ? 'text-[#6ABF00]' : 'text-[#555555] hover:text-[#6ABF00] hover:bg-gray-50'
                             }`}
                           >
                             <span className="text-left font-medium">
@@ -501,7 +515,7 @@ const Navbar = () => {
                           </button>
 
                           {isCatExpanded && (
-                            <div className="pl-4 pr-2 py-3 space-y-2 bg-gray-50/80 rounded-b-lg mt-1 border-l-2 border-[#6ABF00]/40">
+                            <div className="pl-2 pr-2 py-3 space-y-2 rounded-b-lg mt-1 ">
                               <div className="grid grid-cols-1 gap-2">
                                 {cat.subProducts.map((sub, idx) => {
                                   const subSlug = getSubProductSlug(sub);

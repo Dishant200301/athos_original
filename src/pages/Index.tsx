@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import AboutPreview from '@/components/AboutPreview';
+import ProductCategoriesSection from '@/components/ProductCategoriesSection';
 import GlobalPresence from '@/components/GlobalPresence';
 // import CollagenBenefits from '@/components/CollagenBenefits';
 import NewCollagenBenefits from '@/components/NewCollagenBenefits';
@@ -63,6 +64,9 @@ const Index = () => {
         >
           <AboutPreview isMobile={isMobile} />
         </div>
+
+        {/* Product Categories Section */}
+        <ProductCategoriesSection />
         
         {/* 3. Uniqueness Section */}
         <div 
@@ -97,7 +101,7 @@ const Index = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <NewCollagenBenefits />
+          {/* <NewCollagenBenefits /> */}
         </div>
         
         {/* 6. Applications of Collagen

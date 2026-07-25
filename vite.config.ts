@@ -12,6 +12,9 @@ export default defineConfig(({ mode }) => {
     server: {
       host: "::",
       port: parseInt(env.VITE_PORT || '8080'),
+      watch: {
+        ignored: ['**/public/images/**'],
+      },
       proxy: {
         '/api': {
           target: env.VITE_BACKEND_URL || 'http://localhost:5000',

@@ -100,17 +100,6 @@ const productCategoryData: Record<string, CategoryData> = {
         ]
       },
       {
-        name: "Bromelain",
-        slug: "bromelain",
-        bullets: [
-          "Facilitates natural protein breakdown and digestion",
-          "Helps support healthy inflammatory responses",
-          "Aids in tissue recovery and comfort",
-          "Enhances enzymatic activity in dietary supplements",
-          "Provides versatile uses in health and nutrition formulations"
-        ]
-      },
-      {
         name: "Rennet",
         slug: "rennet",
         bullets: [
@@ -542,65 +531,687 @@ const productCategoryData: Record<string, CategoryData> = {
   "probiotic-fermentation-ingredients": {
     title: "Probiotic and Fermentation Ingredients",
     description:
-      "Our probiotic and fermentation ingredients are scientifically cultured and prepared to support digestive wellness, immune responses, and industrial biological production. Athos Collagen Pvt. Ltd. provides consistent, highly active microbial and yeast-derived cultures suitable for health formulations.",
+      "Harness the power of science and nature with our premium range of probiotic and fermentation ingredients. Designed to support innovation across the food, beverage, dietary supplement, and health & wellness industries, our solutions are sourced from trusted global partners and manufactured to high standards of quality, safety, and consistency. Our portfolio is developed to help create products that meet evolving consumer expectations for health, functionality, and performance. As we continue to expand our offerings, we are introducing a comprehensive selection of advanced probiotic strains, fermentation-derived ingredients, and specialty solutions tailored to diverse formulation needs. Whether you're developing next-generation nutritional supplements, functional foods, or wellness products, our team is committed to providing reliable ingredients, technical expertise, and responsive support to help bring your innovations to market.",
     subProducts: [
-      { name: "Malt Extract", slug: "malt-extract", bullets: ["Serves as a rich nitrogen and carbohydrate source", "Supports microbial culture growth in biological settings", "Offers consistent composition for fermentation processes"] },
-      { name: "Yeast Extract", slug: "yeast-extract", bullets: ["Provides essential B-vitamins and amino acids", "Accelerates fermentation rates in industrial cultures", "Promotes cell viability and high-yield biological production"] },
-      { name: "Liver Extract", slug: "liver-extract", bullets: ["Supplies growth factors and vitamins", "Supports specific microorganism cultivation", "Enhances nutritional availability in biological media"] },
-      { name: "Meat Extract", slug: "meat-extract", bullets: ["Offers organic nitrogen compounds and mineral salts", "Provides stable nutrient profile for cell cultures", "Aids in standard microbiological investigations"] },
-      { name: "Lactobacillus Buchneri", slug: "lactobacillus-buchneri", bullets: ["Supports organic acid production", "Aids silage preservation and fermentation efficiency", "Promotes microflora balance in metabolic formulations"] },
-      { name: "Streptococcus Thermophilus", slug: "streptococcus-thermophilus", bullets: ["Supports lactic acid production in dairy formulations", "Enhances gastrointestinal health profiles", "Enables consistent yogurt and cheese manufacturing"] },
-      { name: "Lactobacillus Casei", slug: "lactobacillus-casei", bullets: ["Promotes digestive enzyme balance", "Supports immune system health", "Enhances microflora populations in gut health products"] },
-      { name: "Bifidobacterium Adolescentis", slug: "bifidobacterium-adolescentis", bullets: ["Supports metabolic balance and digestive comfort", "Produces short-chain fatty acids", "Aids in intestinal mucosal defense"] },
-      { name: "Enterococcus Faecium", slug: "enterococcus-faecium", bullets: ["Promotes gut microflora balance", "Enhances intestinal barrier function", "Supports overall livestock and pet health"] },
-      { name: "Pediococcus Acidilactici", slug: "pediococcus-acidilactici", bullets: ["Supports lactic acid fermentation", "Enhances feed preservation", "Promotes gut health stability"] },
-      { name: "Bacillus Coagulans", slug: "bacillus-coagulans", bullets: ["Provides spore-forming stability for digestive supplements", "Survives harsh stomach acid environments", "Supports gut health and digestive comfort"] },
-      { name: "Bacillus Subtilis", slug: "bacillus-subtilis", bullets: ["Produces beneficial enzymes for nutrient breakdown", "Promotes balanced intestinal microflora", "Supports robust immune health"] },
-      { name: "Lactobacillus Brevis", slug: "lactobacillus-brevis", bullets: ["Produces GABA and organic acids", "Supports immune and gut health", "Enhances fermentation profiles"] },
-      { name: "Saccharomyces Cerevisiae", slug: "saccharomyces-cerevisiae", bullets: ["Provides rich source of B-complex vitamins", "Supports gut fermentation and digestion", "Enhances livestock feed efficiency"] },
-      { name: "Bacillus Clausii", slug: "bacillus-clausii", bullets: ["Survives gastric acidity to reach the gut", "Helps restore intestinal flora balance", "Supports immune system defenses"] },
-      { name: "Bifidobacterium Animalis", slug: "bifidobacterium-animalis", bullets: ["Supports colonic fermentation", "Aids in bowel regularity and digestive comfort", "Promotes immune system function"] },
-      { name: "Bifidobacterium Longum", slug: "bifidobacterium-longum", bullets: ["Assists in maintaining gut barrier integrity", "Supports immune system modulation", "Aids in reducing digestive stress"] },
-      { name: "Bifidobacterium Infantis", slug: "bifidobacterium-infantis", bullets: ["Supports infant and adult intestinal health", "Aids in carbohydrate digestion", "Promotes protective microflora balance"] },
-      { name: "Lactobacillus Bulgaricus", slug: "lactobacillus-bulgaricus", bullets: ["Supports lactic acid fermentation in dairy", "Promotes gut digestion and lactose tolerance", "Enhances dairy product texture and flavor"] },
-      { name: "Streptococcus Faecium", slug: "streptococcus-faecium", bullets: ["Aids in maintaining gut bacterial balance", "Supports overall gastrointestinal health", "Enhances microbial fermentation efficiency"] }
+      {
+        name: "Malt Extract",
+        slug: "malt-extract",
+        bullets: [
+          "Premium-quality ingredient obtained from carefully selected malted grains through a controlled extraction process.",
+          "Appreciated for its rich nutritional profile, natural flavor, and excellent processing characteristics.",
+          "Widely utilized across food, beverage, fermentation, microbiological, and nutritional applications.",
+          "Offers consistent composition and dependable performance for commercial manufacturing requirements.",
+          "Available in powder and liquid forms to accommodate diverse formulation preferences.",
+          "Produced under stringent quality management systems to ensure purity, safety, and batch-to-batch uniformity.",
+          "Easily incorporated into various production processes because of its excellent solubility and handling properties.",
+          "Supplied with complete technical documentation, including specifications and certificates to support quality assurance.",
+          "Suitable for industrial-scale production, research laboratories, and specialized formulation projects.",
+          "Backed by reliable logistics, responsive customer support, and flexible packaging options to meet global supply requirements."
+        ]
+      },
+      {
+        name: "Yeast Extract",
+        slug: "yeast-extract",
+        bullets: [
+          "Produced through a carefully controlled autolysis process to obtain a highly functional yeast-derived ingredient.",
+          "Valued for its balanced nutritional composition and broad compatibility across multiple industrial sectors.",
+          "Extensively incorporated into food, biotechnology, microbiological, fermentation, and nutritional formulations.",
+          "Delivers reliable quality attributes that support consistent manufacturing outcomes.",
+          "Offered in various grades and physical forms to satisfy diverse processing and application requirements.",
+          "Manufactured in accordance with rigorous quality standards using validated production procedures.",
+          "Demonstrates excellent dispersibility and ease of incorporation into a wide range of formulation systems.",
+          "Accompanied by comprehensive product specifications, analytical reports, and quality documentation.",
+          "Suitable for commercial production, laboratory research, product innovation, and specialized development projects.",
+          "Supported by dependable inventory management, efficient global distribution, and dedicated technical assistance."
+        ]
+      },
+      {
+        name: "Liver Extract",
+        slug: "liver-extract",
+        bullets: [
+          "Carefully processed from premium raw materials to deliver a dependable ingredient for specialized applications.",
+          "Recognized for its rich biochemical composition and suitability for research, fermentation, and microbiological use.",
+          "Developed under controlled manufacturing conditions to maintain consistency throughout every production batch.",
+          "Applicable across laboratory, biotechnology, pharmaceutical, and industrial formulation environments.",
+          "Available in customized grades and packaging options to accommodate varied commercial requirements.",
+          "Manufactured following established quality systems with comprehensive process monitoring and control.",
+          "Exhibits excellent compatibility with diverse production methodologies and formulation techniques.",
+          "Supplied with complete technical specifications, certificates of analysis, and supporting quality documentation.",
+          "Designed to meet the expectations of organizations seeking reliable ingredients for advanced product development.",
+          "Supported by responsive technical consultation, efficient order fulfillment, and a dependable global supply network."
+        ]
+      },
+      {
+        name: "Meat Extract",
+        slug: "meat-extract",
+        bullets: [
+          "Produced from carefully selected raw materials using standardized extraction techniques to ensure reliable quality.",
+          "Widely recognized as a valuable ingredient for microbiological, fermentation, biotechnology, and laboratory applications.",
+          "Processed under controlled manufacturing conditions to achieve consistent composition and dependable performance.",
+          "Suitable for research institutions, industrial manufacturers, and specialized formulation projects.",
+          "Available in multiple specifications and packaging configurations to meet diverse customer requirements.",
+          "Manufactured in compliance with stringent quality assurance protocols and established production standards.",
+          "Offers excellent processing characteristics, enabling smooth integration into various manufacturing systems.",
+          "Delivered with detailed product specifications, analytical documentation, and complete quality support.",
+          "Preferred by organizations seeking dependable ingredients for advanced scientific and industrial applications.",
+          "Supported by efficient logistics, responsive customer service, and a reliable international distribution network."
+        ]
+      },
+      {
+        name: "Lactobacillus Buchneri",
+        slug: "lactobacillus-buchneri",
+        bullets: [
+          "High-quality probiotic bacterial strain produced under controlled fermentation processes.",
+          "Widely recognized for its excellent stability in specialized microbial applications.",
+          "Suitable for formulation in dietary supplements, functional nutrition, and research products.",
+          "Manufactured in facilities following stringent quality management standards.",
+          "Available in customized potency levels to meet diverse formulation requirements.",
+          "Offers outstanding compatibility with multi-strain probiotic and synbiotic blends.",
+          "Carefully processed to preserve viability throughout production and storage.",
+          "Supplied in convenient powder form for capsules, sachets, tablets, and beverage mixes.",
+          "Packaged using moisture-protective systems to help maintain product integrity.",
+          "Ideal for global nutraceutical manufacturers seeking reliable probiotic ingredients."
+        ]
+      },
+      {
+        name: "Streptococcus Thermophilus",
+        slug: "streptococcus-thermophilus",
+        bullets: [
+          "Lactic acid bacterial culture extensively used in probiotic, fermented dairy, and functional nutrition products.",
+          "Cultivated through precision fermentation to achieve defined microbial characteristics.",
+          "Offered in multiple CFU concentrations to accommodate diverse formulation requirements.",
+          "Integrates efficiently into capsules, tablets, sachets, stick packs, powder blends, and dairy-based applications.",
+          "Combines successfully with probiotic cultures, prebiotics, vitamins, minerals, and postbiotic ingredients.",
+          "Recognized for its application in cultured dairy products, synbiotic formulations, and microbiome-focused innovations.",
+          "Retains microbial viability under recommended manufacturing, handling, and storage conditions.",
+          "Chosen by formulators developing functional foods, dietary supplements, and nutritional solutions.",
+          "Adaptable to customized product development across global health and wellness markets.",
+          "Serves as a scientifically established probiotic culture for contemporary nutrition and fermentation technologies."
+        ]
+      },
+      {
+        name: "Lactobacillus Casei",
+        slug: "lactobacillus-casei",
+        bullets: [
+          "Well-characterized probiotic microorganism recognized for its extensive use in nutritional science.",
+          "Cultivated using controlled fermentation technology to achieve defined microbial characteristics.",
+          "Offered in multiple CFU strengths to accommodate diverse formulation objectives.",
+          "Integrates efficiently into capsules, tablets, sachets, stick packs, gummies, and powdered supplements.",
+          "Combines effectively with prebiotics, additional probiotic cultures, vitamins, minerals, and botanical ingredients.",
+          "Adaptable to synbiotic formulations, fermented foods, and functional nutrition products.",
+          "Developed with emphasis on microbial viability, process consistency, and formulation performance.",
+          "Selected by product developers for applications requiring scientifically established probiotic cultures.",
+          "Fits a broad range of dietary supplement, food, and nutritional innovation projects.",
+          "Represents a trusted probiotic solution for contemporary microbiome-focused product development."
+        ]
+      },
+      {
+        name: "Bifidobacterium Adolescentis",
+        slug: "bifidobacterium-adolescentis",
+        bullets: [
+          "Premium probiotic strain developed for advanced nutraceutical and functional nutrition applications.",
+          "Produced using controlled fermentation technology to ensure exceptional purity and consistency.",
+          "Available in customized CFU strengths to accommodate diverse formulation requirements.",
+          "Suitable for capsules, tablets, sachets, powder blends, and functional beverage formulations.",
+          "Excellent compatibility with multi-strain probiotic, synbiotic, and microbiome-focused products.",
+          "Processed under optimized conditions to help maintain microbial stability and viability.",
+          "Manufactured in compliance with GMP and internationally recognized quality standards.",
+          "Supplied in moisture-resistant packaging to preserve product integrity during storage and transportation.",
+          "Ideal for dietary supplements, functional foods, and innovative health nutrition formulations.",
+          "Available with complete technical documentation, including Certificate of Analysis (COA), product specifications, and quality certifications upon request."
+        ]
+      },
+      {
+        name: "Enterococcus Faecium",
+        slug: "enterococcus-faecium",
+        bullets: [
+          "High-quality probiotic strain manufactured using precision-controlled fermentation technology.",
+          "Produced under stringent quality systems to ensure purity, consistency, and batch-to-batch reliability.",
+          "Suitable for incorporation into capsules, tablets, sachets, powder blends, and functional nutrition products.",
+          "Demonstrates excellent compatibility with multi-strain probiotic and synbiotic formulations.",
+          "Carefully processed to support microbial stability throughout production, packaging, and storage.",
+          "Manufactured in compliance with GMP and internationally recognized quality standards.",
+          "Offered in flexible bulk packaging solutions for industrial, OEM, and private-label applications.",
+          "Designed for research, nutraceutical, and specialized probiotic formulation applications."
+        ]
+      },
+      {
+        name: "Pediococcus Acidilactici",
+        slug: "pediococcus-acidilactici",
+        bullets: [
+          "Lactic acid bacterial culture recognized for its application in probiotic and functional nutrition products.",
+          "Developed through controlled cultivation processes to achieve defined microbial characteristics.",
+          "Integrates smoothly into capsules, tablets, sachets, stick packs, powder blends, and chewable formats.",
+          "Combines efficiently with prebiotics, probiotic blends, postbiotics, vitamins, minerals, and botanical extracts.",
+          "Demonstrates strong formulation compatibility across dietary supplements and functional food applications.",
+          "Adaptable to synbiotic concepts, fermented nutrition products, and microbiome-focused innovations.",
+          "Selected by formulators seeking robust probiotic cultures for specialized nutritional solutions.",
+          "Fits commercial product development ranging from daily wellness supplements to advanced nutritional formulations.",
+          "Represents a scientifically established microbial ingredient for contemporary probiotic product innovation."
+        ]
+      },
+      {
+        name: "Bacillus Coagulans",
+        slug: "bacillus-coagulans",
+        bullets: [
+          "Premium spore-forming probiotic strain manufactured using advanced fermentation technology.",
+          "Produced under stringent quality controls to ensure exceptional purity, consistency, and reliability.",
+          "Naturally resilient spore-forming structure offers enhanced stability during processing and storage.",
+          "Suitable for capsules, tablets, sachets, powder blends, stick packs, and functional beverage applications.",
+          "Compatible with multi-strain probiotic, synbiotic, and functional nutrition formulations.",
+          "Supplied in moisture-resistant packaging to help maintain product integrity throughout shelf life.",
+          "Ideal for nutraceutical, dietary supplement, and functional food product innovations.",
+          "Supported by comprehensive technical documentation, including COA, product specifications, and quality certifications upon request."
+        ]
+      },
+      {
+        name: "Bacillus Subtilis",
+        slug: "bacillus-subtilis",
+        bullets: [
+          "Spore-forming probiotic microorganism recognized for its durability and formulation versatility.",
+          "Cultivated through controlled microbial fermentation to obtain defined biological characteristics.",
+          "Features naturally resilient spores designed to withstand challenging manufacturing conditions.",
+          "Available in multiple CFU concentrations to accommodate diverse product specifications.",
+          "Integrates efficiently into capsules, tablets, sachets, stick packs, powder blends, and chewable formulations.",
+          "Combines effectively with prebiotics, additional probiotic cultures, enzymes, vitamins, and mineral complexes.",
+          "Demonstrates strong stability across processing, transportation, and extended storage environments.",
+          "Selected by formulators developing probiotic supplements, functional foods, and microbiome-focused products.",
+          "Suitable for synbiotic concepts, nutritional innovations, and specialized wellness formulations.",
+          "Represents a robust microbial ingredient for next-generation probiotic product development."
+        ]
+      },
+      {
+        name: "Lactobacillus Brevis",
+        slug: "lactobacillus-brevis",
+        bullets: [
+          "Probiotic bacterial culture developed for dietary supplement and functional nutrition applications.",
+          "Cultivated through controlled fermentation to achieve defined microbial characteristics.",
+          "Incorporates efficiently into capsules, tablets, sachets, powder blends, stick packs, and beverage mixes.",
+          "Combines effectively with prebiotics, additional probiotic strains, postbiotics, and botanical ingredients.",
+          "Demonstrates strong adaptability across synbiotic and microbiome-focused product concepts.",
+          "Selected for nutritional innovations requiring stable probiotic cultures.",
+          "Fits a broad range of wellness, digestive health, and functional food formulations.",
+          "Maintains microbial viability under recommended manufacturing and storage conditions."
+        ]
+      },
+      {
+        name: "Saccharomyces Cerevisiae",
+        slug: "saccharomyces-cerevisiae",
+        bullets: [
+          "Functional yeast culture utilized across nutraceutical, food, feed, and biotechnology industries.",
+          "Produced through carefully managed fermentation to obtain uniform microbial characteristics.",
+          "Available in multiple grades and technical specifications for specialized product development.",
+          "Integrates seamlessly into nutritional supplements, functional foods, fermentation systems, and yeast-based formulations.",
+          "Combines efficiently with probiotics, enzymes, vitamins, minerals, amino acids, and botanical extracts.",
+          "Recognized for broad formulation compatibility across diverse manufacturing platforms.",
+          "Selected by product developers for nutritional, fermentation, and specialty ingredient applications.",
+          "Demonstrates dependable performance throughout commercial production processes.",
+          "Suitable for wellness, functional nutrition, and industrial biotechnology concepts.",
+          "Represents a well-established yeast ingredient for contemporary formulation and innovation projects."
+        ]
+      },
+      {
+        name: "Bacillus Clausii",
+        slug: "bacillus-clausii",
+        bullets: [
+          "Naturally resilient spores provide enhanced stability during processing, storage, and transportation.",
+          "Suitable for capsules, tablets, sachets, powder blends, stick packs, and functional beverage applications.",
+          "Compatible with multi-strain probiotic, synbiotic, and functional nutrition formulations.",
+          "Packaged in moisture-barrier materials to help maintain microbial viability and product integrity.",
+          "Ideal for dietary supplements, functional foods, and innovative nutraceutical product development."
+        ]
+      },
+      {
+        name: "Bifidobacterium Animalis",
+        slug: "bifidobacterium-animalis",
+        bullets: [
+          "Well-documented probiotic culture incorporated into modern nutritional formulations.",
+          "Cultivated under controlled fermentation conditions to achieve defined microbial characteristics.",
+          "Integrates efficiently into capsules, tablets, sachets, stick packs, gummies, and powdered supplements.",
+          "Combines effectively with prebiotics, probiotic blends, vitamins, minerals, and dietary fibers.",
+          "Demonstrates strong formulation compatibility across synbiotic and microbiome-focused products.",
+          "Chosen for functional foods, dietary supplements, and daily wellness product concepts.",
+          "Maintains microbial activity under recommended manufacturing and storage conditions.",
+          "Adaptable to commercial product development across global nutrition markets.",
+          "Represents a scientifically established probiotic ingredient for next-generation nutritional innovations."
+        ]
+      },
+      {
+        name: "Bifidobacterium Longum",
+        slug: "bifidobacterium-longum",
+        bullets: [
+          "Probiotic microorganism recognized for its application in functional nutrition and dietary supplements.",
+          "Developed through precision fermentation to obtain consistent microbial characteristics.",
+          "Offered in customized CFU concentrations for diverse formulation objectives.",
+          "Blends smoothly with prebiotics, botanical extracts, vitamins, minerals, and complementary probiotic cultures.",
+          "Suitable for capsules, tablets, sachets, stick packs, chewables, and powdered formulations.",
+          "Demonstrates reliable performance across synbiotic and microbiome-oriented product concepts.",
+          "Selected by formulators creating innovative wellness and nutrition solutions.",
+          "Accommodates specialized dietary supplement and functional food developments.",
+          "Preserves microbial viability under appropriate formulation and storage practices.",
+          "Represents a trusted probiotic component for contemporary health-focused product portfolios."
+        ]
+      },
+      {
+        name: "Bifidobacterium Infantis",
+        slug: "bifidobacterium-infantis",
+        bullets: [
+          "Premium probiotic strain manufactured through advanced fermentation technology for exceptional quality and consistency.",
+          "Supplied in moisture-resistant packaging to help preserve product integrity during storage and transportation."
+        ]
+      },
+      {
+        name: "Lactobacillus Bulgaricus",
+        slug: "lactobacillus-bulgaricus",
+        bullets: [
+          "Demonstrates formulation compatibility across synbiotic, fermented food, and microbiome-focused product concepts.",
+          "Retains microbial viability under recommended manufacturing, handling, and storage conditions.",
+          "Chosen by product developers for functional foods, dietary supplements, and cultured nutrition applications.",
+          "Accommodates customized product development for wellness, digestive nutrition, and specialty formulations.",
+          "Represents a scientifically recognized probiotic culture for contemporary nutritional innovation."
+        ]
+      },
+      {
+        name: "Streptococcus Faecium",
+        slug: "streptococcus-faecium",
+        bullets: [
+          "Integrates smoothly into capsules, tablets, sachets, stick packs, powder blends, and chewable formats.",
+          "Combines efficiently with probiotic cultures, prebiotics, postbiotics, vitamins, minerals, and botanical ingredients.",
+          "Adapted for dietary supplements, functional foods, synbiotic concepts, and microbiome-focused innovations.",
+          "Maintains microbial activity under recommended formulation, handling, and storage conditions.",
+          "Chosen by product developers for commercial nutrition and wellness applications.",
+          "Fits customized formulation strategies for global nutraceutical and food markets.",
+          "Represents a well-characterized probiotic culture for contemporary microbial ingredient development."
+        ]
+      }
     ]
   },
   "nutraceutical-pharmaceutical-ingredients": {
-    title: "Nutraceutical and Pharmaceutical Ingredients",
+    title: "Nutraceutical and Pharmaceuticals Ingredients",
     description:
-      "We deliver high-purity bioactive ingredients that provide targeted health support. These nutraceutical compounds are designed for bone, joint, skin, and metabolic formulations, ensuring compliance with globally accepted safety standards.",
+      "Athos Collagen Pvt. Ltd. offers a comprehensive portfolio of premium nutraceutical and pharmaceutical ingredients, sourced and supplied to meet global quality standards. Our range supports dietary supplements, functional foods, pharmaceuticals, and specialized health formulations with consistent quality, purity, and reliability.",
     subProducts: [
-      { name: "L-Glutathione", slug: "l-glutathione", bullets: ["Acts as a powerful cellular antioxidant", "Supports detoxification pathways within the body", "Contributes to skin brightness and texture formulations"] },
-      { name: "Chondroitin Sulfate", slug: "chondroitin-sulfate", bullets: ["Promotes joint fluid retention and lubrication", "Supports structural cartilage health and resilience", "Enables effective bone-and-joint health supplements"] },
-      { name: "Hyaluronic Acid", slug: "hyaluronic-acid", bullets: ["Enhances hydration retention in tissues and skin", "Supports joint lubrication and cartilage function", "Provides key hydration benefits in cosmetic and health formulas"] },
-      { name: "Methylsulfonylmethane (MSM)", slug: "msm", bullets: ["Supplies organic sulfur for tissue maintenance", "Supports joint comfort and mobility profiles", "Aids in reducing cellular oxidative stress responses"] },
-      { name: "Glucosamine", slug: "glucosamine", bullets: ["Supports cartilage repair and maintenance", "Promotes joint flexibility and mobility", "Aids in reducing joint discomfort"] },
-      { name: "Coenzyme Q10", slug: "coenzyme-q10", bullets: ["Supports cellular energy production (ATP)", "Acts as a potent lipid antioxidant", "Promotes cardiovascular and vascular health"] },
-      { name: "Maltodextrin", slug: "maltodextrin", bullets: ["Provides easily digestible complex carbohydrates", "Acts as a versatile carrier and binder in supplements", "Enhances solubility in powdered drink mixes"] },
-      { name: "Sodium Alginate", slug: "sodium-alginate", bullets: ["Provides effective gelling and thickening properties", "Supports gastroprotective raft-forming formulations", "Aids controlled-release drug delivery systems"] },
-      { name: "Guar Gum", slug: "guar-gum", bullets: ["Acts as a natural dietary fiber and thickener", "Supports digestive regularity and gut health", "Enhances viscosity in liquid formulations"] },
-      { name: "Bovine Colostrum Powder", slug: "bovine-colostrum-powder", bullets: ["Rich in immunoglobulins (IgG) and growth factors", "Supports gut mucosal lining integrity", "Promotes immune system resilience"] },
-      { name: "Agar Agar", slug: "agar-agar", bullets: ["Provides strong plant-based gelling properties", "Acts as a stabilizer in microbiological media and foods", "Offers clean-label vegetarian gelatin alternative"] },
-      { name: "Pectin", slug: "pectin", bullets: ["Acts as a natural soluble fiber and gelling agent", "Supports digestive health and gut motility", "Enables production of gummies and chewables"] },
-      { name: "Lecithin", slug: "lecithin", bullets: ["Provides essential phospholipids (phosphatidylcholine)", "Supports brain and liver metabolic health", "Acts as a natural emulsifier in liquid and capsule formulations"] },
-      { name: "Sodium Caseinate", slug: "sodium-caseinate", bullets: ["High-quality milk protein isolate", "Provides excellent emulsification and binding", "Supports nutritional powder formulations"] },
-      { name: "Microcrystalline Cellulose", slug: "microcrystalline-cellulose", bullets: ["Acts as a widely used tablet binder and diluent", "Provides compressibility in capsule and tablet manufacturing", "Ensures consistent dosage form stability"] }
+      {
+        name: "L-Glutathione",
+        slug: "l-glutathione",
+        bullets: [
+          "Premium-quality ingredient developed for advanced nutraceutical and pharmaceutical formulations.",
+          "Characterized by exceptional purity and consistent product performance.",
+          "Available in customized grades and specifications to suit diverse application requirements.",
+          "Easily incorporated into capsules, tablets, sachets, powder blends, and functional beverages.",
+          "Demonstrates excellent compatibility with vitamins, minerals, amino acids, collagen, and botanical extracts.",
+          "Suitable for innovative wellness, sports nutrition, beauty-from-within, and functional nutrition products.",
+          "Manufactured using precision-controlled processing techniques to ensure product consistency.",
+          "Supports flexible formulation development for domestic and international markets.",
+          "Designed to meet the evolving needs of OEM, private-label, and bulk ingredient buyers.",
+          "An excellent choice for premium health and nutrition product development."
+        ]
+      },
+      {
+        name: "Chondroitin Sulfate",
+        slug: "chondroitin-sulfate",
+        bullets: [
+          "Carefully refined to deliver exceptional purity and consistent product performance.",
+          "Available in customized grades and specifications to meet diverse formulation requirements.",
+          "Suitable for capsules, tablets, sachets, powder blends, and functional nutrition products.",
+          "Blends efficiently with glucosamine, collagen peptides, MSM, hyaluronic acid, and vitamin complexes.",
+          "Ideal for developing innovative wellness, mobility, and sports nutrition formulations.",
+          "Manufactured using precision-controlled production processes for dependable quality consistency.",
+          "Adaptable for use in dietary supplements, functional foods, and specialized health formulations.",
+          "An excellent choice for premium nutritional products designed for global markets."
+        ]
+      },
+      {
+        name: "Hyaluronic Acid",
+        slug: "hyaluronic-acid",
+        bullets: [
+          "Premium-quality ingredient designed for advanced nutraceutical and pharmaceutical formulations.",
+          "Produced with high purity to ensure consistent quality and dependable performance.",
+          "Available in multiple molecular weight options and customized specifications.",
+          "Suitable for capsules, tablets, sachets, powder blends, gummies, and functional beverages.",
+          "Blends seamlessly with collagen peptides, vitamins, minerals, amino acids, and botanical extracts.",
+          "Ideal for beauty nutrition, wellness, functional foods, and innovative dietary supplement applications.",
+          "Developed using advanced manufacturing processes to deliver excellent formulation versatility.",
+          "Well-suited for premium product development in health, nutrition, and personal wellness categories."
+        ]
+      },
+      {
+        name: "Methylsulfonylmethane (MSM)",
+        slug: "msm",
+        bullets: [
+          "Organic sulfur compound developed for advanced nutraceutical and pharmaceutical applications.",
+          "Characterized by exceptional purity and consistent performance across diverse formulations.",
+          "Available in customized grades and particle sizes to meet specific product development requirements.",
+          "Suitable for capsules, tablets, sachets, powder blends, gummies, and functional beverage formulations.",
+          "Blends effectively with collagen peptides, glucosamine, chondroitin sulfate, hyaluronic acid, and vitamin complexes.",
+          "Designed for innovative wellness, sports nutrition, beauty nutrition, and functional food applications.",
+          "Offers excellent formulation versatility for single-ingredient as well as combination products.",
+          "Supports OEM, private-label, contract manufacturing, and bulk ingredient supply requirements.",
+          "Widely utilized by global manufacturers for premium dietary supplement and health nutrition products.",
+          "An ideal ingredient for next-generation nutraceutical innovations requiring reliable quality and formulation flexibility."
+        ]
+      },
+      {
+        name: "Glucosamine",
+        slug: "glucosamine",
+        bullets: [
+          "Amino sugar ingredient developed for advanced nutraceutical and pharmaceutical applications.",
+          "Manufactured to deliver exceptional purity, consistency, and dependable product performance.",
+          "Available in multiple grades and customized specifications to meet diverse formulation requirements.",
+          "Suitable for capsules, tablets, sachets, powder blends, gummies, and functional beverage applications.",
+          "Blends efficiently with chondroitin sulfate, MSM, collagen peptides, hyaluronic acid, and vitamin complexes.",
+          "Ideal for wellness, active lifestyle, sports nutrition, and functional health product development.",
+          "Offers excellent formulation compatibility for standalone as well as multi-ingredient nutritional products.",
+          "Preferred by global nutraceutical manufacturers for premium dietary supplement formulations.",
+          "An excellent choice for innovative health and nutrition products requiring high-quality functional ingredients."
+        ]
+      },
+      {
+        name: "Coenzyme Q10",
+        slug: "coenzyme-q10",
+        bullets: [
+          "Premium-quality bioactive ingredient developed for advanced nutraceutical and pharmaceutical formulations.",
+          "Produced with exceptional purity to ensure consistent quality and reliable performance.",
+          "Available in customized grades and specifications to meet diverse formulation requirements.",
+          "Suitable for capsules, tablets, softgels, sachets, powder blends, and functional beverage applications.",
+          "Blends efficiently with vitamins, minerals, omega-3 fatty acids, amino acids, and botanical extracts.",
+          "Ideal for wellness, active lifestyle, healthy aging, and functional nutrition product development.",
+          "Offers excellent formulation versatility for standalone as well as multi-ingredient supplement combinations.",
+          "Features excellent dispersibility and compatibility across a wide range of nutritional formulations.",
+          "Widely selected by global nutraceutical brands for premium dietary supplement innovations.",
+          "An ideal ingredient for developing high-value health and wellness products with superior formulation flexibility."
+        ]
+      },
+      {
+        name: "Maltodextrin",
+        slug: "maltodextrin",
+        bullets: [
+          "Produced with high purity to deliver consistent quality and dependable formulation performance.",
+          "Available in multiple dextrose equivalent (DE) grades to meet specific product requirements.",
+          "Suitable for powder blends, tablets, capsules, sachets, functional beverages, and nutritional products.",
+          "Provides excellent solubility, dispersibility, and flow characteristics for efficient processing.",
+          "Functions as an ideal carrier, bulking agent, and processing aid in complex formulations.",
+          "Compatible with proteins, vitamins, minerals, botanical extracts, amino acids, and functional ingredients.",
+          "Widely utilized in sports nutrition, dietary supplements, infant nutrition, and food manufacturing.",
+          "Enables smooth blending and uniform distribution across multi-ingredient formulations.",
+          "An excellent choice for innovative product development requiring versatility, stability, and consistent performance."
+        ]
+      },
+      {
+        name: "Sodium Alginate",
+        slug: "sodium-alginate",
+        bullets: [
+          "Ultra high-quality natural polysaccharide extracted from selected brown seaweed sources.",
+          "Produced with exceptional purity to ensure consistent quality and reliable performance.",
+          "Available in multiple viscosity grades to suit diverse formulation and processing requirements.",
+          "Suitable for nutraceutical, pharmaceutical, food, beverage, and industrial applications.",
+          "Delivers excellent thickening, stabilizing, gelling, and film-forming properties.",
+          "Compatible with proteins, dietary fibers, botanical extracts, vitamins, minerals, and functional ingredients.",
+          "Offers outstanding water-binding capacity for enhanced formulation versatility.",
+          "Performs efficiently in capsules, tablets, powders, gels, suspensions, and functional food products.",
+          "Preferred by formulators for developing innovative products with superior texture and processing characteristics.",
+          "An ideal ingredient for next-generation formulations requiring stability, consistency, and multifunctional performance."
+        ]
+      },
+      {
+        name: "Guar Gum",
+        slug: "guar-gum",
+        bullets: [
+          "A natural polysaccharide derived from carefully selected guar beans.",
+          "Processed to deliver exceptional purity, consistency, and dependable product performance.",
+          "Available in multiple viscosity grades to meet diverse formulation requirements.",
+          "Suitable for nutraceutical, pharmaceutical, food, beverage, and industrial applications.",
+          "Provides excellent thickening, stabilizing, binding, and emulsifying functionality.",
+          "Demonstrates outstanding hydration and water-holding capacity in various formulations.",
+          "Compatible with proteins, dietary fibers, botanical extracts, vitamins, minerals, and functional ingredients.",
+          "Performs efficiently in tablets, capsules, powder blends, beverages, sauces, and bakery applications.",
+          "Favored by formulators for developing products with improved texture, viscosity, and processing efficiency.",
+          "An excellent ingredient for innovative formulations requiring multifunctional performance and formulation flexibility."
+        ]
+      },
+      {
+        name: "Bovine Colostrum Powder",
+        slug: "bovine-colostrum-powder",
+        bullets: [
+          "Naturally derived dairy ingredient obtained from carefully selected bovine colostrum sources.",
+          "Carefully processed to preserve its original nutritional profile and functional characteristics.",
+          "Available in customized grades and specifications to suit diverse formulation requirements.",
+          "Suitable for dietary supplements, functional foods, sports nutrition, and wellness products.",
+          "Blends seamlessly with collagen peptides, proteins, probiotics, vitamins, minerals, and botanical extracts.",
+          "Offers excellent dispersibility for efficient incorporation into dry mixes and beverage formulations.",
+          "Compatible with capsules, tablets, sachets, stick packs, powder blends, and nutritional drinks.",
+          "Widely utilized in advanced nutrition and functional ingredient applications across global markets.",
+          "Delivers consistent quality and dependable performance for innovative product development."
+        ]
+      },
+      {
+        name: "Agar Agar",
+        slug: "agar-agar",
+        bullets: [
+          "Extracted from selected species of red seaweed.",
+          "Renowned for its exceptional gelling, thickening, and stabilizing properties across diverse applications.",
+          "Available in multiple grades and customized specifications to meet formulation requirements.",
+          "Suitable for nutraceutical, pharmaceutical, food, beverage, and specialty industrial products.",
+          "Delivers excellent water-binding capacity and outstanding gel strength.",
+          "Integrates efficiently with proteins, dietary fibers, plant extracts, vitamins, and functional ingredients.",
+          "Ideal for capsules, gummies, desserts, confectionery, dairy alternatives, and powdered formulations.",
+          "Offers excellent thermal stability and reliable performance during processing.",
+          "Widely utilized by formulators for developing innovative products with superior texture and consistency.",
+          "An excellent ingredient for next-generation formulations requiring versatility, functionality, and dependable performance."
+        ]
+      },
+      {
+        name: "Pectin",
+        slug: "pectin",
+        bullets: [
+          "Widely recognized for its outstanding gelling, thickening, and stabilizing functionality.",
+          "Available in multiple grades and customized specifications to suit diverse formulation requirements.",
+          "Suitable for nutraceutical, pharmaceutical, food, beverage, and confectionery applications.",
+          "Provides excellent texture, consistency, and moisture retention in finished products.",
+          "Blends efficiently with dietary fibers, proteins, botanical extracts, vitamins, and functional ingredients.",
+          "Ideal for gummies, jams, jellies, fruit preparations, beverages, capsules, and powdered formulations.",
+          "Delivers reliable processing performance across a wide range of manufacturing conditions.",
+          "Preferred by product developers for creating clean-label and plant-based formulations.",
+          "An excellent ingredient for innovative applications requiring versatility, stability, and superior functionality."
+        ]
+      },
+      {
+        name: "Lecithin",
+        slug: "lecithin",
+        bullets: [
+          "Multifunctional phospholipid ingredient valued for advanced formulation applications.",
+          "Enhances emulsification and promotes uniform ingredient dispersion.",
+          "Offered in liquid, powder, and granule variants for manufacturing flexibility.",
+          "Supports stable incorporation of oil- and water-based components.",
+          "Compatible with nutraceutical, pharmaceutical, food, beverage, and cosmetic formulations.",
+          "Performs efficiently across tablets, capsules, instant powders, softgels, chocolates, and bakery systems.",
+          "Contributes to improved processing efficiency during blending and production.",
+          "Selected by formulators for complex nutritional and functional ingredient combinations.",
+          "Adaptable to diverse product development strategies across global industries.",
+          "Delivers dependable functionality for high-performance formulation requirements."
+        ]
+      },
+      {
+        name: "Sodium Caseinate",
+        slug: "sodium-caseinate",
+        bullets: [
+          "Milk-derived protein ingredient recognized for its outstanding functional performance in nutritional formulations.",
+          "Delivers excellent emulsification properties for stable and homogeneous product development.",
+          "Exhibits high solubility, enabling smooth incorporation into a variety of liquid and powdered systems.",
+          "Available in tailored specifications to accommodate diverse manufacturing requirements.",
+          "Compatible with protein blends, vitamins, minerals, collagen peptides, and functional ingredients.",
+          "Performs effectively in sports nutrition, meal replacement, dairy, bakery, beverage, and nutraceutical applications.",
+          "Contributes to improved texture, mouthfeel, and consistency in finished formulations.",
+          "Designed for seamless integration into capsules, sachets, powder blends, ready-to-mix products, and nutritional beverages.",
+          "Preferred by product developers seeking reliable performance across complex formulation matrices.",
+          "A versatile functional ingredient supporting innovative food, nutrition, and health product development."
+        ]
+      },
+      {
+        name: "Microcrystalline Cellulose",
+        slug: "microcrystalline-cellulose",
+        bullets: [
+          "Highly refined cellulose ingredient engineered for superior formulation performance.",
+          "Recognized for its exceptional binding and compressibility characteristics in solid dosage forms.",
+          "Available in multiple particle sizes and grades to accommodate diverse processing requirements.",
+          "Enables efficient tablet compression with excellent flow and uniformity.",
+          "Integrates effectively with vitamins, minerals, botanical extracts, amino acids, and functional ingredients.",
+          "Applicable across nutraceutical, pharmaceutical, food, and specialty formulation developments.",
+          "Supports consistent blend homogeneity for enhanced manufacturing efficiency.",
+          "Performs reliably in tablets, capsules, powder blends, sachets, and dry granulation systems.",
+          "Selected by formulators for its versatility, stability, and processing advantages.",
+          "An indispensable excipient for modern product development requiring precision, consistency, and dependable functionality."
+        ]
+      }
     ]
   },
   "animal-nutrition": {
     title: "Animal Nutrition",
     description:
-      "Designed specifically for agricultural, veterinary, and livestock applications, our animal nutrition products promote intestinal health, feed absorption, and metabolic resilience across various animal species.",
+      "Athos offers a comprehensive range of functional ingredients designed for modern animal nutrition applications. Our portfolio supports feed manufacturers, premix companies, and animal health businesses with reliable nutritional solutions focused on quality, consistency, and formulation flexibility.",
     subProducts: [
-      { name: "Sodium Butyrate", slug: "sodium-butyrate", bullets: ["Supports gut mucosal structure and integrity", "Enhances feed digestion and absorption efficiency", "Aids in stabilizing intestinal microflora populations"] },
-      { name: "Calcium Butyrate", slug: "calcium-butyrate", bullets: ["Delivers highly bioavailable calcium and butyrate", "Promotes skeletal and digestive development", "Supports immune defense systems in growing livestock"] },
-      { name: "Mannan Oligosaccharide", slug: "mannan-oligosaccharide", bullets: ["Aids in binding and flushing harmful gut pathogens", "Supports natural immune responses in animals", "Enhances overall intestinal health and growth performance"] },
-      { name: "Amino Chelated Minerals", slug: "amino-chelated-minerals", bullets: ["Provides highly absorbable chelated mineral complexes", "Enhances metabolic bio-availability", "Supports immune and reproductive health in livestock"] },
-      { name: "Sodium Propionate", slug: "sodium-propionate", bullets: ["Acts as an effective antifungal and feed preservative", "Provides readily available gluconeogenic energy", "Helps prevent ketosis in ruminants"] },
-      { name: "Calcium Propionate", slug: "calcium-propionate", bullets: ["Supplies bioavailable calcium and propionate energy", "Inhibits mold growth in feed formulations", "Supports metabolic health in dairy cattle"] },
-      { name: "Protein Hydrolysate", slug: "protein-hydrolysate", bullets: ["Delivers easily digestible amino acids and peptides", "Supports animal growth and muscle development", "Enhances feed palatability and intake"] },
-      { name: "Active Dry Yeast", slug: "active-dry-yeast", bullets: ["Promotes rumen fiber digestion and fermentation", "Stabilizes rumen pH and microflora balance", "Enhances overall animal performance and feed efficiency"] }
+      {
+        name: "Sodium Butyrate",
+        slug: "sodium-butyrate",
+        bullets: [
+          "Short-chain fatty acid salt developed for advanced animal nutrition and feed formulation applications.",
+          "Provides a stable source of butyric acid for functional feed solutions.",
+          "Designed to support innovative livestock, poultry, and aquaculture nutrition programs.",
+          "Available in customized specifications to meet different feed industry requirements.",
+          "Compatible with premixes, compound feeds, concentrates, and specialty nutritional blends.",
+          "Offers excellent handling properties for convenient incorporation into feed formulations.",
+          "Manufactured with controlled processing techniques to ensure consistent product characteristics.",
+          "Suitable for integration with probiotics, enzymes, vitamins, minerals, and other feed additives.",
+          "Used by nutrition formulators developing performance-oriented animal feed solutions.",
+          "A versatile ingredient for modern feed strategies requiring reliable functionality and formulation flexibility."
+        ]
+      },
+      {
+        name: "Calcium Butyrate",
+        slug: "calcium-butyrate",
+        bullets: [
+          "Organic acid salt ingredient developed for advanced animal nutrition and feed additive applications.",
+          "Convenient source of butyric acid in nutritional formulations.",
+          "Designed for incorporation into poultry, livestock, aquaculture, and specialty feed programs.",
+          "Available in customized specifications to match diverse feed manufacturing requirements.",
+          "Compatible with premixes, compound feeds, concentrates, and functional feed blends.",
+          "Offers excellent stability and handling characteristics during storage and processing.",
+          "Integrates effectively with probiotics, enzymes, minerals, vitamins, and other nutritional additives.",
+          "Utilized by feed formulators seeking reliable functional ingredients for modern animal diets.",
+          "Enables flexible development of innovative feed solutions across different animal nutrition segments.",
+          "A versatile calcium-based additive for advanced formulation strategies in the global feed industry."
+        ]
+      },
+      {
+        name: "Mannan Oligosaccharide",
+        slug: "mannan-oligosaccharide",
+        bullets: [
+          "Functional prebiotic ingredient derived from specialized yeast-based sources for animal nutrition applications.",
+          "Designed for inclusion in advanced feed formulations for poultry, livestock, aquaculture, and companion animals.",
+          "Offers excellent compatibility with probiotics, enzymes, organic acids, vitamins, and mineral blends.",
+          "Available in customized specifications to meet different feed formulation requirements.",
+          "Easily incorporated into premixes, compound feeds, concentrates, and nutritional supplements.",
+          "Provides valuable functional properties for modern animal feed development strategies.",
+          "Demonstrates strong formulation stability across diverse feed processing conditions.",
+          "Enables the creation of innovative nutritional programs focused on animal performance and feed efficiency.",
+          "Selected by feed manufacturers for its versatility and compatibility with multi-ingredient solutions.",
+          "An important functional component for next-generation animal nutrition formulations."
+        ]
+      },
+      {
+        name: "Amino Chelated Minerals",
+        slug: "amino-chelated-minerals",
+        bullets: [
+          "Advanced mineral complex designed for modern animal nutrition and feed formulation applications.",
+          "Combines essential minerals with amino acids to create highly functional nutritional compounds.",
+          "Available in customized mineral combinations including zinc, iron, copper, manganese, and other trace elements.",
+          "Developed for incorporation into poultry, livestock, aquaculture, and specialty animal feed programs.",
+          "Offers excellent compatibility with premixes, concentrates, mineral mixtures, and complete feed systems.",
+          "Improved formulation flexibility compared with conventional mineral sources.",
+          "Suitable for integration with vitamins, enzymes, probiotics, organic acids, and other feed additives.",
+          "Designed to meet the evolving requirements of precision animal nutrition programs.",
+          "Enables formulators to develop balanced feed solutions with consistent mineral delivery.",
+          "A versatile ingredient category for innovative animal health and nutrition product development."
+        ]
+      },
+      {
+        name: "Sodium Propionate",
+        slug: "sodium-propionate",
+        bullets: [
+          "Organic acid salt ingredient developed for animal nutrition and feed preservation applications.",
+          "Effective functional properties in modern feed formulation systems.",
+          "Available in consistent specifications to meet diverse livestock and feed industry requirements.",
+          "Suitable for poultry, cattle, aquaculture, and specialty animal nutrition programs.",
+          "Easily incorporated into premixes, compound feeds, concentrates, and nutritional blends.",
+          "Offers excellent processing compatibility across various feed manufacturing conditions.",
+          "Works efficiently alongside probiotics, enzymes, vitamins, minerals, and other functional additives.",
+          "Designed for formulators seeking reliable solutions for advanced feed development.",
+          "Contributes to improved formulation stability and overall feed quality management.",
+          "A versatile ingredient for innovative animal nutrition strategies and functional feed applications."
+        ]
+      },
+      {
+        name: "Calcium Propionate",
+        slug: "calcium-propionate",
+        bullets: [
+          "Calcium-based feed additive developed for modern animal nutrition applications.",
+          "A reliable source of propionate functionality in livestock and poultry feed systems.",
+          "Manufactured in different grades to meet varied requirements of feed manufacturers.",
+          "Incorporated into compound feeds, premixes, concentrates, and nutritional blends.",
+          "Compatible with enzymes, probiotics, trace minerals, vitamins, and other feed components.",
+          "Offers good handling characteristics for efficient processing and feed preparation.",
+          "Used across poultry, dairy, cattle, aquaculture, and other animal nutrition segments.",
+          "Helps formulators create balanced feed programs with functional additive solutions.",
+          "Designed for integration into commercial feed production and specialty nutrition products.",
+          "Delivers dependable performance for manufacturers developing animal nutrition solutions."
+        ]
+      },
+      {
+        name: "Protein Hydrolysate",
+        slug: "protein-hydrolysate",
+        bullets: [
+          "Enzymatically processed protein ingredient designed for advanced nutrition applications.",
+          "Contains smaller peptide fractions that enhance formulation versatility across multiple product categories.",
+          "Available from different protein sources including marine, dairy, plant, and animal origins.",
+          "Manufactured with controlled hydrolysis processes to achieve desired peptide profiles.",
+          "Used in sports nutrition, dietary supplements, functional foods, and animal feed formulations.",
+          "Blends efficiently with amino acids, collagen peptides, vitamins, minerals, and botanical ingredients.",
+          "Offered in customized specifications including protein content, solubility, and peptide distribution.",
+          "Suitable for powders, beverages, capsules, tablets, and specialized nutritional products.",
+          "Selected by formulators for developing targeted protein-based nutrition solutions.",
+          "Provides a reliable foundation for creating next-generation nutritional formulations."
+        ]
+      },
+      {
+        name: "Active Dry Yeast",
+        slug: "active-dry-yeast",
+        bullets: [
+          "Dehydrated yeast ingredient produced through controlled fermentation processes for nutritional applications.",
+          "Contains naturally occurring yeast cells preserved in a stable dry form for convenient handling.",
+          "Available in different specifications to meet food, feed, and nutritional formulation requirements.",
+          "Designed for incorporation into animal feed, bakery, fermentation, and specialty nutrition products.",
+          "Provides functional yeast characteristics for diverse formulation and processing needs.",
+          "Compatible with enzymes, probiotics, minerals, vitamins, and other nutritional additives.",
+          "Maintains good storage stability when handled under recommended conditions.",
+          "Suitable for powders, premixes, feed blends, and nutritional supplement applications.",
+          "Used by formulators developing yeast-based solutions across multiple industry segments.",
+          "Delivers reliable performance for manufacturers seeking functional fermentation-derived ingredients."
+        ]
+      }
+    ]
+  },
+  "extract-and-essential-oils": {
+    title: "Extract and Essential Oils",
+    description:
+      "Our high-purity SCFE plant extracts, oleoresins, and pure essential oils are derived using advanced Supercritical Fluid Extraction technologies. Formulated for pharmaceutical, cosmetic, nutraceutical, and therapeutic applications, these products ensure maximum biological potency, purity, and active botanical benefits.",
+    subProducts: [
+      { name: "SCFE Black Pepper Oleoresin", slug: "scfe-black-pepper-oleoresin", bullets: ["Standardization: 65% Piperine", "Extracted via solvent-free Supercritical Fluid Extraction (SCFE)", "Delivers intense pungent aroma and active piperine bioactivity", "Used in pharmaceutical, spice, and digestive health formulations"] },
+      { name: "Piperine", slug: "piperine", bullets: ["Standardization: 95% Piperine", "High purity natural alkaloid refined from black pepper", "Significantly enhances bioavailability of vitamins and active nutraceuticals", "Widely incorporated in health supplements and therapeutic formulations"] },
+      { name: "SCFE Ginger Oleoresin", slug: "scfe-ginger-oleoresin", bullets: ["Standardization: 20% Total Gingerols, 30% Total Gingerols, 40% Total Gingerols", "Pure concentrated ginger oleoresin with customizable active strengths", "Promotes gastrointestinal motility, anti-nausea, and immune support", "Ideal for food, beverage, and nutraceutical applications"] },
+      { name: "Ginger Extract Granules", slug: "ginger-extract-granules", bullets: ["Standardization: 5% Total Gingerols, 10% Total Gingerols, 15% Total Gingerols", "Free-flowing granular powder for convenient compression and blending", "Retains natural ginger flavor profile and active bioactive compounds", "Suitable for tablets, capsules, and instant beverage mixes"] },
+      { name: "SCFE Vanilla Extract", slug: "scfe-vanilla-extract", bullets: ["Standardization: 6% Vanillin, 12% Vanillin, 26% Vanillin", "Premium vanilla extract produced using gentle SCFE technology", "Preserves delicate aromatic notes without synthetic solvent residues", "Used in high-grade confectionery, cosmetics, and health products"] },
+      { name: "SCFE Holy Basil Oleoresin", slug: "scfe-holy-basil-oleoresin", bullets: ["Standardization: 2% Ursolic Acid", "Rich in adaptogenic compounds from Tulsi (Holy Basil)", "Supports natural stress response, cellular wellness, and metabolic balance", "Ideal for dietary supplements and holistic health preparations"] },
+      { name: "SCFE Seabuckthorn Oil", slug: "scfe-seabuckthorn-oil", bullets: ["Standardization: 30% Omega 7 (Palmitoleic Acid)", "Rich source of rare Omega-7 fatty acids, antioxidants, and carotenoids", "Promotes skin elasticity, mucosal health, and cardiovascular resilience", "Extensively utilized in cosmetic, dermatological, and nutraceutical products"] },
     ]
   }
 };
@@ -722,7 +1333,7 @@ const ProductCategory = () => {
       <main className="flex-1 mt-20">
         {/* Content Section */}
         <section ref={containerRef} className="py-12 bg-white lg:py-0 lg:h-[calc(100vh-110px)] lg:flex lg:items-center">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 w-full">
+          <div className="container mx-auto px-4 md:px-4 lg:px-10 w-full">
 
             {/* Desktop / Laptop Layout: Side Navigation + Single Active Details */}
             <div className="hidden lg:flex gap-16 items-start relative w-full">
