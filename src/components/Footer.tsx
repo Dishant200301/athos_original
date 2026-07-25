@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const usefulLinks = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
-  { label: "Contact Us", href: "/contact" },
-  { label: "Blog", href: "/blog" },
+  { label: "Home", href: "/", key: "nav.home" },
+  { label: "About Us", href: "/about", key: "nav.about" },
+  { label: "Products", href: "/products/enzymes", key: "nav.products" },
+  { label: "Contact Us", href: "/contact", key: "nav.contact" },
 ];
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       {/* Main Footer with Blue Background & Floating Dots/Bubbles */}
-      <footer className="bg-[#1D7AA3] py-12 md:py-16 relative overflow-hidden text-white">
+      <footer className="bg-[#1D7AA3] py-8 lg:py-10 relative overflow-hidden text-white">
         {/* Animated Floating Bubbles / Dots */}
         <div className="bubbles">
           <div className="bubble bubble1"></div>
@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="bubble bubble12"></div>
         </div>
 
-        <div className="container mx-auto px-4 md:px-4 lg:px-10 relative z-10">
+        <div className="container mx-auto px-4 lg:px-10 xl:px-32 relative z-10">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 text-left">
             {/* Useful Links */}
             <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
@@ -65,7 +65,7 @@ const Footer = () => {
                     >
                       <ChevronRight className="w-4 h-4 text-white/80 transition-transform duration-300 group-hover:translate-x-1 flex-shrink-0" />
                       <span className="relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-white after:origin-bottom-right after:transition-transform after:duration-300 group-hover:after:scale-x-100 group-hover:after:origin-bottom-left font-medium text-[15px]">
-                        {t(`nav.${link.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: link.label })}
+                        {t(link.key || `nav.${link.label.toLowerCase().replace(/\s+/g, '')}`, { defaultValue: link.label })}
                       </span>
                     </Link>
                   </li>
@@ -116,7 +116,7 @@ const Footer = () => {
                     317, Blu Eminence, Opp. Sangini, Jahangirabad, Dahin Nagar, Surat, Gujarat 395005, India
                   </p>
                 </div>
-                
+
                 <div>
                   <h3 className="text-lg font-bold text-white mb-3 font-inter tracking-wide">
                     Factory Address
@@ -134,7 +134,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <section className="bg-[#1D7AA3] py-3.5">
-        <div className="container mx-auto px-4 md:px-4 lg:px-10 flex items-center justify-center">
+        <div className="container mx-auto px-4 lg:px-10 xl:px-32 flex items-center justify-center">
           <p className="text-sm text-white/90 text-center font-medium">
             © {new Date().getFullYear()} Athos Collagen Pvt. Ltd. All rights reserved.
           </p>

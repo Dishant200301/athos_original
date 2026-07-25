@@ -86,7 +86,7 @@ const About = () => {
 
         {/* 2. About Us Content */}
         <section className="py-12 md:py-16 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
             <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.title', { defaultValue: 'About Us' })}
             </h2>
@@ -110,63 +110,37 @@ const About = () => {
           </div>
         </section>
 
-        {/* 3. Mission & Vision */}
-        <section className="py-12 md:py-16 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-0">
-              {/* Mission Card */}
-              <div className="w-[280px] h-[280px] rounded-full bg-[#66b036] flex items-center justify-center shadow-lg flex-shrink-0">
-                <div className="text-center px-8">
-                  <h3 className="text-white font-bold text-[24px] mb-4">
-                    {t('about.mission.title', { defaultValue: 'Mission' })}
-                  </h3>
-                  <p className="text-white text-[14px] leading-[20px]">
-                    {t('about.mission.description', { defaultValue: 'Mission To be the most trusted and innovative leader in the ingredients industry' })}
-                  </p>
-                </div>
-              </div>
-
-              {/* Divider - Desktop Only */}
-              <div className="hidden lg:block w-[100px] border-t-2 border-dashed border-gray-300"></div>
-
-              {/* Logo Card */}
-              <div className="w-[280px] h-[280px] rounded-full bg-[#F4F4F4] flex items-center justify-center flex-shrink-0">
-                <img src="/images/athos-logo-full-form.webp" alt="Athos Collagen" className="w-[280px] h-auto object-contain" />
-              </div>
-
-              {/* Divider - Desktop Only */}
-              <div className="hidden lg:block w-[100px] border-t-2 border-dashed border-gray-300"></div>
-
-              {/* Vision Card */}
-              <div className="w-[280px] h-[280px] rounded-full bg-[#1D7AA3] flex items-center justify-center shadow-lg flex-shrink-0">
-                <div className="text-center px-8">
-                  <h3 className="text-white font-bold text-[24px] mb-4">
-                    {t('about.vision.title', { defaultValue: 'Vision' })}
-                  </h3>
-                  <p className="text-white text-[14px] leading-[20px]">
-                    {t('about.vision.description', { defaultValue: 'To be the most trusted and innovative leader in the ingredient industry.' })}
-                  </p>
-                </div>
-              </div>
-            </div>
+        {/* 3. Mission Section */}
+        <section className="pb-12 md:pb-16 bg-white">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
+              {t('about.mission.title', { defaultValue: 'Mission' })}
+            </h2>
+            <p className="text-[16px] leading-[27px] text-[#555555] font-inter text-left">
+              {renderTextWithFiCollaLogo(
+                t('about.mission.description', { 
+                  defaultValue: 'Our mission is to offer world-class marine collagen that elevate the well-being and daily lives of people globally.' 
+                })
+              )}
+            </p>
           </div>
         </section>
 
         {/* 4. ATHOS Brand Values Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-background">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Left Column - Centered Logo */}
-              <div className="lg:col-span-5 flex items-center justify-start self-center py-4">
+              <div className="lg:col-span-5 flex items-center justify-center self-center py-2">
                 <img
-                  src="/images/logo.webp"
-                  alt="Athos Collagen"
-                  className="h-[50px] md:h-[70px] lg:h-[80px] w-auto object-contain mx-auto"
+                  src="/public/images/athos_brand_values.png"
+                  alt="Athos Collagen Brand Values"
+                  className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] h-auto object-contain mx-auto"
                 />
               </div>
 
               {/* Right Column - Brand Values List */}
-              <div className="lg:col-span-7 space-y-6 md:space-y-8">
+              <div className="lg:col-span-7 space-y-5 md:space-y-6">
                 {(() => {
                   const valuesObj = t('about.athosSection.values', { returnObjects: true });
                   if (valuesObj && typeof valuesObj === 'object' && !Array.isArray(valuesObj)) {
@@ -176,14 +150,14 @@ const About = () => {
                       return (
                         <div
                           key={key}
-                          className={`pb-6 md:pb-8 ${
+                          className={`pb-3 md:pb-4 ${
                             index !== keys.length - 1 ? "border-b border-[#d8ebf5]" : ""
                           }`}
                         >
-                          <h3 className="text-[20px] md:text-[24px] font-bold text-[#1D7AA3] mb-3">
+                          <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-bold text-[#1D7AA3] mb-1.5 md:mb-2">
                             {valObj.title}
                           </h3>
-                          <p className="text-[#555555] text-sm md:text-base leading-[26px]">
+                          <p className="text-[#555555] text-sm md:text-base leading-relaxed lg:leading-[25px]">
                             {renderTextWithFiCollaLogo(valObj.description)}
                           </p>
                         </div>
@@ -193,14 +167,14 @@ const About = () => {
                   return fallbackAthosValues.map((item, index) => (
                     <div
                       key={item.title}
-                      className={`pb-6 md:pb-8 ${
+                      className={`pb-3 md:pb-4 ${
                         index !== fallbackAthosValues.length - 1 ? "border-b border-[#d8ebf5]" : ""
                       }`}
                     >
-                      <h3 className="text-[20px] md:text-[24px] font-bold text-[#1D7AA3] mb-3">
+                      <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-bold text-[#1D7AA3] mb-1.5 md:mb-2">
                         {item.title}
                       </h3>
-                      <p className="text-[#555555] text-sm md:text-base leading-[26px]">
+                      <p className="text-[#555555] text-sm md:text-base leading-relaxed lg:leading-[25px]">
                         {renderTextWithFiCollaLogo(item.description)}
                       </p>
                     </div>
@@ -211,9 +185,25 @@ const About = () => {
           </div>
         </section>
 
+        {/* 5. Vision Section */}
+        <section className="py-12 md:py-16 bg-white">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
+              {t('about.vision.title', { defaultValue: 'Vision' })}
+            </h2>
+            <p className="text-[16px] leading-[27px] text-[#555555] font-inter text-left">
+              {renderTextWithFiCollaLogo(
+                t('about.vision.description', { 
+                  defaultValue: 'To be the most trusted and innovative leader in the ingredient industry.' 
+                })
+              )}
+            </p>
+          </div>
+        </section>
+
         {/* 5. R&D Section */}
         <section className="py-12 md:py-16 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
             <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               R&D
             </h2>

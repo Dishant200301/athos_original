@@ -95,7 +95,7 @@ const BlogDetail = () => {
             }`}
         >
           <section className="py-12 md:py-20 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <div className="container mx-auto px-4 lg:px-10 xl:px-32">
               {/* Loading State */}
               {loading && (
                 <div className="flex justify-center items-center py-20">

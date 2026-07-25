@@ -161,8 +161,8 @@ const Contact = () => {
   return (
     <div className="bg-background overflow-x-hidden w-full">
       <Navbar />
-      <main className="py-12 md:py-20 bg-background mt-20">
-        <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+      <main className="pt-12 md:pt-20 md:pb-6 bg-background mt-20">
+        <div className="container mx-auto px-4 lg:px-10 xl:px-32">
           
           {/* Top Section - Contact Information & Address */}
           <div 

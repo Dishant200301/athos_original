@@ -1333,7 +1333,7 @@ const ProductCategory = () => {
       <main className="flex-1 mt-20">
         {/* Content Section */}
         <section ref={containerRef} className="py-12 bg-white lg:py-0 lg:h-[calc(100vh-110px)] lg:flex lg:items-center">
-          <div className="container mx-auto px-4 md:px-4 lg:px-10 w-full">
+          <div className="container mx-auto  px-4 lg:px-10 xl:px-32 w-full">
 
             {/* Desktop / Laptop Layout: Side Navigation + Single Active Details */}
             <div className="hidden lg:flex gap-16 items-start relative w-full">

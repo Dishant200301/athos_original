@@ -12,7 +12,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-auto aspect-[9/18] md:h-screen md:aspect-auto lg:h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-20 lg:pt-0">
+    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 w-full h-full">
         <video
           ref={videoRef}

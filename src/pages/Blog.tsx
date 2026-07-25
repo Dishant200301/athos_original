@@ -75,7 +75,7 @@ const Blog = () => {
             }`}
         >
           <section className="py-12 md:py-20 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <div className="container mx-auto px-4 lg:px-10 xl:px-32">
               {/* Page Heading */}
               <div className="text-center mb-12">
                 <h1 className="font-medium leading-tight text-3xl sm:text-4xl md:text-5xl mb-4" style={{ color: 'rgba(29, 129, 165, 1)' }}>

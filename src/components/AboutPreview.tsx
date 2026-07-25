@@ -41,18 +41,16 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
 
   return (
     <section className="pt-16 md:pt-20 pb-0 bg-background">
-      <div className="container mx-auto px-4 md:px-4 lg:px-10">
+      <div className="container mx-auto px-4 lg:px-10 xl:px-32">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
           {/* Image - Coming from left */}
           <div
             ref={imageRef}
-            className={`order-1 flex w-full ${
-              isMobile
+            className={`order-1 flex w-full ${isMobile
                 ? 'opacity-100 translate-x-0'
-                : `transition-all duration-700 ease-out ${
-                    imageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
-                  }`
-            }`}
+                : `transition-all duration-700 ease-out ${imageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
+                }`
+              }`}
           >
             <div className="relative flex-1 overflow-hidden rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none w-full min-h-[300px] sm:min-h-[400px] lg:min-h-0">
               <img
@@ -71,13 +69,11 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
           {/* Content - Coming from right */}
           <div
             ref={textRef}
-            className={`order-2 ${
-              isMobile
+            className={`order-2 ${isMobile
                 ? 'opacity-100 translate-x-0'
-                : `transition-all duration-700 ease-out ${
-                    textVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
-                  }`
-            }`}
+                : `transition-all duration-700 ease-out ${textVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
+                }`
+              }`}
           >
             <h2 className="text-2xl sm:text-3xl lg:text-4xl mb-4 md:mb-6" style={{ color: 'rgba(29, 129, 165, 1)', fontFamily: 'Inter, sans-serif', fontWeight: '500' }}>
               {t('home.aboutPreview.title')}

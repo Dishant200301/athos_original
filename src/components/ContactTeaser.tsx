@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 const ContactTeaser = () => {
   const { t } = useTranslation();
   return (
-    <section className="py-10 md:py-14 bg-white">
-      <div className="max-w-[1290px] mx-auto px-4 xl:px-0 flex flex-col items-center justify-center text-center gap-6 md:gap-8">
+    <section className="py-0 md:py-0 bg-white">
+      <div className="container mx-auto px-4 lg:px-10 xl:px-32 py-12 flex flex-col items-center justify-center text-center gap-6 md:gap-8">
         {/* Centered Heading */}
         <h2 className="text-2xl md:text-3xl lg:text-[32px] font-medium text-[#1D7AA3] text-center">
           {t('contact.title', { defaultValue: 'Contact Us' })}

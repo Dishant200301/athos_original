@@ -38,7 +38,7 @@ const categories = [
 const ProductCategoriesSection: React.FC = () => {
   return (
     <section className="py-16 md:py-20 lg:py-24 bg-background">
-      <div className="max-w-[1290px] mx-auto px-4 md:px-4 lg:px-10">
+      <div className="container mx-auto px-4 lg:px-10 xl:px-32">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <h2 className="text-2xl md:text-3xl lg:text-[32px] font-bold text-[#1D7AA3] leading-tight mb-4">
@@ -49,28 +49,27 @@ const ProductCategoriesSection: React.FC = () => {
         {/* Cards Grid matching athos-ui-build style */}
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
           {categories.map((cat) => (
-            <div
+            <Link
               key={cat.slug}
-              className="bg-white rounded-[16px] p-6 shadow-md transition-all duration-300 flex flex-col justify-between"
+              to={cat.href}
+              className="group bg-white rounded-[16px] p-6 sm:p-7 shadow-lg border border-gray-100/80 hover:shadow-[0_12px_30px_rgba(29,122,163,0.14)] hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden relative"
             >
+             
               <div>
                 {/* Heading matching screenshot style */}
-                <h3 className="text-[20px] font-bold text-[#1D7AA3] mb-3 pb-2 leading-tight">
+                <h3 className="text-[20px] font-bold text-[#1D7AA3] mb-3 pb-2 leading-tight group-hover:text-[#176283] transition-colors">
                   {cat.title}
                 </h3>
               </div>
 
               {/* Bottom Category Page Link */}
-              <div className="">
-                <Link
-                  to={cat.href}
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#1D7AA3] hover:text-[#1D7AA3] transition-colors"
-                >
+              <div className="pt-4 mt-2">
+                <span className="inline-flex items-center gap-2 text-sm font-semibold text-[#1D7AA3] group-hover:text-[#176283] transition-colors">
                   <span>Read More</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
+                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1.5" />
+                </span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

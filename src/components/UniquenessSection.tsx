@@ -65,7 +65,7 @@ const UniquenessSection = ({
         {showBgImage && <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]"></div>}
 
         {/* Content wrapper with relative positioning */}
-        <div className="relative z-10 container mx-auto px-4 md:px-4 lg:px-10">
+        <div className="relative z-10 container mx-auto px-4 lg:px-10 xl:px-32">
           <h2 className="mb-6 md:mb-10 text-center text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
             <span className="sm:hidden block">Uniqueness Of Athos</span>
             <span className="sm:hidden block">Fish Collagen Peptide</span>

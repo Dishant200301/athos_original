@@ -250,7 +250,7 @@ const FishGelatin = () => {
               />
             </div>
 
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 text-center sm:text-left">
+            <div className="container mx-auto px-4 lg:px-10 xl:px-32 relative z-10 text-center sm:text-left">
               <h1 
                 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold leading-tight max-w-4xl"
                 style={{ color: 'rgba(40, 123, 153, 1)' }}
@@ -263,7 +263,7 @@ const FishGelatin = () => {
 
         {/* Introductory Highlights Section */}
         <section className="pt-12 pb-0 md:pt-16 md:pb-0 bg-background">
-          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center space-y-6">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-32 flex flex-col items-center justify-center space-y-6">
             <h2 
               className="text-[18px] min-[375px]:text-[20px] min-[425px]:text-[22px] sm:text-[28px] md:text-[33px] text-center leading-tight font-inter"
               style={{ color: 'rgba(40, 123, 153, 1)', fontWeight: 700 }}
@@ -301,7 +301,7 @@ const FishGelatin = () => {
             }`}
         >
           <section className="pt-16 pb-0 md:pt-24 md:pb-0 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 max-w-6xl">
+            <div className="container mx-auto px-4 lg:px-10 xl:px-32 max-w-6xl">
               {/* Scientific Cards */}
               <div className="space-y-6 md:space-y-10">
                 {scienceCards.map((card, index) => {
@@ -369,7 +369,7 @@ const FishGelatin = () => {
         {/* Discover Section */}
         <div>
           <section className="py-8 md:py-12 bg-background">
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <div className="container mx-auto px-4 lg:px-10 xl:px-32">
               <h2 className="mb-4 text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>{t('fishGelatin.discover.title')}</h2>
             </div>
           </section>
@@ -391,7 +391,7 @@ const FishGelatin = () => {
             </div>
             <div className="absolute inset-0 bg-black/30"></div>
 
-            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32 relative z-10 h-full flex items-end sm:items-center justify-center lg:justify-end pb-8 sm:pb-0">
+            <div className="container mx-auto px-4 lg:px-10 xl:px-32 relative z-10 h-full flex items-end sm:items-center justify-center lg:justify-end pb-8 sm:pb-0">
               <div className="bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 max-w-2xl text-center lg:text-left">
                 <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4 md:mb-6" style={{ fontFamily: 'Inter' }}>
                   {t('fishGelatin.discover.selectApplication')}
