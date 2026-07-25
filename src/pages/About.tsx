@@ -133,7 +133,7 @@ const About = () => {
               {/* Left Column - Centered Logo */}
               <div className="lg:col-span-5 flex items-center justify-center self-center py-2">
                 <img
-                  src="/public/images/athos_brand_values.png"
+                  src="/images/athos_brand_values.png"
                   alt="Athos Collagen Brand Values"
                   className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] h-auto object-contain mx-auto"
                 />

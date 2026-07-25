@@ -47,12 +47,12 @@ const ProductCategoriesSection: React.FC = () => {
         </div>
 
         {/* Cards Grid matching athos-ui-build style */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-6">
           {categories.map((cat) => (
             <Link
               key={cat.slug}
               to={cat.href}
-              className="group bg-white rounded-[16px] p-6 sm:p-7 shadow-lg border border-gray-100/80 hover:shadow-[0_12px_30px_rgba(29,122,163,0.14)] hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden relative"
+              className="group bg-white rounded-[16px] p-6 sm:p-7 shadow-md border border-gray-100/80 hover:shadow-[0_10px_20px_rgba(29,122,163,0.28)] hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden relative"
             >
              
               <div>
