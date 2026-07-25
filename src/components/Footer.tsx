@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Youtube, Instagram, Facebook, ChevronRight } from "lucide-react";
+import { Mail, Linkedin, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -93,31 +93,13 @@ const Footer = () => {
                 <p className="text-white/90 font-medium mb-4 text-[15px]">Follow Us:</p>
                 <div className="flex items-center gap-4">
                   <a
-                    href="https://www.youtube.com/watch?v=-7ex7ZuD6mQ"
+                    href="https://www.linkedin.com/company/athoscollagen/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-[#FF0000] hover:scale-110 group shadow-sm"
-                    aria-label="YouTube"
+                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-[#0A66C2] hover:scale-110 group shadow-sm"
+                    aria-label="LinkedIn"
                   >
-                    <Youtube className="w-5 h-5 text-white transition-colors duration-300" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/athoscollagen/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-gradient-to-br hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#F77737] hover:scale-110 group shadow-sm"
-                    aria-label="Instagram"
-                  >
-                    <Instagram className="w-5 h-5 text-white transition-colors duration-300" />
-                  </a>
-                  <a
-                    href="https://www.facebook.com/athosfishcollagen/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-[#1877F2] hover:scale-110 group shadow-sm"
-                    aria-label="Facebook"
-                  >
-                    <Facebook className="w-5 h-5 text-white transition-colors duration-300" />
+                    <Linkedin className="w-5 h-5 text-white transition-colors duration-300" />
                   </a>
                 </div>
               </div>
