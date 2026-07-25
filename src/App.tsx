@@ -17,6 +17,8 @@ import BlogDetail from "./pages/BlogDetail";
 import ProductCategory from "./pages/ProductCategory";
 import NotFound from "./pages/NotFound";
 
+import WhatsAppFloating from "./components/WhatsAppFloating";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -26,6 +28,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
+        <WhatsAppFloating />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
