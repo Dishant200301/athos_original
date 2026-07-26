@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Calendar, Clock, User, Loader2 } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
@@ -19,7 +20,6 @@ const Blog = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    document.title = 'Blogs - Athos Collagen Pvt. Ltd';
     fetchBlogs();
   }, []);
 
@@ -62,8 +62,16 @@ const Blog = () => {
     return `${readingTime} min read`;
   };
 
+  const blogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: 'Athos Collagen Blog',
+    description: 'Articles, news, scientific insights, and industry updates from Athos Collagen Pvt. Ltd.',
+  };
+
   return (
     <div className="bg-background overflow-x-hidden w-full">
+      <SEO title="Blogs - Athos Collagen Pvt. Ltd" schema={blogSchema} />
       <Navbar />
       <main className="relative">
         {/* Blog Posts Section */}

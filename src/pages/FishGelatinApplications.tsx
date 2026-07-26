@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
@@ -20,9 +21,7 @@ const FishGelatinApplications = () => {
   const [insightsImageRef, insightsImageVisible] = useScrollAnimation(0.1);
   const [insightsTextRef, insightsTextVisible] = useScrollAnimation(0.1);
 
-  useEffect(() => {
-    document.title = `Applications - ${t('fishGelatin.heroTitle')} - Athos Collagen Pvt. Ltd`;
-  }, [t]);
+  const pageTitle = `Applications - ${t('fishGelatin.heroTitle')} - Athos Collagen Pvt. Ltd`;
 
   const handleDiscoverMore = (categoryId: string) => {
     navigate(`/category/${categoryId}`);
@@ -144,8 +143,16 @@ const FishGelatinApplications = () => {
     }
   };
 
+  const applicationsSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemPage',
+    name: pageTitle,
+    description: 'Applications of Fish Gelatin across food industry, cosmetics, biomedical, and pharmaceutical sectors.',
+  };
+
   return (
-    <div className="min-h-screen">
+    <div className="bg-background overflow-x-hidden w-full">
+      <SEO title={pageTitle} schema={applicationsSchema} />
       <Navbar />
       <main>
         {/* Hero Section */}

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Mail, Youtube, Instagram } from 'lucide-react';
 import collagenPeptideImg from '@/assets/collagen-peptide-product.jpg';
@@ -37,9 +38,7 @@ const FishCollagenPeptide = () => {
   const [benefitsRef, benefitsVisible] = useScrollAnimation(0.1);
   const [contactRef, contactVisible] = useScrollAnimation(0.1);
 
-  useEffect(() => {
-    document.title = `${t('fishCollagen.heroTitle')} - Athos Collagen Pvt. Ltd`;
-  }, [t]);
+  const pageTitle = `${t('fishCollagen.heroTitle')} - Athos Collagen Pvt. Ltd`;
 
   const handleDiscoverMore = (categoryId: string) => {
     navigate(`/category/${categoryId}`);
@@ -194,8 +193,20 @@ const FishCollagenPeptide = () => {
     }
   };
 
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: 'Fish Collagen Peptide (Hydrolyzed Collagen)',
+    description: 'High-purity Hydrolyzed Fish Collagen Peptide manufactured for pharmaceutical, nutraceutical, and cosmetic applications.',
+    brand: {
+      '@type': 'Brand',
+      name: 'Athos Collagen',
+    },
+  };
+
   return (
-    <div className="min-h-screen">
+    <div className="bg-background overflow-x-hidden w-full">
+      <SEO title={pageTitle} schema={productSchema} />
       <Navbar />
       <main>
         {/* Hero Section */}

@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
+import SEO from '@/components/SEO';
 import { useTranslation } from 'react-i18next';
 
 const fallbackAthosValues = [
@@ -66,12 +67,18 @@ const About = () => {
     );
   };
 
-  useEffect(() => {
-    document.title = `${t('about.title', { defaultValue: 'About Us' })} - Athos Collagen Pvt. Ltd`;
-  }, [t]);
+  const pageTitle = `${t('about.title', { defaultValue: 'About Us' })} - Athos Collagen Pvt. Ltd`;
+
+  const aboutPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: pageTitle,
+    description: 'Learn more about Athos Collagen Pvt. Ltd, our mission, vision, and brand values.',
+  };
 
   return (
     <div className="bg-background w-full min-h-screen flex flex-col overflow-x-clip">
+      <SEO title={pageTitle} schema={aboutPageSchema} />
       <Navbar />
 
       <main className="flex-1">
@@ -127,7 +134,7 @@ const About = () => {
         </section>
 
         {/* 4. ATHOS Brand Values Section */}
-        <section className="py-12 md:py-12 lg:py-20 bg-background">
+        <section className="py-12 md:py-12 lg:py-12 bg-background">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Left Column - Centered Logo */}
@@ -186,7 +193,7 @@ const About = () => {
         </section>
 
         {/* 5. Vision Section */}
-        <section className="py-12 md:py-10 lg:pt-4 bg-white">
+        <section className="py-12 md:py-0 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
             <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.vision.title', { defaultValue: 'Vision' })}
@@ -202,16 +209,16 @@ const About = () => {
         </section>
 
         {/* 5. R&D Section */}
-        <section className="py-12 md:py-12 lg:pb-28 lg:pt-10 bg-white">
+        <section className="py-12 md:py-4 lg:pb-28 lg:pt-10 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
-            <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
+            {/* <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               R&D
-            </h2>
+            </h2> */}
             <div className="w-full overflow-hidden rounded-xl shadow-sm">
               <img
                 src="/images/R&D.png"
                 alt="Research and Development"
-                className="w-full h-[500px] md:h-[530px] object-cover block"
+                className="w-full h-[500px] md:h-[510px] object-cover block"
               />
             </div>
           </div>

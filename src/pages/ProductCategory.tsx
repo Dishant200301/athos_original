@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import ContactTeaser from "@/components/ContactTeaser";
 import Footer from "@/components/Footer";
 import NotFound from "./NotFound";
+import SEO from "@/components/SEO";
 import { useTranslation } from "react-i18next";
 
 interface SubProduct {
@@ -1228,9 +1229,7 @@ const ProductCategory = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const lastScrollTime = useRef<number>(0);
 
-  useEffect(() => {
-    document.title = category ? `${category.title} - Athos Collagen Pvt. Ltd` : 'Products - Athos Collagen Pvt. Ltd';
-  }, [category]);
+  const pageTitle = category ? `${category.title} - Athos Collagen Pvt. Ltd` : 'Products - Athos Collagen Pvt. Ltd';
 
   // Sync hash changes and initialize starting active index/subproduct
   useEffect(() => {
@@ -1326,8 +1325,22 @@ const ProductCategory = () => {
     return <NotFound />;
   }
 
+  const productCategorySchema = category ? {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: category.title,
+    description: `Product specifications and subproducts for ${category.title} by Athos Collagen.`,
+    itemListElement: category.subProducts.map((sub, idx) => ({
+      '@type': 'ListItem',
+      position: idx + 1,
+      name: sub.name,
+      description: sub.description || (sub.bullets ? sub.bullets.join('. ') : ''),
+    })),
+  } : undefined;
+
   return (
     <div className="min-h-screen flex flex-col bg-background overflow-hidden">
+      <SEO title={pageTitle} schema={productCategorySchema} />
       <Navbar />
 
       <main className="flex-1 mt-20">

@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       {/* Main Footer with Blue Background & Floating Dots/Bubbles */}
-      <footer className="bg-[#1D7AA3] py-8 lg:py-10 relative overflow-hidden text-white">
+      <footer className="bg-[#1D7AA3] py-8 lg:py-4 relative overflow-hidden text-white">
         {/* Animated Floating Bubbles / Dots */}
         <div className="bubbles">
           <div className="bubble bubble1"></div>

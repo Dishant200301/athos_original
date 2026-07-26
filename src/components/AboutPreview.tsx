@@ -42,11 +42,11 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
   return (
     <section className="pt-16 md:pt-20 pb-0 bg-background">
       <div className="container mx-auto px-4 lg:px-10 xl:px-12">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-stretch">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Image - Coming from left */}
           <div
             ref={imageRef}
-            className={`order-1 flex w-full lg:w-[550px] lg:h-[404px] ${isMobile
+            className={`order-1 flex w-full lg:w-[550px] lg:h-[404px] self-center justify-self-center mx-auto ${isMobile
               ? 'opacity-100 translate-x-0'
               : `transition-all duration-700 ease-out ${imageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
               }`

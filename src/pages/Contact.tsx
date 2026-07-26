@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -33,9 +34,7 @@ const Contact = () => {
   const [mapRef, mapVisible] = useScrollAnimation(0.1);
   const [contactTeaserRef, contactTeaserVisible] = useScrollAnimation(0.1);
 
-  useEffect(() => {
-    document.title = `${t('contact.title')} - Athos Collagen Pvt. Ltd`;
-  }, [t]);
+  const pageTitle = `${t('contact.title')} - Athos Collagen Pvt. Ltd`;
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({
@@ -158,10 +157,23 @@ const Contact = () => {
     }
   };
 
+  const contactPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: pageTitle,
+    description: 'Contact Athos Collagen Pvt. Ltd for business inquiries, sales, and partnerships.',
+    mainEntity: {
+      '@type': 'Organization',
+      name: 'Athos Collagen Pvt. Ltd',
+      email: 'info@athoscollagen.com',
+    },
+  };
+
   return (
     <div className="bg-background overflow-x-hidden w-full">
+      <SEO title={pageTitle} schema={contactPageSchema} />
       <Navbar />
-      <main className="pt-12 md:pt-20 md:pb-6 bg-background mt-20">
+      <main className="pt-12 md:pt-20 bg-background mt-20">
         <div className="container mx-auto px-4 lg:px-10 xl:px-32">
           
           {/* Top Section - Contact Information & Address */}

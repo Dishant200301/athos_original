@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Mail, Youtube, Instagram } from 'lucide-react';
 import collagenPeptideImg from '@/assets/collagen-peptide-product.jpg';
@@ -40,9 +41,7 @@ const FishGelatin = () => {
   const [biomedicalRef, biomedicalVisible] = useScrollAnimation(0.05);
   const [pharmaIndustryRef, pharmaIndustryVisible] = useScrollAnimation(0.05);
 
-  useEffect(() => {
-    document.title = `${t('fishGelatin.heroTitle')} - Athos Collagen Pvt. Ltd`;
-  }, [t]);
+  const pageTitle = `${t('fishGelatin.heroTitle')} - Athos Collagen Pvt. Ltd`;
 
   const handleDiscoverMore = (categoryId: string) => {
     navigate(`/category/${categoryId}`);
@@ -224,8 +223,20 @@ const FishGelatin = () => {
     }
   };
 
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: 'Fish Gelatin',
+    description: 'High-quality Fish Gelatin engineered for pharmaceutical capsules, food & beverage, and biotechnology applications.',
+    brand: {
+      '@type': 'Brand',
+      name: 'Athos Collagen',
+    },
+  };
+
   return (
-    <div className="min-h-screen">
+    <div className="bg-background overflow-x-hidden w-full">
+      <SEO title={pageTitle} schema={productSchema} />
       <Navbar />
       <main>
         {/* Hero Section */}

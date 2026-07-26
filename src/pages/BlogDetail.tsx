@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, User, Share2, Facebook, Twitter, Linkedin, Mail, ChevronRight, Loader2 } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
@@ -36,9 +37,6 @@ const BlogDetail = () => {
       const allBlogsResponse = await getAllBlogs({ limit: 100 });
       const otherBlogs = allBlogsResponse.data.filter(b => b._id !== id);
       setRecommendedBlogs(otherBlogs.slice(0, 3));
-
-      // Update document title
-      document.title = `${blogResponse.data.blogTitle} - Athos Collagen Blog`;
     } catch (err) {
       console.error('Error fetching blog:', err);
       setError('Failed to load blog. Please try again later.');
@@ -61,29 +59,54 @@ const BlogDetail = () => {
   };
 
   const handleShare = (platform: string) => {
-    if (!blog) return;
-
     const url = window.location.href;
-    const text = blog.blogTitle;
+    const title = blog?.blogTitle || 'Athos Collagen Blog';
 
     switch (platform) {
       case 'facebook':
         window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
         break;
       case 'twitter':
-        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+        window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`, '_blank');
         break;
       case 'linkedin':
         window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`, '_blank');
         break;
       case 'email':
+        const text = `Check out this article: ${title}`;
         window.location.href = `mailto:?subject=${encodeURIComponent(text)}&body=${encodeURIComponent(url)}`;
         break;
     }
   };
 
+  const pageTitle = blog ? `${blog.blogTitle} - Athos Collagen Blog` : 'Blog Detail - Athos Collagen Pvt. Ltd';
+  const pageDescription = blog?.blogExcerpt ? blog.blogExcerpt.slice(0, 160) : undefined;
+  const pageOgImage = blog?.blogImageUrl ? blog.blogImageUrl : undefined;
+
+  const blogPostingSchema = blog ? {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: blog.blogTitle,
+    image: blog.blogImageUrl ? [blog.blogImageUrl] : undefined,
+    datePublished: blog.createdAt,
+    description: blog.blogExcerpt,
+    author: {
+      '@type': 'Organization',
+      name: 'Athos Collagen Pvt. Ltd',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Athos Collagen Pvt. Ltd',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://athoscollagen.com/images/athos_logo.webp',
+      },
+    },
+  } : undefined;
+
   return (
     <div className="bg-background overflow-x-hidden w-full">
+      <SEO title={pageTitle} description={pageDescription} ogImage={pageOgImage} schema={blogPostingSchema} />
       <Navbar />
       <main className="relative">
         {/* Content Section */}

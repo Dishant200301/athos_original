@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactTeaser from '@/components/ContactTeaser';
+import SEO from '@/components/SEO';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import collagenPeptideImg from '@/assets/collagen-peptide-product.jpg';
@@ -19,10 +20,8 @@ const CategoryDetail = () => {
   const [subcategoriesRef, subcategoriesVisible] = useScrollAnimation(0.1);
   const [contactRef, contactVisible] = useScrollAnimation(0.1);
 
-  useEffect(() => {
-    const categoryName = categoryId ? t(`categoryDetails.categories.${categoryId}.title`, categoryId.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())) : 'Category';
-    document.title = `${categoryName} - Athos Collagen Pvt. Ltd`;
-  }, [categoryId, t]);
+  const categoryName = categoryId ? t(`categoryDetails.categories.${categoryId}.title`, categoryId.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())) : 'Category';
+  const pageTitle = `${categoryName} - Athos Collagen Pvt. Ltd`;
 
   // Function to get translated category data
   const getCategoryData = () => {
@@ -162,8 +161,16 @@ const CategoryDetail = () => {
     );
   }
 
+  const categoryDetailSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: pageTitle,
+    description: `Subcategories and applications of ${categoryName} by Athos Collagen.`,
+  };
+
   return (
     <div className="min-h-screen overflow-x-hidden">
+      <SEO title={pageTitle} schema={categoryDetailSchema} />
       <Navbar />
       <main className="pt-20">
 

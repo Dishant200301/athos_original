@@ -12,6 +12,7 @@ import UniquenessSection from '@/components/UniquenessSection';
 import CobrandingSection from '@/components/CobrandingSection';
 import ContactTeaser from '@/components/ContactTeaser';
 import Footer from '@/components/Footer';
+import SEO from '@/components/SEO';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 
 const Index = () => {
@@ -38,12 +39,9 @@ const Index = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  useEffect(() => {
-    document.title = 'Athos Collagen Pvt. Ltd - Leading Marine Collagen Solutions';
-  }, []);
-
   return (
     <div className="bg-background overflow-x-hidden w-full">
+      <SEO title="Athos Collagen Pvt. Ltd - Leading Marine Collagen Solutions" />
       <Navbar />
       <main className="relative home-page-layout">
         {/* 1. Hero Section */}
