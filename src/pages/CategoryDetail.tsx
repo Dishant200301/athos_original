@@ -175,7 +175,7 @@ const CategoryDetail = () => {
       <main className="pt-20">
 
         {/* Hero Section */}
-        <section className="min-h-screen flex items-center py-16 md:py-20" style={{backgroundColor: 'rgba(247, 246, 247, 1)'}}>
+        <section className="py-12 md:py-16" style={{backgroundColor: 'rgba(247, 246, 247, 1)'}}>
           <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center">
               {/* Left Side - Image */}
@@ -222,7 +222,7 @@ const CategoryDetail = () => {
               : 'opacity-0 translate-y-8'
           }`}
         >
-          <section className="py-12 md:py-16 bg-white">
+          <section className="py-8 md:py-10 lg:pb-8 bg-white">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
               <div className="text-center mb-8 md:mb-12">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>
