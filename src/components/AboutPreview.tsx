@@ -47,9 +47,9 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
           <div
             ref={imageRef}
             className={`order-1 flex w-full lg:w-[550px] lg:h-[404px] ${isMobile
-                ? 'opacity-100 translate-x-0'
-                : `transition-all duration-700 ease-out ${imageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
-                }`
+              ? 'opacity-100 translate-x-0'
+              : `transition-all duration-700 ease-out ${imageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'
+              }`
               }`}
           >
             <div className="relative flex-1 overflow-hidden rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none w-full min-h-[300px] sm:min-h-[400px] lg:min-h-0 lg:w-[550px] lg:h-[404px]">
@@ -70,9 +70,9 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
           <div
             ref={textRef}
             className={`order-2 ${isMobile
-                ? 'opacity-100 translate-x-0'
-                : `transition-all duration-700 ease-out ${textVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
-                }`
+              ? 'opacity-100 translate-x-0'
+              : `transition-all duration-700 ease-out ${textVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-12'
+              }`
               }`}
           >
             <h2 className="text-2xl sm:text-3xl lg:text-4xl mb-4 md:mb-6" style={{ color: 'rgba(29, 129, 165, 1)', fontFamily: 'Inter, sans-serif', fontWeight: '500' }}>

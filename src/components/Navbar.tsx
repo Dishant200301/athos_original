@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/context/LanguageContext';
 import { useTranslation } from 'react-i18next';
@@ -55,7 +55,6 @@ const Navbar = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
-  const [isMobileLanguageOpen, setIsMobileLanguageOpen] = useState(false);
   const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false);
 
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
@@ -120,9 +119,20 @@ const Navbar = () => {
           : 'bg-white/80 backdrop-blur-md border-b border-white/30 shadow-sm'
     }`}>
       <nav className="container mx-auto px-4 lg:px-10 xl:px-32 h-full flex items-center justify-between relative mobile-nav-container">
-        {/* ATHOS Logo */}
-        <div className="flex items-center flex-shrink-0 z-10">
-          <Link to="/" className="flex items-center">
+        {/* Mobile & Tablet Left Action: Hamburger Menu Toggle */}
+        <div className="lg:hidden flex items-center z-10">
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="p-2 rounded-lg hover:bg-gray-100 transition-colors flex-shrink-0 text-[#555555]"
+            aria-label="Toggle menu"
+          >
+            {isMenuOpen ? <X className="h-6 w-6 text-[#6ABF00]" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
+
+        {/* ATHOS Logo (Centered on Mobile & Tablet, Left-aligned on Desktop) */}
+        <div className="lg:static absolute left-1/2 -translate-x-1/2 lg:translate-x-0 flex items-center flex-shrink-0 z-10">
+          <Link to="/" className="flex items-center" onClick={() => setIsMenuOpen(false)}>
             <img 
               src="/images/athos_logo.webp" 
               alt="ATHOS Collagen" 
@@ -202,7 +212,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Laptop View Right Actions: Language Switcher & Inquiry Button */}
+        {/* Laptop View Right Actions: Language Switcher, Inquiry Button & Email Icon */}
         <div className="hidden lg:flex items-center space-x-3 lg:space-x-4 flex-shrink-0 z-10">
           {/* Language Switcher */}
           <div 
@@ -260,53 +270,29 @@ const Navbar = () => {
               INQUIRY
             </Button>
           </Link>
+
+          {/* Email Icon Button */}
+          <a
+            href="mailto:inquiry@athoscollagen.com?subject=Inquiry from ATHOS Website&body=Hello ATHOS Team,%0D%0A%0D%0AI am interested in learning more about your collagen products.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
+            className="p-2 rounded-lg text-[#555555] hover:text-[#6ABF00] hover:bg-[#f4faec] transition-all duration-200 flex items-center justify-center"
+            title="Send Email"
+            aria-label="Send Email"
+          >
+            <Mail className="w-5 h-5 transition-transform duration-200 hover:scale-110" />
+          </a>
         </div>
 
-        {/* Mobile & Tablet View Right Actions: Language Switcher (Left of Menu Toggle) & Menu Button */}
-        <div className="lg:hidden flex items-center space-x-2 sm:space-x-3 mobile-nav-right">
-          {/* Language Selector (Left of Menu Toggle) */}
-          <div className="relative">
-            <button
-              onClick={() => setIsMobileLanguageOpen(!isMobileLanguageOpen)}
-              className="flex items-center space-x-1 px-2.5 py-1.5 rounded-lg text-xs font-medium border border-gray-200 bg-white text-[#555555] hover:text-[#6ABF00] hover:border-[#6ABF00] transition-colors shadow-xs"
-              aria-label="Language selector"
-            >
-              <span className="text-sm">{currentLanguage.flag}</span>
-              <span className="text-xs font-semibold uppercase">{currentLanguage.code}</span>
-              <ChevronDown className={`h-3 w-3 text-gray-500 transition-transform duration-200 ${isMobileLanguageOpen ? 'rotate-180' : ''}`} />
-            </button>
-
-            {isMobileLanguageOpen && (
-              <div className="absolute right-0 top-full mt-2 w-44 bg-white rounded-lg shadow-xl border border-gray-200 z-50 py-1.5 dropdown-enter-active">
-                {languages.map((lang) => (
-                  <button
-                    key={lang.code}
-                    onClick={() => {
-                      changeLanguage(lang.code);
-                      setIsMobileLanguageOpen(false);
-                    }}
-                    className={`w-full flex items-center space-x-2.5 px-3 py-2 text-xs transition-colors ${
-                      currentLanguage.code === lang.code 
-                        ? 'bg-[#f4faec] text-[#6ABF00] font-semibold' 
-                        : 'hover:bg-gray-50 text-[#555555]'
-                    }`}
-                  >
-                    <span className="text-base">{lang.flag}</span>
-                    <span className="text-xs font-medium">{lang.name}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-
-          {/* Hamburger Menu Icon */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-2 rounded-lg hover:bg-gray-100 transition-colors flex-shrink-0 text-[#555555]"
-            aria-label="Toggle menu"
+        {/* Mobile & Tablet View Right Actions: Email Icon Button */}
+        <div className="lg:hidden flex items-center space-x-2 sm:space-x-3 mobile-nav-right z-10">
+          {/* Email Icon Button */}
+          <a
+            href="mailto:inquiry@athoscollagen.com?subject=Inquiry from ATHOS Website&body=Hello ATHOS Team,%0D%0A%0D%0AI am interested in learning more about your collagen products.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
+            className="p-2 rounded-lg text-[#555555] hover:text-[#6ABF00] hover:bg-[#f4faec] transition-all duration-200 flex items-center justify-center"
+            title="Send Email"
+            aria-label="Send Email"
           >
-            {isMenuOpen ? <X className="h-6 w-6 text-[#6ABF00]" /> : <Menu className="h-6 w-6" />}
-          </button>
+            <Mail className="w-5 h-5 transition-transform duration-200 hover:scale-110" />
+          </a>
         </div>
       </nav>
 
