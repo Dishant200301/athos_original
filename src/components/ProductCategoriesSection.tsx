@@ -37,11 +37,11 @@ const categories = [
 
 const ProductCategoriesSection: React.FC = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-background">
+    <section className="py-16 md:py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-10 xl:px-32">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
-          <h2 className="text-2xl md:text-3xl lg:text-[32px] font-bold text-[#1D7AA3] leading-tight mb-4">
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <h2 className="text-2xl md:text-3xl lg:text-[32px] font-medium text-[#1D7AA3] leading-tight mb-4">
             Products
           </h2>
         </div>
@@ -52,12 +52,12 @@ const ProductCategoriesSection: React.FC = () => {
             <Link
               key={cat.slug}
               to={cat.href}
-              className="group bg-white rounded-[16px] p-6 sm:p-7 shadow-md border border-gray-100/80 hover:shadow-[0_10px_20px_rgba(29,122,163,0.28)] hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden relative"
+              className="group bg-white rounded-[16px] p-6 sm:p-6 shadow-md border border-gray-100/80 hover:shadow-[0_10px_20px_rgba(29,122,163,0.28)] hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden relative"
             >
              
               <div>
                 {/* Heading matching screenshot style */}
-                <h3 className="text-[20px] font-bold text-[#1D7AA3] mb-3 pb-2 leading-tight group-hover:text-[#176283] transition-colors">
+                <h3 className="text-[20px] font-medium text-[#1D7AA3] mb-3 pb-2 leading-tight group-hover:text-[#176283] transition-colors">
                   {cat.title}
                 </h3>
               </div>

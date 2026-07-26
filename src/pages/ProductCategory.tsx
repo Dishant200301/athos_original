@@ -1366,7 +1366,7 @@ const ProductCategory = () => {
                     key={category.subProducts[activeIdx].slug}
                     className="animate-fade-in py-0"
                   >
-                    <h2 className="text-[32px] font-semibold text-[#6ABF00] mb-6 pb-2 border-b border-gray-100">
+                    <h2 className="text-[32px] font-medium text-[#6ABF00] mb-6 pb-2 border-b border-gray-100">
                       {category.subProducts[activeIdx].name}
                     </h2>
 
@@ -1392,7 +1392,7 @@ const ProductCategory = () => {
                     className="bg-white border border-[#E9ECEF] rounded-[16px] p-6 shadow-sm flex flex-col justify-between"
                   >
                     <div>
-                      <h2 className="text-[22px] font-bold text-[#6ABF00] mb-4 pb-2 border-b border-gray-100">
+                      <h2 className="text-[22px] font-medium text-[#6ABF00] mb-4 pb-2 border-b border-gray-100">
                         {sub.name}
                       </h2>
                       <ul className="space-y-3">

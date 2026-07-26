@@ -175,7 +175,7 @@ const Contact = () => {
           >
             {/* Title */}
             <div className="text-center mb-12">
-              <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)' }}>
+              <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)' }}>
                 {i18n.language.startsWith('en') ? "Get in touch for a better connection" : t('contact.hero.heading')}
               </h1>
             </div>
@@ -190,7 +190,7 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
+                  <h3 className="text-lg md:text-xl mb-2 font-medium" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
                     {i18n.language.startsWith('en') ? 'WhatsApp / Call' : t('contact.hero.whatsappCall')}
                   </h3>
                   <a 
@@ -211,7 +211,7 @@ const Contact = () => {
                   <Mail className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
                 </div>
                 <div>
-                  <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
+                  <h3 className="text-lg md:text-xl mb-2 font-medium" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
                     {i18n.language.startsWith('en') ? 'Email' : t('contact.hero.email')}
                   </h3>
                   <a 
@@ -233,7 +233,7 @@ const Contact = () => {
                   <Building2 className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
                 </div>
                 <div>
-                  <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
+                  <h3 className="text-lg md:text-xl mb-2 font-medium" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
                     {i18n.language.startsWith('en') ? 'Head Office' : 'Head Office'}
                   </h3>
                   <p className="text-sm md:text-base leading-relaxed max-w-sm mx-auto" style={{ fontFamily: 'Inter', color: 'rgba(119, 119, 119, 1)' }}>
@@ -248,7 +248,7 @@ const Contact = () => {
                   <Factory className="h-14 w-14" style={{color: 'rgba(106, 191, 0, 1)'}} />
                 </div>
                 <div>
-                  <h3 className="text-lg md:text-xl mb-2 font-bold" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
+                  <h3 className="text-lg md:text-xl mb-2 font-medium" style={{ fontFamily: 'Inter', color: 'rgba(51, 51, 51, 1)' }}>
                     {i18n.language.startsWith('en') ? 'Factory Address' : t('contact.factory.title')}
                   </h3>
                   <p className="text-sm md:text-base leading-relaxed max-w-sm mx-auto" style={{ fontFamily: 'Inter', color: 'rgba(119, 119, 119, 1)' }}>
@@ -261,7 +261,7 @@ const Contact = () => {
           </div>
 
           {/* Bottom Section - Form & Map Side-by-Side */}
-          <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-stretch mb-16">
+          <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-stretch mb-16 lg:mb-20">
             
             {/* Left Side: Contact Form */}
             <div 
@@ -358,7 +358,7 @@ const Contact = () => {
                 <div>
                   <Button
                     type="submit"
-                    className="w-full h-12 text-white font-bold text-sm rounded-md transition-colors"
+                    className="w-full h-12 text-white font-medium text-sm rounded-md transition-colors"
                     style={{backgroundColor: 'rgba(106, 191, 0, 1)', fontFamily: 'Inter'}}
                     onMouseEnter={(e) => (e.target as HTMLButtonElement).style.backgroundColor = 'rgba(89, 163, 0, 1)'}
                     onMouseLeave={(e) => (e.target as HTMLButtonElement).style.backgroundColor = 'rgba(106, 191, 0, 1)'}

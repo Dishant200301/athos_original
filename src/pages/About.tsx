@@ -87,7 +87,7 @@ const About = () => {
         {/* 2. About Us Content */}
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
-            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
+            <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.title', { defaultValue: 'About Us' })}
             </h2>
             <div className="space-y-6 text-[16px] leading-[27px] text-[#555555] font-inter">
@@ -111,15 +111,15 @@ const About = () => {
         </section>
 
         {/* 3. Mission Section */}
-        <section className="pb-12 md:pb-16 bg-white">
+        <section className="pb-6 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
-            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
+            <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.mission.title', { defaultValue: 'Mission' })}
             </h2>
             <p className="text-[16px] leading-[27px] text-[#555555] font-inter text-left">
               {renderTextWithFiCollaLogo(
                 t('about.mission.description', { 
-                  defaultValue: 'Our mission is to offer world-class marine collagen that elevate the well-being and daily lives of people globally.' 
+                  defaultValue: 'Our mission is to offer world-class ingredients that elevate the well-being and daily lives of people globally.' 
                 })
               )}
             </p>
@@ -127,11 +127,11 @@ const About = () => {
         </section>
 
         {/* 4. ATHOS Brand Values Section */}
-        <section className="py-12 md:py-16 lg:py-20 bg-background">
+        <section className="py-12 md:py-12 lg:py-20 bg-background">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Left Column - Centered Logo */}
-              <div className="lg:col-span-5 flex items-center justify-center self-center py-2">
+              <div className="lg:col-span-4 flex items-center justify-center self-center py-2">
                 <img
                   src="/images/athos_brand_values.png"
                   alt="Athos Collagen Brand Values"
@@ -140,7 +140,7 @@ const About = () => {
               </div>
 
               {/* Right Column - Brand Values List */}
-              <div className="lg:col-span-7 space-y-5 md:space-y-6">
+              <div className="lg:col-span-8 space-y-5 md:space-y-4">
                 {(() => {
                   const valuesObj = t('about.athosSection.values', { returnObjects: true });
                   if (valuesObj && typeof valuesObj === 'object' && !Array.isArray(valuesObj)) {
@@ -150,11 +150,11 @@ const About = () => {
                       return (
                         <div
                           key={key}
-                          className={`pb-3 md:pb-4 ${
+                          className={`pb-2 md:pb-4 ${
                             index !== keys.length - 1 ? "border-b border-[#d8ebf5]" : ""
                           }`}
                         >
-                          <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-bold text-[#1D7AA3] mb-1.5 md:mb-2">
+                          <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-medium text-[#1D7AA3] mb-1.5 md:mb-2">
                             {valObj.title}
                           </h3>
                           <p className="text-[#555555] text-sm md:text-base leading-relaxed lg:leading-[25px]">
@@ -171,7 +171,7 @@ const About = () => {
                         index !== fallbackAthosValues.length - 1 ? "border-b border-[#d8ebf5]" : ""
                       }`}
                     >
-                      <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-bold text-[#1D7AA3] mb-1.5 md:mb-2">
+                      <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-medium text-[#1D7AA3] mb-1.5 md:mb-2">
                         {item.title}
                       </h3>
                       <p className="text-[#555555] text-sm md:text-base leading-relaxed lg:leading-[25px]">
@@ -186,9 +186,9 @@ const About = () => {
         </section>
 
         {/* 5. Vision Section */}
-        <section className="py-12 md:py-16 bg-white">
+        <section className="py-12 md:py-10 lg:pt-4 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
-            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
+            <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.vision.title', { defaultValue: 'Vision' })}
             </h2>
             <p className="text-[16px] leading-[27px] text-[#555555] font-inter text-left">
@@ -202,16 +202,16 @@ const About = () => {
         </section>
 
         {/* 5. R&D Section */}
-        <section className="py-12 md:py-16 bg-white">
+        <section className="py-12 md:py-12 lg:pb-28 lg:pt-10 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
-            <h2 className="text-[32px] font-bold text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
+            <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               R&D
             </h2>
             <div className="w-full overflow-hidden rounded-xl shadow-sm">
               <img
                 src="/images/R&D.png"
                 alt="Research and Development"
-                className="w-full h-[500px] md:h-[650px] object-cover block"
+                className="w-full h-[500px] md:h-[530px] object-cover block"
               />
             </div>
           </div>

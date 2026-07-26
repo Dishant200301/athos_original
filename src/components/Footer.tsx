@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 text-left">
             {/* Useful Links */}
             <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
-              <h3 className="text-lg font-bold text-white mb-6 font-inter tracking-wide">
+              <h3 className="text-lg font-medium text-white mb-6 font-inter tracking-wide">
                 {t('footer.usefulLinks', { defaultValue: 'Useful Links' })}
               </h3>
               <ul className="space-y-4">
@@ -75,7 +75,7 @@ const Footer = () => {
 
             {/* Get In Touch */}
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <h3 className="text-lg font-bold text-white mb-6 font-inter tracking-wide">
+              <h3 className="text-lg font-medium text-white mb-6 font-inter tracking-wide">
                 {t('footer.getInTouch', { defaultValue: 'Get In Touch' })}
               </h3>
 
@@ -109,7 +109,7 @@ const Footer = () => {
             <div className="animate-fade-in sm:col-span-2 lg:col-span-1" style={{ animationDelay: '0.3s' }}>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8 sm:gap-12 lg:gap-8">
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-3 font-inter tracking-wide">
+                  <h3 className="text-lg font-medium text-white mb-3 font-inter tracking-wide">
                     Head Office
                   </h3>
                   <p className="text-white/90 leading-[27px] text-[15px]">
@@ -118,7 +118,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-3 font-inter tracking-wide">
+                  <h3 className="text-lg font-medium text-white mb-3 font-inter tracking-wide">
                     Factory Address
                   </h3>
                   <p className="text-white/90 leading-[27px] text-[15px]">

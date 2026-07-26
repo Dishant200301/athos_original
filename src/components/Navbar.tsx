@@ -126,7 +126,7 @@ const Navbar = () => {
             <img 
               src="/images/athos_logo.webp" 
               alt="ATHOS Collagen" 
-              className="h-10 md:h-12 w-auto max-h-full transition-all duration-300 hover:scale-105"
+              className="h-10 md:h-12 w-auto max-h-full transition-all duration-300"
             />
           </Link>
         </div>
@@ -313,7 +313,7 @@ const Navbar = () => {
       {/* Mobile & Tablet Full-Page Screen Drawer Menu */}
       {isMenuOpen && (
         <div className="lg:hidden fixed left-0 right-0 bottom-0 w-full bg-white border-t border-gray-200 shadow-2xl overflow-y-auto z-50 custom-scrollbar flex flex-col justify-between top-20 h-[calc(100vh-5rem)]">
-          <div className="container mx-auto px-4 md:px-12 py-6 bg-white flex-1 flex flex-col justify-between">
+          <div className="container mx-auto px-4 py-2 bg-white flex-1 flex flex-col justify-between">
             <div className="space-y-4">
               {/* Home */}
               <Link
