@@ -272,7 +272,7 @@ const Contact = () => {
           </div>
 
           {/* Bottom Section - Form & Map Side-by-Side */}
-          <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-stretch mb-16 lg:mb-20">
+          <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-stretch mb-16 lg:mb-28">
 
             {/* Left Side: Contact Form */}
             <div

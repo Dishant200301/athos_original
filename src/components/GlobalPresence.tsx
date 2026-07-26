@@ -36,7 +36,7 @@ const GlobalPresence = () => {
 
   return (
     <section className="pt-10 md:pt-4 pb-0 bg-background">
-      <div className="container mx-auto px-4 lg:px-10 xl:px-32 pb-8 md:pb-10 lg:pb-20">
+      <div className="container mx-auto px-4 lg:px-10 xl:px-32 pb-8 md:pb-10 lg:pb-28">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>
             {t('home.globalPresence.title')}

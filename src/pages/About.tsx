@@ -207,7 +207,7 @@ const About = () => {
         </section>
 
         {/* 5. R&D Section */}
-        <section className="py-12 md:py-4 lg:pb-28 lg:pt-10 bg-white">
+        <section className="py-12 md:py-4 lg:pb-28 lg:pt-6 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
             {/* <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               R&D
