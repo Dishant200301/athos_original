@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:5000/api}
+        VITE_BACKEND_URL: ${VITE_BACKEND_URL:-http://localhost:5000}
+        VITE_PORT: ${VITE_PORT:-8080}
+    container_name: athos-client
+    restart: unless-stopped
+    ports:
+      - "${VITE_PORT:-8080}:80"
+    environment:
+      - NODE_ENV=production
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
