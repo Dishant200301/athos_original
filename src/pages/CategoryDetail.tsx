@@ -39,7 +39,7 @@ const CategoryDetail = () => {
     };
 
     const categoryKey = categoryMap[categoryId as keyof typeof categoryMap];
-    
+
     if (!categoryKey) {
       return null;
     }
@@ -128,7 +128,7 @@ const CategoryDetail = () => {
     };
 
     const subcategories = subcategoryMap[id as keyof typeof subcategoryMap] || [];
-    
+
     return subcategories.map(subcategory => ({
       title: t(`categoryDetails.categories.${categoryKey}.subcategories.${subcategory.key}`),
       description: '',
@@ -175,17 +175,16 @@ const CategoryDetail = () => {
       <main className="pt-20">
 
         {/* Hero Section */}
-        <section className="py-12 md:py-16" style={{backgroundColor: 'rgba(247, 246, 247, 1)'}}>
+        <section className="min-h-screen flex items-center py-16 md:py-20" style={{ backgroundColor: 'rgba(247, 246, 247, 1)' }}>
           <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center">
               {/* Left Side - Image */}
-              <div 
+              <div
                 ref={heroRef}
-                className={`flex justify-center lg:justify-start transition-all duration-700 ease-out ${
-                  heroVisible
+                className={`flex justify-center lg:justify-start transition-all duration-700 ease-out ${heroVisible
                     ? 'opacity-100 translate-x-0'
                     : 'opacity-0 -translate-x-12'
-                }`}
+                  }`}
               >
                 <img
                   src={category.hero}
@@ -195,37 +194,35 @@ const CategoryDetail = () => {
               </div>
 
               {/* Right Side - Content */}
-              <div 
-                className={`text-center lg:text-left transition-all duration-700 ease-out delay-200 ${
-                  heroVisible
+              <div
+                className={`text-center lg:text-left transition-all duration-700 ease-out delay-200 ${heroVisible
                     ? 'opacity-100 translate-x-0'
                     : 'opacity-0 translate-x-12'
-                }`}
+                  }`}
               >
-                <h1 className="text-3xl lg:text-4xl xl:text-5xl mb-4 lg:mb-6 leading-tight" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>
+                <h1 className="text-3xl lg:text-4xl xl:text-5xl mb-4 lg:mb-6 leading-tight" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
                   {category.title}
                 </h1>
-                <p className="leading-relaxed mb-6 lg:mb-8 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl" style={{fontFamily: 'Inter, sans-serif', fontWeight: '400', color: 'rgba(112, 112, 112, 1)'}}>
+                <p className="leading-relaxed mb-6 lg:mb-8 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl" style={{ fontFamily: 'Inter, sans-serif', fontWeight: '400', color: 'rgba(112, 112, 112, 1)' }}>
                   {category.description}
                 </p>
               </div>
             </div>
           </div>
         </section>
- 
+
         {/* Subcategories Grid Section */}
         <div
           ref={subcategoriesRef}
-          className={`transition-all duration-500 ease-out delay-100 ${
-            subcategoriesVisible
+          className={`transition-all duration-500 ease-out delay-100 ${subcategoriesVisible
               ? 'opacity-100 translate-y-0'
               : 'opacity-0 translate-y-8'
-          }`}
+            }`}
         >
-          <section className="py-8 md:py-10 lg:pb-8 bg-white">
+          <section className="py-12 md:py-16 bg-white">
             <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
               <div className="text-center mb-8 md:mb-12">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
                   {category.title}
                 </h2>
               </div>
@@ -239,13 +236,13 @@ const CategoryDetail = () => {
                           alt={subcategory.title}
                           className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
                         />
-                        <div 
-                          className="absolute bottom-0 left-0 right-0 h-14 md:h-18 px-2 md:px-4 pt-1 md:pt-2 pb-1 flex items-center justify-center transition-all duration-300 ease-in-out group-hover:h-16 md:group-hover:h-22" 
-                          style={{background: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)'}}
+                        <div
+                          className="absolute bottom-0 left-0 right-0 h-14 md:h-18 px-2 md:px-4 pt-1 md:pt-2 pb-1 flex items-center justify-center transition-all duration-300 ease-in-out group-hover:h-16 md:group-hover:h-22"
+                          style={{ background: 'linear-gradient(180deg, rgba(228, 222, 213, 0) 14.56%, rgba(243, 240, 237, 0.509615) 50.61%, #EFEFEF 85.01%)' }}
                         >
-                          <h3 
-                            className="text-[22px] md:text-[24px] text-center transition-all duration-300 ease-in-out group-hover:text-[20px] md:group-hover:text-[22px]" 
-                            style={{color: 'rgba(67, 67, 64, 1)', fontWeight: '400', fontFamily: 'Inter'}}
+                          <h3
+                            className="text-[22px] md:text-[24px] text-center transition-all duration-300 ease-in-out group-hover:text-[20px] md:group-hover:text-[22px]"
+                            style={{ color: 'rgba(67, 67, 64, 1)', fontWeight: '400', fontFamily: 'Inter' }}
                           >
                             {subcategory.title}
                           </h3>
@@ -262,11 +259,10 @@ const CategoryDetail = () => {
         {/* Contact Teaser Section */}
         <div
           ref={contactRef}
-          className={`transition-all duration-500 ease-out delay-200 ${
-            contactVisible
+          className={`transition-all duration-500 ease-out delay-200 ${contactVisible
               ? 'opacity-100 translate-y-0'
               : 'opacity-0 translate-y-8'
-          }`}
+            }`}
         >
           <ContactTeaser />
         </div>

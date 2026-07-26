@@ -153,16 +153,24 @@ const Footer = () => {
         .onde {
           position: relative;
           width: 100%;
-          height: 10vh;
+          height: 15vh;
           margin-bottom: -7px;
-          min-height: 50px;
-          max-height: 90px;
+          min-height: 100px;
+          max-height: 150px;
+        }
+        
+        @media (min-width: 1024px) {
+          .onde {
+            height: 70px;
+            min-height: 50px;
+            max-height: 80px;
+          }
         }
         
         @media (max-width: 768px) {
           .onde {
-            height: 35px;
-            min-height: 35px;
+            height: 40px;
+            min-height: 40px;
           }
         }
         

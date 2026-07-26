@@ -107,8 +107,8 @@ const About = () => {
               ) : (
                 <p className="text-[16px] leading-[27px] text-[#555555] font-inter">
                   {renderTextWithFiCollaLogo(
-                    t('about.aboutContent', { 
-                      defaultValue: "Athos Collagen Pvt. Ltd. is a global manufacturer and supplier of specialty ingredients serving the pharmaceutical, nutraceutical, animal nutrition, biotechnology and fermentation industries. Our expanding portfolio includes premium proteins, enzymes, peptones, probiotics, fermentation ingredients and functional nutritional ingredients, supported by strict quality systems and worldwide export capabilities." 
+                    t('about.aboutContent', {
+                      defaultValue: "Athos Collagen Pvt. Ltd. is a global manufacturer and supplier of specialty ingredients serving the pharmaceutical, nutraceutical, animal nutrition, biotechnology and fermentation industries. Our expanding portfolio includes premium proteins, enzymes, peptones, probiotics, fermentation ingredients and functional nutritional ingredients, supported by strict quality systems and worldwide export capabilities."
                     })
                   )}
                 </p>
@@ -125,8 +125,8 @@ const About = () => {
             </h2>
             <p className="text-[16px] leading-[27px] text-[#555555] font-inter text-left">
               {renderTextWithFiCollaLogo(
-                t('about.mission.description', { 
-                  defaultValue: 'Our mission is to offer world-class ingredients that elevate the well-being and daily lives of people globally.' 
+                t('about.mission.description', {
+                  defaultValue: 'Our mission is to offer world-class ingredients that elevate the well-being and daily lives of people globally.'
                 })
               )}
             </p>
@@ -157,9 +157,8 @@ const About = () => {
                       return (
                         <div
                           key={key}
-                          className={`pb-2 md:pb-4 ${
-                            index !== keys.length - 1 ? "border-b border-[#d8ebf5]" : ""
-                          }`}
+                          className={`pb-2 md:pb-4 ${index !== keys.length - 1 ? "border-b border-[#d8ebf5]" : ""
+                            }`}
                         >
                           <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-medium text-[#1D7AA3] mb-1.5 md:mb-2">
                             {valObj.title}
@@ -174,9 +173,8 @@ const About = () => {
                   return fallbackAthosValues.map((item, index) => (
                     <div
                       key={item.title}
-                      className={`pb-3 md:pb-4 ${
-                        index !== fallbackAthosValues.length - 1 ? "border-b border-[#d8ebf5]" : ""
-                      }`}
+                      className={`pb-3 md:pb-4 ${index !== fallbackAthosValues.length - 1 ? "border-b border-[#d8ebf5]" : ""
+                        }`}
                     >
                       <h3 className="text-[18px] md:text-[22px] lg:text-[24px] font-medium text-[#1D7AA3] mb-1.5 md:mb-2">
                         {item.title}
@@ -200,8 +198,8 @@ const About = () => {
             </h2>
             <p className="text-[16px] leading-[27px] text-[#555555] font-inter text-left">
               {renderTextWithFiCollaLogo(
-                t('about.vision.description', { 
-                  defaultValue: 'To be the most trusted and innovative leader in the ingredient industry.' 
+                t('about.vision.description', {
+                  defaultValue: 'To be the most trusted and innovative leader in the ingredient industry.'
                 })
               )}
             </p>
@@ -209,7 +207,7 @@ const About = () => {
         </section>
 
         {/* 5. R&D Section */}
-        <section className="py-8 md:py-4 lg:pb-6 lg:pt-8 bg-white">
+        <section className="py-12 md:py-4 lg:pb-28 lg:pt-10 bg-white">
           <div className="container mx-auto px-4 lg:px-10 xl:px-32">
             {/* <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               R&D
