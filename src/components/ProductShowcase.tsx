@@ -11,13 +11,13 @@ const ProductShowcase = () => {
       id: 1,
       name: t('home.products.fishCollagen'),
       image: '/images/Peptide.png',
-      href: '/fish-collagen-peptide'
+      href: '/'
     },
     {
       id: 2,
       name: t('home.products.fishGelatin'),
       image: '/images/Gelatin.png',
-      href: '/fish-gelatin'
+      href: '/'
     }
   ];
 

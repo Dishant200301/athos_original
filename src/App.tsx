@@ -3,14 +3,10 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import About from "./pages/About";
-import FishCollagenPeptide from "./pages/FishCollagenPeptide";
-import FishCollagenApplications from "./pages/FishCollagenApplications";
-import FishGelatin from "./pages/FishGelatin";
-import FishGelatinApplications from "./pages/FishGelatinApplications";
 import Contact from "./pages/Contact";
 import CategoryDetail from "./pages/CategoryDetail";
 import Blog from "./pages/Blog";
@@ -34,10 +30,10 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
-            <Route path="/fish-collagen-peptide" element={<FishCollagenPeptide />} />
-            <Route path="/fish-collagen-applications" element={<FishCollagenApplications />} />
-            <Route path="/fish-gelatin" element={<FishGelatin />} />
-            <Route path="/fish-gelatin-applications" element={<FishGelatinApplications />} />
+            <Route path="/fish-collagen-peptide" element={<Navigate to="/" replace />} />
+            <Route path="/fish-collagen-applications" element={<Navigate to="/" replace />} />
+            <Route path="/fish-gelatin" element={<Navigate to="/" replace />} />
+            <Route path="/fish-gelatin-applications" element={<Navigate to="/" replace />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/products/:categoryKey" element={<ProductCategory />} />
             <Route path="/category/:categoryId" element={<CategoryDetail />} />

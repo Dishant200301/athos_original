@@ -39,9 +39,47 @@ const Index = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  const productSchemas = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: 'Fish Collagen Peptide (Hydrolyzed Collagen)',
+      description: 'High-purity Hydrolyzed Fish Collagen Peptide manufactured for pharmaceutical, nutraceutical, and cosmetic applications.',
+      brand: {
+        '@type': 'Brand',
+        name: 'Athos Collagen',
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: 'Fish Gelatin',
+      description: 'High-quality Fish Gelatin engineered for pharmaceutical capsules, food & beverage, and biotechnology applications.',
+      brand: {
+        '@type': 'Brand',
+        name: 'Athos Collagen',
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'ItemPage',
+      name: 'Applications - Fish Collagen Peptide - Athos Collagen Pvt. Ltd',
+      description: 'Applications of Hydrolyzed Fish Collagen Peptide across pharmaceutical, food & beverage, cosmetics, and nutraceutical industries.',
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'ItemPage',
+      name: 'Applications - Fish Gelatin - Athos Collagen Pvt. Ltd',
+      description: 'Applications of Fish Gelatin across food industry, cosmetics, biomedical, and pharmaceutical sectors.',
+    }
+  ];
+
   return (
     <div className="bg-background overflow-x-hidden w-full">
-      <SEO title="Athos Collagen Pvt. Ltd - Leading Marine Collagen Solutions" />
+      <SEO 
+        title="Athos Collagen Pvt. Ltd - Leading Marine Collagen Solutions" 
+        schema={productSchemas}
+      />
       <Navbar />
       <main className="relative home-page-layout">
         {/* 1. Hero Section */}
