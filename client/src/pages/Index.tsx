@@ -44,6 +44,7 @@ const Index = () => {
       '@context': 'https://schema.org',
       '@type': 'Product',
       name: 'Fish Collagen Peptide (Hydrolyzed Collagen)',
+      url: 'https://athoscollagen.com/',
       description: 'High-purity Hydrolyzed Fish Collagen Peptide manufactured for pharmaceutical, nutraceutical, and cosmetic applications.',
       brand: {
         '@type': 'Brand',
@@ -54,6 +55,7 @@ const Index = () => {
       '@context': 'https://schema.org',
       '@type': 'Product',
       name: 'Fish Gelatin',
+      url: 'https://athoscollagen.com/',
       description: 'High-quality Fish Gelatin engineered for pharmaceutical capsules, food & beverage, and biotechnology applications.',
       brand: {
         '@type': 'Brand',
@@ -64,12 +66,14 @@ const Index = () => {
       '@context': 'https://schema.org',
       '@type': 'ItemPage',
       name: 'Applications - Fish Collagen Peptide - Athos Collagen Pvt. Ltd',
+      url: 'https://athoscollagen.com/',
       description: 'Applications of Hydrolyzed Fish Collagen Peptide across pharmaceutical, food & beverage, cosmetics, and nutraceutical industries.',
     },
     {
       '@context': 'https://schema.org',
       '@type': 'ItemPage',
       name: 'Applications - Fish Gelatin - Athos Collagen Pvt. Ltd',
+      url: 'https://athoscollagen.com/',
       description: 'Applications of Fish Gelatin across food industry, cosmetics, biomedical, and pharmaceutical sectors.',
     }
   ];
