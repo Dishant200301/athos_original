@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
   return {
     server: {
       host: "::",
-      port: parseInt(env.VITE_PORT || '8080'),
+      port: parseInt(env.CLIENT_VITE_PORT || env.VITE_PORT || '8080'),
       watch: {
         ignored: ['**/public/images/**'],
       },
