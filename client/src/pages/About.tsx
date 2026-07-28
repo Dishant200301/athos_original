@@ -134,7 +134,7 @@ const About = () => {
         </section>
 
         {/* 4. ATHOS Brand Values Section */}
-        <section className="py-12 md:py-12 lg:py-12 bg-background">
+        <section className="py-12 md:py-12 lg:py-12 xl:py-16 bg-background">
           <div className="container mx-auto px-4 lg:px-10 xl:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Left Column - Centered Logo */}

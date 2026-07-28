@@ -37,7 +37,7 @@ const categories = [
 
 const ProductCategoriesSection: React.FC = () => {
   return (
-    <section className="py-16 md:py-16 lg:py-24 bg-background">
+    <section className="py-16 md:py-16 lg:py-24 xl:py-32 bg-background">
       <div className="container mx-auto px-4 lg:px-10 xl:px-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
@@ -47,14 +47,14 @@ const ProductCategoriesSection: React.FC = () => {
         </div>
 
         {/* Cards Grid matching athos-ui-build style */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-6 xl:gap-8">
           {categories.map((cat) => (
             <Link
               key={cat.slug}
               to={cat.href}
-              className="group bg-white rounded-[16px] p-6 sm:p-6 shadow-md border border-gray-100/80 hover:shadow-[0_10px_20px_rgba(29,122,163,0.28)] hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden relative"
+              className="group bg-white rounded-[16px] p-6 sm:p-6 xl:p-8 shadow-md border border-gray-100/80 hover:shadow-[0_10px_20px_rgba(29,122,163,0.28)] hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer overflow-hidden relative"
             >
-             
+
               <div>
                 {/* Heading matching screenshot style */}
                 <h3 className="text-[20px] font-medium text-[#1D7AA3] mb-3 pb-2 leading-tight group-hover:text-[#176283] transition-colors">
