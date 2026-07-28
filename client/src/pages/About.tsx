@@ -93,7 +93,7 @@ const About = () => {
 
         {/* 2. About Us Content */}
         <section className="py-12 md:py-16 bg-white">
-          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-12">
             <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.title', { defaultValue: 'About Us' })}
             </h2>
@@ -119,7 +119,7 @@ const About = () => {
 
         {/* 3. Mission Section */}
         <section className="pb-6 bg-white">
-          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-12">
             <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.mission.title', { defaultValue: 'Mission' })}
             </h2>
@@ -135,7 +135,7 @@ const About = () => {
 
         {/* 4. ATHOS Brand Values Section */}
         <section className="py-12 md:py-12 lg:py-12 bg-background">
-          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               {/* Left Column - Centered Logo */}
               <div className="lg:col-span-4 flex items-center justify-center self-center py-2">
@@ -192,7 +192,7 @@ const About = () => {
 
         {/* 5. Vision Section */}
         <section className="py-12 md:py-0 bg-white">
-          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-12">
             <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-4 text-left" style={{ fontFamily: 'Inter' }}>
               {t('about.vision.title', { defaultValue: 'Vision' })}
             </h2>
@@ -208,7 +208,7 @@ const About = () => {
 
         {/* 5. R&D Section */}
         <section className="py-12 md:py-4 lg:pb-28 lg:pt-6 bg-white">
-          <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+          <div className="container mx-auto px-4 lg:px-10 xl:px-12">
             {/* <h2 className="text-[32px] font-medium text-[#1D7AA3] mb-6 md:mb-8 text-left" style={{ fontFamily: 'Inter' }}>
               R&D
             </h2> */}

@@ -6,7 +6,7 @@ const ContactTeaser = () => {
   const { t } = useTranslation();
   return (
     <section className="py-0 md:py-0 bg-white contact-teaser-section">
-      <div className="container mx-auto px-4 lg:px-10 xl:px-32 py-4 lg:pb-20 lg:pt-16 flex flex-col items-center justify-center text-center gap-6 md:gap-8 lg:gap-3">
+      <div className="container mx-auto px-4 lg:px-10 xl:px-12 py-4 lg:pb-20 lg:pt-16 flex flex-col items-center justify-center text-center gap-6 md:gap-8 lg:gap-3">
         {/* Centered Heading */}
         <h2 className="text-2xl md:text-3xl lg:text-[30px] font-medium text-[#1D7AA3] text-center">
           {t('contact.title', { defaultValue: 'Contact Us' })}

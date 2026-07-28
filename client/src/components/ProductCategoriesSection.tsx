@@ -38,7 +38,7 @@ const categories = [
 const ProductCategoriesSection: React.FC = () => {
   return (
     <section className="py-16 md:py-16 lg:py-24 bg-background">
-      <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+      <div className="container mx-auto px-4 lg:px-10 xl:px-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-2xl md:text-3xl lg:text-[32px] font-medium text-[#1D7AA3] leading-tight mb-4">

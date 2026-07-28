@@ -174,7 +174,7 @@ const Contact = () => {
       <SEO title={pageTitle} schema={contactPageSchema} />
       <Navbar />
       <main className="pt-12 md:pt-20 bg-background mt-20">
-        <div className="container mx-auto px-4 lg:px-10 xl:px-32">
+        <div className="container mx-auto px-4 lg:px-10 xl:px-12">
 
           {/* Top Section - Contact Information & Address */}
           <div

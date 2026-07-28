@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="bubble bubble12"></div>
         </div>
 
-        <div className="container mx-auto px-4 lg:px-10 xl:px-32 relative z-10">
+        <div className="container mx-auto px-4 lg:px-10 xl:px-12 relative z-10">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 text-left">
             {/* Useful Links */}
             <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
@@ -134,7 +134,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <section className="bg-[#1D7AA3] py-3.5">
-        <div className="container mx-auto px-4 lg:px-10 xl:px-32 flex items-center justify-center">
+        <div className="container mx-auto px-4 lg:px-10 xl:px-12 flex items-center justify-center">
           <p className="text-sm text-white/90 text-center font-medium">
             © {new Date().getFullYear()} Athos Collagen Pvt. Ltd. All rights reserved.
           </p>

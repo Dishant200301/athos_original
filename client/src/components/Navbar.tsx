@@ -118,7 +118,7 @@ const Navbar = () => {
           ? 'bg-white/90 backdrop-blur-md border-b border-white/40 shadow-lg' 
           : 'bg-white/80 backdrop-blur-md border-b border-white/30 shadow-sm'
     }`}>
-      <nav className="container mx-auto px-4 lg:px-10 xl:px-32 h-full flex items-center justify-between relative mobile-nav-container">
+      <nav className="container mx-auto px-4 lg:px-10 xl:px-12 h-full flex items-center justify-between relative mobile-nav-container">
         {/* Mobile & Tablet Left Action: Hamburger Menu Toggle */}
         <div className="lg:hidden flex items-center z-10">
           <button
