@@ -108,14 +108,14 @@ const Footer = () => {
             {/* Addresses */}
             <div className="animate-fade-in sm:col-span-2 lg:col-span-1" style={{ animationDelay: '0.3s' }}>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8 sm:gap-12 lg:gap-8">
-                <div>
+                {/* <div>
                   <h3 className="text-lg font-medium text-white mb-3 font-inter tracking-wide">
                     Head Office
                   </h3>
                   <p className="text-white/90 leading-[27px] text-[15px]">
                     317, Blu Eminence, Opp. Sangini, Jahangirabad, Dahin Nagar, Surat, Gujarat 395005, India
                   </p>
-                </div>
+                </div> */}
 
                 <div>
                   <h3 className="text-lg font-medium text-white mb-3 font-inter tracking-wide">

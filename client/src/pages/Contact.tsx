@@ -237,9 +237,9 @@ const Contact = () => {
             </div>
 
             {/* Row 2: Addresses */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16 md:mb-24">
+            <div className="flex justify-center max-w-4xl mx-auto mb-16 md:mb-24">
               {/* Head Office Address */}
-              <div className="flex flex-col items-center text-center space-y-4 px-4">
+              {/* <div className="flex flex-col items-center text-center space-y-4 px-4">
                 <div className="flex justify-center">
                   <Building2 className="h-14 w-14" style={{ color: 'rgba(106, 191, 0, 1)' }} />
                 </div>
@@ -251,7 +251,7 @@ const Contact = () => {
                     317, Blu Eminence, Opp. Sangini, Jahangirabad, Dahin Nagar, Surat, Gujarat 395005, India
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               {/* Factory Address */}
               <div className="flex flex-col items-center text-center space-y-4 px-4">

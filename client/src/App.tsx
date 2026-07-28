@@ -8,9 +8,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import CategoryDetail from "./pages/CategoryDetail";
-import Blog from "./pages/Blog";
-import BlogDetail from "./pages/BlogDetail";
 import ProductCategory from "./pages/ProductCategory";
 import NotFound from "./pages/NotFound";
 
@@ -34,11 +31,18 @@ const App = () => (
             <Route path="/fish-collagen-applications" element={<Navigate to="/" replace />} />
             <Route path="/fish-gelatin" element={<Navigate to="/" replace />} />
             <Route path="/fish-gelatin-applications" element={<Navigate to="/" replace />} />
+            <Route path="/fish-collagen" element={<Navigate to="/" replace />} />
+            <Route path="/application-fish-collagen" element={<Navigate to="/" replace />} />
+            <Route path="/applications-fish-gelatin" element={<Navigate to="/" replace />} />
+            <Route path="/fish-gelatin.php" element={<Navigate to="/" replace />} />
+            <Route path="/contact-us" element={<Navigate to="/" replace />} />
+            <Route path="/products" element={<Navigate to="/" replace />} />
+            <Route path="/inquiry" element={<Navigate to="/" replace />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/products/:categoryKey" element={<ProductCategory />} />
-            <Route path="/category/:categoryId" element={<CategoryDetail />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogDetail />} />
+            <Route path="/category/:categoryId" element={<Navigate to="/" replace />} />
+            <Route path="/blog" element={<Navigate to="/" replace />} />
+            <Route path="/blog/*" element={<Navigate to="/" replace />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
