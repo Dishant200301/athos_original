@@ -87,6 +87,9 @@ const About = () => {
           <img
             src="/images/Athos_factory.webp"
             alt="About Athos Collagen"
+            width={1200}
+            height={600}
+            fetchPriority="high"
             className="w-full h-full object-cover"
           />
         </section>
@@ -142,6 +145,9 @@ const About = () => {
                 <img
                   src="/images/athos_brand_values.png"
                   alt="Athos Collagen Brand Values"
+                  width={340}
+                  height={340}
+                  loading="lazy"
                   className="w-full max-w-[260px] sm:max-w-[300px] md:max-w-[340px] h-auto object-contain mx-auto"
                 />
               </div>
@@ -216,6 +222,9 @@ const About = () => {
               <img
                 src="/images/R&D.png"
                 alt="Research and Development"
+                width={1200}
+                height={510}
+                loading="lazy"
                 className="w-full h-[500px] md:h-[510px] object-cover block"
               />
             </div>

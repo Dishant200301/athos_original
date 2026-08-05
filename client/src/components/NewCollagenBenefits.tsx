@@ -71,6 +71,9 @@ const NewCollagenBenefits = () => {
                   <img
                     src={benefit.image}
                     alt={benefit.title}
+                    width={300}
+                    height={300}
+                    loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-14 md:h-18 px-2 md:px-4 pt-1 md:pt-2 pb-1 flex items-center justify-center transition-all duration-300 ease-in-out group-hover:h-16 md:group-hover:h-22" style={{background: benefit.gradientStyle}}>

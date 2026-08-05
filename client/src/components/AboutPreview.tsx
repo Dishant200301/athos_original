@@ -56,11 +56,17 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
               <img
                 src="/images/Athos_factory.webp"
                 alt="ATHOS Collagen Facility"
+                width={550}
+                height={404}
+                loading="lazy"
                 className="hidden sm:block w-full h-full object-cover rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none absolute inset-0"
               />
               <img
                 src="/images/athos_factory_mobile.png"
                 alt="ATHOS Collagen Facility Mobile"
+                width={400}
+                height={300}
+                loading="lazy"
                 className="block sm:hidden w-full h-full object-cover rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none absolute inset-0"
               />
             </div>

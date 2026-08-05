@@ -78,6 +78,9 @@ const UniquenessSection = ({
               <img
                 src={imageSrc || "/images/body_part.png"}
                 alt={imageAlt || "Collagen Body Benefits"}
+                width={600}
+                height={450}
+                loading="lazy"
                 className="w-full max-w-sm md:max-w-xl h-auto object-contain"
               />
             </div>

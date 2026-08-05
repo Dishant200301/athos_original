@@ -61,7 +61,7 @@ const Footer = () => {
                   <li key={link.label} style={{ animationDelay: `${0.2 + index * 0.1}s` }} className="animate-fade-in">
                     <Link
                       to={link.href}
-                      className="group flex items-center gap-2 text-white/90 hover:text-white transition-all duration-300"
+                      className="group flex items-center gap-2 text-white/90 hover:text-white transition-all duration-300 py-1.5 min-h-[44px]"
                     >
                       <ChevronRight className="w-4 h-4 text-white/80 transition-transform duration-300 group-hover:translate-x-1 flex-shrink-0" />
                       <span className="relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-white after:origin-bottom-right after:transition-transform after:duration-300 group-hover:after:scale-x-100 group-hover:after:origin-bottom-left font-medium text-[15px]">

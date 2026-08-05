@@ -49,6 +49,9 @@ const GlobalPresence = () => {
             <img
               src="/images/map.jpg"
               alt="ATHOS Global Presence Map"
+              width={800}
+              height={500}
+              loading="lazy"
               className="w-full h-auto object-contain rounded-xl"
             />
           </div>

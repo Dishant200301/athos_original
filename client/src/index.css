@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -452,6 +450,8 @@
   display: inline-block;
   animation: 45s slides infinite linear;
   white-space: nowrap;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .marquee-content:hover {
@@ -473,7 +473,9 @@
   width: auto; /* Auto width to maintain aspect ratio */
   object-fit: contain;
   opacity: 0.8;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  will-change: transform, opacity;
+  transform: translateZ(0);
   vertical-align: middle;
 }
 

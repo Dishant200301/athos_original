@@ -55,6 +55,9 @@ const ProductShowcase = () => {
                     <img
                       src={product.image}
                       alt={product.name}
+                      width={400}
+                      height={320}
+                      loading="lazy"
                       className="w-full h-60 sm:h-80 object-contain"
                     />
                   </div>

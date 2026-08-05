@@ -123,7 +123,7 @@ const Navbar = () => {
         <div className="lg:hidden flex items-center z-10">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="p-2 rounded-lg hover:bg-gray-100 transition-colors flex-shrink-0 text-[#555555]"
+            className="p-2 rounded-lg hover:bg-gray-100 transition-colors flex-shrink-0 text-[#555555] min-w-[44px] min-h-[44px] flex items-center justify-center"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? <X className="h-6 w-6 text-[#6ABF00]" /> : <Menu className="h-6 w-6" />}
@@ -135,7 +135,9 @@ const Navbar = () => {
           <Link to="/" className="flex items-center" onClick={() => setIsMenuOpen(false)}>
             <img 
               src="/images/athos_logo.webp" 
-              alt="ATHOS Collagen" 
+              alt="ATHOS Collagen Logo" 
+              width={160}
+              height={48}
               className="h-10 md:h-12 w-auto max-h-full transition-all duration-300"
             />
           </Link>

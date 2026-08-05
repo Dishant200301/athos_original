@@ -20,6 +20,9 @@ const PieChart = () => {
         <img 
           src="/images/pie_chart.png" 
           alt={t('fishCollagen.pie.title')} 
+          width={800}
+          height={600}
+          loading="lazy"
           className="w-full h-auto max-h-[650px] object-contain transition-transform duration-500 hover:scale-[1.01]"
         />
       </div>

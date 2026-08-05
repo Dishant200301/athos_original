@@ -42,6 +42,9 @@ const CertificationsCarousel = () => {
                   <img
                     src={cert.logo}
                     alt={cert.name}
+                    width={150}
+                    height={100}
+                    loading="lazy"
                     className="certification-logo"
                   />
                 </div>
@@ -56,6 +59,9 @@ const CertificationsCarousel = () => {
                   <img
                     src={cert.logo}
                     alt={cert.name}
+                    width={150}
+                    height={100}
+                    loading="lazy"
                     className="certification-logo"
                   />
                 </div>
@@ -70,6 +76,9 @@ const CertificationsCarousel = () => {
                   <img
                     src={cert.logo}
                     alt={cert.name}
+                    width={150}
+                    height={100}
+                    loading="lazy"
                     className="certification-logo"
                   />
                 </div>
