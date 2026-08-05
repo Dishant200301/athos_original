@@ -85,7 +85,7 @@ const About = () => {
         {/* 1. About Hero Section (with mt-20 navbar spacing) */}
         <section className="relative w-full h-[300px] md:h-[500px] lg:h-[85vh] xl:h-[90vh] overflow-hidden mt-20">
           <img
-            src="/images/about-img.webp"
+            src="/images/Athos_factory.webp"
             alt="About Athos Collagen"
             className="w-full h-full object-cover"
           />

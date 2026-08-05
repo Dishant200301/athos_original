@@ -38,7 +38,7 @@ const GlobalPresence = () => {
     <section className="pt-10 md:pt-4 pb-0 bg-background">
       <div className="container mx-auto px-4 lg:px-10 xl:px-12 pb-8 md:pb-10 lg:pb-28">
         <div className="text-center mb-10 md:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl" style={{fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500'}}>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl" style={{ fontFamily: 'Inter', color: 'rgba(29, 129, 165, 1)', fontWeight: '500' }}>
             {t('home.globalPresence.title')}
           </h2>
         </div>
@@ -55,11 +55,11 @@ const GlobalPresence = () => {
 
           {/* Content - Right Side */}
           <div>
-            <p className="leading-relaxed text-base font-inter mb-4" style={{color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif'}}>
+            <p className="leading-relaxed text-base font-inter mb-4" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
               {renderTextWithFiCollaLogo(t('home.globalPresence.description'))}
             </p>
             {t('home.globalPresence.description2', { defaultValue: '' }) && (
-              <p className="leading-relaxed text-base font-inter" style={{color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif'}}>
+              <p className="leading-relaxed text-base font-inter" style={{ color: 'rgba(112, 112, 112, 1)', fontFamily: 'Inter, sans-serif' }}>
                 {renderTextWithFiCollaLogo(t('home.globalPresence.description2'))}
               </p>
             )}

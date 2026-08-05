@@ -54,7 +54,7 @@ const AboutPreview = ({ isMobile = false }: { isMobile?: boolean }) => {
           >
             <div className="relative flex-1 overflow-hidden rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none w-full min-h-[300px] sm:min-h-[400px] xl:min-h-0 xl:w-[550px] xl:h-[404px]">
               <img
-                src="/images/Athos_factory.png"
+                src="/images/Athos_factory.webp"
                 alt="ATHOS Collagen Facility"
                 className="hidden sm:block w-full h-full object-cover rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none absolute inset-0"
               />
