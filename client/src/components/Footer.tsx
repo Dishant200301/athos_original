@@ -93,7 +93,7 @@ const Footer = () => {
                 <p className="text-white/90 font-medium mb-4 text-[15px]">Follow Us:</p>
                 <div className="flex items-center gap-4">
                   <a
-                    href="https://www.linkedin.com/company/athoscollagen/"
+                    href="https://www.linkedin.com/in/athos-collagen-9841153b0/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-[#0A66C2] hover:scale-110 group shadow-sm"
