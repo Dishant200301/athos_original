@@ -263,7 +263,7 @@ const Contact = () => {
                     {i18n.language.startsWith('en') ? 'Factory Address' : t('contact.factory.title')}
                   </h3>
                   <p className="text-sm md:text-base leading-relaxed max-w-sm mx-auto" style={{ fontFamily: 'Inter', color: 'rgba(119, 119, 119, 1)' }}>
-                    {t('contact.factory.address.line1')} {t('contact.factory.address.line2')} {t('contact.factory.address.line3')}
+                    317, Blu Eminence, Opp. Sangini, Jahangirabad, Dahin Nagar, Surat, Gujarat 395005, India
                   </p>
                 </div>
               </div>

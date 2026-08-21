@@ -87,8 +87,7 @@ const About = () => {
           <img
             src="/images/Athos_factory.webp"
             alt="About Athos Collagen"
-            width={1200}
-            height={600}
+        
             fetchPriority="high"
             className="w-full h-full object-cover"
           />

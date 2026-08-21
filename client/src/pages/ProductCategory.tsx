@@ -1349,10 +1349,10 @@ const ProductCategory = () => {
           <div className="container mx-auto px-4 lg:px-10 xl:px-12 w-full">
 
             {/* Desktop / Laptop Layout: Side Navigation + Single Active Details */}
-            <div className="hidden lg:flex gap-16 items-start relative w-full">
+            <div className="hidden lg:flex items-start justify-between relative w-full">
 
               {/* Sticky Sidebar Navigation */}
-              <div className="w-[240px] shrink-0 sticky top-[110px] max-h-[calc(100vh-140px)] overflow-y-auto pr-3 custom-scrollbar">
+              <div className="w-[220px] shrink-0 sticky top-[110px] max-h-[calc(100vh-140px)] overflow-y-auto pr-3 custom-scrollbar">
                 <nav className="flex flex-col space-y-1.5 py-1">
                   {category.subProducts.map((sub, idx) => {
                     const isSelected = activeSub === sub.slug;
@@ -1360,7 +1360,7 @@ const ProductCategory = () => {
                       <button
                         key={sub.slug}
                         onClick={() => handleNavClick(sub.slug, idx)}
-                        className={`text-left py-[1px] text-[15px] leading-tight font-medium transition-all ${isSelected
+                        className={`text-left py-[1px] text-[16px] leading-tight transition-all ${isSelected
                           ? "text-[#6ABF00] font-semibold"
                           : "text-[#555555] hover:text-[#6ABF00]"
                           }`}
@@ -1372,28 +1372,35 @@ const ProductCategory = () => {
                 </nav>
               </div>
 
-              {/* Single Active Subproduct Detail view */}
-              <div className="flex-1 min-h-[400px]">
-                {category.subProducts[activeIdx] && (
-                  <div
-                    key={category.subProducts[activeIdx].slug}
-                    className="animate-fade-in py-0"
-                  >
-                    <h2 className="text-[32px] font-medium text-[#6ABF00] mb-6 pb-2 border-b border-gray-100">
-                      {category.subProducts[activeIdx].name}
-                    </h2>
+              {/* Center Area matching Navbar's center container (Left-aligned with 'Home') */}
+              <div className="flex-1 flex justify-center mx-4 lg:mx-8 min-h-[400px]">
+                <div className="w-[390px] lg:w-[410px] xl:w-[520px] shrink-0">
+                  <div className="w-[560px] lg:w-[620px]">
+                    {category.subProducts[activeIdx] && (
+                      <div
+                        key={category.subProducts[activeIdx].slug}
+                        className="animate-fade-in py-0"
+                      >
+                        <h2 className="text-[32px] font-medium text-[#6ABF00] mb-6 pb-2 border-b border-gray-100">
+                          {category.subProducts[activeIdx].name}
+                        </h2>
 
-                    <ul className="grid grid-cols-1 md:grid-cols-2 lg:md:grid-cols-1 gap-x-8 gap-y-4">
-                      {category.subProducts[activeIdx].bullets.map((bullet, idx) => (
-                        <li key={idx} className="flex items-start gap-3 text-[#555555]">
-                          <span className="text-[#6ABF00] mt-1.5 text-[12px] flex-shrink-0">▲</span>
-                          <span className="text-[16px] leading-[1.6]">{bullet}</span>
-                        </li>
-                      ))}
-                    </ul>
+                        <ul className="space-y-4">
+                          {category.subProducts[activeIdx].bullets.map((bullet, idx) => (
+                            <li key={idx} className="flex items-start gap-3 text-[#555555]">
+                              <span className="text-[#6ABF00] mt-1.5 text-[12px] flex-shrink-0">▲</span>
+                              <span className="text-[16px] leading-[1.6]">{bullet}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
-                )}
+                </div>
               </div>
+
+              {/* Right Balancer to match Navbar's right action buttons */}
+              <div className="w-[220px] shrink-0 hidden lg:block pointer-events-none" aria-hidden="true" />
             </div>
 
             {/* Mobile / Tablet Layout: Cards */}

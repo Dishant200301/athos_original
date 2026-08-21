@@ -90,7 +90,7 @@ const Footer = () => {
               </a>
 
               <div>
-                <p className="text-white/90 font-medium mb-4 text-[15px]">Follow Us:</p>
+                {/* <p className="text-white/90 font-medium mb-4 text-[15px]">Follow Us:</p> */}
                 <div className="flex items-center gap-4">
                   <a
                     href="https://www.linkedin.com/in/athos-collagen-9841153b0/"
