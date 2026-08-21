@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ProductCategory from "./pages/ProductCategory";
+import ProductGuide from "./pages/ProductGuide";
 import NotFound from "./pages/NotFound";
 
 import WhatsAppFloating from "./components/WhatsAppFloating";
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="/products" element={<Navigate to="/" replace />} />
             <Route path="/inquiry" element={<Navigate to="/" replace />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/product-guide" element={<ProductGuide />} />
             <Route path="/products/:categoryKey" element={<ProductCategory />} />
             <Route path="/category/:categoryId" element={<Navigate to="/" replace />} />
             <Route path="/blog" element={<Navigate to="/" replace />} />
