@@ -1266,45 +1266,61 @@ const ProductCategory = () => {
     };
   }, [categoryKey, category, location.hash]);
 
-  // Native wheel scroll listener for responsive desktop layout switcher
+  // Native wheel scroll listener for responsive desktop layout switcher (one-by-one scroll)
   useEffect(() => {
     if (!category) return;
     const container = containerRef.current;
     if (!container) return;
 
+    let isThrottled = false;
+
     const handleNativeWheel = (e: WheelEvent) => {
       if (window.innerWidth < 1024) return;
 
-      const now = Date.now();
-      if (now - lastScrollTime.current < 700) {
-        e.preventDefault();
-        return;
-      }
-
       const direction = e.deltaY;
+      if (Math.abs(direction) < 15) return;
+
       if (direction > 0) {
+        // Scrolling Down:
         if (activeIdx < category.subProducts.length - 1) {
+          // Keep page completely locked at top and step through products
           e.preventDefault();
-          lastScrollTime.current = now;
+          if (isThrottled) return;
+          isThrottled = true;
           setActiveIdx((prev) => {
-            const nextIdx = prev + 1;
+            const nextIdx = Math.min(prev + 1, category.subProducts.length - 1);
             const nextSlug = category.subProducts[nextIdx].slug;
             setActiveSub(nextSlug);
             window.history.replaceState(null, "", `#${nextSlug}`);
             return nextIdx;
           });
+          setTimeout(() => {
+            isThrottled = false;
+          }, 350);
         }
+        // If activeIdx is at the last product, allow natural page scroll down to Contact and Footer!
       } else if (direction < 0) {
+        // Scrolling Up:
+        // If the user has scrolled down to the bottom sections, allow natural scrolling up until top of page
+        if (window.scrollY > 15) {
+          return;
+        }
+
+        // Once at the top of the page, step back through products from last to first
         if (activeIdx > 0) {
           e.preventDefault();
-          lastScrollTime.current = now;
+          if (isThrottled) return;
+          isThrottled = true;
           setActiveIdx((prev) => {
-            const prevIdx = prev - 1;
+            const prevIdx = Math.max(prev - 1, 0);
             const prevSlug = category.subProducts[prevIdx].slug;
             setActiveSub(prevSlug);
             window.history.replaceState(null, "", `#${prevSlug}`);
             return prevIdx;
           });
+          setTimeout(() => {
+            isThrottled = false;
+          }, 350);
         }
       }
     };
@@ -1320,6 +1336,31 @@ const ProductCategory = () => {
     setActiveIdx(index);
     window.history.replaceState(null, "", `#${slug}`);
   };
+
+  const activeBtnRef = useRef<HTMLButtonElement>(null);
+  const sidebarScrollRef = useRef<HTMLDivElement>(null);
+
+  // Auto-scroll ONLY the sidebar container to center the active item (never scrolls the window)
+  useEffect(() => {
+    if (activeBtnRef.current && sidebarScrollRef.current) {
+      const container = sidebarScrollRef.current;
+      const btn = activeBtnRef.current;
+
+      const containerRect = container.getBoundingClientRect();
+      const btnRect = btn.getBoundingClientRect();
+
+      const targetScroll =
+        container.scrollTop +
+        (btnRect.top - containerRect.top) -
+        container.clientHeight / 2 +
+        btn.clientHeight / 2;
+
+      container.scrollTo({
+        top: Math.max(0, targetScroll),
+        behavior: "smooth",
+      });
+    }
+  }, [activeIdx]);
 
   if (!category) {
     return <NotFound />;
@@ -1339,49 +1380,57 @@ const ProductCategory = () => {
   } : undefined;
 
   return (
-    <div className="min-h-screen flex flex-col bg-background overflow-hidden">
+    <div className="min-h-screen flex flex-col bg-background overflow-x-hidden">
       <SEO title={pageTitle} schema={productCategorySchema} />
       <Navbar />
 
       <main className="flex-1 mt-20">
         {/* Content Section */}
-        <section ref={containerRef} className="py-12 bg-white lg:py-0 lg:h-[calc(100vh-110px)] lg:flex lg:items-center">
+        <section ref={containerRef} className="py-12 bg-white lg:py-0 lg:min-h-[calc(100vh-110px)] lg:flex lg:items-center">
           <div className="container mx-auto px-4 lg:px-10 xl:px-12 w-full">
 
             {/* Desktop / Laptop Layout: Side Navigation + Single Active Details */}
             <div className="hidden lg:flex items-start justify-between relative w-full">
 
-              {/* Sticky Sidebar Navigation */}
-              <div className="w-[220px] shrink-0 sticky top-[110px] max-h-[calc(100vh-140px)] overflow-y-auto pr-3 custom-scrollbar">
-                <nav className="flex flex-col space-y-1.5 py-1">
-                  {category.subProducts.map((sub, idx) => {
-                    const isSelected = activeSub === sub.slug;
-                    return (
-                      <button
-                        key={sub.slug}
-                        onClick={() => handleNavClick(sub.slug, idx)}
-                        className={`text-left py-[1px] text-[16px] leading-tight transition-all ${isSelected
-                          ? "text-[#6ABF00] font-semibold"
-                          : "text-[#555555] hover:text-[#6ABF00]"
-                          }`}
-                      >
-                        {sub.name}
-                      </button>
-                    );
-                  })}
-                </nav>
+              {/* Sticky Sidebar Navigation (Scrollbar fully hidden, smooth scrolling) */}
+              <div className="w-[160px] lg:w-[180px] shrink-0 relative">
+                <div className="w-[300px] lg:w-[320px] xl:w-[360px] sticky top-[110px] max-h-[calc(100vh-140px)] flex flex-col pr-2">
+                  <h3 className="text-[28px] xl:text-[26px] font-medium text-black mb-3 font-inter whitespace-nowrap flex-shrink-0">
+                    {t('products.ourProducts', { defaultValue: 'Our Products' })}
+                  </h3>
+                  <div
+                    ref={sidebarScrollRef}
+                    className="overflow-y-auto overflow-x-hidden [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden scroll-smooth py-3"
+                  >
+                    <nav className="flex flex-col items-start space-y-1.5">
+                      {category.subProducts.map((sub, idx) => {
+                        const isSelected = activeSub === sub.slug;
+                        return (
+                          <button
+                            key={sub.slug}
+                            ref={isSelected ? activeBtnRef : null}
+                            onClick={() => handleNavClick(sub.slug, idx)}
+                            className={`w-fit text-left text-[24px] lg:text-[25px] xl:text-[26px] leading-[1.35] py-1 transition-all whitespace-nowrap cursor-pointer ${isSelected
+                              ? "text-[#6ABF00] font-medium"
+                              : "text-[#555555] hover:text-[#6ABF00]"
+                              }`}
+                          >
+                            {sub.name}
+                          </button>
+                        );
+                      })}
+                    </nav>
+                  </div>
+                </div>
               </div>
 
-              {/* Center Area matching Navbar's center container (Left-aligned with 'Home') */}
-              <div className="flex-1 flex justify-center mx-4 lg:mx-8 min-h-[400px]">
-                <div className="w-[390px] lg:w-[410px] xl:w-[520px] shrink-0">
-                  <div className="w-[560px] lg:w-[620px]">
+              {/* Center Area matching Navbar's center container (Left-aligned exactly with 'Home', Fixed Sticky position) */}
+              <div className="hidden lg:flex items-start justify-center flex-grow mx-4 lg:mx-8 min-h-[440px] sticky top-[110px]">
+                <div className="w-[365px] lg:w-[385px] xl:w-[460px] shrink-0">
+                  <div className="w-[560px] lg:w-[620px] min-h-[440px]">
                     {category.subProducts[activeIdx] && (
-                      <div
-                        key={category.subProducts[activeIdx].slug}
-                        className="animate-fade-in py-0"
-                      >
-                        <h2 className="text-[32px] font-medium text-[#6ABF00] mb-6 pb-2 border-b border-gray-100">
+                      <div className="py-0">
+                        <h2 className="text-[24px] font-medium text-[#6ABF00] mb-6 pb-2 border-b border-gray-100">
                           {category.subProducts[activeIdx].name}
                         </h2>
 
@@ -1399,8 +1448,12 @@ const ProductCategory = () => {
                 </div>
               </div>
 
-              {/* Right Balancer to match Navbar's right action buttons */}
-              <div className="w-[220px] shrink-0 hidden lg:block pointer-events-none" aria-hidden="true" />
+              {/* Right Balancer matching Navbar's right action buttons */}
+              <div className="hidden lg:flex items-center space-x-3 lg:space-x-4 flex-shrink-0 invisible pointer-events-none" aria-hidden="true">
+                <div className="w-16 h-9" />
+                <div className="w-24 h-9" />
+                <div className="w-9 h-9" />
+              </div>
             </div>
 
             {/* Mobile / Tablet Layout: Cards */}
