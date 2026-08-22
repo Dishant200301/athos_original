@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Linkedin, ChevronRight } from "lucide-react";
+import { Mail, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -81,51 +81,24 @@ const Footer = () => {
 
               <a
                 href="mailto:inquiry@athoscollagen.com?subject=Inquiry from ATHOS Website&body=Hello ATHOS Team,%0D%0A%0D%0AI am interested in learning more about your collagen products.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
-                className="group flex items-center gap-3 text-white/90 hover:text-white transition-all duration-300 mb-6"
+                className="group flex items-center gap-3 text-white/90 hover:text-white transition-all duration-300"
               >
                 <Mail className="w-5 h-5 text-white/80 transition-transform duration-300 group-hover:scale-110 flex-shrink-0" />
                 <span className="relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-white after:origin-bottom-right after:transition-transform after:duration-300 group-hover:after:scale-x-100 group-hover:after:origin-bottom-left text-[15px]">
                   inquiry@athoscollagen.com
                 </span>
               </a>
-
-              <div>
-                {/* <p className="text-white/90 font-medium mb-4 text-[15px]">Follow Us:</p> */}
-                <div className="flex items-center gap-4">
-                  <a
-                    href="https://www.linkedin.com/in/athos-collagen-9841153b0/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center transition-all duration-300 hover:bg-[#0A66C2] hover:scale-110 group shadow-sm"
-                    aria-label="LinkedIn"
-                  >
-                    <Linkedin className="w-5 h-5 text-white transition-colors duration-300" />
-                  </a>
-                </div>
-              </div>
             </div>
 
             {/* Addresses */}
             <div className="animate-fade-in sm:col-span-2 lg:col-span-1" style={{ animationDelay: '0.3s' }}>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8 sm:gap-12 lg:gap-8">
-                {/* <div>
-                  <h3 className="text-lg font-medium text-white mb-3 font-inter tracking-wide">
-                    Head Office
-                  </h3>
-                  <p className="text-white/90 leading-[27px] text-[15px]">
-                    317, Blu Eminence, Opp. Sangini, Jahangirabad, Dahin Nagar, Surat, Gujarat 395005, India
-                  </p>
-                </div> */}
-
-                <div>
-                  <h3 className="text-lg font-medium text-white mb-3 font-inter tracking-wide">
-                    Factory Address
-                  </h3>
-                  <p className="text-white/90 leading-[27px] text-[15px]">
-                    Plot No. B-19, Gujarat Agro Infrastructure Mega Food Park, Village Shah & Vasravi,
-                    Tal. Mangrol, Dist. Surat 394410, Gujarat, India
-                  </p>
-                </div>
+              <div>
+                <h3 className="text-lg font-medium text-white mb-3 font-inter tracking-wide">
+                  Office address
+                </h3>
+                <p className="text-white/90 leading-[27px] text-[15px]">
+                  317, Blu Eminence, Opp. Sangini, Jahangirabad, Dahin Nagar, Surat, Gujarat 395005, India
+                </p>
               </div>
             </div>
           </div>
